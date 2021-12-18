@@ -1,0 +1,4 @@
+<referencegroup xmlns:xi="http://www.w3.org/2001/XInclude" anchor="BCP13" target="https://www.rfc-editor.org/info/bcp13">
+  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.4289.xml"/>
+  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.6838.xml"/>
+</referencegroup>
