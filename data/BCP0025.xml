@@ -1,6 +1,0 @@
-<referencegroup xmlns:xi="http://www.w3.org/2001/XInclude" anchor="BCP25" target="https://www.rfc-editor.org/info/bcp25">
-  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.2418.xml"/>
-  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.3934.xml"/>
-  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.7776.xml"/>
-  <xi:include href="https://www.rfc-editor.org/refs/bibxml/reference.RFC.8716.xml"/>
-</referencegroup>
