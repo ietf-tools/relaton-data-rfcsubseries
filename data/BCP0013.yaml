@@ -1,0 +1,198 @@
+---
+id: IETFBCP13
+link:
+  content: https://www.rfc-editor.org/info/bcp13
+  type: src
+type: standard
+docid:
+- id: IETF BCP 13
+  type: IETF
+- id: BCP13
+  type: rfc-anchor
+docnumber: BCP0013
+language: en
+script: Latn
+formattedref:
+  content: BCP13
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC4289
+    title:
+      content: 'Multipurpose Internet Mail Extensions (MIME) Part Four: Registration
+        Procedures'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4289.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4289
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4289
+      type: IETF
+    - id: RFC4289
+      type: rfc-anchor
+    - id: 10.17487/RFC4289
+      type: DOI
+    docnumber: RFC4289
+    date:
+      type: published
+      value: '2005-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: N.
+            language: en
+          surname:
+            content: Freed
+            language: en
+          completename:
+            content: N. Freed
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Klensin
+            language: en
+          completename:
+            content: J. Klensin
+            language: en
+      role: author
+    revdate: '2005-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document specifies IANA registration procedures for MIME external
+        body access types and content-transfer-encodings. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '13'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4289'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC6838
+    title:
+      content: Media Type Specifications and Registration Procedures
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6838.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6838
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6838
+      type: IETF
+    - id: RFC6838
+      type: rfc-anchor
+    - id: 10.17487/RFC6838
+      type: DOI
+    docnumber: RFC6838
+    date:
+      type: published
+      value: '2013-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: N.
+            language: en
+          surname:
+            content: Freed
+            language: en
+          completename:
+            content: N. Freed
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Klensin
+            language: en
+          completename:
+            content: J. Klensin
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Hansen
+            language: en
+          completename:
+            content: T. Hansen
+            language: en
+      role: author
+    revdate: '2013-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document defines procedures for the specification and registration
+        of media types for use in HTTP, MIME, and other Internet protocols. This memo
+        documents an Internet Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '13'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6838'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

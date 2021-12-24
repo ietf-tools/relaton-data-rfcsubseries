@@ -1,0 +1,105 @@
+---
+id: IETFBCP8
+link:
+  content: https://www.rfc-editor.org/info/bcp8
+  type: src
+type: standard
+docid:
+- id: IETF BCP 8
+  type: IETF
+- id: BCP8
+  type: rfc-anchor
+docnumber: BCP0008
+language: en
+script: Latn
+formattedref:
+  content: BCP8
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2014
+    title:
+      content: IRTF Research Group Guidelines and Procedures
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2014.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2014
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2014
+      type: IETF
+    - id: RFC2014
+      type: rfc-anchor
+    - id: 10.17487/RFC2014
+      type: DOI
+    docnumber: RFC2014
+    date:
+      type: published
+      value: '1996-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Weinrib
+            language: en
+          completename:
+            content: A. Weinrib
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Postel
+            language: en
+          completename:
+            content: J. Postel
+            language: en
+      role: author
+    revdate: '1996-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the guidelines and procedures for formation
+        and operation of IRTF Research Groups. It describes the relationship between
+        IRTF participants, Research Groups, the Internet Research Steering Group (IRSG)
+        and the Internet Architecture Board (IAB). This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2014'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

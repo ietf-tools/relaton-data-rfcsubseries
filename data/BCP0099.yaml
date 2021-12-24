@@ -1,0 +1,94 @@
+---
+id: IETFBCP99
+link:
+  content: https://www.rfc-editor.org/info/bcp99
+  type: src
+type: standard
+docid:
+- id: IETF BCP 99
+  type: IETF
+- id: BCP99
+  type: rfc-anchor
+docnumber: BCP0099
+language: en
+script: Latn
+formattedref:
+  content: BCP99
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3969
+    title:
+      content: The Internet Assigned Number Authority (IANA) Uniform Resource Identifier
+        (URI) Parameter Registry for the Session Initiation Protocol (SIP)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3969.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3969
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3969
+      type: IETF
+    - id: RFC3969
+      type: rfc-anchor
+    - id: 10.17487/RFC3969
+      type: DOI
+    docnumber: RFC3969
+    date:
+      type: published
+      value: '2004-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Camarillo
+            language: en
+          completename:
+            content: G. Camarillo
+            language: en
+      role: author
+    revdate: '2004-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document creates an Internet Assigned Number Authority (IANA)
+        registry for the Session Initiation Protocol (SIP) and SIPS Uniform Resource
+        Identifier (URI) parameters, and their values. It also lists the already existing
+        parameters to be used as initial values for that registry. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '99'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3969'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

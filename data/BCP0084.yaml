@@ -1,0 +1,216 @@
+---
+id: IETFBCP84
+link:
+  content: https://www.rfc-editor.org/info/bcp84
+  type: src
+type: standard
+docid:
+- id: IETF BCP 84
+  type: IETF
+- id: BCP84
+  type: rfc-anchor
+docnumber: BCP0084
+language: en
+script: Latn
+formattedref:
+  content: BCP84
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC3704
+    title:
+      content: Ingress Filtering for Multihomed Networks
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3704.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3704
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3704
+      type: IETF
+    - id: RFC3704
+      type: rfc-anchor
+    - id: 10.17487/RFC3704
+      type: DOI
+    docnumber: RFC3704
+    date:
+      type: published
+      value: '2004-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Baker
+            language: en
+          completename:
+            content: F. Baker
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Savola
+            language: en
+          completename:
+            content: P. Savola
+            language: en
+      role: author
+    revdate: '2004-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>BCP 38, RFC 2827, is designed to limit the impact of distributed
+        denial of service attacks, by denying traffic with spoofed addresses access
+        to the network, and to help ensure that traffic is traceable to its correct
+        source network. As a side effect of protecting the Internet against such attacks,
+        the network implementing the solution also protects itself from this and other
+        attacks, such as spoofed management access to networking equipment. There
+        are cases when this may create problems, e.g., with multihoming. This document
+        describes the current ingress filtering operational mechanisms, examines generic
+        issues related to ingress filtering, and delves into the effects on multihoming
+        in particular. This memo updates RFC 2827. This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '84'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3704'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC8704
+    title:
+      content: Enhanced Feasible-Path Unicast Reverse Path Forwarding
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8704.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8704
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8704
+      type: IETF
+    - id: RFC8704
+      type: rfc-anchor
+    - id: 10.17487/RFC8704
+      type: DOI
+    docnumber: RFC8704
+    date:
+      type: published
+      value: '2020-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Sriram
+            language: en
+          completename:
+            content: K. Sriram
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Montgomery
+            language: en
+          completename:
+            content: D. Montgomery
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Haas
+            language: en
+          completename:
+            content: J. Haas
+            language: en
+      role: author
+    revdate: '2020-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document identifies a need for and proposes improvement of
+        the unicast Reverse Path Forwarding (uRPF) techniques (see RFC 3704) for detection
+        and mitigation of source address spoofing (see BCP 38). Strict uRPF is inflexible
+        about directionality, the loose uRPF is oblivious to directionality, and the
+        current feasible-path uRPF attempts to strike a balance between the two (see
+        RFC 3704). However, as shown in this document, the existing feasible-path
+        uRPF still has shortcomings. This document describes enhanced feasible-path
+        uRPF (EFP-uRPF) techniques that are more flexible (in a meaningful way) about
+        directionality than the feasible-path uRPF (RFC 3704). The proposed EFP-uRPF
+        methods aim to significantly reduce false positives regarding invalid detection
+        in source address validation (SAV). Hence, they can potentially alleviate
+        ISPs' concerns about the possibility of disrupting service for their customers
+        and encourage greater deployment of uRPF techniques. This document updates
+        RFC 3704.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '84'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8704'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

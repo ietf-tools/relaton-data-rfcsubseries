@@ -1,0 +1,90 @@
+---
+id: IETFSTD44
+link:
+  content: https://www.rfc-editor.org/info/std44
+  type: src
+type: standard
+docid:
+- id: IETF STD 44
+  type: IETF
+- id: STD44
+  type: rfc-anchor
+docnumber: STD0044
+language: en
+script: Latn
+formattedref:
+  content: STD44
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0891
+    title:
+      content: DCN Local-Network Protocols
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0891.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc891
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0891
+      type: IETF
+    - id: RFC0891
+      type: rfc-anchor
+    - id: 10.17487/RFC0891
+      type: DOI
+    docnumber: RFC0891
+    date:
+      type: published
+      value: '1983-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.L.
+            language: en
+          surname:
+            content: Mills
+            language: en
+          completename:
+            content: D.L. Mills
+            language: en
+      role: author
+    revdate: '1983-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This RFC provides a description of the DCN protocols for maintaining
+        connectivity, routing, and clock information in a local network. These procedures
+        may be of interest to the designers and implementers of other local networks.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '44'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '891'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

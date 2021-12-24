@@ -1,0 +1,118 @@
+---
+id: IETFBCP86
+link:
+  content: https://www.rfc-editor.org/info/bcp86
+  type: src
+type: standard
+docid:
+- id: IETF BCP 86
+  type: IETF
+- id: BCP86
+  type: rfc-anchor
+docnumber: BCP0086
+language: en
+script: Latn
+formattedref:
+  content: BCP86
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3766
+    title:
+      content: Determining Strengths For Public Keys Used For Exchanging Symmetric
+        Keys
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3766.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3766
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3766
+      type: IETF
+    - id: RFC3766
+      type: rfc-anchor
+    - id: 10.17487/RFC3766
+      type: DOI
+    docnumber: RFC3766
+    date:
+      type: published
+      value: '2004-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Orman
+            language: en
+          completename:
+            content: H. Orman
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Hoffman
+            language: en
+          completename:
+            content: P. Hoffman
+            language: en
+      role: author
+    revdate: '2004-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Implementors of systems that use public key cryptography to exchange
+        symmetric keys need to make the public keys resistant to some predetermined
+        level of attack. That level of attack resistance is the strength of the system,
+        and the symmetric keys that are exchanged must be at least as strong as the
+        system strength requirements. The three quantities, system strength, symmetric
+        key strength, and public key strength, must be consistently matched for any
+        network protocol usage. While it is fairly easy to express the system strength
+        requirements in terms of a symmetric key length and to choose a cipher that
+        has a key length equal to or exceeding that requirement, it is harder to choose
+        a public key that has a cryptographic strength meeting a symmetric key strength
+        requirement. This document explains how to determine the length of an asymmetric
+        key as a function of a symmetric key strength requirement. Some rules of thumb
+        for estimating equivalent resistance to large-scale attacks on various algorithms
+        are given. The document also addresses how changing the sizes of the underlying
+        large integers (moduli, group sizes, exponents, and so on) changes the time
+        to use the algorithms for key exchange. This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '86'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3766'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

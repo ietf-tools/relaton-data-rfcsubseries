@@ -1,0 +1,103 @@
+---
+id: IETFSTD43
+link:
+  content: https://www.rfc-editor.org/info/std43
+  type: src
+type: standard
+docid:
+- id: IETF STD 43
+  type: IETF
+- id: STD43
+  type: rfc-anchor
+docnumber: STD0043
+language: en
+script: Latn
+formattedref:
+  content: STD43
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1042
+    title:
+      content: Standard for the transmission of IP datagrams over IEEE 802 networks
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1042.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1042
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1042
+      type: IETF
+    - id: RFC1042
+      type: rfc-anchor
+    - id: 10.17487/RFC1042
+      type: DOI
+    docnumber: RFC1042
+    date:
+      type: published
+      value: '1988-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Postel
+            language: en
+          completename:
+            content: J. Postel
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.K.
+            language: en
+          surname:
+            content: Reynolds
+            language: en
+          completename:
+            content: J.K. Reynolds
+            language: en
+      role: author
+    revdate: '1988-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This RFC specifies a standard method of encapsulating the Internet
+        Protocol (IP) datagrams and Address Resolution Protocol (ARP) requests and
+        replies on IEEE 802 Networks to allow compatible and interoperable implementations.
+        This RFC specifies a protocol standard for the Internet community.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '43'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1042'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

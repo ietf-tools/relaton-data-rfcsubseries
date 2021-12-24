@@ -1,0 +1,94 @@
+---
+id: IETFBCP23
+link:
+  content: https://www.rfc-editor.org/info/bcp23
+  type: src
+type: standard
+docid:
+- id: IETF BCP 23
+  type: IETF
+- id: BCP23
+  type: rfc-anchor
+docnumber: BCP0023
+language: en
+script: Latn
+formattedref:
+  content: BCP23
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2365
+    title:
+      content: Administratively Scoped IP Multicast
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2365.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2365
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2365
+      type: IETF
+    - id: RFC2365
+      type: rfc-anchor
+    - id: 10.17487/RFC2365
+      type: DOI
+    docnumber: RFC2365
+    date:
+      type: published
+      value: '1998-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Meyer
+            language: en
+          completename:
+            content: D. Meyer
+            language: en
+      role: author
+    revdate: '1998-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document defines the "administratively scoped IPv4 multicast
+        space" to be the range 239.0.0.0 to 239.255.255.255. In addition, it describes
+        a simple set of semantics for the implementation of Administratively Scoped
+        IP Multicast. Finally, it provides a mapping between the IPv6 multicast address
+        classes [RFC1884] and IPv4 multicast address classes. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '23'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2365'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,148 @@
+---
+id: IETFBCP87
+link:
+  content: https://www.rfc-editor.org/info/bcp87
+  type: src
+type: standard
+docid:
+- id: IETF BCP 87
+  type: IETF
+- id: BCP87
+  type: rfc-anchor
+docnumber: BCP0087
+language: en
+script: Latn
+formattedref:
+  content: BCP87
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3785
+    title:
+      content: Use of Interior Gateway Protocol (IGP) Metric as a second MPLS Traffic
+        Engineering (TE) Metric
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3785.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3785
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3785
+      type: IETF
+    - id: RFC3785
+      type: rfc-anchor
+    - id: 10.17487/RFC3785
+      type: DOI
+    docnumber: RFC3785
+    date:
+      type: published
+      value: '2004-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Le Faucheur
+            language: en
+          completename:
+            content: F. Le Faucheur
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Uppili
+            language: en
+          completename:
+            content: R. Uppili
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Vedrenne
+            language: en
+          completename:
+            content: A. Vedrenne
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Merckx
+            language: en
+          completename:
+            content: P. Merckx
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Telkamp
+            language: en
+          completename:
+            content: T. Telkamp
+            language: en
+      role: author
+    revdate: '2004-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes a common practice on how the existing metric
+        of Interior Gateway Protocols (IGP) can be used as an alternative metric to
+        the Traffic Engineering (TE) metric for Constraint Based Routing of MultiProtocol
+        Label Switching (MPLS) Traffic Engineering tunnels. This effectively results
+        in the ability to perform Constraint Based Routing with optimization of one
+        metric (e.g., link bandwidth) for some Traffic Engineering tunnels (e.g.,
+        Data Trunks) while optimizing another metric (e.g., propagation delay) for
+        some other tunnels with different requirements (e.g., Voice Trunks). No protocol
+        extensions or modifications are required. This text documents current router
+        implementations and deployment practices. This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '87'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3785'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

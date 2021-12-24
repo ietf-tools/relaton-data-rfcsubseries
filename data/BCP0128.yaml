@@ -1,0 +1,122 @@
+---
+id: IETFBCP128
+link:
+  content: https://www.rfc-editor.org/info/bcp128
+  type: src
+type: standard
+docid:
+- id: IETF BCP 128
+  type: IETF
+- id: BCP128
+  type: rfc-anchor
+docnumber: BCP0128
+language: en
+script: Latn
+formattedref:
+  content: BCP128
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4928
+    title:
+      content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4928.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4928
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4928
+      type: IETF
+    - id: RFC4928
+      type: rfc-anchor
+    - id: 10.17487/RFC4928
+      type: DOI
+    docnumber: RFC4928
+    date:
+      type: published
+      value: '2007-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Swallow
+            language: en
+          completename:
+            content: G. Swallow
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bryant
+            language: en
+          completename:
+            content: S. Bryant
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Andersson
+            language: en
+          completename:
+            content: L. Andersson
+            language: en
+      role: author
+    revdate: '2007-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the Equal Cost Multipath (ECMP) behavior
+        of currently deployed MPLS networks. This document makes best practice recommendations
+        for anyone defining an application to run over an MPLS network that wishes
+        to avoid the reordering that can result from transmission of different packets
+        from the same flow over multiple different equal cost paths. These recommendations
+        rely on inspection of the IP version number field in packets. Despite the
+        heuristic nature of the recommendations, they provide a relatively safe way
+        to operate MPLS networks, even if future allocations of IP version numbers
+        were made for some purpose. This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '128'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4928'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

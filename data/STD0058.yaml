@@ -1,0 +1,302 @@
+---
+id: IETFSTD58
+link:
+  content: https://www.rfc-editor.org/info/std58
+  type: src
+type: standard
+docid:
+- id: IETF STD 58
+  type: IETF
+- id: STD58
+  type: rfc-anchor
+docnumber: STD0058
+language: en
+script: Latn
+formattedref:
+  content: STD58
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC2578
+    title:
+      content: Structure of Management Information Version 2 (SMIv2)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2578.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2578
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2578
+      type: IETF
+    - id: RFC2578
+      type: rfc-anchor
+    - id: 10.17487/RFC2578
+      type: DOI
+    docnumber: RFC2578
+    date:
+      type: published
+      value: '1999-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: McCloghrie
+            language: en
+          completename:
+            content: K. McCloghrie
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Perkins
+            language: en
+          completename:
+            content: D. Perkins
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Schoenwaelder
+            language: en
+          completename:
+            content: J. Schoenwaelder
+            language: en
+      role: editor
+    revdate: '1999-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>It is the purpose of this document, the Structure of Management
+        Information Version 2 (SMIv2), to define that adapted subset, and to assign
+        a set of associated administrative values. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '58'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2578'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC2579
+    title:
+      content: Textual Conventions for SMIv2
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2579.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2579
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2579
+      type: IETF
+    - id: RFC2579
+      type: rfc-anchor
+    - id: 10.17487/RFC2579
+      type: DOI
+    docnumber: RFC2579
+    date:
+      type: published
+      value: '1999-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: McCloghrie
+            language: en
+          completename:
+            content: K. McCloghrie
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Perkins
+            language: en
+          completename:
+            content: D. Perkins
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Schoenwaelder
+            language: en
+          completename:
+            content: J. Schoenwaelder
+            language: en
+      role: editor
+    revdate: '1999-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>It is the purpose of this document to define the initial set of
+        textual conventions available to all MIB modules. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '58'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2579'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC2580
+    title:
+      content: Conformance Statements for SMIv2
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2580.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2580
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2580
+      type: IETF
+    - id: RFC2580
+      type: rfc-anchor
+    - id: 10.17487/RFC2580
+      type: DOI
+    docnumber: RFC2580
+    date:
+      type: published
+      value: '1999-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: McCloghrie
+            language: en
+          completename:
+            content: K. McCloghrie
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Perkins
+            language: en
+          completename:
+            content: D. Perkins
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Schoenwaelder
+            language: en
+          completename:
+            content: J. Schoenwaelder
+            language: en
+      role: editor
+    revdate: '1999-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Collections of related objects are defined in MIB modules. It may
+        be useful to define the acceptable lower-bounds of implementation, along with
+        the actual level of implementation achieved. It is the purpose of this document
+        to define the notation used for these purposes. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '58'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2580'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

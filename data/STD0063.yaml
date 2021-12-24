@@ -1,0 +1,95 @@
+---
+id: IETFSTD63
+link:
+  content: https://www.rfc-editor.org/info/std63
+  type: src
+type: standard
+docid:
+- id: IETF STD 63
+  type: IETF
+- id: STD63
+  type: rfc-anchor
+docnumber: STD0063
+language: en
+script: Latn
+formattedref:
+  content: STD63
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3629
+    title:
+      content: UTF-8, a transformation format of ISO 10646
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3629.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3629
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3629
+      type: IETF
+    - id: RFC3629
+      type: rfc-anchor
+    - id: 10.17487/RFC3629
+      type: DOI
+    docnumber: RFC3629
+    date:
+      type: published
+      value: '2003-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Yergeau
+            language: en
+          completename:
+            content: F. Yergeau
+            language: en
+      role: author
+    revdate: '2003-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>ISO/IEC 10646-1 defines a large character set called the Universal
+        Character Set (UCS) which encompasses most of the world's writing systems.
+        The originally proposed encodings of the UCS, however, were not compatible
+        with many current applications and protocols, and this has led to the development
+        of UTF-8, the object of this memo. UTF-8 has the characteristic of preserving
+        the full US-ASCII range, providing compatibility with file systems, parsers
+        and other software that rely on US-ASCII values but are transparent to other
+        values. This memo obsoletes and replaces RFC 2279.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '63'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3629'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

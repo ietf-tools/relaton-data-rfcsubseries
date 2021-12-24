@@ -1,0 +1,93 @@
+---
+id: IETFBCP191
+link:
+  content: https://www.rfc-editor.org/info/bcp191
+  type: src
+type: standard
+docid:
+- id: IETF BCP 191
+  type: IETF
+- id: BCP191
+  type: rfc-anchor
+docnumber: BCP0191
+language: en
+script: Latn
+formattedref:
+  content: BCP191
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7319
+    title:
+      content: IANA Considerations for Connectivity Fault Management (CFM) Code Points
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7319.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7319
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7319
+      type: IETF
+    - id: RFC7319
+      type: rfc-anchor
+    - id: 10.17487/RFC7319
+      type: DOI
+    docnumber: RFC7319
+    date:
+      type: published
+      value: '2014-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Eastlake 3rd
+            language: en
+          completename:
+            content: D. Eastlake 3rd
+            language: en
+      role: author
+    revdate: '2014-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>IEEE 802.1 has specified Connectivity Fault Management (CFM) Operations,
+        Administration, and Maintenance (OAM) facilities. CFM messages are structured
+        with an OpCode field and have provision for the inclusion of TLV-structured
+        information. IEEE 802.1 has allocated blocks of CFM OpCodes and TLV Types
+        to the IETF. This document specifies the IANA considerations for the assignment
+        of values from these blocks.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '191'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7319'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

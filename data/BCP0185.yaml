@@ -1,0 +1,93 @@
+---
+id: IETFBCP185
+link:
+  content: https://www.rfc-editor.org/info/bcp185
+  type: src
+type: standard
+docid:
+- id: IETF BCP 185
+  type: IETF
+- id: BCP185
+  type: rfc-anchor
+docnumber: BCP0185
+language: en
+script: Latn
+formattedref:
+  content: BCP185
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7115
+    title:
+      content: Origin Validation Operation Based on the Resource Public Key Infrastructure
+        (RPKI)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7115.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7115
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7115
+      type: IETF
+    - id: RFC7115
+      type: rfc-anchor
+    - id: 10.17487/RFC7115
+      type: DOI
+    docnumber: RFC7115
+    date:
+      type: published
+      value: '2014-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Bush
+            language: en
+          completename:
+            content: R. Bush
+            language: en
+      role: author
+    revdate: '2014-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Deployment of BGP origin validation that is based on the Resource
+        Public Key Infrastructure (RPKI) has many operational considerations. This
+        document attempts to collect and present those that are most critical. It
+        is expected to evolve as RPKI-based origin validation continues to be deployed
+        and the dynamics are better understood.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '185'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7115'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

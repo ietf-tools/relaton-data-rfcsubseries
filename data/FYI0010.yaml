@@ -1,0 +1,93 @@
+---
+id: IETFFYI10
+link:
+  content: https://www.rfc-editor.org/info/fyi10
+  type: src
+type: standard
+docid:
+- id: IETF FYI 10
+  type: IETF
+- id: FYI10
+  type: rfc-anchor
+docnumber: FYI0010
+language: en
+script: Latn
+formattedref:
+  content: FYI10
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1402
+    title:
+      content: There's Gold in them thar Networks! or Searching for Treasure in all
+        the Wrong Places
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1402.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1402
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1402
+      type: IETF
+    - id: RFC1402
+      type: rfc-anchor
+    - id: 10.17487/RFC1402
+      type: DOI
+    docnumber: RFC1402
+    date:
+      type: published
+      value: '1993-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Martin
+            language: en
+          completename:
+            content: J. Martin
+            language: en
+      role: author
+    revdate: '1993-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The ultimate goal is to make the route to these sources of information
+        invisible to you. At present, this is not easy to do. I will explain some
+        of the techniques that can be used to make these nuggets easier to pick up
+        so that we all can be richer. This RFC provides information for the Internet
+        community. It does not specify an Internet standard.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '10'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1402'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

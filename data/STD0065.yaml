@@ -1,0 +1,114 @@
+---
+id: IETFSTD65
+link:
+  content: https://www.rfc-editor.org/info/std65
+  type: src
+type: standard
+docid:
+- id: IETF STD 65
+  type: IETF
+- id: STD65
+  type: rfc-anchor
+docnumber: STD0065
+language: en
+script: Latn
+formattedref:
+  content: STD65
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3551
+    title:
+      content: RTP Profile for Audio and Video Conferences with Minimal Control
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3551.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3551
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3551
+      type: IETF
+    - id: RFC3551
+      type: rfc-anchor
+    - id: 10.17487/RFC3551
+      type: DOI
+    docnumber: RFC3551
+    date:
+      type: published
+      value: '2003-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Schulzrinne
+            language: en
+          completename:
+            content: H. Schulzrinne
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Casner
+            language: en
+          completename:
+            content: S. Casner
+            language: en
+      role: author
+    revdate: '2003-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document describes a profile called "RTP/AVP" for the use of
+        the real-time transport protocol (RTP), version 2, and the associated control
+        protocol, RTCP, within audio and video multiparticipant conferences with minimal
+        control. It provides interpretations of generic fields within the RTP specification
+        suitable for audio and video conferences. In particular, this document defines
+        a set of default mappings from payload type numbers to encodings. This document
+        also describes how audio and video data may be carried within RTP. It defines
+        a set of standard encodings and their names when used within RTP. The descriptions
+        provide pointers to reference implementations and the detailed standards.
+        This document is meant as an aid for implementors of audio, video and other
+        real-time multimedia applications. This memorandum obsoletes RFC 1890. It
+        is mostly backwards-compatible except for functions removed because two interoperable
+        implementations were not found. The additions to RFC 1890 codify existing
+        practice in the use of payload formats under this profile and include new
+        payload formats defined since RFC 1890 was published. [STANDARDS-TRACK]</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '65'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3551'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

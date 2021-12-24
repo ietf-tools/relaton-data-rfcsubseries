@@ -1,0 +1,121 @@
+---
+id: IETFBCP103
+link:
+  content: https://www.rfc-editor.org/info/bcp103
+  type: src
+type: standard
+docid:
+- id: IETF BCP 103
+  type: IETF
+- id: BCP103
+  type: rfc-anchor
+docnumber: BCP0103
+language: en
+script: Latn
+formattedref:
+  content: BCP103
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4053
+    title:
+      content: Procedures for Handling Liaison Statements to and from the IETF
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4053.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4053
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4053
+      type: IETF
+    - id: RFC4053
+      type: rfc-anchor
+    - id: 10.17487/RFC4053
+      type: DOI
+    docnumber: RFC4053
+    date:
+      type: published
+      value: '2005-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Trowbridge
+            language: en
+          completename:
+            content: S. Trowbridge
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bradner
+            language: en
+          completename:
+            content: S. Bradner
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Baker
+            language: en
+          completename:
+            content: F. Baker
+            language: en
+      role: author
+    revdate: '2005-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the procedure for proper handling of incoming
+        liaison statements from other standards development organizations (SDOs),
+        consortia, and industry fora, and for generating liaison statements to be
+        transmitted from IETF to other SDOs, consortia and industry fora. This procedure
+        allows IETF to effectively collaborate with other organizations in the international
+        standards community.</p><p>The IETF expects that liaison statements might
+        come from a variety of organizations, and it may choose to respond to many
+        of those. The IETF is only obligated to respond if there is an agreed liaison
+        relationship, however. This document specifies an Internet Best Current Practices
+        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '103'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4053'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

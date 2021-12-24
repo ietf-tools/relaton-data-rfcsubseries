@@ -1,0 +1,143 @@
+---
+id: IETFBCP161
+link:
+  content: https://www.rfc-editor.org/info/bcp161
+  type: src
+type: standard
+docid:
+- id: IETF BCP 161
+  type: IETF
+- id: BCP161
+  type: rfc-anchor
+docnumber: BCP0161
+language: en
+script: Latn
+formattedref:
+  content: BCP161
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6291
+    title:
+      content: Guidelines for the Use of the "OAM" Acronym in the IETF
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6291.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6291
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6291
+      type: IETF
+    - id: RFC6291
+      type: rfc-anchor
+    - id: 10.17487/RFC6291
+      type: DOI
+    docnumber: RFC6291
+    date:
+      type: published
+      value: '2011-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Andersson
+            language: en
+          completename:
+            content: L. Andersson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: van Helvoort
+            language: en
+          completename:
+            content: H. van Helvoort
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Bonica
+            language: en
+          completename:
+            content: R. Bonica
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Romascanu
+            language: en
+          completename:
+            content: D. Romascanu
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Mansfield
+            language: en
+          completename:
+            content: S. Mansfield
+            language: en
+      role: author
+    revdate: '2011-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>At first glance, the acronym "OAM" seems to be well-known and well-understood.
+        Looking at the acronym a bit more closely reveals a set of recurring problems
+        that are revisited time and again.</p><p>This document provides a definition
+        of the acronym "OAM" (Operations, Administration, and Maintenance) for use
+        in all future IETF documents that refer to OAM. There are other definitions
+        and acronyms that will be discussed while exploring the definition of the
+        constituent parts of the "OAM" term. This memo documents an Internet Best
+        Current Practice.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '161'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6291'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

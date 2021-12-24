@@ -1,0 +1,229 @@
+---
+id: IETFBCP173
+link:
+  content: https://www.rfc-editor.org/info/bcp173
+  type: src
+type: standard
+docid:
+- id: IETF BCP 173
+  type: IETF
+- id: BCP173
+  type: rfc-anchor
+docnumber: BCP0173
+language: en
+script: Latn
+formattedref:
+  content: BCP173
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC6484
+    title:
+      content: Certificate Policy (CP) for the Resource Public Key Infrastructure
+        (RPKI)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6484.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6484
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6484
+      type: IETF
+    - id: RFC6484
+      type: rfc-anchor
+    - id: 10.17487/RFC6484
+      type: DOI
+    docnumber: RFC6484
+    date:
+      type: published
+      value: '2012-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Kent
+            language: en
+          completename:
+            content: S. Kent
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Kong
+            language: en
+          completename:
+            content: D. Kong
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Seo
+            language: en
+          completename:
+            content: K. Seo
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Watro
+            language: en
+          completename:
+            content: R. Watro
+            language: en
+      role: author
+    revdate: '2012-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the certificate policy for a Public Key
+        Infrastructure (PKI) used to support attestations about Internet Number Resource
+        (INR) holdings. Each organization that distributes IP addresses or Autonomous
+        System (AS) numbers to an organization will, in parallel, issue a (public
+        key) certificate reflecting this distribution. These certificates will enable
+        verification that the resources indicated in the certificate have been distributed
+        to the holder of the associated private key and that this organization is
+        the current, unique holder of these resources. This memo documents an Internet
+        Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '173'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6484'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC7382
+    title:
+      content: Template for a Certification Practice Statement (CPS) for the Resource
+        PKI (RPKI)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7382.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7382
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7382
+      type: IETF
+    - id: RFC7382
+      type: rfc-anchor
+    - id: 10.17487/RFC7382
+      type: DOI
+    docnumber: RFC7382
+    date:
+      type: published
+      value: '2015-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Kent
+            language: en
+          completename:
+            content: S. Kent
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Kong
+            language: en
+          completename:
+            content: D. Kong
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Seo
+            language: en
+          completename:
+            content: K. Seo
+            language: en
+      role: author
+    revdate: '2015-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document contains a template to be used for creating a Certification
+        Practice Statement (CPS) for an organization that is part of the Resource
+        Public Key Infrastructure (RPKI), e.g., a resource allocation registry or
+        an ISP.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '173'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7382'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

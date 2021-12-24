@@ -1,0 +1,93 @@
+---
+id: IETFSTD37
+link:
+  content: https://www.rfc-editor.org/info/std37
+  type: src
+type: standard
+docid:
+- id: IETF STD 37
+  type: IETF
+- id: STD37
+  type: rfc-anchor
+docnumber: STD0037
+language: en
+script: Latn
+formattedref:
+  content: STD37
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0826
+    title:
+      content: 'An Ethernet Address Resolution Protocol: Or Converting Network Protocol
+        Addresses to 48.bit Ethernet Address for Transmission on Ethernet Hardware'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0826.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc826
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0826
+      type: IETF
+    - id: RFC0826
+      type: rfc-anchor
+    - id: 10.17487/RFC0826
+      type: DOI
+    docnumber: RFC0826
+    date:
+      type: published
+      value: '1982-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Plummer
+            language: en
+          completename:
+            content: D. Plummer
+            language: en
+      role: author
+    revdate: '1982-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The purpose of this RFC is to present a method of Converting Protocol
+        Addresses (e.g., IP addresses) to Local Network Addresses (e.g., Ethernet
+        addresses). This is an issue of general concern in the ARPA Internet Community
+        at this time. The method proposed here is presented for your consideration
+        and comment. This is not the specification of an Internet Standard.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '37'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '826'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

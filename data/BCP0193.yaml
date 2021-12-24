@@ -1,0 +1,117 @@
+---
+id: IETFBCP193
+link:
+  content: https://www.rfc-editor.org/info/bcp193
+  type: src
+type: standard
+docid:
+- id: IETF BCP 193
+  type: IETF
+- id: BCP193
+  type: rfc-anchor
+docnumber: BCP0193
+language: en
+script: Latn
+formattedref:
+  content: BCP193
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7423
+    title:
+      content: Diameter Applications Design Guidelines
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7423.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7423
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7423
+      type: IETF
+    - id: RFC7423
+      type: rfc-anchor
+    - id: 10.17487/RFC7423
+      type: DOI
+    docnumber: RFC7423
+    date:
+      type: published
+      value: '2014-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Morand
+            language: en
+          completename:
+            content: L. Morand
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: V.
+            language: en
+          surname:
+            content: Fajardo
+            language: en
+          completename:
+            content: V. Fajardo
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Tschofenig
+            language: en
+          completename:
+            content: H. Tschofenig
+            language: en
+      role: author
+    revdate: '2014-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The Diameter base protocol provides facilities for protocol extensibility
+        enabling the definition of new Diameter applications or modification of existing
+        applications. This document is a companion document to the Diameter base protocol
+        that further explains and clarifies the rules to extend Diameter. Furthermore,
+        this document provides guidelines to Diameter application designers reusing/
+        defining Diameter applications or creating generic Diameter extensions.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '193'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7423'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

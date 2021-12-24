@@ -1,0 +1,83 @@
+---
+id: IETFSTD6
+link:
+  content: https://www.rfc-editor.org/info/std6
+  type: src
+type: standard
+docid:
+- id: IETF STD 6
+  type: IETF
+- id: STD6
+  type: rfc-anchor
+docnumber: STD0006
+language: en
+script: Latn
+formattedref:
+  content: STD6
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0768
+    title:
+      content: User Datagram Protocol
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0768.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc768
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0768
+      type: IETF
+    - id: RFC0768
+      type: rfc-anchor
+    - id: 10.17487/RFC0768
+      type: DOI
+    docnumber: RFC0768
+    date:
+      type: published
+      value: '1980-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Postel
+            language: en
+          completename:
+            content: J. Postel
+            language: en
+      role: author
+    revdate: '1980-08-01'
+    language: en
+    script: Latn
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '768'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,93 @@
+---
+id: IETFBCP56
+link:
+  content: https://www.rfc-editor.org/info/bcp56
+  type: src
+type: standard
+docid:
+- id: IETF BCP 56
+  type: IETF
+- id: BCP56
+  type: rfc-anchor
+docnumber: BCP0056
+language: en
+script: Latn
+formattedref:
+  content: BCP56
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3205
+    title:
+      content: On the use of HTTP as a Substrate
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3205.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3205
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3205
+      type: IETF
+    - id: RFC3205
+      type: rfc-anchor
+    - id: 10.17487/RFC3205
+      type: DOI
+    docnumber: RFC3205
+    date:
+      type: published
+      value: '2002-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Moore
+            language: en
+          completename:
+            content: K. Moore
+            language: en
+      role: author
+    revdate: '2002-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Recently there has been widespread interest in using Hypertext
+        Transfer Protocol (HTTP) as a substrate for other applications-level protocols.
+        This document recommends technical particulars of such use, including use
+        of default ports, URL schemes, and HTTP security mechanisms. This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '56'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3205'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

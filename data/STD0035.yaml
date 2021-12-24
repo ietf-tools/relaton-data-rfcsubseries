@@ -1,0 +1,105 @@
+---
+id: IETFSTD35
+link:
+  content: https://www.rfc-editor.org/info/std35
+  type: src
+type: standard
+docid:
+- id: IETF STD 35
+  type: IETF
+- id: STD35
+  type: rfc-anchor
+docnumber: STD0035
+language: en
+script: Latn
+formattedref:
+  content: STD35
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1006
+    title:
+      content: 'ISO Transport Service on top of the TCP Version: 3'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1006.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1006
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1006
+      type: IETF
+    - id: RFC1006
+      type: rfc-anchor
+    - id: 10.17487/RFC1006
+      type: DOI
+    docnumber: RFC1006
+    date:
+      type: published
+      value: '1987-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: M.T.
+            language: en
+          surname:
+            content: Rose
+            language: en
+          completename:
+            content: M.T. Rose
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.E.
+            language: en
+          surname:
+            content: Cass
+            language: en
+          completename:
+            content: D.E. Cass
+            language: en
+      role: author
+    revdate: '1987-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo specifies a standard for the Internet community. Hosts
+        on the Internet that choose to implement ISO transport services on top of
+        the TCP are expected to adopt and implement this standard. TCP port 102 is
+        reserved for hosts which implement this standard. This memo specifies version
+        3 of the protocol and supersedes RFC-983. Changes between the protocol is
+        described in RFC-983 and this memo are minor, but unfortunately incompatible.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '35'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1006'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

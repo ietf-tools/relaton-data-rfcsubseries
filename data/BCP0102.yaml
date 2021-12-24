@@ -1,0 +1,97 @@
+---
+id: IETFBCP102
+link:
+  content: https://www.rfc-editor.org/info/bcp102
+  type: src
+type: standard
+docid:
+- id: IETF BCP 102
+  type: IETF
+- id: BCP102
+  type: rfc-anchor
+docnumber: BCP0102
+language: en
+script: Latn
+formattedref:
+  content: BCP102
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4052
+    title:
+      content: IAB Processes for Management of IETF Liaison Relationships
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4052.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4052
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4052
+      type: IETF
+    - id: RFC4052
+      type: rfc-anchor
+    - id: 10.17487/RFC4052
+      type: DOI
+    docnumber: RFC4052
+    date:
+      type: published
+      value: '2005-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Daigle
+            language: en
+          completename:
+            content: L. Daigle
+            language: en
+      role: editor
+    - organization:
+        name: Internet Architecture Board
+      role: author
+    revdate: '2005-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document discusses the procedures used by the IAB to establish
+        and maintain liaison relationships between the IETF and other Standards Development
+        Organizations (SDOs), consortia and industry fora. This document also discusses
+        the appointment and responsibilities of IETF liaison managers and representatives,
+        and the expectations of the IAB for organizations with whom liaison relationships
+        are established. This document specifies an Internet Best Current Practices
+        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '102'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4052'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

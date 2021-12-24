@@ -1,0 +1,105 @@
+---
+id: IETFBCP58
+link:
+  content: https://www.rfc-editor.org/info/bcp58
+  type: src
+type: standard
+docid:
+- id: IETF BCP 58
+  type: IETF
+- id: BCP58
+  type: rfc-anchor
+docnumber: BCP0058
+language: en
+script: Latn
+formattedref:
+  content: BCP58
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3233
+    title:
+      content: Defining the IETF
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3233.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3233
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3233
+      type: IETF
+    - id: RFC3233
+      type: rfc-anchor
+    - id: 10.17487/RFC3233
+      type: DOI
+    docnumber: RFC3233
+    date:
+      type: published
+      value: '2002-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Hoffman
+            language: en
+          completename:
+            content: P. Hoffman
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bradner
+            language: en
+          completename:
+            content: S. Bradner
+            language: en
+      role: author
+    revdate: '2002-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document gives a more concrete definition of "the IETF" as
+        it understood today. Many RFCs refer to "the IETF". Many important IETF documents
+        speak of the IETF as if it were an already-defined entity. However, no IETF
+        document correctly defines what the IETF is. This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '58'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3233'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

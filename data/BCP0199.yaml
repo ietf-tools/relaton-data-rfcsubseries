@@ -1,0 +1,118 @@
+---
+id: IETFBCP199
+link:
+  content: https://www.rfc-editor.org/info/bcp199
+  type: src
+type: standard
+docid:
+- id: IETF BCP 199
+  type: IETF
+- id: BCP199
+  type: rfc-anchor
+docnumber: BCP0199
+language: en
+script: Latn
+formattedref:
+  content: BCP199
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7610
+    title:
+      content: 'DHCPv6-Shield: Protecting against Rogue DHCPv6 Servers'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7610.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7610
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7610
+      type: IETF
+    - id: RFC7610
+      type: rfc-anchor
+    - id: 10.17487/RFC7610
+      type: DOI
+    docnumber: RFC7610
+    date:
+      type: published
+      value: '2015-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Gont
+            language: en
+          completename:
+            content: F. Gont
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: W.
+            language: en
+          surname:
+            content: Liu
+            language: en
+          completename:
+            content: W. Liu
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Van de Velde
+            language: en
+          completename:
+            content: G. Van de Velde
+            language: en
+      role: author
+    revdate: '2015-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document specifies a mechanism for protecting hosts connected
+        to a switched network against rogue DHCPv6 servers. It is based on DHCPv6
+        packet filtering at the layer 2 device at which the packets are received.
+        A similar mechanism has been widely deployed in IPv4 networks ('DHCP snooping');
+        hence, it is desirable that similar functionality be provided for IPv6 networks.
+        This document specifies a Best Current Practice for the implementation of
+        DHCPv6-Shield.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '199'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7610'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

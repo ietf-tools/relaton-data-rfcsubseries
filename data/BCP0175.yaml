@@ -1,0 +1,111 @@
+---
+id: IETFBCP175
+link:
+  content: https://www.rfc-editor.org/info/bcp175
+  type: src
+type: standard
+docid:
+- id: IETF BCP 175
+  type: IETF
+- id: BCP175
+  type: rfc-anchor
+docnumber: BCP0175
+language: en
+script: Latn
+formattedref:
+  content: BCP175
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6557
+    title:
+      content: Procedures for Maintaining the Time Zone Database
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6557.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6557
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6557
+      type: IETF
+    - id: RFC6557
+      type: rfc-anchor
+    - id: 10.17487/RFC6557
+      type: DOI
+    docnumber: RFC6557
+    date:
+      type: published
+      value: '2012-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: E.
+            language: en
+          surname:
+            content: Lear
+            language: en
+          completename:
+            content: E. Lear
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Eggert
+            language: en
+          completename:
+            content: P. Eggert
+            language: en
+      role: author
+    revdate: '2012-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Time zone information serves as a basic protocol element in protocols,
+        such as the calendaring suite and DHCP. The Time Zone (TZ) Database specifies
+        the indices used in various protocols, as well as their semantic meanings,
+        for all localities throughout the world. This database has been meticulously
+        maintained and distributed free of charge by a group of volunteers, coordinated
+        by a single volunteer who is now planning to retire. This memo specifies procedures
+        involved with maintenance of the TZ database and associated code, including
+        how to submit proposed updates, how decisions for inclusion of those updates
+        are made, and the selection of a designated expert by and for the time zone
+        community. The intent of this memo is, to the extent possible, to document
+        existing practice and provide a means to ease succession of the database maintainers.
+        This memo documents an Internet Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '175'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6557'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,132 @@
+---
+id: IETFBCP74
+link:
+  content: https://www.rfc-editor.org/info/bcp74
+  type: src
+type: standard
+docid:
+- id: IETF BCP 74
+  type: IETF
+- id: BCP74
+  type: rfc-anchor
+docnumber: BCP0074
+language: en
+script: Latn
+formattedref:
+  content: BCP74
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3584
+    title:
+      content: Coexistence between Version 1, Version 2, and Version 3 of the Internet-standard
+        Network Management Framework
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3584.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3584
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3584
+      type: IETF
+    - id: RFC3584
+      type: rfc-anchor
+    - id: 10.17487/RFC3584
+      type: DOI
+    docnumber: RFC3584
+    date:
+      type: published
+      value: '2003-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Frye
+            language: en
+          completename:
+            content: R. Frye
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Levi
+            language: en
+          completename:
+            content: D. Levi
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Routhier
+            language: en
+          completename:
+            content: S. Routhier
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Wijnen
+            language: en
+          completename:
+            content: B. Wijnen
+            language: en
+      role: author
+    revdate: '2003-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The purpose of this document is to describe coexistence between
+        version 3 of the Internet-standard Network Management Framework, (SNMPv3),
+        version 2 of the Internet-standard Network Management Framework (SNMPv2),
+        and the original Internet-standard Network Management Framework (SNMPv1).
+        This document also describes how to convert MIB modules from SMIv1 format
+        to SMIv2 format. This document obsoletes RFC 2576. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '74'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3584'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

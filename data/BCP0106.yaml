@@ -1,0 +1,128 @@
+---
+id: IETFBCP106
+link:
+  content: https://www.rfc-editor.org/info/bcp106
+  type: src
+type: standard
+docid:
+- id: IETF BCP 106
+  type: IETF
+- id: BCP106
+  type: rfc-anchor
+docnumber: BCP0106
+language: en
+script: Latn
+formattedref:
+  content: BCP106
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4086
+    title:
+      content: Randomness Requirements for Security
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4086.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4086
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4086
+      type: IETF
+    - id: RFC4086
+      type: rfc-anchor
+    - id: 10.17487/RFC4086
+      type: DOI
+    docnumber: RFC4086
+    date:
+      type: published
+      value: '2005-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Eastlake 3rd
+            language: en
+          completename:
+            content: D. Eastlake 3rd
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Schiller
+            language: en
+          completename:
+            content: J. Schiller
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Crocker
+            language: en
+          completename:
+            content: S. Crocker
+            language: en
+      role: author
+    revdate: '2005-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Security systems are built on strong cryptographic algorithms that
+        foil pattern analysis attempts. However, the security of these systems is
+        dependent on generating secret quantities for passwords, cryptographic keys,
+        and similar quantities. The use of pseudo-random processes to generate secret
+        quantities can result in pseudo-security. A sophisticated attacker may find
+        it easier to reproduce the environment that produced the secret quantities
+        and to search the resulting small set of possibilities than to locate the
+        quantities in the whole of the potential number space.</p><p>Choosing random
+        quantities to foil a resourceful and motivated adversary is surprisingly difficult.
+        This document points out many pitfalls in using poor entropy sources or traditional
+        pseudo-random number generation techniques for generating such quantities.
+        It recommends the use of truly random hardware techniques and shows that the
+        existing hardware on many systems can be used for this purpose. It provides
+        suggestions to ameliorate the problem when a hardware solution is not available,
+        and it gives examples of how large such quantities need to be for some applications.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '106'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4086'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

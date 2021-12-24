@@ -1,0 +1,104 @@
+---
+id: IETFFYI19
+link:
+  content: https://www.rfc-editor.org/info/fyi19
+  type: src
+type: standard
+docid:
+- id: IETF FYI 19
+  type: IETF
+- id: FYI19
+  type: rfc-anchor
+docnumber: FYI0019
+language: en
+script: Latn
+formattedref:
+  content: FYI19
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1463
+    title:
+      content: FYI on Introducing the Internet-- A Short Bibliography of Introductory
+        Internetworking Readings
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1463.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1463
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1463
+      type: IETF
+    - id: RFC1463
+      type: rfc-anchor
+    - id: 10.17487/RFC1463
+      type: DOI
+    docnumber: RFC1463
+    date:
+      type: published
+      value: '1993-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: E.
+            language: en
+          surname:
+            content: Hoffman
+            language: en
+          completename:
+            content: E. Hoffman
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Jackson
+            language: en
+          completename:
+            content: L. Jackson
+            language: en
+      role: author
+    revdate: '1993-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This bibliography offers a short list of recent information resources
+        that will help the network novice become familiar with the Internet, including
+        its associated networks, resources, protocols, and history. This memo provides
+        information for the Internet community. It does not specify an Internet standard.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '19'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1463'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

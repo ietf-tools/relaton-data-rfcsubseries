@@ -1,0 +1,108 @@
+---
+id: IETFBCP78
+link:
+  content: https://www.rfc-editor.org/info/bcp78
+  type: src
+type: standard
+docid:
+- id: IETF BCP 78
+  type: IETF
+- id: BCP78
+  type: rfc-anchor
+docnumber: BCP0078
+language: en
+script: Latn
+formattedref:
+  content: BCP78
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5378
+    title:
+      content: Rights Contributors Provide to the IETF Trust
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5378.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5378
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5378
+      type: IETF
+    - id: RFC5378
+      type: rfc-anchor
+    - id: 10.17487/RFC5378
+      type: DOI
+    docnumber: RFC5378
+    date:
+      type: published
+      value: '2008-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bradner
+            language: en
+          completename:
+            content: S. Bradner
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Contreras
+            language: en
+          completename:
+            content: J. Contreras
+            language: en
+      role: editor
+    revdate: '2008-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The IETF policies about rights in Contributions to the IETF are
+        designed to ensure that such Contributions can be made available to the IETF
+        and Internet communities while permitting the authors to retain as many rights
+        as possible. This memo details the IETF policies on rights in Contributions
+        to the IETF. It also describes the objectives that the policies are designed
+        to meet. This memo obsoletes RFCs 3978 and 4748 and, with BCP 79 and RFC 5377,
+        replaces Section 10 of RFC 2026. This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '78'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5378'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

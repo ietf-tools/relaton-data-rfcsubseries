@@ -1,0 +1,127 @@
+---
+id: IETFBCP33
+link:
+  content: https://www.rfc-editor.org/info/bcp33
+  type: src
+type: standard
+docid:
+- id: IETF BCP 33
+  type: IETF
+- id: BCP33
+  type: rfc-anchor
+docnumber: BCP0033
+language: en
+script: Latn
+formattedref:
+  content: BCP33
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2611
+    title:
+      content: URN Namespace Definition Mechanisms
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2611.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2611
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2611
+      type: IETF
+    - id: RFC2611
+      type: rfc-anchor
+    - id: 10.17487/RFC2611
+      type: DOI
+    docnumber: RFC2611
+    date:
+      type: published
+      value: '1999-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Daigle
+            language: en
+          completename:
+            content: L. Daigle
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: van Gulik
+            language: en
+          completename:
+            content: D. van Gulik
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Iannella
+            language: en
+          completename:
+            content: R. Iannella
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Faltstrom
+            language: en
+          completename:
+            content: P. Faltstrom
+            language: en
+      role: author
+    revdate: '1999-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document lays out general definitions of and mechanisms for
+        establishing URN "namespaces". This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '33'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2611'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

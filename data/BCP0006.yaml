@@ -1,0 +1,259 @@
+---
+id: IETFBCP6
+link:
+  content: https://www.rfc-editor.org/info/bcp6
+  type: src
+type: standard
+docid:
+- id: IETF BCP 6
+  type: IETF
+- id: BCP6
+  type: rfc-anchor
+docnumber: BCP0006
+language: en
+script: Latn
+formattedref:
+  content: BCP6
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC1930
+    title:
+      content: Guidelines for creation, selection, and registration of an Autonomous
+        System (AS)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1930.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1930
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1930
+      type: IETF
+    - id: RFC1930
+      type: rfc-anchor
+    - id: 10.17487/RFC1930
+      type: DOI
+    docnumber: RFC1930
+    date:
+      type: published
+      value: '1996-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Hawkinson
+            language: en
+          completename:
+            content: J. Hawkinson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Bates
+            language: en
+          completename:
+            content: T. Bates
+            language: en
+      role: author
+    revdate: '1996-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo discusses when it is appropriate to register and utilize
+        an Autonomous System (AS), and lists criteria for such. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1930'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC6996
+    title:
+      content: Autonomous System (AS) Reservation for Private Use
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6996.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6996
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6996
+      type: IETF
+    - id: RFC6996
+      type: rfc-anchor
+    - id: 10.17487/RFC6996
+      type: DOI
+    docnumber: RFC6996
+    date:
+      type: published
+      value: '2013-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Mitchell
+            language: en
+          completename:
+            content: J. Mitchell
+            language: en
+      role: author
+    revdate: '2013-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the reservation of Autonomous System Numbers
+        (ASNs) that are for Private Use only, known as Private Use ASNs, and provides
+        operational guidance on their use. This document enlarges the total space
+        available for Private Use ASNs by documenting the reservation of a second,
+        larger range and updates RFC 1930 by replacing Section 10 of that document.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6996'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC7300
+    title:
+      content: Reservation of Last Autonomous System (AS) Numbers
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7300.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7300
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7300
+      type: IETF
+    - id: RFC7300
+      type: rfc-anchor
+    - id: 10.17487/RFC7300
+      type: DOI
+    docnumber: RFC7300
+    date:
+      type: published
+      value: '2014-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Haas
+            language: en
+          completename:
+            content: J. Haas
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Mitchell
+            language: en
+          completename:
+            content: J. Mitchell
+            language: en
+      role: author
+    revdate: '2014-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document reserves two Autonomous System Numbers (ASNs) at the
+        end of the 16-bit and 32-bit ranges, described in this document as "Last ASNs",
+        and provides guidance to implementers and operators on their use. This document
+        updates Section 10 of RFC 1930.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7300'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,94 @@
+---
+id: IETFBCP39
+link:
+  content: https://www.rfc-editor.org/info/bcp39
+  type: src
+type: standard
+docid:
+- id: IETF BCP 39
+  type: IETF
+- id: BCP39
+  type: rfc-anchor
+docnumber: BCP0039
+language: en
+script: Latn
+formattedref:
+  content: BCP39
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2850
+    title:
+      content: Charter of the Internet Architecture Board (IAB)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2850.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2850
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2850
+      type: IETF
+    - id: RFC2850
+      type: rfc-anchor
+    - id: 10.17487/RFC2850
+      type: DOI
+    docnumber: RFC2850
+    date:
+      type: published
+      value: '2000-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - organization:
+        name: Internet Architecture Board
+      role: author
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Carpenter
+            language: en
+          completename:
+            content: B. Carpenter
+            language: en
+      role: editor
+    revdate: '2000-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo documents the composition, selection, roles, and organization
+        of the Internet Architecture Board. It replaces RFC 1601. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '39'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2850'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

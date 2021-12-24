@@ -1,0 +1,103 @@
+---
+id: IETFSTD31
+link:
+  content: https://www.rfc-editor.org/info/std31
+  type: src
+type: standard
+docid:
+- id: IETF STD 31
+  type: IETF
+- id: STD31
+  type: rfc-anchor
+docnumber: STD0031
+language: en
+script: Latn
+formattedref:
+  content: STD31
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0860
+    title:
+      content: Telnet Timing Mark Option
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0860.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc860
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0860
+      type: IETF
+    - id: RFC0860
+      type: rfc-anchor
+    - id: 10.17487/RFC0860
+      type: DOI
+    docnumber: RFC0860
+    date:
+      type: published
+      value: '1983-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Postel
+            language: en
+          completename:
+            content: J. Postel
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Reynolds
+            language: en
+          completename:
+            content: J. Reynolds
+            language: en
+      role: author
+    revdate: '1983-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This Telnet Option provides a way to check the roundtrip path between
+        two Telnet modules. This RFC specifies a standard for the ARPA Internet community.
+        Hosts on the ARPA Internet are expected to adopt and implement this standard.
+        Obsoletes NIC 16238.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '31'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '860'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

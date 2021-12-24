@@ -1,0 +1,105 @@
+---
+id: IETFFYI30
+link:
+  content: https://www.rfc-editor.org/info/fyi30
+  type: src
+type: standard
+docid:
+- id: IETF FYI 30
+  type: IETF
+- id: FYI30
+  type: rfc-anchor
+docnumber: FYI0030
+language: en
+script: Latn
+formattedref:
+  content: FYI30
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2151
+    title:
+      content: A Primer On Internet and TCP/IP Tools and Utilities
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2151.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2151
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2151
+      type: IETF
+    - id: RFC2151
+      type: rfc-anchor
+    - id: 10.17487/RFC2151
+      type: DOI
+    docnumber: RFC2151
+    date:
+      type: published
+      value: '1997-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Kessler
+            language: en
+          completename:
+            content: G. Kessler
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Shepard
+            language: en
+          completename:
+            content: S. Shepard
+            language: en
+      role: author
+    revdate: '1997-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo is an introductory guide to many of the most commonly-
+        available TCP/IP and Internet tools and utilities. It also describes discussion
+        lists accessible from the Internet, ways to obtain Internet and TCP/IP documents,
+        and some resources that help users weave their way through the Internet. This
+        memo provides information for the Internet community. This memo does not specify
+        an Internet standard of any kind.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '30'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2151'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

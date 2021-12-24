@@ -1,0 +1,109 @@
+---
+id: IETFSTD84
+link:
+  content: https://www.rfc-editor.org/info/std84
+  type: src
+type: standard
+docid:
+- id: IETF STD 84
+  type: IETF
+- id: STD84
+  type: rfc-anchor
+docnumber: STD0084
+language: en
+script: Latn
+formattedref:
+  content: STD84
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8077
+    title:
+      content: Pseudowire Setup and Maintenance Using the Label Distribution Protocol
+        (LDP)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8077.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8077
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8077
+      type: IETF
+    - id: RFC8077
+      type: rfc-anchor
+    - id: 10.17487/RFC8077
+      type: DOI
+    docnumber: RFC8077
+    date:
+      type: published
+      value: '2017-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Martini
+            language: en
+          completename:
+            content: L. Martini
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Heron
+            language: en
+          completename:
+            content: G. Heron
+            language: en
+      role: editor
+    revdate: '2017-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Layer 2 services (such as Frame Relay, Asynchronous Transfer Mode,
+        and Ethernet) can be emulated over an MPLS backbone by encapsulating the Layer
+        2 Protocol Data Units (PDUs) and then transmitting them over pseudowires (PWs).
+        It is also possible to use pseudowires to provide low-rate Time-Division Multiplexed
+        and Synchronous Optical NETworking circuit emulation over an MPLS-enabled
+        network. This document specifies a protocol for establishing and maintaining
+        the pseudowires, using extensions to the Label Distribution Protocol (LDP).
+        Procedures for encapsulating Layer 2 PDUs are specified in other documents.</p><p>This
+        document is a rewrite of RFC 4447 for publication as an Internet Standard.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '84'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8077'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

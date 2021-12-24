@@ -1,0 +1,162 @@
+---
+id: IETFBCP14
+link:
+  content: https://www.rfc-editor.org/info/bcp14
+  type: src
+type: standard
+docid:
+- id: IETF BCP 14
+  type: IETF
+- id: BCP14
+  type: rfc-anchor
+docnumber: BCP0014
+language: en
+script: Latn
+formattedref:
+  content: BCP14
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC2119
+    title:
+      content: Key words for use in RFCs to Indicate Requirement Levels
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2119.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2119
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2119
+      type: IETF
+    - id: RFC2119
+      type: rfc-anchor
+    - id: 10.17487/RFC2119
+      type: DOI
+    docnumber: RFC2119
+    date:
+      type: published
+      value: '1997-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bradner
+            language: en
+          completename:
+            content: S. Bradner
+            language: en
+      role: author
+    revdate: '1997-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>In many standards track documents several words are used to signify
+        the requirements in the specification. These words are often capitalized.
+        This document defines these words as they should be interpreted in IETF documents.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '14'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2119'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC8174
+    title:
+      content: Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8174.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8174
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8174
+      type: IETF
+    - id: RFC8174
+      type: rfc-anchor
+    - id: 10.17487/RFC8174
+      type: DOI
+    docnumber: RFC8174
+    date:
+      type: published
+      value: '2017-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Leiba
+            language: en
+          completename:
+            content: B. Leiba
+            language: en
+      role: author
+    revdate: '2017-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>RFC 2119 specifies common key words that may be used in protocol
+        specifications. This document aims to reduce the ambiguity by clarifying that
+        only UPPERCASE usage of the key words have the defined special meanings.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '14'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8174'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

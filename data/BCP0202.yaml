@@ -1,0 +1,102 @@
+---
+id: IETFBCP202
+link:
+  content: https://www.rfc-editor.org/info/bcp202
+  type: src
+type: standard
+docid:
+- id: IETF BCP 202
+  type: IETF
+- id: BCP202
+  type: rfc-anchor
+docnumber: BCP0202
+language: en
+script: Latn
+formattedref:
+  content: BCP202
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7772
+    title:
+      content: Reducing Energy Consumption of Router Advertisements
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7772.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7772
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7772
+      type: IETF
+    - id: RFC7772
+      type: rfc-anchor
+    - id: 10.17487/RFC7772
+      type: DOI
+    docnumber: RFC7772
+    date:
+      type: published
+      value: '2016-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Yourtchenko
+            language: en
+          completename:
+            content: A. Yourtchenko
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Colitti
+            language: en
+          completename:
+            content: L. Colitti
+            language: en
+      role: author
+    revdate: '2016-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Frequent Router Advertisement messages can severely impact host
+        power consumption. This document recommends operational practices to avoid
+        such impact.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '202'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7772'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

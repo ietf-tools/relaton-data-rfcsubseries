@@ -1,0 +1,126 @@
+---
+id: IETFSTD71
+link:
+  content: https://www.rfc-editor.org/info/std71
+  type: src
+type: standard
+docid:
+- id: IETF STD 71
+  type: IETF
+- id: STD71
+  type: rfc-anchor
+docnumber: STD0071
+language: en
+script: Latn
+formattedref:
+  content: STD71
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6152
+    title:
+      content: SMTP Service Extension for 8-bit MIME Transport
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6152.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6152
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6152
+      type: IETF
+    - id: RFC6152
+      type: rfc-anchor
+    - id: 10.17487/RFC6152
+      type: DOI
+    docnumber: RFC6152
+    date:
+      type: published
+      value: '2011-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Klensin
+            language: en
+          completename:
+            content: J. Klensin
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: N.
+            language: en
+          surname:
+            content: Freed
+            language: en
+          completename:
+            content: N. Freed
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Rose
+            language: en
+          completename:
+            content: M. Rose
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Crocker
+            language: en
+          completename:
+            content: D. Crocker
+            language: en
+      role: editor
+    revdate: '2011-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo defines an extension to the SMTP service whereby an SMTP
+        content body consisting of text containing octets outside of the US-ASCII
+        octet range (hex 00-7F) may be relayed using SMTP. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '71'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6152'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

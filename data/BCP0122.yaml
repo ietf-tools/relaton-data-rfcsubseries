@@ -1,0 +1,109 @@
+---
+id: IETFBCP122
+link:
+  content: https://www.rfc-editor.org/info/bcp122
+  type: src
+type: standard
+docid:
+- id: IETF BCP 122
+  type: IETF
+- id: BCP122
+  type: rfc-anchor
+docnumber: BCP0122
+language: en
+script: Latn
+formattedref:
+  content: BCP122
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4632
+    title:
+      content: 'Classless Inter-domain Routing (CIDR): The Internet Address Assignment
+        and Aggregation Plan'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4632.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4632
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4632
+      type: IETF
+    - id: RFC4632
+      type: rfc-anchor
+    - id: 10.17487/RFC4632
+      type: DOI
+    docnumber: RFC4632
+    date:
+      type: published
+      value: '2006-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: V.
+            language: en
+          surname:
+            content: Fuller
+            language: en
+          completename:
+            content: V. Fuller
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Li
+            language: en
+          completename:
+            content: T. Li
+            language: en
+      role: author
+    revdate: '2006-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo discusses the strategy for address assignment of the
+        existing 32-bit IPv4 address space with a view toward conserving the address
+        space and limiting the growth rate of global routing state. This document
+        obsoletes the original Classless Inter-domain Routing (CIDR) spec in RFC 1519,
+        with changes made both to clarify the concepts it introduced and, after more
+        than twelve years, to update the Internet community on the results of deploying
+        the technology described. This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '122'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4632'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

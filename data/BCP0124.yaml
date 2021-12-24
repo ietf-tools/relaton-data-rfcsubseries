@@ -1,0 +1,97 @@
+---
+id: IETFBCP124
+link:
+  content: https://www.rfc-editor.org/info/bcp124
+  type: src
+type: standard
+docid:
+- id: IETF BCP 124
+  type: IETF
+- id: BCP124
+  type: rfc-anchor
+docnumber: BCP0124
+language: en
+script: Latn
+formattedref:
+  content: BCP124
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4774
+    title:
+      content: Specifying Alternate Semantics for the Explicit Congestion Notification
+        (ECN) Field
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4774.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4774
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4774
+      type: IETF
+    - id: RFC4774
+      type: rfc-anchor
+    - id: 10.17487/RFC4774
+      type: DOI
+    docnumber: RFC4774
+    date:
+      type: published
+      value: '2006-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Floyd
+            language: en
+          completename:
+            content: S. Floyd
+            language: en
+      role: author
+    revdate: '2006-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>There have been a number of proposals for alternate semantics for
+        the Explicit Congestion Notification (ECN) field in the IP header RFC 3168.
+        This document discusses some of the issues in defining alternate semantics
+        for the ECN field, and specifies requirements for a safe coexistence in an
+        Internet that could include routers that do not understand the defined alternate
+        semantics. This document evolved as a result of discussions with the authors
+        of one recent proposal for such alternate semantics. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '124'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4774'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

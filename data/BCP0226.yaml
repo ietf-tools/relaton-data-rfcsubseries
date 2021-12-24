@@ -1,0 +1,234 @@
+---
+id: IETFBCP226
+link:
+  content: https://www.rfc-editor.org/info/bcp226
+  type: src
+type: standard
+docid:
+- id: IETF BCP 226
+  type: IETF
+- id: BCP226
+  type: rfc-anchor
+docnumber: BCP0226
+language: en
+script: Latn
+formattedref:
+  content: BCP226
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC8718
+    title:
+      content: IETF Plenary Meeting Venue Selection Process
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8718.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8718
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8718
+      type: IETF
+    - id: RFC8718
+      type: rfc-anchor
+    - id: 10.17487/RFC8718
+      type: DOI
+    docnumber: RFC8718
+    date:
+      type: published
+      value: '2020-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: E.
+            language: en
+          surname:
+            content: Lear
+            language: en
+          completename:
+            content: E. Lear
+            language: en
+      role: editor
+    revdate: '2020-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The IETF Administration Support Activity (IASA) is responsible
+        for arranging the selection and operation of the IETF plenary meeting venue.
+        This memo specifies IETF community requirements for meeting venues, including
+        hotels and meeting space. It also directs the IASA to make available additional
+        process documents that describe the current meeting selection process.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '226'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8718'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC8719
+    title:
+      content: High-Level Guidance for the Meeting Policy of the IETF
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8719.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8719
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8719
+      type: IETF
+    - id: RFC8719
+      type: rfc-anchor
+    - id: 10.17487/RFC8719
+      type: DOI
+    docnumber: RFC8719
+    date:
+      type: published
+      value: '2020-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Krishnan
+            language: en
+          completename:
+            content: S. Krishnan
+            language: en
+      role: author
+    revdate: '2020-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes a meeting location policy for the IETF
+        and the various stakeholders required to realize this policy.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '226'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8719'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC9137
+    title:
+      content: Considerations for Cancellation of IETF Meetings
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9137.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc9137
+      type: src
+    type: standard
+    docid:
+    - id: RFC 9137
+      type: IETF
+    - id: RFC9137
+      type: rfc-anchor
+    - id: 10.17487/RFC9137
+      type: DOI
+    docnumber: RFC9137
+    date:
+      type: published
+      value: '2021-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Duke
+            language: en
+          completename:
+            content: M. Duke
+            language: en
+      role: author
+    revdate: '2021-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The IETF ordinarily holds three in-person meetings per year to
+        discuss issues and advance the Internet. However, various events can make
+        a planned in-person meeting infeasible. This document provides criteria to
+        aid the IETF Administration LLC (IETF LLC), the Internet Engineering Steering
+        Group (IESG), and the Chair of the Internet Research Task Force (IRTF) in
+        deciding to relocate, virtualize, postpone, or cancel an in-person IETF meeting.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '226'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '9137'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

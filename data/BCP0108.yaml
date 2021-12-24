@@ -1,0 +1,95 @@
+---
+id: IETFBCP108
+link:
+  content: https://www.rfc-editor.org/info/bcp108
+  type: src
+type: standard
+docid:
+- id: IETF BCP 108
+  type: IETF
+- id: BCP108
+  type: rfc-anchor
+docnumber: BCP0108
+language: en
+script: Latn
+formattedref:
+  content: BCP108
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4148
+    title:
+      content: IP Performance Metrics (IPPM) Metrics Registry
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4148.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4148
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4148
+      type: IETF
+    - id: RFC4148
+      type: rfc-anchor
+    - id: 10.17487/RFC4148
+      type: DOI
+    docnumber: RFC4148
+    date:
+      type: published
+      value: '2005-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: E.
+            language: en
+          surname:
+            content: Stephan
+            language: en
+          completename:
+            content: E. Stephan
+            language: en
+      role: author
+    revdate: '2005-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo defines a registry for IP Performance Metrics (IPPM).
+        It assigns and registers an initial set of OBJECT IDENTITIES to currently
+        defined metrics in the IETF.</p><p>This memo also defines the rules for adding
+        IP Performance Metrics that are defined in the future and for encouraging
+        all IP performance metrics to be registered here.</p><p>IANA has been assigned
+        to administer this new registry. This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '108'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4148'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

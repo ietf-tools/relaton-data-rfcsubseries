@@ -1,0 +1,93 @@
+---
+id: IETFFYI25
+link:
+  content: https://www.rfc-editor.org/info/fyi25
+  type: src
+type: standard
+docid:
+- id: IETF FYI 25
+  type: IETF
+- id: FYI25
+  type: rfc-anchor
+docnumber: FYI0025
+language: en
+script: Latn
+formattedref:
+  content: FYI25
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1689
+    title:
+      content: 'A Status Report on Networked Information Retrieval: Tools and Groups'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1689.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1689
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1689
+      type: IETF
+    - id: RFC1689
+      type: rfc-anchor
+    - id: 10.17487/RFC1689
+      type: DOI
+    docnumber: RFC1689
+    date:
+      type: published
+      value: '1994-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Foster
+            language: en
+          completename:
+            content: J. Foster
+            language: en
+      role: editor
+    revdate: '1994-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The purpose of this report is to increase the awareness of Networked
+        Information Retrieval by bringing together in one place information about
+        the various networked information retrieval tools, their developers, interested
+        organisations, and other activities that relate to the production, dissemination,
+        and support of NIR tools. This memo provides information for the Internet
+        community. This memo does not specify an Internet standard of any kind.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '25'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1689'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

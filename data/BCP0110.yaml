@@ -1,0 +1,119 @@
+---
+id: IETFBCP110
+link:
+  content: https://www.rfc-editor.org/info/bcp110
+  type: src
+type: standard
+docid:
+- id: IETF BCP 110
+  type: IETF
+- id: BCP110
+  type: rfc-anchor
+docnumber: BCP0110
+language: en
+script: Latn
+formattedref:
+  content: BCP110
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4170
+    title:
+      content: Tunneling Multiplexed Compressed RTP (TCRTP)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4170.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4170
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4170
+      type: IETF
+    - id: RFC4170
+      type: rfc-anchor
+    - id: 10.17487/RFC4170
+      type: DOI
+    docnumber: RFC4170
+    date:
+      type: published
+      value: '2005-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Thompson
+            language: en
+          completename:
+            content: B. Thompson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Koren
+            language: en
+          completename:
+            content: T. Koren
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Wing
+            language: en
+          completename:
+            content: D. Wing
+            language: en
+      role: author
+    revdate: '2005-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes a method to improve the bandwidth utilization
+        of RTP streams over network paths that carry multiple Real-time Transport
+        Protocol (RTP) streams in parallel between two endpoints, as in voice trunking.
+        The method combines standard protocols that provide compression, multiplexing,
+        and tunneling over a network path for the purpose of reducing the bandwidth
+        used when multiple RTP streams are carried over that path. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '110'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4170'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

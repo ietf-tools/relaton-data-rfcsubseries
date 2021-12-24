@@ -1,0 +1,94 @@
+---
+id: IETFBCP88
+link:
+  content: https://www.rfc-editor.org/info/bcp88
+  type: src
+type: standard
+docid:
+- id: IETF BCP 88
+  type: IETF
+- id: BCP88
+  type: rfc-anchor
+docnumber: BCP0088
+language: en
+script: Latn
+formattedref:
+  content: BCP88
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3818
+    title:
+      content: IANA Considerations for the Point-to-Point Protocol (PPP)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3818.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3818
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3818
+      type: IETF
+    - id: RFC3818
+      type: rfc-anchor
+    - id: 10.17487/RFC3818
+      type: DOI
+    docnumber: RFC3818
+    date:
+      type: published
+      value: '2004-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: V.
+            language: en
+          surname:
+            content: Schryver
+            language: en
+          completename:
+            content: V. Schryver
+            language: en
+      role: author
+    revdate: '2004-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>The charter of the Point-to-Point Protocol (PPP) Extensions working
+        group (pppext) includes the responsibility to "actively advance PPP's most
+        useful extensions to full standard, while defending against further enhancements
+        of questionable value." In support of that charter, the allocation of PPP
+        protocol and other assigned numbers will no longer be "first come first served."
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '88'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3818'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

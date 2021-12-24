@@ -1,0 +1,130 @@
+---
+id: IETFBCP177
+link:
+  content: https://www.rfc-editor.org/info/bcp177
+  type: src
+type: standard
+docid:
+- id: IETF BCP 177
+  type: IETF
+- id: BCP177
+  type: rfc-anchor
+docnumber: BCP0177
+language: en
+script: Latn
+formattedref:
+  content: BCP177
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6540
+    title:
+      content: IPv6 Support Required for All IP-Capable Nodes
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6540.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6540
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6540
+      type: IETF
+    - id: RFC6540
+      type: rfc-anchor
+    - id: 10.17487/RFC6540
+      type: DOI
+    docnumber: RFC6540
+    date:
+      type: published
+      value: '2012-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: W.
+            language: en
+          surname:
+            content: George
+            language: en
+          completename:
+            content: W. George
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Donley
+            language: en
+          completename:
+            content: C. Donley
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Liljenstolpe
+            language: en
+          completename:
+            content: C. Liljenstolpe
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Howard
+            language: en
+          completename:
+            content: L. Howard
+            language: en
+      role: author
+    revdate: '2012-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>Given the global lack of available IPv4 space, and limitations in
+        IPv4 extension and transition technologies, this document advises that IPv6
+        support is no longer considered optional. It also cautions that there are
+        places in existing IETF documents where the term "IP" is used in a way that
+        could be misunderstood by implementers as the term "IP" becomes a generic
+        that can mean IPv4 + IPv6, IPv6-only, or IPv4-only, depending on context and
+        application. This memo documents an Internet Best Current Practice.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '177'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6540'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

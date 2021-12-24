@@ -1,0 +1,151 @@
+---
+id: IETFBCP230
+link:
+  content: https://www.rfc-editor.org/info/bcp230
+  type: src
+type: standard
+docid:
+- id: IETF BCP 230
+  type: IETF
+- id: BCP230
+  type: rfc-anchor
+docnumber: BCP0230
+language: en
+script: Latn
+formattedref:
+  content: BCP230
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8900
+    title:
+      content: IP Fragmentation Considered Fragile
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8900.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8900
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8900
+      type: IETF
+    - id: RFC8900
+      type: rfc-anchor
+    - id: 10.17487/RFC8900
+      type: DOI
+    docnumber: RFC8900
+    date:
+      type: published
+      value: '2020-09-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Bonica
+            language: en
+          completename:
+            content: R. Bonica
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Baker
+            language: en
+          completename:
+            content: F. Baker
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Huston
+            language: en
+          completename:
+            content: G. Huston
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Hinden
+            language: en
+          completename:
+            content: R. Hinden
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: O.
+            language: en
+          surname:
+            content: Troan
+            language: en
+          completename:
+            content: O. Troan
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Gont
+            language: en
+          completename:
+            content: F. Gont
+            language: en
+      role: author
+    revdate: '2020-09-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes IP fragmentation and explains how it introduces
+        fragility to Internet communication.</p><p>This document also proposes alternatives
+        to IP fragmentation and provides recommendations for developers and network
+        operators.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '230'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8900'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,103 @@
+---
+id: IETFBCP92
+link:
+  content: https://www.rfc-editor.org/info/bcp92
+  type: src
+type: standard
+docid:
+- id: IETF BCP 92
+  type: IETF
+- id: BCP92
+  type: rfc-anchor
+docnumber: BCP0092
+language: en
+script: Latn
+formattedref:
+  content: BCP92
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5742
+    title:
+      content: IESG Procedures for Handling of Independent and IRTF Stream Submissions
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5742.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5742
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5742
+      type: IETF
+    - id: RFC5742
+      type: rfc-anchor
+    - id: 10.17487/RFC5742
+      type: DOI
+    docnumber: RFC5742
+    date:
+      type: published
+      value: '2009-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Alvestrand
+            language: en
+          completename:
+            content: H. Alvestrand
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Housley
+            language: en
+          completename:
+            content: R. Housley
+            language: en
+      role: author
+    revdate: '2009-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the procedures used by the IESG for handling
+        documents submitted for RFC publication from the Independent Submission and
+        IRTF streams.</p><p>This document updates procedures described in RFC 2026
+        and RFC 3710. This memo documents an Internet Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '92'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5742'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

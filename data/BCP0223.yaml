@@ -1,0 +1,117 @@
+---
+id: IETFBCP223
+link:
+  content: https://www.rfc-editor.org/info/bcp223
+  type: src
+type: standard
+docid:
+- id: IETF BCP 223
+  type: IETF
+- id: BCP223
+  type: rfc-anchor
+docnumber: BCP0223
+language: en
+script: Latn
+formattedref:
+  content: BCP223
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8633
+    title:
+      content: Network Time Protocol Best Current Practices
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8633.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8633
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8633
+      type: IETF
+    - id: RFC8633
+      type: rfc-anchor
+    - id: 10.17487/RFC8633
+      type: DOI
+    docnumber: RFC8633
+    date:
+      type: published
+      value: '2019-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Reilly
+            language: en
+          completename:
+            content: D. Reilly
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Stenn
+            language: en
+          completename:
+            content: H. Stenn
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Sibold
+            language: en
+          completename:
+            content: D. Sibold
+            language: en
+      role: author
+    revdate: '2019-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The Network Time Protocol (NTP) is one of the oldest protocols
+        on the Internet and has been widely used since its initial publication. This
+        document is a collection of best practices for the general operation of NTP
+        servers and clients on the Internet. It includes recommendations for the stable,
+        accurate, and secure operation of NTP infrastructure. This document is targeted
+        at NTP version 4 as described in RFC 5905.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '223'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8633'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

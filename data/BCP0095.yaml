@@ -1,0 +1,93 @@
+---
+id: IETFBCP95
+link:
+  content: https://www.rfc-editor.org/info/bcp95
+  type: src
+type: standard
+docid:
+- id: IETF BCP 95
+  type: IETF
+- id: BCP95
+  type: rfc-anchor
+docnumber: BCP0095
+language: en
+script: Latn
+formattedref:
+  content: BCP95
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3935
+    title:
+      content: A Mission Statement for the IETF
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3935.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3935
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3935
+      type: IETF
+    - id: RFC3935
+      type: rfc-anchor
+    - id: 10.17487/RFC3935
+      type: DOI
+    docnumber: RFC3935
+    date:
+      type: published
+      value: '2004-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Alvestrand
+            language: en
+          completename:
+            content: H. Alvestrand
+            language: en
+      role: author
+    revdate: '2004-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo gives a mission statement for the IETF, tries to define
+        the terms used in the statement sufficiently to make the mission statement
+        understandable and useful, argues why the IETF needs a mission statement,
+        and tries to capture some of the debate that led to this point. This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '95'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3935'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

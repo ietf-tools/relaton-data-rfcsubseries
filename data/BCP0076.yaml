@@ -1,0 +1,146 @@
+---
+id: IETFBCP76
+link:
+  content: https://www.rfc-editor.org/info/bcp76
+  type: src
+type: standard
+docid:
+- id: IETF BCP 76
+  type: IETF
+- id: BCP76
+  type: rfc-anchor
+docnumber: BCP0076
+language: en
+script: Latn
+formattedref:
+  content: BCP76
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3666
+    title:
+      content: Session Initiation Protocol (SIP) Public Switched Telephone Network
+        (PSTN) Call Flows
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3666.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3666
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3666
+      type: IETF
+    - id: RFC3666
+      type: rfc-anchor
+    - id: 10.17487/RFC3666
+      type: DOI
+    docnumber: RFC3666
+    date:
+      type: published
+      value: '2003-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Johnston
+            language: en
+          completename:
+            content: A. Johnston
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Donovan
+            language: en
+          completename:
+            content: S. Donovan
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Sparks
+            language: en
+          completename:
+            content: R. Sparks
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Cunningham
+            language: en
+          completename:
+            content: C. Cunningham
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Summers
+            language: en
+          completename:
+            content: K. Summers
+            language: en
+      role: author
+    revdate: '2003-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document contains best current practice examples of Session
+        Initiation Protocol (SIP) call flows showing interworking with the Public
+        Switched Telephone Network (PSTN). Elements in these call flows include SIP
+        User Agents, SIP Proxy Servers, and PSTN Gateways. Scenarios include SIP to
+        PSTN, PSTN to SIP, and PSTN to PSTN via SIP. PSTN telephony protocols are
+        illustrated using ISDN (Integrated Services Digital Network), ISUP (ISDN User
+        Part), and FGB (Feature Group B) circuit associated signaling. PSTN calls
+        are illustrated using global telephone numbers from the PSTN and private extensions
+        served on by a PBX (Private Branch Exchange). Call flow diagrams and message
+        details are shown.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '76'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3666'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,185 @@
+---
+id: IETFSTD16
+link:
+  content: https://www.rfc-editor.org/info/std16
+  type: src
+type: standard
+docid:
+- id: IETF STD 16
+  type: IETF
+- id: STD16
+  type: rfc-anchor
+docnumber: STD0016
+language: en
+script: Latn
+formattedref:
+  content: STD16
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC1155
+    title:
+      content: Structure and identification of management information for TCP/IP-based
+        internets
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1155.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1155
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1155
+      type: IETF
+    - id: RFC1155
+      type: rfc-anchor
+    - id: 10.17487/RFC1155
+      type: DOI
+    docnumber: RFC1155
+    date:
+      type: published
+      value: '1990-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: M.T.
+            language: en
+          surname:
+            content: Rose
+            language: en
+          completename:
+            content: M.T. Rose
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: McCloghrie
+            language: en
+          completename:
+            content: K. McCloghrie
+            language: en
+      role: author
+    revdate: '1990-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This RFC is a re-release of RFC 1065, with a changed "Status of
+        this Memo", plus a few minor typographical corrections. The technical content
+        of the document is unchanged from RFC 1065. [STANDARDS-TRACK]</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '16'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1155'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC1212
+    title:
+      content: Concise MIB definitions
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1212.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1212
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1212
+      type: IETF
+    - id: RFC1212
+      type: rfc-anchor
+    - id: 10.17487/RFC1212
+      type: DOI
+    docnumber: RFC1212
+    date:
+      type: published
+      value: '1991-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: M.T.
+            language: en
+          surname:
+            content: Rose
+            language: en
+          completename:
+            content: M.T. Rose
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: McCloghrie
+            language: en
+          completename:
+            content: K. McCloghrie
+            language: en
+      role: author
+    revdate: '1991-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo describes a straight-forward approach toward producing
+        concise, yet descriptive, MIB modules. This memo defines a format for producing
+        MIB modules. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '16'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1212'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

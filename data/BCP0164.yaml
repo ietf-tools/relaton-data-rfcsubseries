@@ -1,0 +1,92 @@
+---
+id: IETFBCP164
+link:
+  content: https://www.rfc-editor.org/info/bcp164
+  type: src
+type: standard
+docid:
+- id: IETF BCP 164
+  type: IETF
+- id: BCP164
+  type: rfc-anchor
+docnumber: BCP0164
+language: en
+script: Latn
+formattedref:
+  content: BCP164
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6328
+    title:
+      content: IANA Considerations for Network Layer Protocol Identifiers
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6328.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6328
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6328
+      type: IETF
+    - id: RFC6328
+      type: rfc-anchor
+    - id: 10.17487/RFC6328
+      type: DOI
+    docnumber: RFC6328
+    date:
+      type: published
+      value: '2011-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Eastlake 3rd
+            language: en
+          completename:
+            content: D. Eastlake 3rd
+            language: en
+      role: author
+    revdate: '2011-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Some protocols being developed or extended by the IETF make use
+        of the ISO/IEC (International Organization for Standardization / International
+        Electrotechnical Commission) Network Layer Protocol Identifier (NLPID). This
+        document provides NLPID IANA considerations. This memo documents an Internet
+        Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '164'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6328'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

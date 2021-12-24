@@ -1,0 +1,115 @@
+---
+id: IETFFYI29
+link:
+  content: https://www.rfc-editor.org/info/fyi29
+  type: src
+type: standard
+docid:
+- id: IETF FYI 29
+  type: IETF
+- id: FYI29
+  type: rfc-anchor
+docnumber: FYI0029
+language: en
+script: Latn
+formattedref:
+  content: FYI29
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2007
+    title:
+      content: Catalogue of Network Training Materials
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2007.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2007
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2007
+      type: IETF
+    - id: RFC2007
+      type: rfc-anchor
+    - id: 10.17487/RFC2007
+      type: DOI
+    docnumber: RFC2007
+    date:
+      type: published
+      value: '1996-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Foster
+            language: en
+          completename:
+            content: J. Foster
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Isaacs
+            language: en
+          completename:
+            content: M. Isaacs
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Prior
+            language: en
+          completename:
+            content: M. Prior
+            language: en
+      role: author
+    revdate: '1996-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The purpose of this document is to provide a catalogue of quality
+        Network Training Materials for use by Internet trainers in training their
+        users. This memo provides information for the Internet community. This memo
+        does not specify an Internet standard of any kind.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '29'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2007'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

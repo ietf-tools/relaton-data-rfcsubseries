@@ -1,0 +1,108 @@
+---
+id: IETFSTD68
+link:
+  content: https://www.rfc-editor.org/info/std68
+  type: src
+type: standard
+docid:
+- id: IETF STD 68
+  type: IETF
+- id: STD68
+  type: rfc-anchor
+docnumber: STD0068
+language: en
+script: Latn
+formattedref:
+  content: STD68
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5234
+    title:
+      content: 'Augmented BNF for Syntax Specifications: ABNF'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5234.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5234
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5234
+      type: IETF
+    - id: RFC5234
+      type: rfc-anchor
+    - id: 10.17487/RFC5234
+      type: DOI
+    docnumber: RFC5234
+    date:
+      type: published
+      value: '2008-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Crocker
+            language: en
+          completename:
+            content: D. Crocker
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Overell
+            language: en
+          completename:
+            content: P. Overell
+            language: en
+      role: author
+    revdate: '2008-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Internet technical specifications often need to define a formal
+        syntax. Over the years, a modified version of Backus-Naur Form (BNF), called
+        Augmented BNF (ABNF), has been popular among many Internet specifications.
+        The current specification documents ABNF. It balances compactness and simplicity
+        with reasonable representational power. The differences between standard BNF
+        and ABNF involve naming rules, repetition, alternatives, order-independence,
+        and value ranges. This specification also supplies additional rule definitions
+        and encoding for a core lexical analyzer of the type common to several Internet
+        specifications. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '68'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5234'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

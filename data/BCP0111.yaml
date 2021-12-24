@@ -1,0 +1,163 @@
+---
+id: IETFBCP111
+link:
+  content: https://www.rfc-editor.org/info/bcp111
+  type: src
+type: standard
+docid:
+- id: IETF BCP 111
+  type: IETF
+- id: BCP111
+  type: rfc-anchor
+docnumber: BCP0111
+language: en
+script: Latn
+formattedref:
+  content: BCP111
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC4181
+    title:
+      content: Guidelines for Authors and Reviewers of MIB Documents
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4181.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4181
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4181
+      type: IETF
+    - id: RFC4181
+      type: rfc-anchor
+    - id: 10.17487/RFC4181
+      type: DOI
+    docnumber: RFC4181
+    date:
+      type: published
+      value: '2005-09-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Heard
+            language: en
+          completename:
+            content: C. Heard
+            language: en
+      role: editor
+    revdate: '2005-09-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo provides guidelines for authors and reviewers of IETF
+        standards-track specifications containing MIB modules. Applicable portions
+        may be used as a basis for reviews of other MIB documents. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '111'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4181'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC4841
+    title:
+      content: RFC 4181 Update to Recognize the IETF Trust
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4841.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4841
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4841
+      type: IETF
+    - id: RFC4841
+      type: rfc-anchor
+    - id: 10.17487/RFC4841
+      type: DOI
+    docnumber: RFC4841
+    date:
+      type: published
+      value: '2007-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Heard
+            language: en
+          completename:
+            content: C. Heard
+            language: en
+      role: editor
+    revdate: '2007-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>This document updates RFC 4181, "Guidelines for Authors and Reviewers
+        of MIB Documents", to recognize the creation of the IETF Trust. This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '111'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4841'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

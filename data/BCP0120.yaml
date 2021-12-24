@@ -1,0 +1,118 @@
+---
+id: IETFBCP120
+link:
+  content: https://www.rfc-editor.org/info/bcp120
+  type: src
+type: standard
+docid:
+- id: IETF BCP 120
+  type: IETF
+- id: BCP120
+  type: rfc-anchor
+docnumber: BCP0120
+language: en
+script: Latn
+formattedref:
+  content: BCP120
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4608
+    title:
+      content: Source-Specific Protocol Independent Multicast in 232/8
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4608.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4608
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4608
+      type: IETF
+    - id: RFC4608
+      type: rfc-anchor
+    - id: 10.17487/RFC4608
+      type: DOI
+    docnumber: RFC4608
+    date:
+      type: published
+      value: '2006-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Meyer
+            language: en
+          completename:
+            content: D. Meyer
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Rockell
+            language: en
+          completename:
+            content: R. Rockell
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Shepherd
+            language: en
+          completename:
+            content: G. Shepherd
+            language: en
+      role: author
+    revdate: '2006-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>IP Multicast group addresses in the 232/8 (232.0.0.0 to 232.255.255.255)
+        range are designated as source-specific multicast destination addresses and
+        are reserved for use by source-specific multicast applications and protocols.
+        This document defines operational recommendations to ensure source-specific
+        behavior within the 232/8 range. This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '120'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4608'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

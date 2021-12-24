@@ -1,0 +1,95 @@
+---
+id: IETFBCP45
+link:
+  content: https://www.rfc-editor.org/info/bcp45
+  type: src
+type: standard
+docid:
+- id: IETF BCP 45
+  type: IETF
+- id: BCP45
+  type: rfc-anchor
+docnumber: BCP0045
+language: en
+script: Latn
+formattedref:
+  content: BCP45
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3005
+    title:
+      content: IETF Discussion List Charter
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3005.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3005
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3005
+      type: IETF
+    - id: RFC3005
+      type: rfc-anchor
+    - id: 10.17487/RFC3005
+      type: DOI
+    docnumber: RFC3005
+    date:
+      type: published
+      value: '2000-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Harris
+            language: en
+          completename:
+            content: S. Harris
+            language: en
+      role: author
+    revdate: '2000-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The Internet Engineering Task Force (IETF) discussion mailing list
+        furthers the development and specification of Internet technology through
+        discussion of technical issues, and hosts discussions of IETF direction, policy,
+        meetings, and procedures. As this is the most general IETF mailing list, considerable
+        latitude is allowed. Advertising, whether to solicit business or promote employment
+        opportunities, falls well outside the range of acceptable topics, as do discussions
+        of a personal nature. This document specifies an Internet Best Current Practices
+        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '45'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3005'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

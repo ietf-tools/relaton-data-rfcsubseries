@@ -1,0 +1,91 @@
+---
+id: IETFBCP24
+link:
+  content: https://www.rfc-editor.org/info/bcp24
+  type: src
+type: standard
+docid:
+- id: IETF BCP 24
+  type: IETF
+- id: BCP24
+  type: rfc-anchor
+docnumber: BCP0024
+language: en
+script: Latn
+formattedref:
+  content: BCP24
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2379
+    title:
+      content: RSVP over ATM Implementation Guidelines
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2379.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2379
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2379
+      type: IETF
+    - id: RFC2379
+      type: rfc-anchor
+    - id: 10.17487/RFC2379
+      type: DOI
+    docnumber: RFC2379
+    date:
+      type: published
+      value: '1998-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Berger
+            language: en
+          completename:
+            content: L. Berger
+            language: en
+      role: author
+    revdate: '1998-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo presents specific implementation guidelines for running
+        RSVP over ATM switched virtual circuits (SVCs). This document specifies an
+        Internet Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '24'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2379'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

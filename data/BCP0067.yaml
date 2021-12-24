@@ -1,0 +1,222 @@
+---
+id: IETFBCP67
+link:
+  content: https://www.rfc-editor.org/info/bcp67
+  type: src
+type: standard
+docid:
+- id: IETF BCP 67
+  type: IETF
+- id: BCP67
+  type: rfc-anchor
+docnumber: BCP0067
+language: en
+script: Latn
+formattedref:
+  content: BCP67
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC5727
+    title:
+      content: Change Process for the Session Initiation Protocol (SIP) and the Real-time
+        Applications and Infrastructure Area
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5727.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5727
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5727
+      type: IETF
+    - id: RFC5727
+      type: rfc-anchor
+    - id: 10.17487/RFC5727
+      type: DOI
+    docnumber: RFC5727
+    date:
+      type: published
+      value: '2010-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Peterson
+            language: en
+          completename:
+            content: J. Peterson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Jennings
+            language: en
+          completename:
+            content: C. Jennings
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Sparks
+            language: en
+          completename:
+            content: R. Sparks
+            language: en
+      role: author
+    revdate: '2010-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo documents a process intended to organize the future development
+        of the Session Initiation Protocol (SIP) and related work in the Real-time
+        Applications and Infrastructure (RAI) Area. As the environments in which SIP
+        is deployed grow more numerous and diverse, modifying or extending SIP in
+        certain ways may threaten the interoperability and security of the protocol;
+        however, the IETF process must also cater to the realities of existing deployments
+        and serve the needs of the implementers working with SIP. This document therefore
+        defines the functions of two long-lived working groups in the RAI Area that
+        are, respectively, responsible for the maintenance of the core SIP specifications
+        and the development of new efforts to extend and apply work in this space.
+        This document obsoletes RFC 3427. This memo documents an Internet Best Current
+        Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '67'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5727'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC7957
+    title:
+      content: DISPATCH-Style Working Groups and the SIP Change Process
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7957.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7957
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7957
+      type: IETF
+    - id: RFC7957
+      type: rfc-anchor
+    - id: 10.17487/RFC7957
+      type: DOI
+    docnumber: RFC7957
+    date:
+      type: published
+      value: '2016-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Campbell
+            language: en
+          completename:
+            content: B. Campbell
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Cooper
+            language: en
+          completename:
+            content: A. Cooper
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Leiba
+            language: en
+          completename:
+            content: B. Leiba
+            language: en
+      role: author
+    revdate: '2016-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>RFC 5727 defined several processes for the former Real-time Applications
+        and Infrastructure (RAI) area. These processes include the evolution of the
+        Session Initiation Protocol (SIP) and related protocols, as well as the operation
+        of the DISPATCH and SIPCORE working groups. This document updates RFC 5727
+        to allow flexibility for the area and working group structure, while preserving
+        the SIP change processes. It also generalizes the DISPATCH working group processes
+        so that they can be easily adopted by other working groups.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '67'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7957'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

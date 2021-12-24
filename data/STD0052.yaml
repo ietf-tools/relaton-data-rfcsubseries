@@ -1,0 +1,102 @@
+---
+id: IETFSTD52
+link:
+  content: https://www.rfc-editor.org/info/std52
+  type: src
+type: standard
+docid:
+- id: IETF STD 52
+  type: IETF
+- id: STD52
+  type: rfc-anchor
+docnumber: STD0052
+language: en
+script: Latn
+formattedref:
+  content: STD52
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1209
+    title:
+      content: The Transmission of IP Datagrams over the SMDS Service
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1209.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1209
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1209
+      type: IETF
+    - id: RFC1209
+      type: rfc-anchor
+    - id: 10.17487/RFC1209
+      type: DOI
+    docnumber: RFC1209
+    date:
+      type: published
+      value: '1991-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Piscitello
+            language: en
+          completename:
+            content: D. Piscitello
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Lawrence
+            language: en
+          completename:
+            content: J. Lawrence
+            language: en
+      role: author
+    revdate: '1991-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memo defines a protocol for the transmission of IP and ARP
+        packets over a Switched Multi-megabit Data Service Network configured as a
+        logical IP subnetwork. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '52'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1209'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

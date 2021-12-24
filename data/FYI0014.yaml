@@ -1,0 +1,118 @@
+---
+id: IETFFYI14
+link:
+  content: https://www.rfc-editor.org/info/fyi14
+  type: src
+type: standard
+docid:
+- id: IETF FYI 14
+  type: IETF
+- id: FYI14
+  type: rfc-anchor
+docnumber: FYI0014
+language: en
+script: Latn
+formattedref:
+  content: FYI14
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC1309
+    title:
+      content: Technical Overview of Directory Services Using the X.500 Protocol
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1309.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1309
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1309
+      type: IETF
+    - id: RFC1309
+      type: rfc-anchor
+    - id: 10.17487/RFC1309
+      type: DOI
+    docnumber: RFC1309
+    date:
+      type: published
+      value: '1992-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Weider
+            language: en
+          completename:
+            content: C. Weider
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Reynolds
+            language: en
+          completename:
+            content: J. Reynolds
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Heker
+            language: en
+          completename:
+            content: S. Heker
+            language: en
+      role: author
+    revdate: '1992-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document is an overview of the X.500 standard for people not
+        familiar with the technology. It compares and contrasts Directory Services
+        based on X.500 with several of the other Directory services currently in use
+        in the Internet. This paper also describes the status of the standard and
+        provides references for further information on X.500 implementations and technical
+        information. This memo provides information for the Internet community. It
+        does not specify an Internet standard.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '14'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1309'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

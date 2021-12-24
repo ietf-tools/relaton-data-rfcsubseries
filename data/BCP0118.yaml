@@ -1,0 +1,93 @@
+---
+id: IETFBCP118
+link:
+  content: https://www.rfc-editor.org/info/bcp118
+  type: src
+type: standard
+docid:
+- id: IETF BCP 118
+  type: IETF
+- id: BCP118
+  type: rfc-anchor
+docnumber: BCP0118
+language: en
+script: Latn
+formattedref:
+  content: BCP118
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4521
+    title:
+      content: Considerations for Lightweight Directory Access Protocol (LDAP) Extensions
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4521.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4521
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4521
+      type: IETF
+    - id: RFC4521
+      type: rfc-anchor
+    - id: 10.17487/RFC4521
+      type: DOI
+    docnumber: RFC4521
+    date:
+      type: published
+      value: '2006-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Zeilenga
+            language: en
+          completename:
+            content: K. Zeilenga
+            language: en
+      role: author
+    revdate: '2006-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The Lightweight Directory Access Protocol (LDAP) is extensible.
+        It provides mechanisms for adding new operations, extending existing operations,
+        and expanding user and system schemas. This document discusses considerations
+        for designers of LDAP extensions. This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '118'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4521'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,120 @@
+---
+id: IETFSTD77
+link:
+  content: https://www.rfc-editor.org/info/std77
+  type: src
+type: standard
+docid:
+- id: IETF STD 77
+  type: IETF
+- id: STD77
+  type: rfc-anchor
+docnumber: STD0077
+language: en
+script: Latn
+formattedref:
+  content: STD77
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC7011
+    title:
+      content: Specification of the IP Flow Information Export (IPFIX) Protocol for
+        the Exchange of Flow Information
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7011.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7011
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7011
+      type: IETF
+    - id: RFC7011
+      type: rfc-anchor
+    - id: 10.17487/RFC7011
+      type: DOI
+    docnumber: RFC7011
+    date:
+      type: published
+      value: '2013-09-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Claise
+            language: en
+          completename:
+            content: B. Claise
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Trammell
+            language: en
+          completename:
+            content: B. Trammell
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Aitken
+            language: en
+          completename:
+            content: P. Aitken
+            language: en
+      role: author
+    revdate: '2013-09-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document specifies the IP Flow Information Export (IPFIX)
+        protocol, which serves as a means for transmitting Traffic Flow information
+        over the network. In order to transmit Traffic Flow information from an Exporting
+        Process to a Collecting Process, a common representation of flow data and
+        a standard means of communicating them are required. This document describes
+        how the IPFIX Data and Template Records are carried over a number of transport
+        protocols from an IPFIX Exporting Process to an IPFIX Collecting Process.
+        This document obsoletes RFC 5101.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '77'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7011'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

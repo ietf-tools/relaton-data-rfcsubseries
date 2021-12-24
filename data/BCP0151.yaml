@@ -1,0 +1,104 @@
+---
+id: IETFBCP151
+link:
+  content: https://www.rfc-editor.org/info/bcp151
+  type: src
+type: standard
+docid:
+- id: IETF BCP 151
+  type: IETF
+- id: BCP151
+  type: rfc-anchor
+docnumber: BCP0151
+language: en
+script: Latn
+formattedref:
+  content: BCP151
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5615
+    title:
+      content: H.248/MEGACO Registration Procedures
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5615.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5615
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5615
+      type: IETF
+    - id: RFC5615
+      type: rfc-anchor
+    - id: 10.17487/RFC5615
+      type: DOI
+    docnumber: RFC5615
+    date:
+      type: published
+      value: '2009-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Groves
+            language: en
+          completename:
+            content: C. Groves
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: Y.
+            language: en
+          surname:
+            content: Lin
+            language: en
+          completename:
+            content: Y. Lin
+            language: en
+      role: author
+    revdate: '2009-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document updates the H.248/MEGACO IANA Package registration
+        procedures in order to better describe the Package registration process and
+        to provide a more formal review and feedback process. This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '151'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5615'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

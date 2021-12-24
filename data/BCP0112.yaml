@@ -1,0 +1,95 @@
+---
+id: IETFBCP112
+link:
+  content: https://www.rfc-editor.org/info/bcp112
+  type: src
+type: standard
+docid:
+- id: IETF BCP 112
+  type: IETF
+- id: BCP112
+  type: rfc-anchor
+docnumber: BCP0112
+language: en
+script: Latn
+formattedref:
+  content: BCP112
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4222
+    title:
+      content: Prioritized Treatment of Specific OSPF Version 2 Packets and Congestion
+        Avoidance
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4222.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4222
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4222
+      type: IETF
+    - id: RFC4222
+      type: rfc-anchor
+    - id: 10.17487/RFC4222
+      type: DOI
+    docnumber: RFC4222
+    date:
+      type: published
+      value: '2005-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Choudhury
+            language: en
+          completename:
+            content: G. Choudhury
+            language: en
+      role: editor
+    revdate: '2005-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document recommends methods that are intended to improve the
+        scalability and stability of large networks using Open Shortest Path First
+        (OSPF) Version 2 protocol. The methods include processing OSPF Hellos and
+        Link State Advertisement (LSA) Acknowledgments at a higher priority compared
+        to other OSPF packets, and other congestion avoidance procedures. This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '112'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4222'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

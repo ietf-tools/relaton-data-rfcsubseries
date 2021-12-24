@@ -1,0 +1,90 @@
+---
+id: IETFBCP29
+link:
+  content: https://www.rfc-editor.org/info/bcp29
+  type: src
+type: standard
+docid:
+- id: IETF BCP 29
+  type: IETF
+- id: BCP29
+  type: rfc-anchor
+docnumber: BCP0029
+language: en
+script: Latn
+formattedref:
+  content: BCP29
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2489
+    title:
+      content: Procedure for Defining New DHCP Options
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2489.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2489
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2489
+      type: IETF
+    - id: RFC2489
+      type: rfc-anchor
+    - id: 10.17487/RFC2489
+      type: DOI
+    docnumber: RFC2489
+    date:
+      type: published
+      value: '1999-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Droms
+            language: en
+          completename:
+            content: R. Droms
+            language: en
+      role: author
+    revdate: '1999-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the procedure for defining new DHCP options.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '29'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2489'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

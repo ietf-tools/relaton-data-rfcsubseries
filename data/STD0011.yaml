@@ -1,0 +1,94 @@
+---
+id: IETFSTD11
+link:
+  content: https://www.rfc-editor.org/info/std11
+  type: src
+type: standard
+docid:
+- id: IETF STD 11
+  type: IETF
+- id: STD11
+  type: rfc-anchor
+docnumber: STD0011
+language: en
+script: Latn
+formattedref:
+  content: STD11
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0822
+    title:
+      content: STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0822.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc822
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0822
+      type: IETF
+    - id: RFC0822
+      type: rfc-anchor
+    - id: 10.17487/RFC0822
+      type: DOI
+    docnumber: RFC0822
+    date:
+      type: published
+      value: '1982-08-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Crocker
+            language: en
+          completename:
+            content: D. Crocker
+            language: en
+      role: author
+    revdate: '1982-08-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document revises the specifications in RFC 733, in order to
+        serve the needs of the larger and more complex ARPA Internet. Some of RFC
+        733's features failed to gain adequate acceptance. In order to simplify the
+        standard and the software that follows it, these features have been removed.
+        A different addressing scheme is used, to handle the case of internetwork
+        mail; and the concept of re-transmission has been introduced. Obsoletes RFC
+        733, NIC 41952.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '11'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '822'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

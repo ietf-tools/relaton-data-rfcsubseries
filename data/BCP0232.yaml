@@ -1,0 +1,131 @@
+---
+id: IETFBCP232
+link:
+  content: https://www.rfc-editor.org/info/bcp232
+  type: src
+type: standard
+docid:
+- id: IETF BCP 232
+  type: IETF
+- id: BCP232
+  type: rfc-anchor
+docnumber: BCP0232
+language: en
+script: Latn
+formattedref:
+  content: BCP232
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8932
+    title:
+      content: Recommendations for DNS Privacy Service Operators
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8932.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8932
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8932
+      type: IETF
+    - id: RFC8932
+      type: rfc-anchor
+    - id: 10.17487/RFC8932
+      type: DOI
+    docnumber: RFC8932
+    date:
+      type: published
+      value: '2020-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Dickinson
+            language: en
+          completename:
+            content: S. Dickinson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Overeinder
+            language: en
+          completename:
+            content: B. Overeinder
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: van Rijswijk-Deij
+            language: en
+          completename:
+            content: R. van Rijswijk-Deij
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Mankin
+            language: en
+          completename:
+            content: A. Mankin
+            language: en
+      role: author
+    revdate: '2020-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document presents operational, policy, and security considerations
+        for DNS recursive resolver operators who choose to offer DNS privacy services.
+        With these recommendations, the operator can make deliberate decisions regarding
+        which services to provide, as well as understanding how those decisions and
+        the alternatives impact the privacy of users.</p><p>This document also presents
+        a non-normative framework to assist writers of a Recursive operator Privacy
+        Statement, analogous to DNS Security Extensions (DNSSEC) Policies and DNSSEC
+        Practice Statements described in RFC 6841.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '232'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8932'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

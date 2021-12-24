@@ -1,0 +1,106 @@
+---
+id: IETFBCP218
+link:
+  content: https://www.rfc-editor.org/info/bcp218
+  type: src
+type: standard
+docid:
+- id: IETF BCP 218
+  type: IETF
+- id: BCP218
+  type: rfc-anchor
+docnumber: BCP0218
+language: en
+script: Latn
+formattedref:
+  content: BCP218
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8429
+    title:
+      content: Deprecate Triple-DES (3DES) and RC4 in Kerberos
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8429.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8429
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8429
+      type: IETF
+    - id: RFC8429
+      type: rfc-anchor
+    - id: 10.17487/RFC8429
+      type: DOI
+    docnumber: RFC8429
+    date:
+      type: published
+      value: '2018-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Kaduk
+            language: en
+          completename:
+            content: B. Kaduk
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Short
+            language: en
+          completename:
+            content: M. Short
+            language: en
+      role: author
+    revdate: '2018-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The triple-DES (3DES) and RC4 encryption types are steadily weakening
+        in cryptographic strength, and the deprecation process should begin for their
+        use in Kerberos. Accordingly, RFC 4757 has been moved to Historic status,
+        as none of the encryption types it specifies should be used, and RFC 3961
+        has been updated to note the deprecation of the triple-DES encryption types.
+        RFC 4120 is likewise updated to remove the recommendation to implement triple-DES
+        encryption and checksum types.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '218'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8429'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

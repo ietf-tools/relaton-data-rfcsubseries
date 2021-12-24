@@ -1,0 +1,92 @@
+---
+id: IETFFYI32
+link:
+  content: https://www.rfc-editor.org/info/fyi32
+  type: src
+type: standard
+docid:
+- id: IETF FYI 32
+  type: IETF
+- id: FYI32
+  type: rfc-anchor
+docnumber: FYI0032
+language: en
+script: Latn
+formattedref:
+  content: FYI32
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2235
+    title:
+      content: Hobbes' Internet Timeline
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2235.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2235
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2235
+      type: IETF
+    - id: RFC2235
+      type: rfc-anchor
+    - id: 10.17487/RFC2235
+      type: DOI
+    docnumber: RFC2235
+    date:
+      type: published
+      value: '1997-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Zakon
+            language: en
+          completename:
+            content: R. Zakon
+            language: en
+      role: author
+    revdate: '1997-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document presents a history of the Internet in timeline fashion,
+        highlighting some of the key events and technologies which helped shape the
+        Internet as we know it today. A growth summary of the Internet and some associated
+        technologies is also included. This memo provides information for the Internet
+        community. It does not specify an Internet standard of any kind.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: FYI
+        language: en
+        script: Latn
+        format: text/plain
+      number: '32'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2235'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

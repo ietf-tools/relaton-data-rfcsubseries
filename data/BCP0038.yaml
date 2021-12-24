@@ -1,0 +1,106 @@
+---
+id: IETFBCP38
+link:
+  content: https://www.rfc-editor.org/info/bcp38
+  type: src
+type: standard
+docid:
+- id: IETF BCP 38
+  type: IETF
+- id: BCP38
+  type: rfc-anchor
+docnumber: BCP0038
+language: en
+script: Latn
+formattedref:
+  content: BCP38
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC2827
+    title:
+      content: 'Network Ingress Filtering: Defeating Denial of Service Attacks which
+        employ IP Source Address Spoofing'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2827.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2827
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2827
+      type: IETF
+    - id: RFC2827
+      type: rfc-anchor
+    - id: 10.17487/RFC2827
+      type: DOI
+    docnumber: RFC2827
+    date:
+      type: published
+      value: '2000-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Ferguson
+            language: en
+          completename:
+            content: P. Ferguson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Senie
+            language: en
+          completename:
+            content: D. Senie
+            language: en
+      role: author
+    revdate: '2000-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This paper discusses a simple, effective, and straightforward method
+        for using ingress traffic filtering to prohibit DoS (Denial of Service) attacks
+        which use forged IP addresses to be propagated from 'behind' an Internet Service
+        Provider's (ISP) aggregation point. This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '38'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2827'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

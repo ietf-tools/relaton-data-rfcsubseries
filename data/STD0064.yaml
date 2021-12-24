@@ -1,0 +1,139 @@
+---
+id: IETFSTD64
+link:
+  content: https://www.rfc-editor.org/info/std64
+  type: src
+type: standard
+docid:
+- id: IETF STD 64
+  type: IETF
+- id: STD64
+  type: rfc-anchor
+docnumber: STD0064
+language: en
+script: Latn
+formattedref:
+  content: STD64
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3550
+    title:
+      content: 'RTP: A Transport Protocol for Real-Time Applications'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3550.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3550
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3550
+      type: IETF
+    - id: RFC3550
+      type: rfc-anchor
+    - id: 10.17487/RFC3550
+      type: DOI
+    docnumber: RFC3550
+    date:
+      type: published
+      value: '2003-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: H.
+            language: en
+          surname:
+            content: Schulzrinne
+            language: en
+          completename:
+            content: H. Schulzrinne
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Casner
+            language: en
+          completename:
+            content: S. Casner
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Frederick
+            language: en
+          completename:
+            content: R. Frederick
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: V.
+            language: en
+          surname:
+            content: Jacobson
+            language: en
+          completename:
+            content: V. Jacobson
+            language: en
+      role: author
+    revdate: '2003-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This memorandum describes RTP, the real-time transport protocol.
+        RTP provides end-to-end network transport functions suitable for applications
+        transmitting real-time data, such as audio, video or simulation data, over
+        multicast or unicast network services. RTP does not address resource reservation
+        and does not guarantee quality-of- service for real-time services. The data
+        transport is augmented by a control protocol (RTCP) to allow monitoring of
+        the data delivery in a manner scalable to large multicast networks, and to
+        provide minimal control and identification functionality. RTP and RTCP are
+        designed to be independent of the underlying transport and network layers.
+        The protocol supports the use of RTP-level translators and mixers. Most of
+        the text in this memorandum is identical to RFC 1889 which it obsoletes. There
+        are no changes in the packet formats on the wire, only changes to the rules
+        and algorithms governing how the protocol is used. The biggest change is an
+        enhancement to the scalable timer algorithm for calculating when to send RTCP
+        packets in order to minimize transmission in excess of the intended rate when
+        many participants join a session simultaneously. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '64'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3550'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

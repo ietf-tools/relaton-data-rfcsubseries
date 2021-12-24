@@ -1,0 +1,119 @@
+---
+id: IETFBCP182
+link:
+  content: https://www.rfc-editor.org/info/bcp182
+  type: src
+type: standard
+docid:
+- id: IETF BCP 182
+  type: IETF
+- id: BCP182
+  type: rfc-anchor
+docnumber: BCP0182
+language: en
+script: Latn
+formattedref:
+  content: BCP182
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6916
+    title:
+      content: Algorithm Agility Procedure for the Resource Public Key Infrastructure
+        (RPKI)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6916.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6916
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6916
+      type: IETF
+    - id: RFC6916
+      type: rfc-anchor
+    - id: 10.17487/RFC6916
+      type: DOI
+    docnumber: RFC6916
+    date:
+      type: published
+      value: '2013-04-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Gagliano
+            language: en
+          completename:
+            content: R. Gagliano
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Kent
+            language: en
+          completename:
+            content: S. Kent
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Turner
+            language: en
+          completename:
+            content: S. Turner
+            language: en
+      role: author
+    revdate: '2013-04-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document specifies the process that Certification Authorities
+        (CAs) and Relying Parties (RPs) participating in the Resource Public Key Infrastructure
+        (RPKI) will need to follow to transition to a new (and probably cryptographically
+        stronger) algorithm set. The process is expected to be completed over a timescale
+        of several years. Consequently, no emergency transition is specified. The
+        transition procedure defined in this document supports only a top-down migration
+        (parent migrates before children).</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '182'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6916'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,91 @@
+---
+id: IETFSTD20
+link:
+  content: https://www.rfc-editor.org/info/std20
+  type: src
+type: standard
+docid:
+- id: IETF STD 20
+  type: IETF
+- id: STD20
+  type: rfc-anchor
+docnumber: STD0020
+language: en
+script: Latn
+formattedref:
+  content: STD20
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC0862
+    title:
+      content: Echo Protocol
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0862.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc862
+      type: src
+    type: standard
+    docid:
+    - id: RFC 0862
+      type: IETF
+    - id: RFC0862
+      type: rfc-anchor
+    - id: 10.17487/RFC0862
+      type: DOI
+    docnumber: RFC0862
+    date:
+      type: published
+      value: '1983-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Postel
+            language: en
+          completename:
+            content: J. Postel
+            language: en
+      role: author
+    revdate: '1983-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This RFC specifies a standard for the ARPA Internet community.
+        Hosts on the ARPA Internet that choose to implement a Echo Protocol are expected
+        to adopt and implement this standard. The Echo service simply sends back to
+        the originating source any data it receives.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '20'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '862'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

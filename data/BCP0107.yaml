@@ -1,0 +1,107 @@
+---
+id: IETFBCP107
+link:
+  content: https://www.rfc-editor.org/info/bcp107
+  type: src
+type: standard
+docid:
+- id: IETF BCP 107
+  type: IETF
+- id: BCP107
+  type: rfc-anchor
+docnumber: BCP0107
+language: en
+script: Latn
+formattedref:
+  content: BCP107
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4107
+    title:
+      content: Guidelines for Cryptographic Key Management
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4107.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4107
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4107
+      type: IETF
+    - id: RFC4107
+      type: rfc-anchor
+    - id: 10.17487/RFC4107
+      type: DOI
+    docnumber: RFC4107
+    date:
+      type: published
+      value: '2005-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Bellovin
+            language: en
+          completename:
+            content: S. Bellovin
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Housley
+            language: en
+          completename:
+            content: R. Housley
+            language: en
+      role: author
+    revdate: '2005-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The question often arises of whether a given security system requires
+        some form of automated key management, or whether manual keying is sufficient.
+        This memo provides guidelines for making such decisions. When symmetric cryptographic
+        mechanisms are used in a protocol, the presumption is that automated key management
+        is generally but not always needed. If manual keying is proposed, the burden
+        of proving that automated key management is not required falls to the proposer.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '107'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4107'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

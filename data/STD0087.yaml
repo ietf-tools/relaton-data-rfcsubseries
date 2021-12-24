@@ -1,0 +1,126 @@
+---
+id: IETFSTD87
+link:
+  content: https://www.rfc-editor.org/info/std87
+  type: src
+type: standard
+docid:
+- id: IETF STD 87
+  type: IETF
+- id: STD87
+  type: rfc-anchor
+docnumber: STD0087
+language: en
+script: Latn
+formattedref:
+  content: STD87
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8201
+    title:
+      content: Path MTU Discovery for IP version 6
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8201.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8201
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8201
+      type: IETF
+    - id: RFC8201
+      type: rfc-anchor
+    - id: 10.17487/RFC8201
+      type: DOI
+    docnumber: RFC8201
+    date:
+      type: published
+      value: '2017-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: McCann
+            language: en
+          completename:
+            content: J. McCann
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Deering
+            language: en
+          completename:
+            content: S. Deering
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Mogul
+            language: en
+          completename:
+            content: J. Mogul
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Hinden
+            language: en
+          completename:
+            content: R. Hinden
+            language: en
+      role: editor
+    revdate: '2017-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes Path MTU Discovery (PMTUD) for IP version
+        6. It is largely derived from RFC 1191, which describes Path MTU Discovery
+        for IP version 4. It obsoletes RFC 1981.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '87'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8201'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

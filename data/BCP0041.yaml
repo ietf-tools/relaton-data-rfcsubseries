@@ -1,0 +1,181 @@
+---
+id: IETFBCP41
+link:
+  content: https://www.rfc-editor.org/info/bcp41
+  type: src
+type: standard
+docid:
+- id: IETF BCP 41
+  type: IETF
+- id: BCP41
+  type: rfc-anchor
+docnumber: BCP0041
+language: en
+script: Latn
+formattedref:
+  content: BCP41
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC2914
+    title:
+      content: Congestion Control Principles
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2914.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc2914
+      type: src
+    type: standard
+    docid:
+    - id: RFC 2914
+      type: IETF
+    - id: RFC2914
+      type: rfc-anchor
+    - id: 10.17487/RFC2914
+      type: DOI
+    docnumber: RFC2914
+    date:
+      type: published
+      value: '2000-09-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: S.
+            language: en
+          surname:
+            content: Floyd
+            language: en
+          completename:
+            content: S. Floyd
+            language: en
+      role: author
+    revdate: '2000-09-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The goal of this document is to explain the need for congestion
+        control in the Internet, and to discuss what constitutes correct congestion
+        control. This document specifies an Internet Best Current Practices for the
+        Internet Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '41'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '2914'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC7141
+    title:
+      content: Byte and Packet Congestion Notification
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7141.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc7141
+      type: src
+    type: standard
+    docid:
+    - id: RFC 7141
+      type: IETF
+    - id: RFC7141
+      type: rfc-anchor
+    - id: 10.17487/RFC7141
+      type: DOI
+    docnumber: RFC7141
+    date:
+      type: published
+      value: '2014-02-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: B.
+            language: en
+          surname:
+            content: Briscoe
+            language: en
+          completename:
+            content: B. Briscoe
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Manner
+            language: en
+          completename:
+            content: J. Manner
+            language: en
+      role: author
+    revdate: '2014-02-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document provides recommendations of best current practice
+        for dropping or marking packets using any active queue management (AQM) algorithm,
+        including Random Early Detection (RED), BLUE, Pre- Congestion Notification
+        (PCN), and newer schemes such as CoDel (Controlled Delay) and PIE (Proportional
+        Integral controller Enhanced). We give three strong recommendations: (1) packet
+        size should be taken into account when transports detect and respond to congestion
+        indications, (2) packet size should not be taken into account when network
+        equipment creates congestion signals (marking, dropping), and therefore (3)
+        in the specific case of RED, the byte- mode packet drop variant that drops
+        fewer small packets should not be used. This memo updates RFC 2309 to deprecate
+        deliberate preferential treatment of small packets in AQM algorithms.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '41'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '7141'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

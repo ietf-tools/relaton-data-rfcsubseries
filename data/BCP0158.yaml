@@ -1,0 +1,105 @@
+---
+id: IETFBCP158
+link:
+  content: https://www.rfc-editor.org/info/bcp158
+  type: src
+type: standard
+docid:
+- id: IETF BCP 158
+  type: IETF
+- id: BCP158
+  type: rfc-anchor
+docnumber: BCP0158
+language: en
+script: Latn
+formattedref:
+  content: BCP158
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6158
+    title:
+      content: RADIUS Design Guidelines
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6158.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6158
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6158
+      type: IETF
+    - id: RFC6158
+      type: rfc-anchor
+    - id: 10.17487/RFC6158
+      type: DOI
+    docnumber: RFC6158
+    date:
+      type: published
+      value: '2011-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: DeKok
+            language: en
+          completename:
+            content: A. DeKok
+            language: en
+      role: editor
+    - person:
+        name:
+          initial:
+            content: G.
+            language: en
+          surname:
+            content: Weber
+            language: en
+          completename:
+            content: G. Weber
+            language: en
+      role: author
+    revdate: '2011-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document provides guidelines for the design of attributes
+        used by the Remote Authentication Dial In User Service (RADIUS) protocol.
+        It is expected that these guidelines will prove useful to authors and reviewers
+        of future RADIUS attribute specifications, within the IETF as well as other
+        Standards Development Organizations (SDOs). This memo documents an Internet
+        Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '158'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6158'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,160 @@
+---
+id: IETFSTD51
+link:
+  content: https://www.rfc-editor.org/info/std51
+  type: src
+type: standard
+docid:
+- id: IETF STD 51
+  type: IETF
+- id: STD51
+  type: rfc-anchor
+docnumber: STD0051
+language: en
+script: Latn
+formattedref:
+  content: STD51
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC1661
+    title:
+      content: The Point-to-Point Protocol (PPP)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1661.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1661
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1661
+      type: IETF
+    - id: RFC1661
+      type: rfc-anchor
+    - id: 10.17487/RFC1661
+      type: DOI
+    docnumber: RFC1661
+    date:
+      type: published
+      value: '1994-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: W.
+            language: en
+          surname:
+            content: Simpson
+            language: en
+          completename:
+            content: W. Simpson
+            language: en
+      role: editor
+    revdate: '1994-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document defines the PPP organization and methodology, and
+        the PPP encapsulation, together with an extensible option negotiation mechanism
+        which is able to negotiate a rich assortment of configuration parameters and
+        provides additional management functions. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '51'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1661'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
+- type: includes
+  bibitem:
+    id: RFC1662
+    title:
+      content: PPP in HDLC-like Framing
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1662.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc1662
+      type: src
+    type: standard
+    docid:
+    - id: RFC 1662
+      type: IETF
+    - id: RFC1662
+      type: rfc-anchor
+    - id: 10.17487/RFC1662
+      type: DOI
+    docnumber: RFC1662
+    date:
+      type: published
+      value: '1994-07-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: W.
+            language: en
+          surname:
+            content: Simpson
+            language: en
+          completename:
+            content: W. Simpson
+            language: en
+      role: editor
+    revdate: '1994-07-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document describes the use of HDLC-like framing for PPP encapsulated
+        packets. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '51'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '1662'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

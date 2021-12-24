@@ -1,0 +1,97 @@
+---
+id: IETFBCP83
+link:
+  content: https://www.rfc-editor.org/info/bcp83
+  type: src
+type: standard
+docid:
+- id: IETF BCP 83
+  type: IETF
+- id: BCP83
+  type: rfc-anchor
+docnumber: BCP0083
+language: en
+script: Latn
+formattedref:
+  content: BCP83
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3683
+    title:
+      content: A Practice for Revoking Posting Rights to IETF Mailing Lists
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3683.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3683
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3683
+      type: IETF
+    - id: RFC3683
+      type: rfc-anchor
+    - id: 10.17487/RFC3683
+      type: DOI
+    docnumber: RFC3683
+    date:
+      type: published
+      value: '2004-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: M.
+            language: en
+          surname:
+            content: Rose
+            language: en
+          completename:
+            content: M. Rose
+            language: en
+      role: author
+    revdate: '2004-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>All self-governing bodies have ways of managing the scope of participant
+        interaction. The IETF uses a consensus-driven process for developing computer-communications
+        standards in an open fashion. An important part of this consensus-driven process
+        is the pervasive use of mailing lists for discussion. Notably, in a small
+        number of cases, a participant has engaged in a "denial-of-service" attack
+        to disrupt the consensus-driven process. Regrettably, as these bad faith attacks
+        become more common, the IETF needs to establish a practice that reduces or
+        eliminates these attacks. This memo recommends such a practice for use by
+        the IETF. This document specifies an Internet Best Current Practices for the
+        Internet Community, and requests discussion and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '83'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3683'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

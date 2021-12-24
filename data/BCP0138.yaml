@@ -1,0 +1,108 @@
+---
+id: IETFBCP138
+link:
+  content: https://www.rfc-editor.org/info/bcp138
+  type: src
+type: standard
+docid:
+- id: IETF BCP 138
+  type: IETF
+- id: BCP138
+  type: rfc-anchor
+docnumber: BCP0138
+language: en
+script: Latn
+formattedref:
+  content: BCP138
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5248
+    title:
+      content: A Registry for SMTP Enhanced Mail System Status Codes
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5248.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5248
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5248
+      type: IETF
+    - id: RFC5248
+      type: rfc-anchor
+    - id: 10.17487/RFC5248
+      type: DOI
+    docnumber: RFC5248
+    date:
+      type: published
+      value: '2008-06-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Hansen
+            language: en
+          completename:
+            content: T. Hansen
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Klensin
+            language: en
+          completename:
+            content: J. Klensin
+            language: en
+      role: author
+    revdate: '2008-06-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The specification for enhanced mail system status codes, RFC 3463,
+        establishes a new code model and lists a collection of status codes. While
+        it anticipated that more codes would be added over time, it did not provide
+        an explicit mechanism for registering and tracking those codes. This document
+        specifies an IANA registry for mail system enhanced status codes, and initializes
+        that registry with the codes so far established in published standards-track
+        documents, as well as other codes that have become established in the industry.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '138'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5248'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

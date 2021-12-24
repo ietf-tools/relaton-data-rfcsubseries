@@ -1,0 +1,152 @@
+---
+id: IETFBCP134
+link:
+  content: https://www.rfc-editor.org/info/bcp134
+  type: src
+type: standard
+docid:
+- id: IETF BCP 134
+  type: IETF
+- id: BCP134
+  type: rfc-anchor
+docnumber: BCP0134
+language: en
+script: Latn
+formattedref:
+  content: BCP134
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5068
+    title:
+      content: 'Email Submission Operations: Access and Accountability Requirements'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5068.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5068
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5068
+      type: IETF
+    - id: RFC5068
+      type: rfc-anchor
+    - id: 10.17487/RFC5068
+      type: DOI
+    docnumber: RFC5068
+    date:
+      type: published
+      value: '2007-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Hutzler
+            language: en
+          completename:
+            content: C. Hutzler
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: D.
+            language: en
+          surname:
+            content: Crocker
+            language: en
+          completename:
+            content: D. Crocker
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Resnick
+            language: en
+          completename:
+            content: P. Resnick
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: E.
+            language: en
+          surname:
+            content: Allman
+            language: en
+          completename:
+            content: E. Allman
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Finch
+            language: en
+          completename:
+            content: T. Finch
+            language: en
+      role: author
+    revdate: '2007-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Email has become a popular distribution service for a variety of
+        socially unacceptable, mass-effect purposes. The most obvious ones include
+        spam and worms. This note recommends conventions for the operation of email
+        submission and transport services between independent operators, such as enterprises
+        and Internet Service Providers. Its goal is to improve lines of accountability
+        for controlling abusive uses of the Internet mail service. To this end, this
+        document offers recommendations for constructive operational policies between
+        independent operators of email submission and transmission services.</p><p>Email
+        authentication technologies are aimed at providing assurances and traceability
+        between internetworked networks. In many email services, the weakest link
+        in the chain of assurances is initial submission of a message. This document
+        offers recommendations for constructive operational policies for this first
+        step of email sending, the submission (or posting) of email into the transmission
+        network. Relaying and delivery entail policies that occur subsequent to submission
+        and are outside the scope of this document. This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '134'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5068'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

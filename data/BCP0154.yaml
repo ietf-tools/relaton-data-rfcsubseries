@@ -1,0 +1,105 @@
+---
+id: IETFBCP154
+link:
+  content: https://www.rfc-editor.org/info/bcp154
+  type: src
+type: standard
+docid:
+- id: IETF BCP 154
+  type: IETF
+- id: BCP154
+  type: rfc-anchor
+docnumber: BCP0154
+language: en
+script: Latn
+formattedref:
+  content: BCP154
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC5774
+    title:
+      content: 'Considerations for Civic Addresses in the Presence Information Data
+        Format Location Object (PIDF-LO): Guidelines and IANA Registry Definition'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5774.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc5774
+      type: src
+    type: standard
+    docid:
+    - id: RFC 5774
+      type: IETF
+    - id: RFC5774
+      type: rfc-anchor
+    - id: 10.17487/RFC5774
+      type: DOI
+    docnumber: RFC5774
+    date:
+      type: published
+      value: '2010-03-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: K.
+            language: en
+          surname:
+            content: Wolf
+            language: en
+          completename:
+            content: K. Wolf
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: A.
+            language: en
+          surname:
+            content: Mayrhofer
+            language: en
+          completename:
+            content: A. Mayrhofer
+            language: en
+      role: author
+    revdate: '2010-03-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>This document provides a guideline for creating civic address considerations
+        documents for individual countries, as required by RFC 4776. Furthermore,
+        this document also creates an IANA Registry referring to such address considerations
+        documents and registers such address considerations for Austria. This memo
+        documents an Internet Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '154'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '5774'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

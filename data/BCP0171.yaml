@@ -1,0 +1,96 @@
+---
+id: IETFBCP171
+link:
+  content: https://www.rfc-editor.org/info/bcp171
+  type: src
+type: standard
+docid:
+- id: IETF BCP 171
+  type: IETF
+- id: BCP171
+  type: rfc-anchor
+docnumber: BCP0171
+language: en
+script: Latn
+formattedref:
+  content: BCP171
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6441
+    title:
+      content: Time to Remove Filters for Previously Unallocated IPv4 /8s
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6441.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6441
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6441
+      type: IETF
+    - id: RFC6441
+      type: rfc-anchor
+    - id: 10.17487/RFC6441
+      type: DOI
+    docnumber: RFC6441
+    date:
+      type: published
+      value: '2011-11-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Vegoda
+            language: en
+          completename:
+            content: L. Vegoda
+            language: en
+      role: author
+    revdate: '2011-11-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>It has been common for network administrators to filter IP traffic
+        from and BGP prefixes of unallocated IPv4 address space. Now that there are
+        no longer any unallocated IPv4 /8s, this practise is more complicated, fragile,
+        and expensive. Network administrators are advised to remove filters based
+        on the registration status of the address space.</p><p>This document explains
+        why any remaining packet and BGP prefix filters for unallocated IPv4 /8s should
+        now be removed on border routers and documents those IPv4 unicast prefixes
+        that should not be routed across the public Internet. This memo documents
+        an Internet Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '171'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6441'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

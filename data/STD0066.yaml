@@ -1,0 +1,121 @@
+---
+id: IETFSTD66
+link:
+  content: https://www.rfc-editor.org/info/std66
+  type: src
+type: standard
+docid:
+- id: IETF STD 66
+  type: IETF
+- id: STD66
+  type: rfc-anchor
+docnumber: STD0066
+language: en
+script: Latn
+formattedref:
+  content: STD66
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC3986
+    title:
+      content: 'Uniform Resource Identifier (URI): Generic Syntax'
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3986.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc3986
+      type: src
+    type: standard
+    docid:
+    - id: RFC 3986
+      type: IETF
+    - id: RFC3986
+      type: rfc-anchor
+    - id: 10.17487/RFC3986
+      type: DOI
+    docnumber: RFC3986
+    date:
+      type: published
+      value: '2005-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: T.
+            language: en
+          surname:
+            content: Berners-Lee
+            language: en
+          completename:
+            content: T. Berners-Lee
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Fielding
+            language: en
+          completename:
+            content: R. Fielding
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: L.
+            language: en
+          surname:
+            content: Masinter
+            language: en
+          completename:
+            content: L. Masinter
+            language: en
+      role: author
+    revdate: '2005-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>A Uniform Resource Identifier (URI) is a compact sequence of characters
+        that identifies an abstract or physical resource. This specification defines
+        the generic URI syntax and a process for resolving URI references that might
+        be in relative form, along with guidelines and security considerations for
+        the use of URIs on the Internet. The URI syntax defines a grammar that is
+        a superset of all valid URIs, allowing an implementation to parse the common
+        components of a URI reference without knowing the scheme-specific requirements
+        of every possible identifier. This specification does not define a generative
+        grammar for URIs; that task is performed by the individual specifications
+        of each URI scheme. [STANDARDS-TRACK]</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '66'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '3986'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

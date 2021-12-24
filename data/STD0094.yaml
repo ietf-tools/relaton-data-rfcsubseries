@@ -1,0 +1,107 @@
+---
+id: IETFSTD94
+link:
+  content: https://www.rfc-editor.org/info/std94
+  type: src
+type: standard
+docid:
+- id: IETF STD 94
+  type: IETF
+- id: STD94
+  type: rfc-anchor
+docnumber: STD0094
+language: en
+script: Latn
+formattedref:
+  content: STD94
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8949
+    title:
+      content: Concise Binary Object Representation (CBOR)
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8949.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8949
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8949
+      type: IETF
+    - id: RFC8949
+      type: rfc-anchor
+    - id: 10.17487/RFC8949
+      type: DOI
+    docnumber: RFC8949
+    date:
+      type: published
+      value: '2020-12-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: C.
+            language: en
+          surname:
+            content: Bormann
+            language: en
+          completename:
+            content: C. Bormann
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: P.
+            language: en
+          surname:
+            content: Hoffman
+            language: en
+          completename:
+            content: P. Hoffman
+            language: en
+      role: author
+    revdate: '2020-12-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The Concise Binary Object Representation (CBOR) is a data format
+        whose design goals include the possibility of extremely small code size, fairly
+        small message size, and extensibility without the need for version negotiation.
+        These design goals make it different from earlier binary serializations such
+        as ASN.1 and MessagePack.</p><p>This document obsoletes RFC 7049, providing
+        editorial improvements, new details, and errata fixes while keeping full compatibility
+        with the interchange format of RFC 7049. It does not create a new version
+        of the format.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: STD
+        language: en
+        script: Latn
+        format: text/plain
+      number: '94'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8949'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

@@ -1,0 +1,101 @@
+---
+id: IETFBCP168
+link:
+  content: https://www.rfc-editor.org/info/bcp168
+  type: src
+type: standard
+docid:
+- id: IETF BCP 168
+  type: IETF
+- id: BCP168
+  type: rfc-anchor
+docnumber: BCP0168
+language: en
+script: Latn
+formattedref:
+  content: BCP168
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC6398
+    title:
+      content: IP Router Alert Considerations and Usage
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6398.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc6398
+      type: src
+    type: standard
+    docid:
+    - id: RFC 6398
+      type: IETF
+    - id: RFC6398
+      type: rfc-anchor
+    - id: 10.17487/RFC6398
+      type: DOI
+    docnumber: RFC6398
+    date:
+      type: published
+      value: '2011-10-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: F.
+            language: en
+          surname:
+            content: Le Faucheur
+            language: en
+          completename:
+            content: F. Le Faucheur
+            language: en
+      role: editor
+    revdate: '2011-10-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>The IP Router Alert Option is an IP option that alerts transit
+        routers to more closely examine the contents of an IP packet. The Resource
+        reSerVation Protocol (RSVP), Pragmatic General Multicast (PGM), the Internet
+        Group Management Protocol (IGMP), Multicast Listener Discovery (MLD), Multicast
+        Router Discovery (MRD), and General Internet Signaling Transport (GIST) are
+        some of the protocols that make use of the IP Router Alert Option. This document
+        discusses security aspects and usage guidelines around the use of the current
+        IP Router Alert Option, thereby updating RFC 2113 and RFC 2711. Specifically,
+        it provides recommendations against using the Router Alert in the end-to-end
+        open Internet and identifies controlled environments where protocols depending
+        on Router Alert can be used safely. It also provides recommendations about
+        protection approaches for service providers. Finally, it provides brief guidelines
+        for Router Alert implementation on routers. This memo documents an Internet
+        Best Current Practice.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '168'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '6398'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

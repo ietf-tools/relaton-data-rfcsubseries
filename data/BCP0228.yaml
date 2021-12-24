@@ -1,0 +1,119 @@
+---
+id: IETFBCP228
+link:
+  content: https://www.rfc-editor.org/info/bcp228
+  type: src
+type: standard
+docid:
+- id: IETF BCP 228
+  type: IETF
+- id: BCP228
+  type: rfc-anchor
+docnumber: BCP0228
+language: en
+script: Latn
+formattedref:
+  content: BCP228
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC8862
+    title:
+      content: Best Practices for Securing RTP Media Signaled with SIP
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8862.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc8862
+      type: src
+    type: standard
+    docid:
+    - id: RFC 8862
+      type: IETF
+    - id: RFC8862
+      type: rfc-anchor
+    - id: 10.17487/RFC8862
+      type: DOI
+    docnumber: RFC8862
+    date:
+      type: published
+      value: '2021-01-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Peterson
+            language: en
+          completename:
+            content: J. Peterson
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Barnes
+            language: en
+          completename:
+            content: R. Barnes
+            language: en
+      role: author
+    - person:
+        name:
+          initial:
+            content: R.
+            language: en
+          surname:
+            content: Housley
+            language: en
+          completename:
+            content: R. Housley
+            language: en
+      role: author
+    revdate: '2021-01-01'
+    language: en
+    script: Latn
+    abstract:
+      content: "<p>Although the Session Initiation Protocol (SIP) includes a suite
+        of security services that has been expanded by numerous specifications over
+        the years, there is no single place that explains how to use SIP to establish
+        confidential media sessions. Additionally, existing mechanisms have some feature
+        gaps that need to be identified and resolved in order for them to address
+        the pervasive monitoring threat model. This specification describes best practices
+        for negotiating confidential media with SIP, including a comprehensive protection
+        solution that binds the media layer to SIP layer identities.</p>"
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '228'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '8862'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc

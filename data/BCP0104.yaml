@@ -1,0 +1,96 @@
+---
+id: IETFBCP104
+link:
+  content: https://www.rfc-editor.org/info/bcp104
+  type: src
+type: standard
+docid:
+- id: IETF BCP 104
+  type: IETF
+- id: BCP104
+  type: rfc-anchor
+docnumber: BCP0104
+language: en
+script: Latn
+formattedref:
+  content: BCP104
+  language: en
+  script: Latn
+  format: text/plain
+relation:
+  type: includes
+  bibitem:
+    id: RFC4084
+    title:
+      content: Terminology for Describing Internet Connectivity
+      language: en
+      script: Latn
+      format: text/plain
+    link:
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4084.xml
+      type: xml
+    - content: https://www.rfc-editor.org/info/rfc4084
+      type: src
+    type: standard
+    docid:
+    - id: RFC 4084
+      type: IETF
+    - id: RFC4084
+      type: rfc-anchor
+    - id: 10.17487/RFC4084
+      type: DOI
+    docnumber: RFC4084
+    date:
+      type: published
+      value: '2005-05-01'
+    contributor:
+    - organization:
+        name: Internet Engineering Task Force
+        abbreviation: IETF
+      role: publisher
+    - person:
+        name:
+          initial:
+            content: J.
+            language: en
+          surname:
+            content: Klensin
+            language: en
+          completename:
+            content: J. Klensin
+            language: en
+      role: author
+    revdate: '2005-05-01'
+    language: en
+    script: Latn
+    abstract:
+      content: <p>As the Internet has evolved, many types of arrangements have been
+        advertised and sold as "Internet connectivity". Because these may differ significantly
+        in the capabilities they offer, the range of options, and the lack of any
+        standard terminology, the effort to distinguish between these services has
+        caused considerable consumer confusion. This document provides a list of terms
+        and definitions that may be helpful to providers, consumers, and, potentially,
+        regulators in clarifying the type and character of services being offered.
+        This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>
+      language: en
+      script: Latn
+      format: text/html
+    series:
+    - type: main
+      title:
+        content: BCP
+        language: en
+        script: Latn
+        format: text/plain
+      number: '104'
+    - type: main
+      title:
+        content: RFC
+        language: en
+        script: Latn
+        format: text/plain
+      number: '4084'
+    place: Fremont, CA
+    fetched: '2021-12-24'
+    doctype: rfc
