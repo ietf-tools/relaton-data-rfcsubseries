@@ -79,7 +79,7 @@ relation:
         format: text/plain
       number: '791'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
 - type: includes
   bibitem:
@@ -142,7 +142,7 @@ relation:
         format: text/plain
       number: '792'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
 - type: includes
   bibitem:
@@ -213,7 +213,7 @@ relation:
         format: text/plain
       number: '919'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
 - type: includes
   bibitem:
@@ -284,7 +284,7 @@ relation:
         format: text/plain
       number: '922'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
 - type: includes
   bibitem:
@@ -373,7 +373,7 @@ relation:
         format: text/plain
       number: '950'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
 - type: includes
   bibitem:
@@ -444,5 +444,5 @@ relation:
         format: text/plain
       number: '1112'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc

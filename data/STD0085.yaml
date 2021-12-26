@@ -115,5 +115,5 @@ relation:
         format: text/plain
       number: '8098'
     place: Fremont, CA
-    fetched: '2021-12-25'
+    fetched: '2021-12-26'
     doctype: rfc
