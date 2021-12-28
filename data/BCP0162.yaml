@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6302
-      type: IETF
     - id: RFC6302
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6302
       type: DOI
     docnumber: RFC6302

@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8340
-      type: IETF
     - id: RFC8340
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8340
       type: DOI
     docnumber: RFC8340

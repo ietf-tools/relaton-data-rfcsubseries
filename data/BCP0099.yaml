@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3969
-      type: IETF
     - id: RFC3969
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3969
       type: DOI
     docnumber: RFC3969

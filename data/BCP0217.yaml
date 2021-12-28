@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8421
-      type: IETF
     - id: RFC8421
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8421
       type: DOI
     docnumber: RFC8421

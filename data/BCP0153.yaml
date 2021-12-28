@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6598
-      type: IETF
     - id: RFC6598
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6598
       type: DOI
     docnumber: RFC6598
@@ -160,10 +159,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6890
-      type: IETF
     - id: RFC6890
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6890
       type: DOI
     docnumber: RFC6890
@@ -268,10 +266,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8190
-      type: IETF
     - id: RFC8190
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8190
       type: DOI
     docnumber: RFC8190

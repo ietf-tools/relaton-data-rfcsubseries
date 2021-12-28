@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0895
-      type: IETF
     - id: RFC0895
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0895
       type: DOI
     docnumber: RFC0895

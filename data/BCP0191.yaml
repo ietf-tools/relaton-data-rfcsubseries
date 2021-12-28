@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 7319
-      type: IETF
     - id: RFC7319
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC7319
       type: DOI
     docnumber: RFC7319

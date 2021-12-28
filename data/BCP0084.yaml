@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3704
-      type: IETF
     - id: RFC3704
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3704
       type: DOI
     docnumber: RFC3704
@@ -124,10 +123,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8704
-      type: IETF
     - id: RFC8704
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8704
       type: DOI
     docnumber: RFC8704

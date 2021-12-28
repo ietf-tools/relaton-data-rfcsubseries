@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8862
-      type: IETF
     - id: RFC8862
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8862
       type: DOI
     docnumber: RFC8862

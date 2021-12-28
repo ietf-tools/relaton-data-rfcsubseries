@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 2148
-      type: IETF
     - id: RFC2148
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC2148
       type: DOI
     docnumber: RFC2148

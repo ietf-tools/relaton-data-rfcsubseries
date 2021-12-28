@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 5358
-      type: IETF
     - id: RFC5358
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC5358
       type: DOI
     docnumber: RFC5358

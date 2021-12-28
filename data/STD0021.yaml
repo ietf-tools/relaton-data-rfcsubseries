@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0863
-      type: IETF
     - id: RFC0863
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0863
       type: DOI
     docnumber: RFC0863

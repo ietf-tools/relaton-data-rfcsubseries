@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 5382
-      type: IETF
     - id: RFC5382
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC5382
       type: DOI
     docnumber: RFC5382

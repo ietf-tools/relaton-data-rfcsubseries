@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6409
-      type: IETF
     - id: RFC6409
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6409
       type: DOI
     docnumber: RFC6409

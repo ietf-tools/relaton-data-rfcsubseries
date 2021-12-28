@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3411
-      type: IETF
     - id: RFC3411
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3411
       type: DOI
     docnumber: RFC3411
@@ -133,10 +132,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3412
-      type: IETF
     - id: RFC3412
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3412
       type: DOI
     docnumber: RFC3412
@@ -243,10 +241,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3413
-      type: IETF
     - id: RFC3413
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3413
       type: DOI
     docnumber: RFC3413
@@ -342,10 +339,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3414
-      type: IETF
     - id: RFC3414
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3414
       type: DOI
     docnumber: RFC3414
@@ -428,10 +424,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3415
-      type: IETF
     - id: RFC3415
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3415
       type: DOI
     docnumber: RFC3415
@@ -526,10 +521,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3416
-      type: IETF
     - id: RFC3416
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3416
       type: DOI
     docnumber: RFC3416
@@ -597,10 +591,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3417
-      type: IETF
     - id: RFC3417
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3417
       type: DOI
     docnumber: RFC3417
@@ -668,10 +661,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3418
-      type: IETF
     - id: RFC3418
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3418
       type: DOI
     docnumber: RFC3418

@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 7454
-      type: IETF
     - id: RFC7454
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC7454
       type: DOI
     docnumber: RFC7454

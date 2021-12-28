@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 4506
-      type: IETF
     - id: RFC4506
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC4506
       type: DOI
     docnumber: RFC4506

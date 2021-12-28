@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1034
-      type: IETF
     - id: RFC1034
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1034
       type: DOI
     docnumber: RFC1034
@@ -105,10 +104,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1035
-      type: IETF
     - id: RFC1035
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1035
       type: DOI
     docnumber: RFC1035

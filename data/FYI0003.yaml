@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1175
-      type: IETF
     - id: RFC1175
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1175
       type: DOI
     docnumber: RFC1175

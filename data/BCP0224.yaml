@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8634
-      type: IETF
     - id: RFC8634
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8634
       type: DOI
     docnumber: RFC8634

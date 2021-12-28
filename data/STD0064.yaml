@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3550
-      type: IETF
     - id: RFC3550
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3550
       type: DOI
     docnumber: RFC3550

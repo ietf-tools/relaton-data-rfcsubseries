@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6522
-      type: IETF
     - id: RFC6522
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6522
       type: DOI
     docnumber: RFC6522

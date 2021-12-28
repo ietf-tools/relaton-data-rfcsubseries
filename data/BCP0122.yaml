@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 4632
-      type: IETF
     - id: RFC4632
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC4632
       type: DOI
     docnumber: RFC4632

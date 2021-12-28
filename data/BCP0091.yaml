@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 3901
-      type: IETF
     - id: RFC3901
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC3901
       type: DOI
     docnumber: RFC3901

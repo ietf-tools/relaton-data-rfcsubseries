@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 7115
-      type: IETF
     - id: RFC7115
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC7115
       type: DOI
     docnumber: RFC7115

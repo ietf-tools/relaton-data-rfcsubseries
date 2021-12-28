@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 9096
-      type: IETF
     - id: RFC9096
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC9096
       type: DOI
     docnumber: RFC9096

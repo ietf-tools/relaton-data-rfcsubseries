@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6303
-      type: IETF
     - id: RFC6303
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6303
       type: DOI
     docnumber: RFC6303
@@ -108,10 +107,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 7793
-      type: IETF
     - id: RFC7793
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC7793
       type: DOI
     docnumber: RFC7793

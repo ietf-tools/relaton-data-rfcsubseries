@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8252
-      type: IETF
     - id: RFC8252
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8252
       type: DOI
     docnumber: RFC8252

@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 4222
-      type: IETF
     - id: RFC4222
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC4222
       type: DOI
     docnumber: RFC4222

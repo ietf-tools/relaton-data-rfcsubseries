@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 4086
-      type: IETF
     - id: RFC4086
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC4086
       type: DOI
     docnumber: RFC4086

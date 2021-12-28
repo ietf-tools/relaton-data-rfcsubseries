@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0822
-      type: IETF
     - id: RFC0822
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0822
       type: DOI
     docnumber: RFC0822

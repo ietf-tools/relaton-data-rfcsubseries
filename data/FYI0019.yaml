@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1463
-      type: IETF
     - id: RFC1463
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1463
       type: DOI
     docnumber: RFC1463

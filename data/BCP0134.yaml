@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 5068
-      type: IETF
     - id: RFC5068
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC5068
       type: DOI
     docnumber: RFC5068

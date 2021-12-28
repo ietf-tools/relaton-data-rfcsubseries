@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6853
-      type: IETF
     - id: RFC6853
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6853
       type: DOI
     docnumber: RFC6853

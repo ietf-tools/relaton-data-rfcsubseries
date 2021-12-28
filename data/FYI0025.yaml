@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1689
-      type: IETF
     - id: RFC1689
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1689
       type: DOI
     docnumber: RFC1689

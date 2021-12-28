@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 2119
-      type: IETF
     - id: RFC2119
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC2119
       type: DOI
     docnumber: RFC2119
@@ -105,10 +104,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 8174
-      type: IETF
     - id: RFC8174
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC8174
       type: DOI
     docnumber: RFC8174

@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 4289
-      type: IETF
     - id: RFC4289
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC4289
       type: DOI
     docnumber: RFC4289
@@ -117,10 +116,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6838
-      type: IETF
     - id: RFC6838
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6838
       type: DOI
     docnumber: RFC6838

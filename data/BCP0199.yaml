@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 7610
-      type: IETF
     - id: RFC7610
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC7610
       type: DOI
     docnumber: RFC7610

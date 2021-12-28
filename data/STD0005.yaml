@@ -33,10 +33,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0791
-      type: IETF
     - id: RFC0791
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0791
       type: DOI
     docnumber: RFC0791
@@ -96,10 +95,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0792
-      type: IETF
     - id: RFC0792
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0792
       type: DOI
     docnumber: RFC0792
@@ -159,10 +157,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0919
-      type: IETF
     - id: RFC0919
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0919
       type: DOI
     docnumber: RFC0919
@@ -230,10 +227,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0922
-      type: IETF
     - id: RFC0922
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0922
       type: DOI
     docnumber: RFC0922
@@ -301,10 +297,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 0950
-      type: IETF
     - id: RFC0950
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC0950
       type: DOI
     docnumber: RFC0950
@@ -390,10 +385,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 1112
-      type: IETF
     - id: RFC1112
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC1112
       type: DOI
     docnumber: RFC1112

@@ -34,10 +34,9 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC 6916
-      type: IETF
     - id: RFC6916
-      type: rfc-anchor
+      type: IETF
+      scope: anchor
     - id: 10.17487/RFC6916
       type: DOI
     docnumber: RFC6916
