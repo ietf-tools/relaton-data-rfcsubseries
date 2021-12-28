@@ -7,7 +7,7 @@ type: standard
 docid:
   id: BCP168
   type: IETF
-  scope: rfc-anchor
+  scope: anchor
 docnumber: BCP0168
 language: en
 script: Latn

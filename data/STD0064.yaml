@@ -7,7 +7,7 @@ type: standard
 docid:
   id: STD64
   type: IETF
-  scope: rfc-anchor
+  scope: anchor
 docnumber: STD0064
 language: en
 script: Latn

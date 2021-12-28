@@ -7,7 +7,7 @@ type: standard
 docid:
   id: FYI7
   type: IETF
-  scope: rfc-anchor
+  scope: anchor
 docnumber: FYI0007
 language: en
 script: Latn

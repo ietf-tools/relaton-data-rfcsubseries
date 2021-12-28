@@ -7,7 +7,7 @@ type: standard
 docid:
   id: STD73
   type: IETF
-  scope: rfc-anchor
+  scope: anchor
 docnumber: STD0073
 language: en
 script: Latn

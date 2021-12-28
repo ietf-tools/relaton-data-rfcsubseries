@@ -7,7 +7,7 @@ type: standard
 docid:
   id: BCP82
   type: IETF
-  scope: rfc-anchor
+  scope: anchor
 docnumber: BCP0082
 language: en
 script: Latn
