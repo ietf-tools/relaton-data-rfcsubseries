@@ -1,14 +1,13 @@
 ---
-id: IETFSTD43
+id: STD43
 link:
   content: https://www.rfc-editor.org/info/std43
   type: src
 type: standard
 docid:
-- id: IETF STD 43
+  id: STD43
   type: IETF
-- id: STD43
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0043
 language: en
 script: Latn

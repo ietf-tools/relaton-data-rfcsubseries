@@ -1,14 +1,13 @@
 ---
-id: IETFBCP68
+id: BCP68
 link:
   content: https://www.rfc-editor.org/info/bcp68
   type: src
 type: standard
 docid:
-- id: IETF BCP 68
+  id: BCP68
   type: IETF
-- id: BCP68
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0068
 language: en
 script: Latn

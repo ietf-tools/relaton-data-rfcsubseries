@@ -1,14 +1,13 @@
 ---
-id: IETFBCP74
+id: BCP74
 link:
   content: https://www.rfc-editor.org/info/bcp74
   type: src
 type: standard
 docid:
-- id: IETF BCP 74
+  id: BCP74
   type: IETF
-- id: BCP74
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0074
 language: en
 script: Latn

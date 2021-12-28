@@ -1,14 +1,13 @@
 ---
-id: IETFBCP109
+id: BCP109
 link:
   content: https://www.rfc-editor.org/info/bcp109
   type: src
 type: standard
 docid:
-- id: IETF BCP 109
+  id: BCP109
   type: IETF
-- id: BCP109
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0109
 language: en
 script: Latn

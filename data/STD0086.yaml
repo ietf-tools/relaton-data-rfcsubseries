@@ -1,14 +1,13 @@
 ---
-id: IETFSTD86
+id: STD86
 link:
   content: https://www.rfc-editor.org/info/std86
   type: src
 type: standard
 docid:
-- id: IETF STD 86
+  id: STD86
   type: IETF
-- id: STD86
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0086
 language: en
 script: Latn

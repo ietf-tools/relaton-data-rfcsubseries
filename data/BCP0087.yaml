@@ -1,14 +1,13 @@
 ---
-id: IETFBCP87
+id: BCP87
 link:
   content: https://www.rfc-editor.org/info/bcp87
   type: src
 type: standard
 docid:
-- id: IETF BCP 87
+  id: BCP87
   type: IETF
-- id: BCP87
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0087
 language: en
 script: Latn

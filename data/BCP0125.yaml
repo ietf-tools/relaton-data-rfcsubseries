@@ -1,14 +1,13 @@
 ---
-id: IETFBCP125
+id: BCP125
 link:
   content: https://www.rfc-editor.org/info/bcp125
   type: src
 type: standard
 docid:
-- id: IETF BCP 125
+  id: BCP125
   type: IETF
-- id: BCP125
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0125
 language: en
 script: Latn

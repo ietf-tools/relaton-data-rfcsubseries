@@ -1,14 +1,13 @@
 ---
-id: IETFFYI14
+id: FYI14
 link:
   content: https://www.rfc-editor.org/info/fyi14
   type: src
 type: standard
 docid:
-- id: IETF FYI 14
+  id: FYI14
   type: IETF
-- id: FYI14
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: FYI0014
 language: en
 script: Latn

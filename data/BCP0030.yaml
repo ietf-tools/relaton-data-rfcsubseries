@@ -1,14 +1,13 @@
 ---
-id: IETFBCP30
+id: BCP30
 link:
   content: https://www.rfc-editor.org/info/bcp30
   type: src
 type: standard
 docid:
-- id: IETF BCP 30
+  id: BCP30
   type: IETF
-- id: BCP30
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0030
 language: en
 script: Latn

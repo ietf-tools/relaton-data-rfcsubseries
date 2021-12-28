@@ -1,14 +1,13 @@
 ---
-id: IETFBCP155
+id: BCP155
 link:
   content: https://www.rfc-editor.org/info/bcp155
   type: src
 type: standard
 docid:
-- id: IETF BCP 155
+  id: BCP155
   type: IETF
-- id: BCP155
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0155
 language: en
 script: Latn

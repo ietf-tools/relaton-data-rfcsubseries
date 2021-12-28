@@ -1,14 +1,13 @@
 ---
-id: IETFSTD5
+id: STD5
 link:
   content: https://www.rfc-editor.org/info/std5
   type: src
 type: standard
 docid:
-- id: IETF STD 5
+  id: STD5
   type: IETF
-- id: STD5
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0005
 language: en
 script: Latn

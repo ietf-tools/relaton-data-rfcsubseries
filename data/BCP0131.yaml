@@ -1,14 +1,13 @@
 ---
-id: IETFBCP131
+id: BCP131
 link:
   content: https://www.rfc-editor.org/info/bcp131
   type: src
 type: standard
 docid:
-- id: IETF BCP 131
+  id: BCP131
   type: IETF
-- id: BCP131
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0131
 language: en
 script: Latn

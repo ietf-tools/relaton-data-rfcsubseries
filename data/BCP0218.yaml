@@ -1,14 +1,13 @@
 ---
-id: IETFBCP218
+id: BCP218
 link:
   content: https://www.rfc-editor.org/info/bcp218
   type: src
 type: standard
 docid:
-- id: IETF BCP 218
+  id: BCP218
   type: IETF
-- id: BCP218
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0218
 language: en
 script: Latn

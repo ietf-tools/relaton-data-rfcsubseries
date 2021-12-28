@@ -1,14 +1,13 @@
 ---
-id: IETFBCP42
+id: BCP42
 link:
   content: https://www.rfc-editor.org/info/bcp42
   type: src
 type: standard
 docid:
-- id: IETF BCP 42
+  id: BCP42
   type: IETF
-- id: BCP42
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0042
 language: en
 script: Latn

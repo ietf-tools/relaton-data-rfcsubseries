@@ -1,14 +1,13 @@
 ---
-id: IETFSTD91
+id: STD91
 link:
   content: https://www.rfc-editor.org/info/std91
   type: src
 type: standard
 docid:
-- id: IETF STD 91
+  id: STD91
   type: IETF
-- id: STD91
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0091
 language: en
 script: Latn

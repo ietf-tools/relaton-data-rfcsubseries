@@ -1,14 +1,13 @@
 ---
-id: IETFSTD32
+id: STD32
 link:
   content: https://www.rfc-editor.org/info/std32
   type: src
 type: standard
 docid:
-- id: IETF STD 32
+  id: STD32
   type: IETF
-- id: STD32
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0032
 language: en
 script: Latn

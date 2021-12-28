@@ -1,14 +1,13 @@
 ---
-id: IETFBCP14
+id: BCP14
 link:
   content: https://www.rfc-editor.org/info/bcp14
   type: src
 type: standard
 docid:
-- id: IETF BCP 14
+  id: BCP14
   type: IETF
-- id: BCP14
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0014
 language: en
 script: Latn

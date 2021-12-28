@@ -1,14 +1,13 @@
 ---
-id: IETFBCP226
+id: BCP226
 link:
   content: https://www.rfc-editor.org/info/bcp226
   type: src
 type: standard
 docid:
-- id: IETF BCP 226
+  id: BCP226
   type: IETF
-- id: BCP226
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0226
 language: en
 script: Latn

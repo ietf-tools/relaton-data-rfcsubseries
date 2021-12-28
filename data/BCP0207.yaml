@@ -1,14 +1,13 @@
 ---
-id: IETFBCP207
+id: BCP207
 link:
   content: https://www.rfc-editor.org/info/bcp207
   type: src
 type: standard
 docid:
-- id: IETF BCP 207
+  id: BCP207
   type: IETF
-- id: BCP207
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0207
 language: en
 script: Latn

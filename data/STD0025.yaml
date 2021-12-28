@@ -1,14 +1,13 @@
 ---
-id: IETFSTD25
+id: STD25
 link:
   content: https://www.rfc-editor.org/info/std25
   type: src
 type: standard
 docid:
-- id: IETF STD 25
+  id: STD25
   type: IETF
-- id: STD25
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0025
 language: en
 script: Latn

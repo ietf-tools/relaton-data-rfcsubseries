@@ -1,14 +1,13 @@
 ---
-id: IETFSTD24
+id: STD24
 link:
   content: https://www.rfc-editor.org/info/std24
   type: src
 type: standard
 docid:
-- id: IETF STD 24
+  id: STD24
   type: IETF
-- id: STD24
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0024
 language: en
 script: Latn

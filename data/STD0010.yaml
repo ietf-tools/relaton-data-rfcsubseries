@@ -1,14 +1,13 @@
 ---
-id: IETFSTD10
+id: STD10
 link:
   content: https://www.rfc-editor.org/info/std10
   type: src
 type: standard
 docid:
-- id: IETF STD 10
+  id: STD10
   type: IETF
-- id: STD10
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0010
 language: en
 script: Latn

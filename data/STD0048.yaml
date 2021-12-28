@@ -1,14 +1,13 @@
 ---
-id: IETFSTD48
+id: STD48
 link:
   content: https://www.rfc-editor.org/info/std48
   type: src
 type: standard
 docid:
-- id: IETF STD 48
+  id: STD48
   type: IETF
-- id: STD48
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0048
 language: en
 script: Latn

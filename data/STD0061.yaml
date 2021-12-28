@@ -1,14 +1,13 @@
 ---
-id: IETFSTD61
+id: STD61
 link:
   content: https://www.rfc-editor.org/info/std61
   type: src
 type: standard
 docid:
-- id: IETF STD 61
+  id: STD61
   type: IETF
-- id: STD61
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0061
 language: en
 script: Latn

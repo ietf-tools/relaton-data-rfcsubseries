@@ -1,14 +1,13 @@
 ---
-id: IETFSTD74
+id: STD74
 link:
   content: https://www.rfc-editor.org/info/std74
   type: src
 type: standard
 docid:
-- id: IETF STD 74
+  id: STD74
   type: IETF
-- id: STD74
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0074
 language: en
 script: Latn

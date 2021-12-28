@@ -1,14 +1,13 @@
 ---
-id: IETFSTD7
+id: STD7
 link:
   content: https://www.rfc-editor.org/info/std7
   type: src
 type: standard
 docid:
-- id: IETF STD 7
+  id: STD7
   type: IETF
-- id: STD7
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0007
 language: en
 script: Latn

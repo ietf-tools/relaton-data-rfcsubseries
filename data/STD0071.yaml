@@ -1,14 +1,13 @@
 ---
-id: IETFSTD71
+id: STD71
 link:
   content: https://www.rfc-editor.org/info/std71
   type: src
 type: standard
 docid:
-- id: IETF STD 71
+  id: STD71
   type: IETF
-- id: STD71
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0071
 language: en
 script: Latn

@@ -1,14 +1,13 @@
 ---
-id: IETFBCP60
+id: BCP60
 link:
   content: https://www.rfc-editor.org/info/bcp60
   type: src
 type: standard
 docid:
-- id: IETF BCP 60
+  id: BCP60
   type: IETF
-- id: BCP60
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: BCP0060
 language: en
 script: Latn

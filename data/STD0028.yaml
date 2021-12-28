@@ -1,14 +1,13 @@
 ---
-id: IETFSTD28
+id: STD28
 link:
   content: https://www.rfc-editor.org/info/std28
   type: src
 type: standard
 docid:
-- id: IETF STD 28
+  id: STD28
   type: IETF
-- id: STD28
-  type: rfc-anchor
+  scope: rfc-anchor
 docnumber: STD0028
 language: en
 script: Latn
