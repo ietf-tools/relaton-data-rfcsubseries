@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC8711
       type: IETF
+    - id: RFC8711
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8711
       type: DOI
@@ -115,7 +117,7 @@ relation:
         format: text/plain
       number: '8711'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -132,6 +134,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC8714
+      type: IETF
     - id: RFC8714
       type: IETF
       scope: anchor
@@ -200,7 +204,7 @@ relation:
         format: text/plain
       number: '8714'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -218,6 +222,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC8717
+      type: IETF
     - id: RFC8717
       type: IETF
       scope: anchor
@@ -275,5 +281,5 @@ relation:
         format: text/plain
       number: '8717'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

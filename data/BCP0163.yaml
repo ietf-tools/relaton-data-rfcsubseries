@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC6303
       type: IETF
+    - id: RFC6303
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6303
       type: DOI
@@ -88,7 +90,7 @@ relation:
         format: text/plain
       number: '6303'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -106,6 +108,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC7793
+      type: IETF
     - id: RFC7793
       type: IETF
       scope: anchor
@@ -160,5 +164,5 @@ relation:
         format: text/plain
       number: '7793'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

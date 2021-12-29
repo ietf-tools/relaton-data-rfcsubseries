@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC1918
       type: IETF
+    - id: RFC1918
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1918
       type: DOI
@@ -132,5 +134,5 @@ relation:
         format: text/plain
       number: '1918'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

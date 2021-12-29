@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC8200
       type: IETF
+    - id: RFC8200
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8200
       type: DOI
@@ -95,5 +97,5 @@ relation:
         format: text/plain
       number: '8200'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

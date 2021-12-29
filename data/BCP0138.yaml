@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC5248
       type: IETF
+    - id: RFC5248
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5248
       type: DOI
@@ -102,5 +104,5 @@ relation:
         format: text/plain
       number: '5248'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

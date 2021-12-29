@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC8634
       type: IETF
+    - id: RFC8634
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8634
       type: DOI
@@ -113,5 +115,5 @@ relation:
         format: text/plain
       number: '8634'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

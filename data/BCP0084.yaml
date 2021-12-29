@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC3704
       type: IETF
+    - id: RFC3704
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3704
       type: DOI
@@ -105,7 +107,7 @@ relation:
         format: text/plain
       number: '3704'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -122,6 +124,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC8704
+      type: IETF
     - id: RFC8704
       type: IETF
       scope: anchor
@@ -209,5 +213,5 @@ relation:
         format: text/plain
       number: '8704'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC4148
       type: IETF
+    - id: RFC4148
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4148
       type: DOI
@@ -89,5 +91,5 @@ relation:
         format: text/plain
       number: '4148'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

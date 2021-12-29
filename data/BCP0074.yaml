@@ -35,6 +35,8 @@ relation:
     docid:
     - id: RFC3584
       type: IETF
+    - id: RFC3584
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3584
       type: DOI
@@ -126,5 +128,5 @@ relation:
         format: text/plain
       number: '3584'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

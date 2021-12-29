@@ -35,6 +35,8 @@ relation:
     docid:
     - id: RFC8552
       type: IETF
+    - id: RFC8552
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8552
       type: DOI
@@ -94,7 +96,7 @@ relation:
         format: text/plain
       number: '8552'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -112,6 +114,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC8553
+      type: IETF
     - id: RFC8553
       type: IETF
       scope: anchor
@@ -171,5 +175,5 @@ relation:
         format: text/plain
       number: '8553'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

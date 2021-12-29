@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC2277
       type: IETF
+    - id: RFC2277
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2277
       type: DOI
@@ -87,5 +89,5 @@ relation:
         format: text/plain
       number: '2277'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

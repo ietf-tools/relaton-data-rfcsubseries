@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC7296
       type: IETF
+    - id: RFC7296
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7296
       type: DOI
@@ -134,5 +136,5 @@ relation:
         format: text/plain
       number: '7296'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

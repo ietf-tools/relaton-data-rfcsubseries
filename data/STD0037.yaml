@@ -35,6 +35,8 @@ relation:
     docid:
     - id: RFC0826
       type: IETF
+    - id: RFC0826
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0826
       type: DOI
@@ -87,5 +89,5 @@ relation:
         format: text/plain
       number: '826'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC6291
       type: IETF
+    - id: RFC6291
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6291
       type: DOI
@@ -137,5 +139,5 @@ relation:
         format: text/plain
       number: '6291'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

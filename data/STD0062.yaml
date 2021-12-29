@@ -35,6 +35,8 @@ relation:
     docid:
     - id: RFC3411
       type: IETF
+    - id: RFC3411
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3411
       type: DOI
@@ -113,7 +115,7 @@ relation:
         format: text/plain
       number: '3411'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -131,6 +133,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3412
+      type: IETF
     - id: RFC3412
       type: IETF
       scope: anchor
@@ -223,7 +227,7 @@ relation:
         format: text/plain
       number: '3412'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -240,6 +244,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3413
+      type: IETF
     - id: RFC3413
       type: IETF
       scope: anchor
@@ -320,7 +326,7 @@ relation:
         format: text/plain
       number: '3413'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -338,6 +344,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3414
+      type: IETF
     - id: RFC3414
       type: IETF
       scope: anchor
@@ -405,7 +413,7 @@ relation:
         format: text/plain
       number: '3414'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -423,6 +431,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3415
+      type: IETF
     - id: RFC3415
       type: IETF
       scope: anchor
@@ -502,7 +512,7 @@ relation:
         format: text/plain
       number: '3415'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -520,6 +530,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3416
+      type: IETF
     - id: RFC3416
       type: IETF
       scope: anchor
@@ -573,7 +585,7 @@ relation:
         format: text/plain
       number: '3416'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -590,6 +602,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3417
+      type: IETF
     - id: RFC3417
       type: IETF
       scope: anchor
@@ -642,7 +656,7 @@ relation:
         format: text/plain
       number: '3417'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
 - type: includes
   bibitem:
@@ -660,6 +674,8 @@ relation:
       type: src
     type: standard
     docid:
+    - id: RFC3418
+      type: IETF
     - id: RFC3418
       type: IETF
       scope: anchor
@@ -713,5 +729,5 @@ relation:
         format: text/plain
       number: '3418'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

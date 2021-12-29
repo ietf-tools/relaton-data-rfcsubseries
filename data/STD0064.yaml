@@ -34,6 +34,8 @@ relation:
     docid:
     - id: RFC3550
       type: IETF
+    - id: RFC3550
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3550
       type: DOI
@@ -133,5 +135,5 @@ relation:
         format: text/plain
       number: '3550'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc

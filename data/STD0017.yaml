@@ -35,6 +35,8 @@ relation:
     docid:
     - id: RFC1213
       type: IETF
+    - id: RFC1213
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1213
       type: DOI
@@ -97,5 +99,5 @@ relation:
         format: text/plain
       number: '1213'
     place: Fremont, CA
-    fetched: '2021-12-28'
+    fetched: '2021-12-29'
     doctype: rfc
