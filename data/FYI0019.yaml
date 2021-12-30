@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1463
+    - id: RFC 1463
       type: IETF
     - id: RFC1463
       type: IETF
@@ -100,5 +100,5 @@ relation:
         format: text/plain
       number: '1463'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

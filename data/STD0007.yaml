@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0793
+    id: RFC793
     title:
       content: Transmission Control Protocol
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0793
+    - id: RFC 793
       type: IETF
     - id: RFC0793
       type: IETF
@@ -79,5 +79,5 @@ relation:
         format: text/plain
       number: '793'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

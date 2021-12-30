@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0861
+    id: RFC861
     title:
       content: 'Telnet Extended Options: List Option'
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0861
+    - id: RFC 861
       type: IETF
     - id: RFC0861
       type: IETF
@@ -99,5 +99,5 @@ relation:
         format: text/plain
       number: '861'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

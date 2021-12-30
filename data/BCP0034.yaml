@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC2644
+    - id: RFC 2644
       type: IETF
     - id: RFC2644
       type: IETF
@@ -88,5 +88,5 @@ relation:
         format: text/plain
       number: '2644'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

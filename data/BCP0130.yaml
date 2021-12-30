@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC4940
+    - id: RFC 4940
       type: IETF
     - id: RFC4940
       type: IETF
@@ -99,5 +99,5 @@ relation:
         format: text/plain
       number: '4940'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

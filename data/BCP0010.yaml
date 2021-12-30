@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC8713
+    - id: RFC 8713
       type: IETF
     - id: RFC8713
       type: IETF
@@ -115,7 +115,7 @@ relation:
         format: text/plain
       number: '8713'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -132,7 +132,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC8788
+    - id: RFC 8788
       type: IETF
     - id: RFC8788
       type: IETF
@@ -191,5 +191,5 @@ relation:
         format: text/plain
       number: '8788'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

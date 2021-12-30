@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC8340
+    - id: RFC 8340
       type: IETF
     - id: RFC8340
       type: IETF
@@ -99,5 +99,5 @@ relation:
         format: text/plain
       number: '8340'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

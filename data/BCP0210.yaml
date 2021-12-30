@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC8180
+    - id: RFC 8180
       type: IETF
     - id: RFC8180
       type: IETF
@@ -120,5 +120,5 @@ relation:
         format: text/plain
       number: '8180'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

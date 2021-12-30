@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC2920
+    - id: RFC 2920
       type: IETF
     - id: RFC2920
       type: IETF
@@ -87,5 +87,5 @@ relation:
         format: text/plain
       number: '2920'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

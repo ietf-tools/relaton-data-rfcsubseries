@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC9096
+    - id: RFC 9096
       type: IETF
     - id: RFC9096
       type: IETF
@@ -124,5 +124,5 @@ relation:
         format: text/plain
       number: '9096'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

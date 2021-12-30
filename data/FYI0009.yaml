@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1336
+    - id: RFC 1336
       type: IETF
     - id: RFC1336
       type: IETF
@@ -89,5 +89,5 @@ relation:
         format: text/plain
       number: '1336'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

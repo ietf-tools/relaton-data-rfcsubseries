@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC4520
+    - id: RFC 4520
       type: IETF
     - id: RFC4520
       type: IETF
@@ -90,5 +90,5 @@ relation:
         format: text/plain
       number: '4520'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

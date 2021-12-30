@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0858
+    id: RFC858
     title:
       content: Telnet Suppress Go Ahead Option
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0858
+    - id: RFC 858
       type: IETF
     - id: RFC0858
       type: IETF
@@ -99,5 +99,5 @@ relation:
         format: text/plain
       number: '858'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

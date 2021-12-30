@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC6881
+    - id: RFC 6881
       type: IETF
     - id: RFC6881
       type: IETF
@@ -100,5 +100,5 @@ relation:
         format: text/plain
       number: '6881'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

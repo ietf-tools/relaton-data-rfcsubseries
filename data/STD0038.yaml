@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0903
+    id: RFC903
     title:
       content: A Reverse Address Resolution Protocol
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0903
+    - id: RFC 903
       type: IETF
     - id: RFC0903
       type: IETF
@@ -124,5 +124,5 @@ relation:
         format: text/plain
       number: '903'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

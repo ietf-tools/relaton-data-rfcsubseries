@@ -19,7 +19,7 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC0854
+    id: RFC854
     title:
       content: Telnet Protocol Specification
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0854
+    - id: RFC 854
       type: IETF
     - id: RFC0854
       type: IETF
@@ -104,11 +104,11 @@ relation:
         format: text/plain
       number: '854'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0855
+    id: RFC855
     title:
       content: Telnet Option Specifications
       language: en
@@ -121,7 +121,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0855
+    - id: RFC 855
       type: IETF
     - id: RFC0855
       type: IETF
@@ -188,5 +188,5 @@ relation:
         format: text/plain
       number: '855'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

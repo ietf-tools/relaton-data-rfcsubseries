@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC5382
+    - id: RFC 5382
       type: IETF
     - id: RFC5382
       type: IETF
@@ -137,5 +137,5 @@ relation:
         format: text/plain
       number: '5382'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

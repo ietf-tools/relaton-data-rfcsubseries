@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC7610
+    - id: RFC 7610
       type: IETF
     - id: RFC7610
       type: IETF
@@ -114,5 +114,5 @@ relation:
         format: text/plain
       number: '7610'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

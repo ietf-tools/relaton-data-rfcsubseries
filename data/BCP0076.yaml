@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC3666
+    - id: RFC 3666
       type: IETF
     - id: RFC3666
       type: IETF
@@ -142,5 +142,5 @@ relation:
         format: text/plain
       number: '3666'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC5343
+    - id: RFC 5343
       type: IETF
     - id: RFC5343
       type: IETF
@@ -92,7 +92,7 @@ relation:
         format: text/plain
       number: '5343'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -109,7 +109,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC5590
+    - id: RFC 5590
       type: IETF
     - id: RFC5590
       type: IETF
@@ -181,7 +181,7 @@ relation:
         format: text/plain
       number: '5590'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -199,7 +199,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC5591
+    - id: RFC 5591
       type: IETF
     - id: RFC5591
       type: IETF
@@ -266,7 +266,7 @@ relation:
         format: text/plain
       number: '5591'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -284,7 +284,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC6353
+    - id: RFC 6353
       type: IETF
     - id: RFC6353
       type: IETF
@@ -351,5 +351,5 @@ relation:
         format: text/plain
       number: '6353'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

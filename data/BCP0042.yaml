@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC6895
+    - id: RFC 6895
       type: IETF
     - id: RFC6895
       type: IETF
@@ -88,5 +88,5 @@ relation:
         format: text/plain
       number: '6895'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

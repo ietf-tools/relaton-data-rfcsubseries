@@ -19,7 +19,7 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC0821
+    id: RFC821
     title:
       content: Simple Mail Transfer Protocol
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0821
+    - id: RFC 821
       type: IETF
     - id: RFC0821
       type: IETF
@@ -87,11 +87,11 @@ relation:
         format: text/plain
       number: '821'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0974
+    id: RFC974
     title:
       content: Mail routing and the domain system
       language: en
@@ -104,7 +104,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0974
+    - id: RFC 974
       type: IETF
     - id: RFC0974
       type: IETF
@@ -159,7 +159,7 @@ relation:
         format: text/plain
       number: '974'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -176,7 +176,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1869
+    - id: RFC 1869
       type: IETF
     - id: RFC1869
       type: IETF
@@ -278,7 +278,7 @@ relation:
         format: text/plain
       number: '1869'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -295,7 +295,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1870
+    - id: RFC 1870
       type: IETF
     - id: RFC1870
       type: IETF
@@ -374,5 +374,5 @@ relation:
         format: text/plain
       number: '1870'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

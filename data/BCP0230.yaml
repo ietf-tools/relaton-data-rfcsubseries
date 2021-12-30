@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC8900
+    - id: RFC 8900
       type: IETF
     - id: RFC8900
       type: IETF
@@ -147,5 +147,5 @@ relation:
         format: text/plain
       number: '8900'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC4506
+    - id: RFC 4506
       type: IETF
     - id: RFC4506
       type: IETF
@@ -86,5 +86,5 @@ relation:
         format: text/plain
       number: '4506'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

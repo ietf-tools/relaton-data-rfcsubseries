@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC7011
+    - id: RFC 7011
       type: IETF
     - id: RFC7011
       type: IETF
@@ -116,5 +116,5 @@ relation:
         format: text/plain
       number: '7011'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

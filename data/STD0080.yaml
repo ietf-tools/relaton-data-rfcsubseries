@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0020
+    id: RFC20
     title:
       content: ASCII format for network interchange
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0020
+    - id: RFC 20
       type: IETF
     - id: RFC0020
       type: IETF
@@ -79,5 +79,5 @@ relation:
         format: text/plain
       number: '20'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

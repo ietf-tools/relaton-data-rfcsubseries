@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC7042
+    - id: RFC 7042
       type: IETF
     - id: RFC7042
       type: IETF
@@ -101,5 +101,5 @@ relation:
         format: text/plain
       number: '7042'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

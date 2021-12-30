@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0894
+    id: RFC894
     title:
       content: A Standard for the Transmission of IP Datagrams over Ethernet Networks
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0894
+    - id: RFC 894
       type: IETF
     - id: RFC0894
       type: IETF
@@ -86,5 +86,5 @@ relation:
         format: text/plain
       number: '894'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

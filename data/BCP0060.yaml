@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC3360
+    - id: RFC 3360
       type: IETF
     - id: RFC3360
       type: IETF
@@ -79,5 +79,5 @@ relation:
         format: text/plain
       number: '3360'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

@@ -19,7 +19,7 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC0791
+    id: RFC791
     title:
       content: Internet Protocol
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0791
+    - id: RFC 791
       type: IETF
     - id: RFC0791
       type: IETF
@@ -79,11 +79,11 @@ relation:
         format: text/plain
       number: '791'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0792
+    id: RFC792
     title:
       content: Internet Control Message Protocol
       language: en
@@ -96,7 +96,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0792
+    - id: RFC 792
       type: IETF
     - id: RFC0792
       type: IETF
@@ -143,11 +143,11 @@ relation:
         format: text/plain
       number: '792'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0919
+    id: RFC919
     title:
       content: Broadcasting Internet Datagrams
       language: en
@@ -160,7 +160,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0919
+    - id: RFC 919
       type: IETF
     - id: RFC0919
       type: IETF
@@ -215,11 +215,11 @@ relation:
         format: text/plain
       number: '919'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0922
+    id: RFC922
     title:
       content: Broadcasting Internet datagrams in the presence of subnets
       language: en
@@ -232,7 +232,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0922
+    - id: RFC 922
       type: IETF
     - id: RFC0922
       type: IETF
@@ -287,11 +287,11 @@ relation:
         format: text/plain
       number: '922'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
-    id: RFC0950
+    id: RFC950
     title:
       content: Internet Standard Subnetting Procedure
       language: en
@@ -304,7 +304,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0950
+    - id: RFC 950
       type: IETF
     - id: RFC0950
       type: IETF
@@ -377,7 +377,7 @@ relation:
         format: text/plain
       number: '950'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -394,7 +394,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1112
+    - id: RFC 1112
       type: IETF
     - id: RFC1112
       type: IETF
@@ -449,5 +449,5 @@ relation:
         format: text/plain
       number: '1112'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

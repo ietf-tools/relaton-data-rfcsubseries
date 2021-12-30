@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC3098
+    - id: RFC 3098
       type: IETF
     - id: RFC3098
       type: IETF
@@ -112,5 +112,5 @@ relation:
         format: text/plain
       number: '3098'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

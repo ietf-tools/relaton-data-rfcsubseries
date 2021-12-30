@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1661
+    - id: RFC 1661
       type: IETF
     - id: RFC1661
       type: IETF
@@ -87,7 +87,7 @@ relation:
         format: text/plain
       number: '1661'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -104,7 +104,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1662
+    - id: RFC 1662
       type: IETF
     - id: RFC1662
       type: IETF
@@ -157,5 +157,5 @@ relation:
         format: text/plain
       number: '1662'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

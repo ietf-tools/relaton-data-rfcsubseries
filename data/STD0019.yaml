@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1001
+    - id: RFC 1001
       type: IETF
     - id: RFC1001
       type: IETF
@@ -89,7 +89,7 @@ relation:
         format: text/plain
       number: '1001'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -107,7 +107,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC1002
+    - id: RFC 1002
       type: IETF
     - id: RFC1002
       type: IETF
@@ -163,5 +163,5 @@ relation:
         format: text/plain
       number: '1002'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

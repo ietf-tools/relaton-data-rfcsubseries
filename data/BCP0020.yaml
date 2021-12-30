@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC2317
+    - id: RFC 2317
       type: IETF
     - id: RFC2317
       type: IETF
@@ -111,5 +111,5 @@ relation:
         format: text/plain
       number: '2317'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0856
+    id: RFC856
     title:
       content: Telnet Binary Transmission
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0856
+    - id: RFC 856
       type: IETF
     - id: RFC0856
       type: IETF
@@ -99,5 +99,5 @@ relation:
         format: text/plain
       number: '856'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

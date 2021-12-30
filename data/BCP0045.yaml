@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC3005
+    - id: RFC 3005
       type: IETF
     - id: RFC3005
       type: IETF
@@ -91,5 +91,5 @@ relation:
         format: text/plain
       number: '3005'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

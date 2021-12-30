@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0891
+    id: RFC891
     title:
       content: DCN Local-Network Protocols
       language: en
@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0891
+    - id: RFC 891
       type: IETF
     - id: RFC0891
       type: IETF
@@ -86,5 +86,5 @@ relation:
         format: text/plain
       number: '891'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

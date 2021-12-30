@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0826
+    id: RFC826
     title:
       content: 'An Ethernet Address Resolution Protocol: Or Converting Network Protocol
         Addresses to 48.bit Ethernet Address for Transmission on Ethernet Hardware'
@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0826
+    - id: RFC 826
       type: IETF
     - id: RFC0826
       type: IETF
@@ -89,5 +89,5 @@ relation:
         format: text/plain
       number: '826'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

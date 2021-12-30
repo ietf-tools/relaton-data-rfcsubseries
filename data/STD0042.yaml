@@ -19,7 +19,7 @@ formattedref:
 relation:
   type: includes
   bibitem:
-    id: RFC0895
+    id: RFC895
     title:
       content: Standard for the transmission of IP datagrams over experimental Ethernet
         networks
@@ -33,7 +33,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC0895
+    - id: RFC 895
       type: IETF
     - id: RFC0895
       type: IETF
@@ -87,5 +87,5 @@ relation:
         format: text/plain
       number: '895'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc

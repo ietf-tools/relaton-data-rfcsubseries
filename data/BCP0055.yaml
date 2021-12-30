@@ -32,7 +32,7 @@ relation:
       type: src
     type: standard
     docid:
-    - id: RFC3227
+    - id: RFC 3227
       type: IETF
     - id: RFC3227
       type: IETF
@@ -102,5 +102,5 @@ relation:
         format: text/plain
       number: '3227'
     place: Fremont, CA
-    fetched: '2021-12-29'
+    fetched: '2021-12-30'
     doctype: rfc
