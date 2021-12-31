@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: STD53
+- id: STD 53
+  type: IETF
+- id: STD0053
   type: IETF
   scope: anchor
 docnumber: STD0053
@@ -98,5 +100,5 @@ relation:
         format: text/plain
       number: '1939'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

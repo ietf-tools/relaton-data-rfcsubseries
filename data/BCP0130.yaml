@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: BCP130
+- id: BCP 130
+  type: IETF
+- id: BCP0130
   type: IETF
   scope: anchor
 docnumber: BCP0130
@@ -99,5 +101,5 @@ relation:
         format: text/plain
       number: '4940'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

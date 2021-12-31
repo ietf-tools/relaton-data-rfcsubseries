@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: BCP16
+- id: BCP 16
+  type: IETF
+- id: BCP0016
   type: IETF
   scope: anchor
 docnumber: BCP0016
@@ -124,5 +126,5 @@ relation:
         format: text/plain
       number: '2182'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

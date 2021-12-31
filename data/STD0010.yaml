@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: STD10
+- id: STD 10
+  type: IETF
+- id: STD0010
   type: IETF
   scope: anchor
 docnumber: STD0010
@@ -87,7 +89,7 @@ relation:
         format: text/plain
       number: '821'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -159,7 +161,7 @@ relation:
         format: text/plain
       number: '974'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -278,7 +280,7 @@ relation:
         format: text/plain
       number: '1869'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -374,5 +376,5 @@ relation:
         format: text/plain
       number: '1870'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

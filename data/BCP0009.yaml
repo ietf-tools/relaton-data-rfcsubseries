@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: BCP9
+- id: BCP 9
+  type: IETF
+- id: BCP0009
   type: IETF
   scope: anchor
 docnumber: BCP0009
@@ -89,7 +91,7 @@ relation:
         format: text/plain
       number: '2026'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -177,7 +179,7 @@ relation:
         format: text/plain
       number: '5657'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -273,7 +275,7 @@ relation:
         format: text/plain
       number: '6410'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -344,7 +346,7 @@ relation:
         format: text/plain
       number: '7100'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -440,7 +442,7 @@ relation:
         format: text/plain
       number: '7127'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -511,7 +513,7 @@ relation:
         format: text/plain
       number: '7475'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -593,5 +595,5 @@ relation:
         format: text/plain
       number: '8789'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

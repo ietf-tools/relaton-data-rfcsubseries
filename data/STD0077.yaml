@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: STD77
+- id: STD 77
+  type: IETF
+- id: STD0077
   type: IETF
   scope: anchor
 docnumber: STD0077
@@ -116,5 +118,5 @@ relation:
         format: text/plain
       number: '7011'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

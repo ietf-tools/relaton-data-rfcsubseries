@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: STD88
+- id: STD 88
+  type: IETF
+- id: STD0088
   type: IETF
   scope: anchor
 docnumber: STD0088
@@ -126,5 +128,5 @@ relation:
         format: text/plain
       number: '3596'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

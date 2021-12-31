@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: STD16
+- id: STD 16
+  type: IETF
+- id: STD0016
   type: IETF
   scope: anchor
 docnumber: STD0016
@@ -99,7 +101,7 @@ relation:
         format: text/plain
       number: '1155'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -182,5 +184,5 @@ relation:
         format: text/plain
       number: '1212'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

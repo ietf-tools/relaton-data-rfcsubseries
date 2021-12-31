@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: FYI18
+- id: FYI 18
+  type: IETF
+- id: FYI0018
   type: IETF
   scope: anchor
 docnumber: FYI0018
@@ -87,5 +89,5 @@ relation:
         format: text/plain
       number: '1983'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc

@@ -5,7 +5,9 @@ link:
   type: src
 type: standard
 docid:
-  id: BCP187
+- id: BCP 187
+  type: IETF
+- id: BCP0187
   type: IETF
   scope: anchor
 docnumber: BCP0187
@@ -135,5 +137,5 @@ relation:
         format: text/plain
       number: '7227'
     place: Fremont, CA
-    fetched: '2021-12-30'
+    fetched: '2021-12-31'
     doctype: rfc
