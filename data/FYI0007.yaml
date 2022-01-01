@@ -115,5 +115,5 @@ relation:
         format: text/plain
       number: '1207'
     place: Fremont, CA
-    fetched: '2021-12-31'
+    fetched: '2022-01-01'
     doctype: rfc

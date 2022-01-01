@@ -122,7 +122,7 @@ relation:
         format: text/plain
       number: '5727'
     place: Fremont, CA
-    fetched: '2021-12-31'
+    fetched: '2022-01-01'
     doctype: rfc
 - type: includes
   bibitem:
@@ -221,5 +221,5 @@ relation:
         format: text/plain
       number: '7957'
     place: Fremont, CA
-    fetched: '2021-12-31'
+    fetched: '2022-01-01'
     doctype: rfc
