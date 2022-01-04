@@ -81,5 +81,5 @@ relation:
         format: text/plain
       number: '3360'
     place: Fremont, CA
-    fetched: '2022-01-03'
+    fetched: '2022-01-04'
     doctype: rfc
