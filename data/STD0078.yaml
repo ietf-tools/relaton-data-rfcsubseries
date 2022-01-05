@@ -94,7 +94,7 @@ relation:
         format: text/plain
       number: '5343'
     place: Fremont, CA
-    fetched: '2022-01-04'
+    fetched: '2022-01-05'
     doctype: rfc
 - type: includes
   bibitem:
@@ -183,7 +183,7 @@ relation:
         format: text/plain
       number: '5590'
     place: Fremont, CA
-    fetched: '2022-01-04'
+    fetched: '2022-01-05'
     doctype: rfc
 - type: includes
   bibitem:
@@ -268,7 +268,7 @@ relation:
         format: text/plain
       number: '5591'
     place: Fremont, CA
-    fetched: '2022-01-04'
+    fetched: '2022-01-05'
     doctype: rfc
 - type: includes
   bibitem:
@@ -353,5 +353,5 @@ relation:
         format: text/plain
       number: '6353'
     place: Fremont, CA
-    fetched: '2022-01-04'
+    fetched: '2022-01-05'
     doctype: rfc
