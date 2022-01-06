@@ -1,7 +1,7 @@
 ---
 id: STD89
 link:
-  content: https://www.rfc-editor.org/info/std89
+- content: https://www.rfc-editor.org/info/std89
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0089
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD89
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4443
     title:
-      content: Internet Control Message Protocol (ICMPv6) for the Internet Protocol
+    - content: Internet Control Message Protocol (ICMPv6) for the Internet Protocol
         Version 6 (IPv6) Specification
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4443.xml
@@ -44,74 +50,97 @@ relation:
       type: DOI
     docnumber: RFC4443
     date:
-      type: published
+    - type: published
       value: '2006-03-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Conta
-            language: en
+            language:
+            - en
           completename:
             content: A. Conta
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Deering
-            language: en
+            language:
+            - en
           completename:
             content: S. Deering
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Gupta
-            language: en
+            language:
+            - en
           completename:
             content: M. Gupta
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '2006-03-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes the format of a set of control messages
+    - content: "<p>This document describes the format of a set of control messages
         used in ICMPv6 (Internet Control Message Protocol). ICMPv6 is the Internet
         Control Message Protocol for Internet Protocol version 6 (IPv6). [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '89'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4443'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

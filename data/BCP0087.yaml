@@ -1,7 +1,7 @@
 ---
 id: BCP87
 link:
-  content: https://www.rfc-editor.org/info/bcp87
+- content: https://www.rfc-editor.org/info/bcp87
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0087
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP87
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3785
     title:
-      content: Use of Interior Gateway Protocol (IGP) Metric as a second MPLS Traffic
+    - content: Use of Interior Gateway Protocol (IGP) Metric as a second MPLS Traffic
         Engineering (TE) Metric
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3785.xml
@@ -44,78 +50,102 @@ relation:
       type: DOI
     docnumber: RFC3785
     date:
-      type: published
+    - type: published
       value: '2004-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Le Faucheur
-            language: en
+            language:
+            - en
           completename:
             content: F. Le Faucheur
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Uppili
-            language: en
+            language:
+            - en
           completename:
             content: R. Uppili
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Vedrenne
-            language: en
+            language:
+            - en
           completename:
             content: A. Vedrenne
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Merckx
-            language: en
+            language:
+            - en
           completename:
             content: P. Merckx
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Telkamp
-            language: en
+            language:
+            - en
           completename:
             content: T. Telkamp
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2004-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes a common practice on how the existing metric
+    - content: "<p>This document describes a common practice on how the existing metric
         of Interior Gateway Protocols (IGP) can be used as an alternative metric to
         the Traffic Engineering (TE) metric for Constraint Based Routing of MultiProtocol
         Label Switching (MPLS) Traffic Engineering tunnels. This effectively results
@@ -127,24 +157,31 @@ relation:
         implementations and deployment practices. This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '87'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3785'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

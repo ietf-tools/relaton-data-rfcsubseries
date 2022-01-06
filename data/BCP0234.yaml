@@ -1,7 +1,7 @@
 ---
 id: BCP234
 link:
-  content: https://www.rfc-editor.org/info/bcp234
+- content: https://www.rfc-editor.org/info/bcp234
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0234
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP234
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC9096
     title:
-      content: Improving the Reaction of Customer Edge Routers to IPv6 Renumbering
+    - content: Improving the Reaction of Customer Edge Routers to IPv6 Renumbering
         Events
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9096.xml
@@ -44,87 +50,114 @@ relation:
       type: DOI
     docnumber: RFC9096
     date:
-      type: published
+    - type: published
       value: '2021-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Gont
-            language: en
+            language:
+            - en
           completename:
             content: F. Gont
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Žorž
-            language: en
+            language:
+            - en
           completename:
             content: J. Žorž
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Patterson
-            language: en
+            language:
+            - en
           completename:
             content: R. Patterson
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Volz
-            language: en
+            language:
+            - en
           completename:
             content: B. Volz
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2021-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document specifies improvements to Customer Edge routers that
+    - content: "<p>This document specifies improvements to Customer Edge routers that
         help mitigate the problems that may arise when network configuration information
         becomes invalid without any explicit signaling of that condition to the local
         nodes. This document updates RFC 7084.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '234'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '9096'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

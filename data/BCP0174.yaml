@@ -1,7 +1,7 @@
 ---
 id: BCP174
 link:
-  content: https://www.rfc-editor.org/info/bcp174
+- content: https://www.rfc-editor.org/info/bcp174
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0174
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP174
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6489
     title:
-      content: Certification Authority (CA) Key Rollover in the Resource Public Key
+    - content: Certification Authority (CA) Key Rollover in the Resource Public Key
         Infrastructure (RPKI)
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6489.xml
@@ -44,78 +50,101 @@ relation:
       type: DOI
     docnumber: RFC6489
     date:
-      type: published
+    - type: published
       value: '2012-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Huston
-            language: en
+            language:
+            - en
           completename:
             content: G. Huston
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Michaelson
-            language: en
+            language:
+            - en
           completename:
             content: G. Michaelson
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Kent
-            language: en
+            language:
+            - en
           completename:
             content: S. Kent
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2012-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes how a Certification Authority (CA) in the
+    - content: "<p>This document describes how a Certification Authority (CA) in the
         Resource Public Key Infrastructure (RPKI) performs a planned rollover of its
         key pair. This document also notes the implications of this key rollover procedure
         for relying parties (RPs). In general, RPs are expected to maintain a local
         cache of the objects that have been published in the RPKI repository, and
         thus the way in which a CA performs key rollover impacts RPs. This memo documents
         an Internet Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '174'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6489'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

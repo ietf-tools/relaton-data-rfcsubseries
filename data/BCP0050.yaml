@@ -1,7 +1,7 @@
 ---
 id: BCP50
 link:
-  content: https://www.rfc-editor.org/info/bcp50
+- content: https://www.rfc-editor.org/info/bcp50
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0050
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP50
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3155
     title:
-      content: End-to-end Performance Implications of Links with Errors
-      language: en
-      script: Latn
+    - content: End-to-end Performance Implications of Links with Errors
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3155.xml
@@ -43,100 +49,131 @@ relation:
       type: DOI
     docnumber: RFC3155
     date:
-      type: published
+    - type: published
       value: '2001-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Dawkins
-            language: en
+            language:
+            - en
           completename:
             content: S. Dawkins
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Montenegro
-            language: en
+            language:
+            - en
           completename:
             content: G. Montenegro
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Kojo
-            language: en
+            language:
+            - en
           completename:
             content: M. Kojo
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: V.
-            language: en
+          - content: V.
+            language:
+            - en
           surname:
             content: Magret
-            language: en
+            language:
+            - en
           completename:
             content: V. Magret
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: N.
-            language: en
+          - content: N.
+            language:
+            - en
           surname:
             content: Vaidya
-            language: en
+            language:
+            - en
           completename:
             content: N. Vaidya
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2001-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document discusses the specific TCP mechanisms that are problematic
+    - content: "<p>This document discusses the specific TCP mechanisms that are problematic
         in environments with high uncorrected error rates, and discusses what can
         be done to mitigate the problems without introducing intermediate devices
         into the connection. This document specifies an Internet Best Current Practices
         for the Internet Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '50'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3155'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

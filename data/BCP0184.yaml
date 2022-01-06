@@ -1,7 +1,7 @@
 ---
 id: BCP184
 link:
-  content: https://www.rfc-editor.org/info/bcp184
+- content: https://www.rfc-editor.org/info/bcp184
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0184
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP184
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7013
     title:
-      content: Guidelines for Authors and Reviewers of IP Flow Information Export
+    - content: Guidelines for Authors and Reviewers of IP Flow Information Export
         (IPFIX) Information Elements
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7013.xml
@@ -44,64 +50,83 @@ relation:
       type: DOI
     docnumber: RFC7013
     date:
-      type: published
+    - type: published
       value: '2013-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Trammell
-            language: en
+            language:
+            - en
           completename:
             content: B. Trammell
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Claise
-            language: en
+            language:
+            - en
           completename:
             content: B. Claise
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2013-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides guidelines for how to write definitions
+    - content: "<p>This document provides guidelines for how to write definitions
         of new Information Elements for the IP Flow Information Export (IPFIX) protocol.
         It provides instructions on using the proper conventions for Information Elements
         to be registered in the IANA IPFIX Information Element registry, and provides
         guidelines for expert reviewers to evaluate new registrations.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '184'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7013'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

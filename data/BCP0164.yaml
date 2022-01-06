@@ -1,7 +1,7 @@
 ---
 id: BCP164
 link:
-  content: https://www.rfc-editor.org/info/bcp164
+- content: https://www.rfc-editor.org/info/bcp164
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0164
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP164
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6328
     title:
-      content: IANA Considerations for Network Layer Protocol Identifiers
-      language: en
-      script: Latn
+    - content: IANA Considerations for Network Layer Protocol Identifiers
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6328.xml
@@ -43,52 +49,67 @@ relation:
       type: DOI
     docnumber: RFC6328
     date:
-      type: published
+    - type: published
       value: '2011-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Eastlake 3rd
-            language: en
+            language:
+            - en
           completename:
             content: D. Eastlake 3rd
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2011-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Some protocols being developed or extended by the IETF make use
+    - content: "<p>Some protocols being developed or extended by the IETF make use
         of the ISO/IEC (International Organization for Standardization / International
         Electrotechnical Commission) Network Layer Protocol Identifier (NLPID). This
         document provides NLPID IANA considerations. This memo documents an Internet
         Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '164'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6328'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

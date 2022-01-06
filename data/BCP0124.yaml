@@ -1,7 +1,7 @@
 ---
 id: BCP124
 link:
-  content: https://www.rfc-editor.org/info/bcp124
+- content: https://www.rfc-editor.org/info/bcp124
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0124
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP124
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4774
     title:
-      content: Specifying Alternate Semantics for the Explicit Congestion Notification
+    - content: Specifying Alternate Semantics for the Explicit Congestion Notification
         (ECN) Field
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4774.xml
@@ -44,30 +50,38 @@ relation:
       type: DOI
     docnumber: RFC4774
     date:
-      type: published
+    - type: published
       value: '2006-11-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Floyd
-            language: en
+            language:
+            - en
           completename:
             content: S. Floyd
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2006-11-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>There have been a number of proposals for alternate semantics for
+    - content: "<p>There have been a number of proposals for alternate semantics for
         the Explicit Congestion Notification (ECN) field in the IP header RFC 3168.
         This document discusses some of the issues in defining alternate semantics
         for the ECN field, and specifies requirements for a safe coexistence in an
@@ -76,24 +90,31 @@ relation:
         of one recent proposal for such alternate semantics. This document specifies
         an Internet Best Current Practices for the Internet Community, and requests
         discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '124'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4774'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

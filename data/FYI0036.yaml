@@ -1,7 +1,7 @@
 ---
 id: FYI36
 link:
-  content: https://www.rfc-editor.org/info/fyi36
+- content: https://www.rfc-editor.org/info/fyi36
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: FYI0036
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: FYI36
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4949
     title:
-      content: Internet Security Glossary, Version 2
-      language: en
-      script: Latn
+    - content: Internet Security Glossary, Version 2
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4949.xml
@@ -43,30 +49,38 @@ relation:
       type: DOI
     docnumber: RFC4949
     date:
-      type: published
+    - type: published
       value: '2007-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Shirey
-            language: en
+            language:
+            - en
           completename:
             content: R. Shirey
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2007-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This Glossary provides definitions, abbreviations, and explanations
+    - content: "<p>This Glossary provides definitions, abbreviations, and explanations
         of terminology for information system security. The 334 pages of entries offer
         recommendations to improve the comprehensibility of written material that
         is generated in the Internet Standards Process (RFC 2026). The recommendations
@@ -76,24 +90,31 @@ relation:
         and (d) avoid terms that either favor a particular vendor or favor a particular
         technology or mechanism over other, competing techniques that already exist
         or could be developed. This memo provides information for the Internet community.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: FYI
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '36'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4949'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

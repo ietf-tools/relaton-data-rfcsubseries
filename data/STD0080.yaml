@@ -1,7 +1,7 @@
 ---
 id: STD80
 link:
-  content: https://www.rfc-editor.org/info/std80
+- content: https://www.rfc-editor.org/info/std80
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0080
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD80
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC20
     title:
-      content: ASCII format for network interchange
-      language: en
-      script: Latn
+    - content: ASCII format for network interchange
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0020.xml
@@ -43,43 +49,56 @@ relation:
       type: DOI
     docnumber: RFC0020
     date:
-      type: published
+    - type: published
       value: '1969-10-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: V.G.
-            language: en
+          - content: V.G.
+            language:
+            - en
           surname:
             content: Cerf
-            language: en
+            language:
+            - en
           completename:
             content: V.G. Cerf
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1969-10-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '80'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '20'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

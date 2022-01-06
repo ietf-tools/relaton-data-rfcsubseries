@@ -1,7 +1,7 @@
 ---
 id: BCP186
 link:
-  content: https://www.rfc-editor.org/info/bcp186
+- content: https://www.rfc-editor.org/info/bcp186
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0186
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP186
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7126
     title:
-      content: Recommendations on Filtering of IPv4 Packets Containing IPv4 Options
-      language: en
-      script: Latn
+    - content: Recommendations on Filtering of IPv4 Packets Containing IPv4 Options
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7126.xml
@@ -43,75 +49,98 @@ relation:
       type: DOI
     docnumber: RFC7126
     date:
-      type: published
+    - type: published
       value: '2014-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Gont
-            language: en
+            language:
+            - en
           completename:
             content: F. Gont
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Atkinson
-            language: en
+            language:
+            - en
           completename:
             content: R. Atkinson
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: C.
-            language: en
+          - content: C.
+            language:
+            - en
           surname:
             content: Pignataro
-            language: en
+            language:
+            - en
           completename:
             content: C. Pignataro
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2014-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides advice on the filtering of IPv4 packets
+    - content: "<p>This document provides advice on the filtering of IPv4 packets
         based on the IPv4 options they contain. Additionally, it discusses the operational
         and interoperability implications of dropping packets based on the IP options
         they contain.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '186'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7126'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

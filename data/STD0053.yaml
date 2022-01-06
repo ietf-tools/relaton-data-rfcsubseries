@@ -1,7 +1,7 @@
 ---
 id: STD53
 link:
-  content: https://www.rfc-editor.org/info/std53
+- content: https://www.rfc-editor.org/info/std53
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0053
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD53
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1939
     title:
-      content: Post Office Protocol - Version 3
-      language: en
-      script: Latn
+    - content: Post Office Protocol - Version 3
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1939.xml
@@ -43,62 +49,81 @@ relation:
       type: DOI
     docnumber: RFC1939
     date:
-      type: published
+    - type: published
       value: '1996-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Myers
-            language: en
+            language:
+            - en
           completename:
             content: J. Myers
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Rose
-            language: en
+            language:
+            - en
           completename:
             content: M. Rose
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1996-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>The Post Office Protocol - Version 3 (POP3) is intended to permit
+    - content: "<p>The Post Office Protocol - Version 3 (POP3) is intended to permit
         a workstation to dynamically access a maildrop on a server host in a useful
         fashion. [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '53'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1939'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

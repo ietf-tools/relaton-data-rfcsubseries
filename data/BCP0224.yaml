@@ -1,7 +1,7 @@
 ---
 id: BCP224
 link:
-  content: https://www.rfc-editor.org/info/bcp224
+- content: https://www.rfc-editor.org/info/bcp224
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0224
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP224
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8634
     title:
-      content: BGPsec Router Certificate Rollover
-      language: en
-      script: Latn
+    - content: BGPsec Router Certificate Rollover
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8634.xml
@@ -43,54 +49,70 @@ relation:
       type: DOI
     docnumber: RFC8634
     date:
-      type: published
+    - type: published
       value: '2019-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Weis
-            language: en
+            language:
+            - en
           completename:
             content: B. Weis
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Gagliano
-            language: en
+            language:
+            - en
           completename:
             content: R. Gagliano
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Patel
-            language: en
+            language:
+            - en
           completename:
             content: K. Patel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2019-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Certification Authorities (CAs) within the Resource Public Key
+    - content: "<p>Certification Authorities (CAs) within the Resource Public Key
         Infrastructure (RPKI) manage BGPsec router certificates as well as RPKI certificates.
         The rollover of BGPsec router certificates must be carefully performed in
         order to synchronize the distribution of router public keys with BGPsec UPDATE
@@ -98,24 +120,31 @@ relation:
         safe rollover process, and it discusses when and why the rollover of BGPsec
         router certificates is necessary. When this rollover process is followed,
         the rollover will be performed without routing information being lost.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '224'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8634'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: BCP61
 link:
-  content: https://www.rfc-editor.org/info/bcp61
+- content: https://www.rfc-editor.org/info/bcp61
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0061
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP61
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3365
     title:
-      content: Strong Security Requirements for Internet Engineering Task Force Standard
+    - content: Strong Security Requirements for Internet Engineering Task Force Standard
         Protocols
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3365.xml
@@ -44,43 +50,56 @@ relation:
       type: DOI
     docnumber: RFC3365
     date:
-      type: published
+    - type: published
       value: '2002-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Schiller
-            language: en
+            language:
+            - en
           completename:
             content: J. Schiller
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2002-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '61'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3365'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

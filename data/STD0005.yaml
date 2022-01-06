@@ -1,7 +1,7 @@
 ---
 id: STD5
 link:
-  content: https://www.rfc-editor.org/info/std5
+- content: https://www.rfc-editor.org/info/std5
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0005
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD5
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC791
     title:
-      content: Internet Protocol
-      language: en
-      script: Latn
+    - content: Internet Protocol
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0791.xml
@@ -43,53 +49,68 @@ relation:
       type: DOI
     docnumber: RFC0791
     date:
-      type: published
+    - type: published
       value: '1981-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1981-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '791'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC792
     title:
-      content: Internet Control Message Protocol
-      language: en
-      script: Latn
+    - content: Internet Control Message Protocol
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0792.xml
@@ -107,53 +128,68 @@ relation:
       type: DOI
     docnumber: RFC0792
     date:
-      type: published
+    - type: published
       value: '1981-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1981-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '792'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC919
     title:
-      content: Broadcasting Internet Datagrams
-      language: en
-      script: Latn
+    - content: Broadcasting Internet Datagrams
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0919.xml
@@ -171,61 +207,78 @@ relation:
       type: DOI
     docnumber: RFC0919
     date:
-      type: published
+    - type: published
       value: '1984-10-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.C.
-            language: en
+          - content: J.C.
+            language:
+            - en
           surname:
             content: Mogul
-            language: en
+            language:
+            - en
           completename:
             content: J.C. Mogul
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1984-10-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This RFC proposes simple rules for broadcasting Internet datagrams
+    - content: "<p>This RFC proposes simple rules for broadcasting Internet datagrams
         on local networks that support broadcast, for addressing broadcasts, and for
         how gateways should handle them. This RFC suggests a proposed protocol for
         the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '919'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC922
     title:
-      content: Broadcasting Internet datagrams in the presence of subnets
-      language: en
-      script: Latn
+    - content: Broadcasting Internet datagrams in the presence of subnets
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0922.xml
@@ -243,61 +296,78 @@ relation:
       type: DOI
     docnumber: RFC0922
     date:
-      type: published
+    - type: published
       value: '1984-10-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.C.
-            language: en
+          - content: J.C.
+            language:
+            - en
           surname:
             content: Mogul
-            language: en
+            language:
+            - en
           completename:
             content: J.C. Mogul
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1984-10-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>We propose simple rules for broadcasting Internet datagrams on
+    - content: "<p>We propose simple rules for broadcasting Internet datagrams on
         local networks that support broadcast, for addressing broadcasts, and for
         how gateways should handle them. This RFC suggests a proposed protocol for
         the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '922'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC950
     title:
-      content: Internet Standard Subnetting Procedure
-      language: en
-      script: Latn
+    - content: Internet Standard Subnetting Procedure
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0950.xml
@@ -315,42 +385,54 @@ relation:
       type: DOI
     docnumber: RFC0950
     date:
-      type: published
+    - type: published
       value: '1985-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.C.
-            language: en
+          - content: J.C.
+            language:
+            - en
           surname:
             content: Mogul
-            language: en
+            language:
+            - en
           completename:
             content: J.C. Mogul
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1985-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>This memo discusses the utility of "subnets" of Internet networks,
+    - content: <p>This memo discusses the utility of "subnets" of Internet networks,
         which are logically visible sub-sections of a single Internet network. For
         administrative or technical reasons, many organizations have chosen to divide
         one Internet network into several subnets, instead of acquiring a set of Internet
@@ -360,34 +442,43 @@ relation:
         background information for a subnetting standard is provided in RFC-940. This
         RFC specifies a protocol for the ARPA-Internet community. If subnetting is
         implemented it is strongly recommended that these procedures be followed.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '950'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC1112
     title:
-      content: Host extensions for IP multicasting
-      language: en
-      script: Latn
+    - content: Host extensions for IP multicasting
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1112.xml
@@ -405,51 +496,66 @@ relation:
       type: DOI
     docnumber: RFC1112
     date:
-      type: published
+    - type: published
       value: '1989-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.E.
-            language: en
+          - content: S.E.
+            language:
+            - en
           surname:
             content: Deering
-            language: en
+            language:
+            - en
           completename:
             content: S.E. Deering
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1989-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo specifies the extensions required of a host implementation
+    - content: "<p>This memo specifies the extensions required of a host implementation
         of the Internet Protocol (IP) to support multicasting. Recommended procedure
         for IP multicasting in the Internet. This RFC obsoletes RFCs 998 and 1054.
         [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1112'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

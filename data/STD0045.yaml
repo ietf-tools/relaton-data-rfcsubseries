@@ -1,7 +1,7 @@
 ---
 id: STD45
 link:
-  content: https://www.rfc-editor.org/info/std45
+- content: https://www.rfc-editor.org/info/std45
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0045
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD45
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1044
     title:
-      content: 'Internet Protocol on Network System''s HYPERchannel: Protocol Specification'
-      language: en
-      script: Latn
+    - content: 'Internet Protocol on Network System''s HYPERchannel: Protocol Specification'
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1044.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC1044
     date:
-      type: published
+    - type: published
       value: '1988-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Hardwick
-            language: en
+            language:
+            - en
           completename:
             content: K. Hardwick
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Lekashman
-            language: en
+            language:
+            - en
           completename:
             content: J. Lekashman
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1988-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo intends to provide a complete discussion of the protocols
+    - content: "<p>This memo intends to provide a complete discussion of the protocols
         and techniques used to embed DoD standard Internet Protocol datagrams (and
         its associated higher level protocols) on Network Systems Corporation's HYPERchannel
         equipment. This document is directed toward network planners and implementors
@@ -86,24 +104,31 @@ relation:
         used to carry TCP/IP traffic on common networks such as the DDN or the Ethernet.
         No great familiarity with NSC products is assumed; an appendix is devoted
         to a review of NSC technologies and protocols.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '45'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1044'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

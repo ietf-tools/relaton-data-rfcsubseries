@@ -1,7 +1,7 @@
 ---
 id: STD91
 link:
-  content: https://www.rfc-editor.org/info/std91
+- content: https://www.rfc-editor.org/info/std91
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0091
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD91
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8341
     title:
-      content: Network Configuration Access Control Model
-      language: en
-      script: Latn
+    - content: Network Configuration Access Control Model
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8341.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC8341
     date:
-      type: published
+    - type: published
       value: '2018-03-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Bierman
-            language: en
+            language:
+            - en
           completename:
             content: A. Bierman
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Bjorklund
-            language: en
+            language:
+            - en
           completename:
             content: M. Bjorklund
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2018-03-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>The standardization of network configuration interfaces for use
+    - content: "<p>The standardization of network configuration interfaces for use
         with the Network Configuration Protocol (NETCONF) or the RESTCONF protocol
         requires a structured and secure operating environment that promotes human
         usability and multi-vendor interoperability. There is a need for standard
@@ -86,24 +104,31 @@ relation:
         users to a preconfigured subset of all available NETCONF or RESTCONF protocol
         operations and content. This document defines such an access control model.</p><p>This
         document obsoletes RFC 6536.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '91'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8341'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

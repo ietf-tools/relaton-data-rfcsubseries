@@ -1,7 +1,7 @@
 ---
 id: BCP217
 link:
-  content: https://www.rfc-editor.org/info/bcp217
+- content: https://www.rfc-editor.org/info/bcp217
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0217
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP217
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8421
     title:
-      content: Guidelines for Multihomed and IPv4/IPv6 Dual-Stack Interactive Connectivity
+    - content: Guidelines for Multihomed and IPv4/IPv6 Dual-Stack Interactive Connectivity
         Establishment (ICE)
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8421.xml
@@ -44,75 +50,98 @@ relation:
       type: DOI
     docnumber: RFC8421
     date:
-      type: published
+    - type: published
       value: '2018-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Martinsen
-            language: en
+            language:
+            - en
           completename:
             content: P. Martinsen
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Reddy
-            language: en
+            language:
+            - en
           completename:
             content: T. Reddy
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Patil
-            language: en
+            language:
+            - en
           completename:
             content: P. Patil
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2018-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides guidelines on how to make Interactive Connectivity
+    - content: "<p>This document provides guidelines on how to make Interactive Connectivity
         Establishment (ICE) conclude faster in multihomed and IPv4/IPv6 dual-stack
         scenarios where broken paths exist. The provided guidelines are backward compatible
         with the original ICE specification (see RFC 5245).</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '217'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8421'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

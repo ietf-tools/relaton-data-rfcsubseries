@@ -1,7 +1,7 @@
 ---
 id: BCP188
 link:
-  content: https://www.rfc-editor.org/info/bcp188
+- content: https://www.rfc-editor.org/info/bcp188
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0188
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP188
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7258
     title:
-      content: Pervasive Monitoring Is an Attack
-      language: en
-      script: Latn
+    - content: Pervasive Monitoring Is an Attack
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7258.xml
@@ -43,61 +49,80 @@ relation:
       type: DOI
     docnumber: RFC7258
     date:
-      type: published
+    - type: published
       value: '2014-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Farrell
-            language: en
+            language:
+            - en
           completename:
             content: S. Farrell
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: H.
-            language: en
+          - content: H.
+            language:
+            - en
           surname:
             content: Tschofenig
-            language: en
+            language:
+            - en
           completename:
             content: H. Tschofenig
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2014-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Pervasive monitoring is a technical attack that should be mitigated
+    - content: "<p>Pervasive monitoring is a technical attack that should be mitigated
         in the design of IETF protocols, where possible.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '188'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7258'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

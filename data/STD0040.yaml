@@ -1,7 +1,7 @@
 ---
 id: STD40
 link:
-  content: https://www.rfc-editor.org/info/std40
+- content: https://www.rfc-editor.org/info/std40
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0040
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD40
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC907
     title:
-      content: Host Access Protocol specification
-      language: en
-      script: Latn
+    - content: Host Access Protocol specification
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0907.xml
@@ -43,33 +49,43 @@ relation:
       type: DOI
     docnumber: RFC0907
     date:
-      type: published
+    - type: published
       value: '1984-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: Bolt
-            language: en
+          - content: Bolt
+            language:
+            - en
           surname:
             content: Beranek
-            language: en
+            language:
+            - en
           completename:
             content: Bolt Beranek
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - organization:
-        name: Newman Laboratories
-      role: author
+        name:
+        - Newman Laboratories
+      role:
+      - author
     revdate: '1984-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document specifies the Host Access Protocol (HAP). Although
+    - content: "<p>This document specifies the Host Access Protocol (HAP). Although
         HAP was originally designed as the network-access level protocol for the DARPA/DCA
         sponsored Wideband Packet Satellite Network, it is intended that it evolve
         into a standard interface SATNET and TACNET (aka MATNET) as well as the Wideband
@@ -77,24 +93,31 @@ relation:
         as new capabilities are added and/or different satellite networks are suported.
         Implementations of HAP should be performed in coordination with satellite
         network development and operations personnel.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '40'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '907'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

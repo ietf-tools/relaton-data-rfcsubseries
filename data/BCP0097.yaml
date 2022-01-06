@@ -1,7 +1,7 @@
 ---
 id: BCP97
 link:
-  content: https://www.rfc-editor.org/info/bcp97
+- content: https://www.rfc-editor.org/info/bcp97
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0097
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP97
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC3967
     title:
-      content: Clarifying when Standards Track Documents may Refer Normatively to
+    - content: Clarifying when Standards Track Documents may Refer Normatively to
         Documents at a Lower Level
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3967.xml
@@ -44,42 +50,54 @@ relation:
       type: DOI
     docnumber: RFC3967
     date:
-      type: published
+    - type: published
       value: '2004-12-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Bush
-            language: en
+            language:
+            - en
           completename:
             content: R. Bush
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Narten
-            language: en
+            language:
+            - en
           completename:
             content: T. Narten
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2004-12-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>IETF procedures generally require that a standards track RFC may
+    - content: "<p>IETF procedures generally require that a standards track RFC may
         not have a normative reference to another standards track document at a lower
         maturity level or to a non standards track specification (other than specifications
         from other standards bodies). For example, a standards track document may
@@ -89,34 +107,43 @@ relation:
         clarifies and updates the procedure used in these circumstances. This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '97'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3967'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC4897
     title:
-      content: Handling Normative References to Standards-Track Documents
-      language: en
-      script: Latn
+    - content: Handling Normative References to Standards-Track Documents
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4897.xml
@@ -134,42 +161,54 @@ relation:
       type: DOI
     docnumber: RFC4897
     date:
-      type: published
+    - type: published
       value: '2007-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Klensin
-            language: en
+            language:
+            - en
           completename:
             content: J. Klensin
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Hartman
-            language: en
+            language:
+            - en
           completename:
             content: S. Hartman
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2007-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>The Internet Engineering Task Force (IETF) and Request for Comments
+    - content: <p>The Internet Engineering Task Force (IETF) and Request for Comments
         (RFC) Editor have a long-standing rule that a document at a given maturity
         level cannot be published until all of the documents that it references as
         normative are at that maturity level or higher. This rule has sometimes resulted
@@ -182,35 +221,44 @@ relation:
         annotations should be added to such References. This document specifies an
         Internet Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '97'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4897'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC8067
     title:
-      content: Updating When Standards Track Documents May Refer Normatively to Documents
+    - content: Updating When Standards Track Documents May Refer Normatively to Documents
         at a Lower Level
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8067.xml
@@ -228,52 +276,67 @@ relation:
       type: DOI
     docnumber: RFC8067
     date:
-      type: published
+    - type: published
       value: '2017-01-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Leiba
-            language: en
+            language:
+            - en
           completename:
             content: B. Leiba
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2017-01-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>RFC 3967 specifies a process for allowing normative references to
+    - content: <p>RFC 3967 specifies a process for allowing normative references to
         documents at lower maturity levels ("downrefs"), which involves calling out
         the downref explicitly in the Last Call notice. That requirement has proven
         to be unnecessarily strict, and this document updates RFC 3967, allowing the
         IESG more flexibility in accepting downrefs in Standards Track documents.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '97'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8067'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

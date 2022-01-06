@@ -1,7 +1,7 @@
 ---
 id: STD36
 link:
-  content: https://www.rfc-editor.org/info/std36
+- content: https://www.rfc-editor.org/info/std36
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0036
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD36
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1390
     title:
-      content: Transmission of IP and ARP over FDDI Networks
-      language: en
-      script: Latn
+    - content: Transmission of IP and ARP over FDDI Networks
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1390.xml
@@ -43,50 +49,65 @@ relation:
       type: DOI
     docnumber: RFC1390
     date:
-      type: published
+    - type: published
       value: '1993-01-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Katz
-            language: en
+            language:
+            - en
           completename:
             content: D. Katz
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1993-01-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo defines a method of encapsulating the Internet Protocol
+    - content: "<p>This memo defines a method of encapsulating the Internet Protocol
         (IP) datagrams and Address Resolution Protocol (ARP) requests and replies
         on Fiber Distributed Data Interface (FDDI) Networks. [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '36'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1390'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

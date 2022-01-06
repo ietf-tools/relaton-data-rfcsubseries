@@ -1,7 +1,7 @@
 ---
 id: STD8
 link:
-  content: https://www.rfc-editor.org/info/std8
+- content: https://www.rfc-editor.org/info/std8
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0008
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD8
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC854
     title:
-      content: Telnet Protocol Specification
-      language: en
-      script: Latn
+    - content: Telnet Protocol Specification
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0854.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC0854
     date:
-      type: published
+    - type: published
       value: '1983-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.K.
-            language: en
+          - content: J.K.
+            language:
+            - en
           surname:
             content: Reynolds
-            language: en
+            language:
+            - en
           completename:
             content: J.K. Reynolds
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1983-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>This is the specification of the Telnet protocol used for remote
+    - content: <p>This is the specification of the Telnet protocol used for remote
         terminal access in the ARPA Internet. The purpose of the TELNET Protocol is
         to provide a fairly general, bi-directional, eight-bit byte oriented communications
         facility. Its primary goal is to allow a standard method of interfacing terminal
@@ -87,34 +105,43 @@ relation:
         and process-process communication (distributed computation). This RFC specifies
         a standard for the ARPA Internet community. Hosts on the ARPA Internet are
         expected to adopt and implement this standard. Obsoletes NIC 18639.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '854'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC855
     title:
-      content: Telnet Option Specifications
-      language: en
-      script: Latn
+    - content: Telnet Option Specifications
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0855.xml
@@ -132,63 +159,82 @@ relation:
       type: DOI
     docnumber: RFC0855
     date:
-      type: published
+    - type: published
       value: '1983-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.K.
-            language: en
+          - content: J.K.
+            language:
+            - en
           surname:
             content: Reynolds
-            language: en
+            language:
+            - en
           completename:
             content: J.K. Reynolds
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1983-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo specifies the general form for Telnet options and the
+    - content: "<p>This memo specifies the general form for Telnet options and the
         directions for their specification. This RFC specifies a standard for the
         ARPA Internet community. Hosts on the ARPA Internet are expected to adopt
         and implement this standard. Obsoletes RFC 651, NIC 18640.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '855'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

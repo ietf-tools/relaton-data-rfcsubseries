@@ -1,7 +1,7 @@
 ---
 id: BCP44
 link:
-  content: https://www.rfc-editor.org/info/bcp44
+- content: https://www.rfc-editor.org/info/bcp44
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0044
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP44
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC2964
     title:
-      content: Use of HTTP State Management
-      language: en
-      script: Latn
+    - content: Use of HTTP State Management
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2964.xml
@@ -43,66 +49,85 @@ relation:
       type: DOI
     docnumber: RFC2964
     date:
-      type: published
+    - type: published
       value: '2000-10-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Moore
-            language: en
+            language:
+            - en
           completename:
             content: K. Moore
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: N.
-            language: en
+          - content: N.
+            language:
+            - en
           surname:
             content: Freed
-            language: en
+            language:
+            - en
           completename:
             content: N. Freed
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2000-10-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo identifies specific uses of Hypertext Transfer Protocol
+    - content: "<p>This memo identifies specific uses of Hypertext Transfer Protocol
         (HTTP) State Management protocol which are either (a) not recommended by the
         IETF, or (b) believed to be harmful, and discouraged. This memo also details
         additional privacy considerations which are not covered by the HTTP State
         Management protocol specification. This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '44'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '2964'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

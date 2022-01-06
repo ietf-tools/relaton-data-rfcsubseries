@@ -1,7 +1,7 @@
 ---
 id: FYI11
 link:
-  content: https://www.rfc-editor.org/info/fyi11
+- content: https://www.rfc-editor.org/info/fyi11
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: FYI0011
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: FYI11
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC2116
     title:
-      content: X.500 Implementations Catalog-96
-      language: en
-      script: Latn
+    - content: X.500 Implementations Catalog-96
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2116.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC2116
     date:
-      type: published
+    - type: published
       value: '1997-04-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: C.
-            language: en
+          - content: C.
+            language:
+            - en
           surname:
             content: Apple
-            language: en
+            language:
+            - en
           completename:
             content: C. Apple
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Rossen
-            language: en
+            language:
+            - en
           completename:
             content: K. Rossen
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1997-04-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document is a revision to [RFC 1632]: A Revised Catalog of
+    - content: "<p>This document is a revision to [RFC 1632]: A Revised Catalog of
         Available X.500 Implementations and is based on the results of data collection
         via a WWW home page that enabled implementors to submit new or updated descriptions
         of currently available implementations of X.500, including commercial products
@@ -86,24 +104,31 @@ relation:
         document contains detailed description of 31 X.500 implementations - DSAs,
         DUAs, and DUA interfaces. This memo provides information for the Internet
         community. This memo does not specify an Internet standard of any kind.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: FYI
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '11'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '2116'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

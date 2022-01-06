@@ -1,7 +1,7 @@
 ---
 id: BCP138
 link:
-  content: https://www.rfc-editor.org/info/bcp138
+- content: https://www.rfc-editor.org/info/bcp138
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0138
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP138
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC5248
     title:
-      content: A Registry for SMTP Enhanced Mail System Status Codes
-      language: en
-      script: Latn
+    - content: A Registry for SMTP Enhanced Mail System Status Codes
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5248.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC5248
     date:
-      type: published
+    - type: published
       value: '2008-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Hansen
-            language: en
+            language:
+            - en
           completename:
             content: T. Hansen
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Klensin
-            language: en
+            language:
+            - en
           completename:
             content: J. Klensin
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2008-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>The specification for enhanced mail system status codes, RFC 3463,
+    - content: "<p>The specification for enhanced mail system status codes, RFC 3463,
         establishes a new code model and lists a collection of status codes. While
         it anticipated that more codes would be added over time, it did not provide
         an explicit mechanism for registering and tracking those codes. This document
@@ -87,24 +105,31 @@ relation:
         documents, as well as other codes that have become established in the industry.
         This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '138'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5248'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

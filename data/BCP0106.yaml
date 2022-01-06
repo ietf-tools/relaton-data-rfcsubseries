@@ -1,7 +1,7 @@
 ---
 id: BCP106
 link:
-  content: https://www.rfc-editor.org/info/bcp106
+- content: https://www.rfc-editor.org/info/bcp106
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0106
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP106
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4086
     title:
-      content: Randomness Requirements for Security
-      language: en
-      script: Latn
+    - content: Randomness Requirements for Security
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4086.xml
@@ -43,54 +49,70 @@ relation:
       type: DOI
     docnumber: RFC4086
     date:
-      type: published
+    - type: published
       value: '2005-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Eastlake 3rd
-            language: en
+            language:
+            - en
           completename:
             content: D. Eastlake 3rd
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Schiller
-            language: en
+            language:
+            - en
           completename:
             content: J. Schiller
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Crocker
-            language: en
+            language:
+            - en
           completename:
             content: S. Crocker
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2005-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Security systems are built on strong cryptographic algorithms that
+    - content: "<p>Security systems are built on strong cryptographic algorithms that
         foil pattern analysis attempts. However, the security of these systems is
         dependent on generating secret quantities for passwords, cryptographic keys,
         and similar quantities. The use of pseudo-random processes to generate secret
@@ -107,24 +129,31 @@ relation:
         and it gives examples of how large such quantities need to be for some applications.
         This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '106'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4086'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: BCP119
 link:
-  content: https://www.rfc-editor.org/info/bcp119
+- content: https://www.rfc-editor.org/info/bcp119
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0119
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP119
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4579
     title:
-      content: Session Initiation Protocol (SIP) Call Control - Conferencing for User
+    - content: Session Initiation Protocol (SIP) Call Control - Conferencing for User
         Agents
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4579.xml
@@ -44,42 +50,54 @@ relation:
       type: DOI
     docnumber: RFC4579
     date:
-      type: published
+    - type: published
       value: '2006-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Johnston
-            language: en
+            language:
+            - en
           completename:
             content: A. Johnston
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: O.
-            language: en
+          - content: O.
+            language:
+            - en
           surname:
             content: Levin
-            language: en
+            language:
+            - en
           completename:
             content: O. Levin
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2006-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This specification defines conferencing call control features for
+    - content: "<p>This specification defines conferencing call control features for
         the Session Initiation Protocol (SIP). This document builds on the Conferencing
         Requirements and Framework documents to define how a tightly coupled SIP conference
         works. The approach is explored from the perspective of different user agent
@@ -89,24 +107,31 @@ relation:
         call flow diagrams. The usage of the isfocus feature tag is defined. This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '119'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4579'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

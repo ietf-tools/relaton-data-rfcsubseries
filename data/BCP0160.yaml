@@ -1,7 +1,7 @@
 ---
 id: BCP160
 link:
-  content: https://www.rfc-editor.org/info/bcp160
+- content: https://www.rfc-editor.org/info/bcp160
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0160
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP160
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6280
     title:
-      content: An Architecture for Location and Location Privacy in Internet Applications
-      language: en
-      script: Latn
+    - content: An Architecture for Location and Location Privacy in Internet Applications
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6280.xml
@@ -43,90 +49,118 @@ relation:
       type: DOI
     docnumber: RFC6280
     date:
-      type: published
+    - type: published
       value: '2011-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Barnes
-            language: en
+            language:
+            - en
           completename:
             content: R. Barnes
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Lepinski
-            language: en
+            language:
+            - en
           completename:
             content: M. Lepinski
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Cooper
-            language: en
+            language:
+            - en
           completename:
             content: A. Cooper
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Morris
-            language: en
+            language:
+            - en
           completename:
             content: J. Morris
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: H.
-            language: en
+          - content: H.
+            language:
+            - en
           surname:
             content: Tschofenig
-            language: en
+            language:
+            - en
           completename:
             content: H. Tschofenig
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: H.
-            language: en
+          - content: H.
+            language:
+            - en
           surname:
             content: Schulzrinne
-            language: en
+            language:
+            - en
           completename:
             content: H. Schulzrinne
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2011-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Location-based services (such as navigation applications, emergency
+    - content: "<p>Location-based services (such as navigation applications, emergency
         services, and management of equipment in the field) need geographic location
         information about Internet hosts, their users, and other related entities.
         These applications need to securely gather and transfer location information
@@ -135,24 +169,31 @@ relation:
         services in the Internet, focusing on authorization, security, and privacy
         requirements for the data formats and protocols used by these services. This
         memo documents an Internet Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '160'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6280'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: BCP197
 link:
-  content: https://www.rfc-editor.org/info/bcp197
+- content: https://www.rfc-editor.org/info/bcp197
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0197
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP197
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7567
     title:
-      content: IETF Recommendations Regarding Active Queue Management
-      language: en
-      script: Latn
+    - content: IETF Recommendations Regarding Active Queue Management
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7567.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC7567
     date:
-      type: published
+    - type: published
       value: '2015-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Baker
-            language: en
+            language:
+            - en
           completename:
             content: F. Baker
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Fairhurst
-            language: en
+            language:
+            - en
           completename:
             content: G. Fairhurst
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '2015-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo presents recommendations to the Internet community concerning
+    - content: "<p>This memo presents recommendations to the Internet community concerning
         measures to improve and preserve Internet performance. It presents a strong
         recommendation for testing, standardization, and widespread deployment of
         active queue management (AQM) in network devices to improve the performance
@@ -87,24 +105,31 @@ relation:
         that are not sufficiently responsive to congestion notification.</p><p>Based
         on 15 years of experience and new research, this document replaces the recommendations
         of RFC 2309.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '197'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7567'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

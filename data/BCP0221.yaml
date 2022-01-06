@@ -1,7 +1,7 @@
 ---
 id: BCP221
 link:
-  content: https://www.rfc-editor.org/info/bcp221
+- content: https://www.rfc-editor.org/info/bcp221
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0221
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP221
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8521
     title:
-      content: Registration Data Access Protocol (RDAP) Object Tagging
-      language: en
-      script: Latn
+    - content: Registration Data Access Protocol (RDAP) Object Tagging
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8521.xml
@@ -43,42 +49,54 @@ relation:
       type: DOI
     docnumber: RFC8521
     date:
-      type: published
+    - type: published
       value: '2018-11-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Hollenbeck
-            language: en
+            language:
+            - en
           completename:
             content: S. Hollenbeck
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Newton
-            language: en
+            language:
+            - en
           completename:
             content: A. Newton
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2018-11-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>The Registration Data Access Protocol (RDAP) includes a method
+    - content: "<p>The Registration Data Access Protocol (RDAP) includes a method
         that can be used to identify the authoritative server for processing domain
         name, IP address, and autonomous system number queries. The method does not
         describe how to identify the authoritative server for processing other RDAP
@@ -87,24 +105,31 @@ relation:
         updates RFC 7484 by describing an operational practice that can be used to
         add structure to RDAP identifiers and that makes it possible to identify the
         authoritative server for additional RDAP queries.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '221'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8521'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: BCP143
 link:
-  content: https://www.rfc-editor.org/info/bcp143
+- content: https://www.rfc-editor.org/info/bcp143
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0143
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP143
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC5383
     title:
-      content: Deployment Considerations for Lemonade-Compliant Mobile Email
-      language: en
-      script: Latn
+    - content: Deployment Considerations for Lemonade-Compliant Mobile Email
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5383.xml
@@ -43,51 +49,66 @@ relation:
       type: DOI
     docnumber: RFC5383
     date:
-      type: published
+    - type: published
       value: '2008-10-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Gellens
-            language: en
+            language:
+            - en
           completename:
             content: R. Gellens
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2008-10-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document discusses deployment issues and describes requirements
+    - content: "<p>This document discusses deployment issues and describes requirements
         for successful deployment of mobile email that are implicit in the IETF lemonade
         documents. This document specifies an Internet Best Current Practices for
         the Internet Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '143'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5383'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

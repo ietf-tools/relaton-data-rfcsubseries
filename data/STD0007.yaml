@@ -1,7 +1,7 @@
 ---
 id: STD7
 link:
-  content: https://www.rfc-editor.org/info/std7
+- content: https://www.rfc-editor.org/info/std7
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0007
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD7
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC793
     title:
-      content: Transmission Control Protocol
-      language: en
-      script: Latn
+    - content: Transmission Control Protocol
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0793.xml
@@ -43,43 +49,56 @@ relation:
       type: DOI
     docnumber: RFC0793
     date:
-      type: published
+    - type: published
       value: '1981-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1981-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '793'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

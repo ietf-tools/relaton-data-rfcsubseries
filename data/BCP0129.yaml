@@ -1,7 +1,7 @@
 ---
 id: BCP129
 link:
-  content: https://www.rfc-editor.org/info/bcp129
+- content: https://www.rfc-editor.org/info/bcp129
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0129
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP129
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4929
     title:
-      content: Change Process for Multiprotocol Label Switching (MPLS) and Generalized
+    - content: Change Process for Multiprotocol Label Switching (MPLS) and Generalized
         MPLS (GMPLS) Protocols and Procedures
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4929.xml
@@ -44,42 +50,54 @@ relation:
       type: DOI
     docnumber: RFC4929
     date:
-      type: published
+    - type: published
       value: '2007-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: L.
-            language: en
+          - content: L.
+            language:
+            - en
           surname:
             content: Andersson
-            language: en
+            language:
+            - en
           completename:
             content: L. Andersson
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Farrel
-            language: en
+            language:
+            - en
           completename:
             content: A. Farrel
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '2007-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides guidelines for applying or extending the
+    - content: "<p>This document provides guidelines for applying or extending the
         MPLS or GMPLS ((G)MPLS) protocol suites and clarifies the IETF's (G)MPLS working
         groups' responsibility for the (G)MPLS protocols. This document is directed
         to multi-vendor fora and Standards Development Organizations (SDOs) to provide
@@ -88,24 +106,31 @@ relation:
         extensions in their work. This document does not modify IETF processes. This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '129'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4929'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: BCP211
 link:
-  content: https://www.rfc-editor.org/info/bcp211
+- content: https://www.rfc-editor.org/info/bcp211
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0211
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP211
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8207
     title:
-      content: BGPsec Operational Considerations
-      language: en
-      script: Latn
+    - content: BGPsec Operational Considerations
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8207.xml
@@ -43,51 +49,66 @@ relation:
       type: DOI
     docnumber: RFC8207
     date:
-      type: published
+    - type: published
       value: '2017-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Bush
-            language: en
+            language:
+            - en
           completename:
             content: R. Bush
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2017-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Deployment of the BGPsec architecture and protocols has many operational
+    - content: "<p>Deployment of the BGPsec architecture and protocols has many operational
         considerations. This document attempts to collect and present the most critical
         and universal. Operational practices are expected to evolve as BGPsec is formalized
         and initially deployed.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '211'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8207'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

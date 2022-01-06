@@ -1,7 +1,7 @@
 ---
 id: BCP163
 link:
-  content: https://www.rfc-editor.org/info/bcp163
+- content: https://www.rfc-editor.org/info/bcp163
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0163
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP163
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC6303
     title:
-      content: Locally Served DNS Zones
-      language: en
-      script: Latn
+    - content: Locally Served DNS Zones
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6303.xml
@@ -43,65 +49,82 @@ relation:
       type: DOI
     docnumber: RFC6303
     date:
-      type: published
+    - type: published
       value: '2011-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Andrews
-            language: en
+            language:
+            - en
           completename:
             content: M. Andrews
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2011-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Experience with the Domain Name System (DNS) has shown that there
+    - content: "<p>Experience with the Domain Name System (DNS) has shown that there
         are a number of DNS zones that all iterative resolvers and recursive nameservers
         should automatically serve, unless configured otherwise. RFC 4193 specifies
         that this should occur for D.F.IP6.ARPA. This document extends the practice
         to cover the IN-ADDR.ARPA zones for RFC 1918 address space and other well-known
         zones with similar characteristics. This memo documents an Internet Best Current
         Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '163'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6303'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC7793
     title:
-      content: Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones
+    - content: Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones
         Registry
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7793.xml
@@ -119,52 +142,67 @@ relation:
       type: DOI
     docnumber: RFC7793
     date:
-      type: published
+    - type: published
       value: '2016-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Andrews
-            language: en
+            language:
+            - en
           completename:
             content: M. Andrews
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2016-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>RFC 6598 specifies that "Reverse DNS queries for Shared Address
+    - content: <p>RFC 6598 specifies that "Reverse DNS queries for Shared Address
         Space addresses [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure."</p><p>This
         document formally directs IANA to add the associated zones to the "IPv4 Locally-Served
         DNS Zones Registry" to prevent such queries from accidentally leaking to the
         global DNS infrastructure.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '163'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7793'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

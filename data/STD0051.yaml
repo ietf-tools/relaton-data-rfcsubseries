@@ -1,7 +1,7 @@
 ---
 id: STD51
 link:
-  content: https://www.rfc-editor.org/info/std51
+- content: https://www.rfc-editor.org/info/std51
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0051
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD51
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC1661
     title:
-      content: The Point-to-Point Protocol (PPP)
-      language: en
-      script: Latn
+    - content: The Point-to-Point Protocol (PPP)
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1661.xml
@@ -43,61 +49,78 @@ relation:
       type: DOI
     docnumber: RFC1661
     date:
-      type: published
+    - type: published
       value: '1994-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: W.
-            language: en
+          - content: W.
+            language:
+            - en
           surname:
             content: Simpson
-            language: en
+            language:
+            - en
           completename:
             content: W. Simpson
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '1994-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document defines the PPP organization and methodology, and
+    - content: "<p>This document defines the PPP organization and methodology, and
         the PPP encapsulation, together with an extensible option negotiation mechanism
         which is able to negotiate a rich assortment of configuration parameters and
         provides additional management functions. [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '51'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1661'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC1662
     title:
-      content: PPP in HDLC-like Framing
-      language: en
-      script: Latn
+    - content: PPP in HDLC-like Framing
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1662.xml
@@ -115,49 +138,64 @@ relation:
       type: DOI
     docnumber: RFC1662
     date:
-      type: published
+    - type: published
       value: '1994-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: W.
-            language: en
+          - content: W.
+            language:
+            - en
           surname:
             content: Simpson
-            language: en
+            language:
+            - en
           completename:
             content: W. Simpson
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '1994-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes the use of HDLC-like framing for PPP encapsulated
+    - content: "<p>This document describes the use of HDLC-like framing for PPP encapsulated
         packets. [STANDARDS-TRACK]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '51'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1662'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

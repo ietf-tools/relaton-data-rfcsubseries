@@ -1,7 +1,7 @@
 ---
 id: BCP75
 link:
-  content: https://www.rfc-editor.org/info/bcp75
+- content: https://www.rfc-editor.org/info/bcp75
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0075
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP75
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3665
     title:
-      content: Session Initiation Protocol (SIP) Basic Call Flow Examples
-      language: en
-      script: Latn
+    - content: Session Initiation Protocol (SIP) Basic Call Flow Examples
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3665.xml
@@ -43,99 +49,130 @@ relation:
       type: DOI
     docnumber: RFC3665
     date:
-      type: published
+    - type: published
       value: '2003-12-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Johnston
-            language: en
+            language:
+            - en
           completename:
             content: A. Johnston
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Donovan
-            language: en
+            language:
+            - en
           completename:
             content: S. Donovan
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Sparks
-            language: en
+            language:
+            - en
           completename:
             content: R. Sparks
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: C.
-            language: en
+          - content: C.
+            language:
+            - en
           surname:
             content: Cunningham
-            language: en
+            language:
+            - en
           completename:
             content: C. Cunningham
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Summers
-            language: en
+            language:
+            - en
           completename:
             content: K. Summers
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2003-12-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document gives examples of Session Initiation Protocol (SIP)
+    - content: "<p>This document gives examples of Session Initiation Protocol (SIP)
         call flows. Elements in these call flows include SIP User Agents and Clients,
         SIP Proxy and Redirect Servers. Scenarios include SIP Registration and SIP
         session establishment. Call flow diagrams and message details are shown.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '75'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3665'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

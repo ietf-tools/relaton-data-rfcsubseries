@@ -1,7 +1,7 @@
 ---
 id: BCP206
 link:
-  content: https://www.rfc-editor.org/info/bcp206
+- content: https://www.rfc-editor.org/info/bcp206
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0206
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP206
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7926
     title:
-      content: Problem Statement and Architecture for Information Exchange between
+    - content: Problem Statement and Architecture for Information Exchange between
         Interconnected Traffic-Engineered Networks
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7926.xml
@@ -44,90 +50,118 @@ relation:
       type: DOI
     docnumber: RFC7926
     date:
-      type: published
+    - type: published
       value: '2016-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Farrel
-            language: en
+            language:
+            - en
           completename:
             content: A. Farrel
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Drake
-            language: en
+            language:
+            - en
           completename:
             content: J. Drake
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: N.
-            language: en
+          - content: N.
+            language:
+            - en
           surname:
             content: Bitar
-            language: en
+            language:
+            - en
           completename:
             content: N. Bitar
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Swallow
-            language: en
+            language:
+            - en
           completename:
             content: G. Swallow
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Ceccarelli
-            language: en
+            language:
+            - en
           completename:
             content: D. Ceccarelli
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: X.
-            language: en
+          - content: X.
+            language:
+            - en
           surname:
             content: Zhang
-            language: en
+            language:
+            - en
           completename:
             content: X. Zhang
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2016-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>In Traffic-Engineered (TE) systems, it is sometimes desirable to
+    - content: "<p>In Traffic-Engineered (TE) systems, it is sometimes desirable to
         establish an end-to-end TE path with a set of constraints (such as bandwidth)
         across one or more networks from a source to a destination. TE information
         is the data relating to nodes and TE links that is used in the process of
@@ -144,24 +178,31 @@ relation:
         and describes the best current practice architecture to meet this problem
         statement. For reasons that are explained in this document, this work is limited
         to simple TE constraints and information that determine TE reachability.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '206'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7926'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

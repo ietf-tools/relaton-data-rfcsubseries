@@ -1,7 +1,7 @@
 ---
 id: BCP166
 link:
-  content: https://www.rfc-editor.org/info/bcp166
+- content: https://www.rfc-editor.org/info/bcp166
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0166
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP166
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6365
     title:
-      content: Terminology Used in Internationalization in the IETF
-      language: en
-      script: Latn
+    - content: Terminology Used in Internationalization in the IETF
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6365.xml
@@ -43,63 +49,82 @@ relation:
       type: DOI
     docnumber: RFC6365
     date:
-      type: published
+    - type: published
       value: '2011-09-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Hoffman
-            language: en
+            language:
+            - en
           completename:
             content: P. Hoffman
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Klensin
-            language: en
+            language:
+            - en
           completename:
             content: J. Klensin
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2011-09-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides a list of terms used in the IETF when discussing
+    - content: "<p>This document provides a list of terms used in the IETF when discussing
         internationalization. The purpose is to help frame discussions of internationalization
         in the various areas of the IETF and to help introduce the main concepts to
         IETF participants. This memo documents an Internet Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '166'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6365'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

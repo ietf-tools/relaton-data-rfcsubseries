@@ -1,7 +1,7 @@
 ---
 id: BCP179
 link:
-  content: https://www.rfc-editor.org/info/bcp179
+- content: https://www.rfc-editor.org/info/bcp179
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0179
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP179
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6649
     title:
-      content: Deprecate DES, RC4-HMAC-EXP, and Other Weak Cryptographic Algorithms
+    - content: Deprecate DES, RC4-HMAC-EXP, and Other Weak Cryptographic Algorithms
         in Kerberos
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6649.xml
@@ -44,42 +50,54 @@ relation:
       type: DOI
     docnumber: RFC6649
     date:
-      type: published
+    - type: published
       value: '2012-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: L.
-            language: en
+          - content: L.
+            language:
+            - en
           surname:
             content: Hornquist Astrand
-            language: en
+            language:
+            - en
           completename:
             content: L. Hornquist Astrand
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Yu
-            language: en
+            language:
+            - en
           completename:
             content: T. Yu
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2012-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>The Kerberos 5 network authentication protocol, originally specified
+    - content: "<p>The Kerberos 5 network authentication protocol, originally specified
         in RFC 1510, can use the Data Encryption Standard (DES) for encryption. Almost
         30 years after first publishing DES, the National Institute of Standards and
         Technology (NIST) finally withdrew the standard in 2005, reflecting a long-established
@@ -90,24 +108,31 @@ relation:
         and other weak cryptographic algorithms in Kerberos. Because RFC 1510 (obsoleted
         by RFC 4120) supports only DES, this document recommends the reclassification
         of RFC 1510 as Historic. This memo documents an Internet Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '179'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6649'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

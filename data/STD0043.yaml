@@ -1,7 +1,7 @@
 ---
 id: STD43
 link:
-  content: https://www.rfc-editor.org/info/std43
+- content: https://www.rfc-editor.org/info/std43
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0043
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD43
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1042
     title:
-      content: Standard for the transmission of IP datagrams over IEEE 802 networks
-      language: en
-      script: Latn
+    - content: Standard for the transmission of IP datagrams over IEEE 802 networks
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1042.xml
@@ -43,63 +49,82 @@ relation:
       type: DOI
     docnumber: RFC1042
     date:
-      type: published
+    - type: published
       value: '1988-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Postel
-            language: en
+            language:
+            - en
           completename:
             content: J. Postel
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.K.
-            language: en
+          - content: J.K.
+            language:
+            - en
           surname:
             content: Reynolds
-            language: en
+            language:
+            - en
           completename:
             content: J.K. Reynolds
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1988-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This RFC specifies a standard method of encapsulating the Internet
+    - content: "<p>This RFC specifies a standard method of encapsulating the Internet
         Protocol (IP) datagrams and Address Resolution Protocol (ARP) requests and
         replies on IEEE 802 Networks to allow compatible and interoperable implementations.
         This RFC specifies a protocol standard for the Internet community.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '43'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1042'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

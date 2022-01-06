@@ -1,7 +1,7 @@
 ---
 id: BCP37
 link:
-  content: https://www.rfc-editor.org/info/bcp37
+- content: https://www.rfc-editor.org/info/bcp37
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0037
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP37
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
 - type: includes
   bibitem:
     id: RFC2780
     title:
-      content: IANA Allocation Guidelines For Values In the Internet Protocol and
+    - content: IANA Allocation Guidelines For Values In the Internet Protocol and
         Related Headers
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2780.xml
@@ -44,73 +50,94 @@ relation:
       type: DOI
     docnumber: RFC2780
     date:
-      type: published
+    - type: published
       value: '2000-03-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Bradner
-            language: en
+            language:
+            - en
           completename:
             content: S. Bradner
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: V.
-            language: en
+          - content: V.
+            language:
+            - en
           surname:
             content: Paxson
-            language: en
+            language:
+            - en
           completename:
             content: V. Paxson
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2000-03-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This memo provides guidance for the IANA to use in assigning parameters
+    - content: "<p>This memo provides guidance for the IANA to use in assigning parameters
         for fields in the IPv4, IPv6, ICMP, UDP and TCP protocol headers. This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '37'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '2780'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
 - type: includes
   bibitem:
     id: RFC5237
     title:
-      content: IANA Allocation Guidelines for the Protocol Field
-      language: en
-      script: Latn
+    - content: IANA Allocation Guidelines for the Protocol Field
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5237.xml
@@ -128,65 +155,84 @@ relation:
       type: DOI
     docnumber: RFC5237
     date:
-      type: published
+    - type: published
       value: '2008-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Arkko
-            language: en
+            language:
+            - en
           completename:
             content: J. Arkko
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Bradner
-            language: en
+            language:
+            - en
           completename:
             content: S. Bradner
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2008-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document revises the IANA guidelines for allocating new Protocol
+    - content: "<p>This document revises the IANA guidelines for allocating new Protocol
         field values in IPv4 header. It modifies the rules specified in RFC 2780 by
         removing the Expert Review option. The change will also affect the allocation
         of Next Header field values in IPv6. This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '37'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5237'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

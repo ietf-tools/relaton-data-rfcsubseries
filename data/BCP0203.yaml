@@ -1,7 +1,7 @@
 ---
 id: BCP203
 link:
-  content: https://www.rfc-editor.org/info/bcp203
+- content: https://www.rfc-editor.org/info/bcp203
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0203
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP203
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7803
     title:
-      content: Changing the Registration Policy for the NETCONF Capability URNs Registry
-      language: en
-      script: Latn
+    - content: Changing the Registration Policy for the NETCONF Capability URNs Registry
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7803.xml
@@ -43,52 +49,67 @@ relation:
       type: DOI
     docnumber: RFC7803
     date:
-      type: published
+    - type: published
       value: '2016-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Leiba
-            language: en
+            language:
+            - en
           completename:
             content: B. Leiba
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2016-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: <p>The registration policy for the "Network Configuration Protocol
+    - content: <p>The registration policy for the "Network Configuration Protocol
         (NETCONF) Capability URNs" registry, set up by RFC 6241, has turned out to
         be unnecessarily strict. This document changes that registration policy to
         "IETF Review", allowing registrations from certain well-reviewed Experimental
         RFCs, in addition to Standards Track RFCs.</p>
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '203'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7803'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

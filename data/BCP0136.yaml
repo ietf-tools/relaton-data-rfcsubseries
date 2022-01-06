@@ -1,7 +1,7 @@
 ---
 id: BCP136
 link:
-  content: https://www.rfc-editor.org/info/bcp136
+- content: https://www.rfc-editor.org/info/bcp136
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0136
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP136
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC5266
     title:
-      content: Secure Connectivity and Mobility Using Mobile IPv4 and IKEv2 Mobility
+    - content: Secure Connectivity and Mobility Using Mobile IPv4 and IKEv2 Mobility
         and Multihoming (MOBIKE)
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5266.xml
@@ -44,42 +50,54 @@ relation:
       type: DOI
     docnumber: RFC5266
     date:
-      type: published
+    - type: published
       value: '2008-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: V.
-            language: en
+          - content: V.
+            language:
+            - en
           surname:
             content: Devarapalli
-            language: en
+            language:
+            - en
           completename:
             content: V. Devarapalli
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Eronen
-            language: en
+            language:
+            - en
           completename:
             content: P. Eronen
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2008-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>Enterprise users require mobility and secure connectivity when
+    - content: "<p>Enterprise users require mobility and secure connectivity when
         they roam and connect to the services offered in the enterprise. Secure connectivity
         is required when the user connects to the enterprise from an untrusted network.
         Mobility is beneficial when the user moves, either inside or outside the enterprise
@@ -88,24 +106,31 @@ relation:
         secure connectivity and mobility. This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '136'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '5266'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

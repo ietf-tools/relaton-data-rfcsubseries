@@ -1,7 +1,7 @@
 ---
 id: BCP114
 link:
-  content: https://www.rfc-editor.org/info/bcp114
+- content: https://www.rfc-editor.org/info/bcp114
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0114
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP114
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC4384
     title:
-      content: BGP Communities for Data Collection
-      language: en
-      script: Latn
+    - content: BGP Communities for Data Collection
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4384.xml
@@ -43,30 +49,38 @@ relation:
       type: DOI
     docnumber: RFC4384
     date:
-      type: published
+    - type: published
       value: '2006-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Meyer
-            language: en
+            language:
+            - en
           completename:
             content: D. Meyer
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2006-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>BGP communities (RFC 1997) are used by service providers for many
+    - content: "<p>BGP communities (RFC 1997) are used by service providers for many
         purposes, including tagging of customer, peer, and geographically originated
         routes. Such tagging is typically used to control the scope of redistribution
         of routes within a provider's network and to its peers and customers. With
@@ -76,24 +90,31 @@ relation:
         standard (outbound) communities and their encodings for export to BGP route
         collectors. This document specifies an Internet Best Current Practices for
         the Internet Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '114'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '4384'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

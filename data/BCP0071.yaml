@@ -1,7 +1,7 @@
 ---
 id: BCP71
 link:
-  content: https://www.rfc-editor.org/info/bcp71
+- content: https://www.rfc-editor.org/info/bcp71
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0071
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP71
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3481
     title:
-      content: TCP over Second (2.5G) and Third (3G) Generation Wireless Networks
-      language: en
-      script: Latn
+    - content: TCP over Second (2.5G) and Third (3G) Generation Wireless Networks
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3481.xml
@@ -43,78 +49,102 @@ relation:
       type: DOI
     docnumber: RFC3481
     date:
-      type: published
+    - type: published
       value: '2003-02-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: H.
-            language: en
+          - content: H.
+            language:
+            - en
           surname:
             content: Inamura
-            language: en
+            language:
+            - en
           completename:
             content: H. Inamura
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Montenegro
-            language: en
+            language:
+            - en
           completename:
             content: G. Montenegro
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Ludwig
-            language: en
+            language:
+            - en
           completename:
             content: R. Ludwig
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Gurtov
-            language: en
+            language:
+            - en
           completename:
             content: A. Gurtov
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Khafizov
-            language: en
+            language:
+            - en
           completename:
             content: F. Khafizov
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2003-02-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes a profile for optimizing TCP to adapt so
+    - content: "<p>This document describes a profile for optimizing TCP to adapt so
         that it handles paths including second (2.5G) and third (3G) generation wireless
         networks. It describes the relevant characteristics of 2.5G and 3G networks,
         and specific features of example deployments of such networks. It then recommends
@@ -124,24 +154,31 @@ relation:
         standards-track mechanisms that the community considers safe for use on the
         general Internet. This document specifies an Internet Best Current Practices
         for the Internet Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '71'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3481'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

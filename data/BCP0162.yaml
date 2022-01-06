@@ -1,7 +1,7 @@
 ---
 id: BCP162
 link:
-  content: https://www.rfc-editor.org/info/bcp162
+- content: https://www.rfc-editor.org/info/bcp162
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0162
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP162
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC6302
     title:
-      content: Logging Recommendations for Internet-Facing Servers
-      language: en
-      script: Latn
+    - content: Logging Recommendations for Internet-Facing Servers
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6302.xml
@@ -43,87 +49,114 @@ relation:
       type: DOI
     docnumber: RFC6302
     date:
-      type: published
+    - type: published
       value: '2011-06-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Durand
-            language: en
+            language:
+            - en
           completename:
             content: A. Durand
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: I.
-            language: en
+          - content: I.
+            language:
+            - en
           surname:
             content: Gashinsky
-            language: en
+            language:
+            - en
           completename:
             content: I. Gashinsky
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Lee
-            language: en
+            language:
+            - en
           completename:
             content: D. Lee
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Sheppard
-            language: en
+            language:
+            - en
           completename:
             content: S. Sheppard
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2011-06-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>In the wake of IPv4 exhaustion and deployment of IP address sharing
+    - content: "<p>In the wake of IPv4 exhaustion and deployment of IP address sharing
         techniques, this document recommends that Internet-facing servers log port
         number and accurate timestamps in addition to the incoming IP address. This
         memo documents an Internet Best Current Practice.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '162'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '6302'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

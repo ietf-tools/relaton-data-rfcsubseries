@@ -1,7 +1,7 @@
 ---
 id: BCP187
 link:
-  content: https://www.rfc-editor.org/info/bcp187
+- content: https://www.rfc-editor.org/info/bcp187
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0187
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP187
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC7227
     title:
-      content: Guidelines for Creating New DHCPv6 Options
-      language: en
-      script: Latn
+    - content: Guidelines for Creating New DHCPv6 Options
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7227.xml
@@ -43,99 +49,130 @@ relation:
       type: DOI
     docnumber: RFC7227
     date:
-      type: published
+    - type: published
       value: '2014-05-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Hankins
-            language: en
+            language:
+            - en
           completename:
             content: D. Hankins
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.
-            language: en
+          - content: T.
+            language:
+            - en
           surname:
             content: Mrugalski
-            language: en
+            language:
+            - en
           completename:
             content: T. Mrugalski
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.
-            language: en
+          - content: M.
+            language:
+            - en
           surname:
             content: Siodelski
-            language: en
+            language:
+            - en
           completename:
             content: M. Siodelski
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Jiang
-            language: en
+            language:
+            - en
           completename:
             content: S. Jiang
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Krishnan
-            language: en
+            language:
+            - en
           completename:
             content: S. Krishnan
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2014-05-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides guidance to prospective DHCPv6 option developers
+    - content: "<p>This document provides guidance to prospective DHCPv6 option developers
         to help them create option formats that are easily adoptable by existing DHCPv6
         software. It also provides guidelines for expert reviewers to evaluate new
         registrations. This document updates RFC 3315.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '187'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '7227'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

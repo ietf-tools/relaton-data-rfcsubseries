@@ -1,7 +1,7 @@
 ---
 id: BCP68
 link:
-  content: https://www.rfc-editor.org/info/bcp68
+- content: https://www.rfc-editor.org/info/bcp68
   type: src
 type: standard
 docid:
@@ -11,22 +11,28 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0068
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP68
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3438
     title:
-      content: Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers Authority
+    - content: Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers Authority
         (IANA) Considerations Update
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3438.xml
@@ -44,51 +50,66 @@ relation:
       type: DOI
     docnumber: RFC3438
     date:
-      type: published
+    - type: published
       value: '2002-12-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: W.
-            language: en
+          - content: W.
+            language:
+            - en
           surname:
             content: Townsley
-            language: en
+            language:
+            - en
           completename:
             content: W. Townsley
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2002-12-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes updates to the Internet Assigned Numbers
+    - content: "<p>This document describes updates to the Internet Assigned Numbers
         Authority (IANA) considerations for the Layer Two Tunneling Protocol (L2TP).
         This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '68'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3438'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

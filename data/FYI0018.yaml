@@ -1,7 +1,7 @@
 ---
 id: FYI18
 link:
-  content: https://www.rfc-editor.org/info/fyi18
+- content: https://www.rfc-editor.org/info/fyi18
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: FYI0018
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: FYI18
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1983
     title:
-      content: Internet Users' Glossary
-      language: en
-      script: Latn
+    - content: Internet Users' Glossary
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1983.xml
@@ -43,51 +49,66 @@ relation:
       type: DOI
     docnumber: RFC1983
     date:
-      type: published
+    - type: published
       value: '1996-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Malkin
-            language: en
+            language:
+            - en
           completename:
             content: G. Malkin
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     revdate: '1996-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>There are many networking glossaries in existence. This glossary
+    - content: "<p>There are many networking glossaries in existence. This glossary
         concentrates on terms which are specific to the Internet. This memo provides
         information for the Internet community. This memo does not specify an Internet
         standard of any kind.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: FYI
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '18'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1983'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

@@ -1,7 +1,7 @@
 ---
 id: FYI3
 link:
-  content: https://www.rfc-editor.org/info/fyi3
+- content: https://www.rfc-editor.org/info/fyi3
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: FYI0003
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: FYI3
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC1175
     title:
-      content: 'FYI on where to start: A bibliography of internetworking information'
-      language: en
-      script: Latn
+    - content: 'FYI on where to start: A bibliography of internetworking information'
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1175.xml
@@ -43,111 +49,146 @@ relation:
       type: DOI
     docnumber: RFC1175
     date:
-      type: published
+    - type: published
       value: '1990-08-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: K.L.
-            language: en
+          - content: K.L.
+            language:
+            - en
           surname:
             content: Bowers
-            language: en
+            language:
+            - en
           completename:
             content: K.L. Bowers
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: T.L.
-            language: en
+          - content: T.L.
+            language:
+            - en
           surname:
             content: LaQuey
-            language: en
+            language:
+            - en
           completename:
             content: T.L. LaQuey
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.K.
-            language: en
+          - content: J.K.
+            language:
+            - en
           surname:
             content: Reynolds
-            language: en
+            language:
+            - en
           completename:
             content: J.K. Reynolds
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: K.
-            language: en
+          - content: K.
+            language:
+            - en
           surname:
             content: Roubicek
-            language: en
+            language:
+            - en
           completename:
             content: K. Roubicek
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: M.K.
-            language: en
+          - content: M.K.
+            language:
+            - en
           surname:
             content: Stahl
-            language: en
+            language:
+            - en
           completename:
             content: M.K. Stahl
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: A.
-            language: en
+          - content: A.
+            language:
+            - en
           surname:
             content: Yuan
-            language: en
+            language:
+            - en
           completename:
             content: A. Yuan
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '1990-08-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This FYI RFC is a bibliography of information about TCP/IP internetworking,
+    - content: "<p>This FYI RFC is a bibliography of information about TCP/IP internetworking,
         prepared by the User Services Working Group (USWG) of the Internet Engineering
         Task Force (IETF). This memo provides information for the Internet community.
         It does not specify any standard. [Also FYI 3.]</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: FYI
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '1175'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

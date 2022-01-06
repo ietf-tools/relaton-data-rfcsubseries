@@ -1,7 +1,7 @@
 ---
 id: STD93
 link:
-  content: https://www.rfc-editor.org/info/std93
+- content: https://www.rfc-editor.org/info/std93
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: STD0093
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: STD93
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC8945
     title:
-      content: Secret Key Transaction Authentication for DNS (TSIG)
-      language: en
-      script: Latn
+    - content: Secret Key Transaction Authentication for DNS (TSIG)
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8945.xml
@@ -43,114 +49,149 @@ relation:
       type: DOI
     docnumber: RFC8945
     date:
-      type: published
+    - type: published
       value: '2020-11-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: F.
-            language: en
+          - content: F.
+            language:
+            - en
           surname:
             content: Dupont
-            language: en
+            language:
+            - en
           completename:
             content: F. Dupont
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: S.
-            language: en
+          - content: S.
+            language:
+            - en
           surname:
             content: Morris
-            language: en
+            language:
+            - en
           completename:
             content: S. Morris
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Vixie
-            language: en
+            language:
+            - en
           completename:
             content: P. Vixie
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Eastlake 3rd
-            language: en
+            language:
+            - en
           completename:
             content: D. Eastlake 3rd
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: O.
-            language: en
+          - content: O.
+            language:
+            - en
           surname:
             content: Gudmundsson
-            language: en
+            language:
+            - en
           completename:
             content: O. Gudmundsson
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: B.
-            language: en
+          - content: B.
+            language:
+            - en
           surname:
             content: Wellington
-            language: en
+            language:
+            - en
           completename:
             content: B. Wellington
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2020-11-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document describes a protocol for transaction-level authentication
+    - content: "<p>This document describes a protocol for transaction-level authentication
         using shared secrets and one-way hashing. It can be used to authenticate dynamic
         updates to a DNS zone as coming from an approved client or to authenticate
         responses as coming from an approved name server.</p><p>No recommendation
         is made here for distributing the shared secrets; it is expected that a network
         administrator will statically configure name servers and clients using some
         out-of-band mechanism.</p><p>This document obsoletes RFCs 2845 and 4635.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: STD
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '93'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '8945'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc

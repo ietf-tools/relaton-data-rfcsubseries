@@ -1,7 +1,7 @@
 ---
 id: BCP89
 link:
-  content: https://www.rfc-editor.org/info/bcp89
+- content: https://www.rfc-editor.org/info/bcp89
   type: src
 type: standard
 docid:
@@ -11,21 +11,27 @@ docid:
   type: IETF
   scope: anchor
 docnumber: BCP0089
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 formattedref:
   content: BCP89
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/plain
 relation:
-  type: includes
+- type: includes
   bibitem:
     id: RFC3819
     title:
-      content: Advice for Internet Subnetwork Designers
-      language: en
-      script: Latn
+    - content: Advice for Internet Subnetwork Designers
+      language:
+      - en
+      script:
+      - Latn
       format: text/plain
     link:
     - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3819.xml
@@ -43,150 +49,197 @@ relation:
       type: DOI
     docnumber: RFC3819
     date:
-      type: published
+    - type: published
       value: '2004-07-01'
     contributor:
     - organization:
-        name: Internet Engineering Task Force
+        name:
+        - Internet Engineering Task Force
         abbreviation: IETF
-      role: publisher
+      role:
+      - publisher
     - person:
         name:
           initial:
-            content: P.
-            language: en
+          - content: P.
+            language:
+            - en
           surname:
             content: Karn
-            language: en
+            language:
+            - en
           completename:
             content: P. Karn
-            language: en
-      role: editor
+            language:
+            - en
+      role:
+      - editor
     - person:
         name:
           initial:
-            content: C.
-            language: en
+          - content: C.
+            language:
+            - en
           surname:
             content: Bormann
-            language: en
+            language:
+            - en
           completename:
             content: C. Bormann
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Fairhurst
-            language: en
+            language:
+            - en
           completename:
             content: G. Fairhurst
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: D.
-            language: en
+          - content: D.
+            language:
+            - en
           surname:
             content: Grossman
-            language: en
+            language:
+            - en
           completename:
             content: D. Grossman
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: R.
-            language: en
+          - content: R.
+            language:
+            - en
           surname:
             content: Ludwig
-            language: en
+            language:
+            - en
           completename:
             content: R. Ludwig
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Mahdavi
-            language: en
+            language:
+            - en
           completename:
             content: J. Mahdavi
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: G.
-            language: en
+          - content: G.
+            language:
+            - en
           surname:
             content: Montenegro
-            language: en
+            language:
+            - en
           completename:
             content: G. Montenegro
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: J.
-            language: en
+          - content: J.
+            language:
+            - en
           surname:
             content: Touch
-            language: en
+            language:
+            - en
           completename:
             content: J. Touch
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     - person:
         name:
           initial:
-            content: L.
-            language: en
+          - content: L.
+            language:
+            - en
           surname:
             content: Wood
-            language: en
+            language:
+            - en
           completename:
             content: L. Wood
-            language: en
-      role: author
+            language:
+            - en
+      role:
+      - author
     revdate: '2004-07-01'
-    language: en
-    script: Latn
+    language:
+    - en
+    script:
+    - Latn
     abstract:
-      content: "<p>This document provides advice to the designers of digital communication
+    - content: "<p>This document provides advice to the designers of digital communication
         equipment, link-layer protocols, and packet-switched local networks (collectively
         referred to as subnetworks), who wish to support the Internet protocols but
         may be unfamiliar with the Internet architecture and the implications of their
         design choices on the performance and efficiency of the Internet. This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
-      language: en
-      script: Latn
+      language:
+      - en
+      script:
+      - Latn
       format: text/html
     series:
     - type: main
       title:
         content: BCP
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '89'
     - type: main
       title:
         content: RFC
-        language: en
-        script: Latn
+        language:
+        - en
+        script:
+        - Latn
         format: text/plain
       number: '3819'
-    place: Fremont, CA
-    fetched: '2022-01-05'
+    place:
+    - Fremont, CA
+    fetched: '2022-01-06'
     doctype: rfc
