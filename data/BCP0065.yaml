@@ -113,7 +113,7 @@ relation:
       number: '3405'
     place:
     - Fremont, CA
-    fetched: '2022-01-11'
+    fetched: '2022-01-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -201,5 +201,5 @@ relation:
       number: '8958'
     place:
     - Fremont, CA
-    fetched: '2022-01-11'
+    fetched: '2022-01-12'
     doctype: rfc
