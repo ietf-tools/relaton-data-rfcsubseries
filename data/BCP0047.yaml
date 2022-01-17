@@ -50,7 +50,7 @@ relation:
     docnumber: RFC4647
     date:
     - type: published
-      value: '2006-09-01'
+      value: 2006-09
     contributor:
     - organization:
         name:
@@ -90,7 +90,7 @@ relation:
             - en
       role:
       - editor
-    revdate: '2006-09-01'
+    revdate: 2006-09
     language:
     - en
     script:
@@ -132,7 +132,7 @@ relation:
       number: '4647'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -161,7 +161,7 @@ relation:
     docnumber: RFC5646
     date:
     - type: published
-      value: '2009-09-01'
+      value: 2009-09
     contributor:
     - organization:
         name:
@@ -201,7 +201,7 @@ relation:
             - en
       role:
       - editor
-    revdate: '2009-09-01'
+    revdate: 2009-09
     language:
     - en
     script:
@@ -240,5 +240,5 @@ relation:
       number: '5646'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

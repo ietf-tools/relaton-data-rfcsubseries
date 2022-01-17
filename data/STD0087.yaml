@@ -50,7 +50,7 @@ relation:
     docnumber: RFC8201
     date:
     - type: published
-      value: '2017-07-01'
+      value: 2017-07
     contributor:
     - organization:
         name:
@@ -122,7 +122,7 @@ relation:
             - en
       role:
       - editor
-    revdate: '2017-07-01'
+    revdate: 2017-07
     language:
     - en
     script:
@@ -157,5 +157,5 @@ relation:
       number: '8201'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

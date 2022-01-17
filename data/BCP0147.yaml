@@ -51,7 +51,7 @@ relation:
     docnumber: RFC5407
     date:
     - type: published
-      value: '2008-12-01'
+      value: 2008-12
     contributor:
     - organization:
         name:
@@ -139,7 +139,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2008-12-01'
+    revdate: 2008-12
     language:
     - en
     script:
@@ -178,5 +178,5 @@ relation:
       number: '5407'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

@@ -50,7 +50,7 @@ relation:
     docnumber: RFC3677
     date:
     - type: published
-      value: '2003-12-01'
+      value: 2003-12
     contributor:
     - organization:
         name:
@@ -79,7 +79,7 @@ relation:
         - Internet Architecture Board
       role:
       - author
-    revdate: '2003-12-01'
+    revdate: 2003-12
     language:
     - en
     script:
@@ -113,5 +113,5 @@ relation:
       number: '3677'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

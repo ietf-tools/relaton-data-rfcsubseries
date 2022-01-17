@@ -50,7 +50,7 @@ relation:
     docnumber: RFC2026
     date:
     - type: published
-      value: '1996-10-01'
+      value: 1996-10
     contributor:
     - organization:
         name:
@@ -74,7 +74,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1996-10-01'
+    revdate: 1996-10
     language:
     - en
     script:
@@ -112,7 +112,7 @@ relation:
       number: '2026'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -142,7 +142,7 @@ relation:
     docnumber: RFC5657
     date:
     - type: published
-      value: '2009-09-01'
+      value: 2009-09
     contributor:
     - organization:
         name:
@@ -182,7 +182,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2009-09-01'
+    revdate: 2009-09
     language:
     - en
     script:
@@ -221,7 +221,7 @@ relation:
       number: '5657'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -250,7 +250,7 @@ relation:
     docnumber: RFC6410
     date:
     - type: published
-      value: '2011-10-01'
+      value: 2011-10
     contributor:
     - organization:
         name:
@@ -306,7 +306,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2011-10-01'
+    revdate: 2011-10
     language:
     - en
     script:
@@ -342,7 +342,7 @@ relation:
       number: '6410'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -371,7 +371,7 @@ relation:
     docnumber: RFC7100
     date:
     - type: published
-      value: '2013-12-01'
+      value: 2013-12
     contributor:
     - organization:
         name:
@@ -395,7 +395,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2013-12-01'
+    revdate: 2013-12
     language:
     - en
     script:
@@ -430,7 +430,7 @@ relation:
       number: '7100'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -459,7 +459,7 @@ relation:
     docnumber: RFC7127
     date:
     - type: published
-      value: '2014-01-01'
+      value: 2014-01
     contributor:
     - organization:
         name:
@@ -515,7 +515,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2014-01-01'
+    revdate: 2014-01
     language:
     - en
     script:
@@ -551,7 +551,7 @@ relation:
       number: '7127'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -580,7 +580,7 @@ relation:
     docnumber: RFC7475
     date:
     - type: published
-      value: '2015-03-01'
+      value: 2015-03
     contributor:
     - organization:
         name:
@@ -604,7 +604,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2015-03-01'
+    revdate: 2015-03
     language:
     - en
     script:
@@ -639,7 +639,7 @@ relation:
       number: '7475'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -668,7 +668,7 @@ relation:
     docnumber: RFC8789
     date:
     - type: published
-      value: '2020-06-01'
+      value: 2020-06
     contributor:
     - organization:
         name:
@@ -708,7 +708,7 @@ relation:
             - en
       role:
       - editor
-    revdate: '2020-06-01'
+    revdate: 2020-06
     language:
     - en
     script:
@@ -742,5 +742,5 @@ relation:
       number: '8789'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

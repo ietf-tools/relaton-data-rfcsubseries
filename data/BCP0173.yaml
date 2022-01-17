@@ -51,7 +51,7 @@ relation:
     docnumber: RFC6484
     date:
     - type: published
-      value: '2012-02-01'
+      value: 2012-02
     contributor:
     - organization:
         name:
@@ -123,7 +123,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2012-02-01'
+    revdate: 2012-02
     language:
     - en
     script:
@@ -164,7 +164,7 @@ relation:
       number: '6484'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -194,7 +194,7 @@ relation:
     docnumber: RFC7382
     date:
     - type: published
-      value: '2015-04-01'
+      value: 2015-04
     contributor:
     - organization:
         name:
@@ -250,7 +250,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2015-04-01'
+    revdate: 2015-04
     language:
     - en
     script:
@@ -286,5 +286,5 @@ relation:
       number: '7382'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

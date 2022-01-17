@@ -50,7 +50,7 @@ relation:
     docnumber: RFC2219
     date:
     - type: published
-      value: '1997-10-01'
+      value: 1997-10
     contributor:
     - organization:
         name:
@@ -90,7 +90,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1997-10-01'
+    revdate: 1997-10
     language:
     - en
     script:
@@ -136,5 +136,5 @@ relation:
       number: '2219'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

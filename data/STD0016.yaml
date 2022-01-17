@@ -51,7 +51,7 @@ relation:
     docnumber: RFC1155
     date:
     - type: published
-      value: '1990-05-01'
+      value: 1990-05
     contributor:
     - organization:
         name:
@@ -91,7 +91,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1990-05-01'
+    revdate: 1990-05
     language:
     - en
     script:
@@ -126,7 +126,7 @@ relation:
       number: '1155'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -155,7 +155,7 @@ relation:
     docnumber: RFC1212
     date:
     - type: published
-      value: '1991-03-01'
+      value: 1991-03
     contributor:
     - organization:
         name:
@@ -195,7 +195,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1991-03-01'
+    revdate: 1991-03
     language:
     - en
     script:
@@ -230,5 +230,5 @@ relation:
       number: '1212'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

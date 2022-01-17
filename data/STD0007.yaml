@@ -50,7 +50,7 @@ relation:
     docnumber: RFC0793
     date:
     - type: published
-      value: '1981-09-01'
+      value: 1981-09
     contributor:
     - organization:
         name:
@@ -74,7 +74,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1981-09-01'
+    revdate: 1981-09
     language:
     - en
     script:
@@ -100,5 +100,5 @@ relation:
       number: '793'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

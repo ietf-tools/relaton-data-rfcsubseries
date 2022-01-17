@@ -51,7 +51,7 @@ relation:
     docnumber: RFC6382
     date:
     - type: published
-      value: '2011-10-01'
+      value: 2011-10
     contributor:
     - organization:
         name:
@@ -107,7 +107,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2011-10-01'
+    revdate: 2011-10
     language:
     - en
     script:
@@ -146,5 +146,5 @@ relation:
       number: '6382'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

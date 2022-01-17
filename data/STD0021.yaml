@@ -50,7 +50,7 @@ relation:
     docnumber: RFC0863
     date:
     - type: published
-      value: '1983-05-01'
+      value: 1983-05
     contributor:
     - organization:
         name:
@@ -74,7 +74,7 @@ relation:
             - en
       role:
       - author
-    revdate: '1983-05-01'
+    revdate: 1983-05
     language:
     - en
     script:
@@ -110,5 +110,5 @@ relation:
       number: '863'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

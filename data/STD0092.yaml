@@ -50,7 +50,7 @@ relation:
     docnumber: RFC8010
     date:
     - type: published
-      value: '2017-01-01'
+      value: 2017-01
     contributor:
     - organization:
         name:
@@ -90,7 +90,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2017-01-01'
+    revdate: 2017-01
     language:
     - en
     script:
@@ -129,7 +129,7 @@ relation:
       number: '8010'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -158,7 +158,7 @@ relation:
     docnumber: RFC8011
     date:
     - type: published
-      value: '2017-01-01'
+      value: 2017-01
     contributor:
     - organization:
         name:
@@ -198,7 +198,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2017-01-01'
+    revdate: 2017-01
     language:
     - en
     script:
@@ -243,5 +243,5 @@ relation:
       number: '8011'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

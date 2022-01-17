@@ -50,7 +50,7 @@ relation:
     docnumber: RFC1984
     date:
     - type: published
-      value: '1996-08-01'
+      value: 1996-08
     contributor:
     - organization:
         name:
@@ -68,7 +68,7 @@ relation:
         - IESG
       role:
       - author
-    revdate: '1996-08-01'
+    revdate: 1996-08
     language:
     - en
     script:
@@ -107,5 +107,5 @@ relation:
       number: '1984'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

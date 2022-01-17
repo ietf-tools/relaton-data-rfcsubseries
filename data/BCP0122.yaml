@@ -51,7 +51,7 @@ relation:
     docnumber: RFC4632
     date:
     - type: published
-      value: '2006-08-01'
+      value: 2006-08
     contributor:
     - organization:
         name:
@@ -91,7 +91,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2006-08-01'
+    revdate: 2006-08
     language:
     - en
     script:
@@ -132,5 +132,5 @@ relation:
       number: '4632'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

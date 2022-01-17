@@ -51,7 +51,7 @@ relation:
     docnumber: RFC8552
     date:
     - type: published
-      value: '2019-03-01'
+      value: 2019-03
     contributor:
     - organization:
         name:
@@ -75,7 +75,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2019-03-01'
+    revdate: 2019-03
     language:
     - en
     script:
@@ -119,7 +119,7 @@ relation:
       number: '8552'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
 - type: includes
   bibitem:
@@ -149,7 +149,7 @@ relation:
     docnumber: RFC8553
     date:
     - type: published
-      value: '2019-03-01'
+      value: 2019-03
     contributor:
     - organization:
         name:
@@ -173,7 +173,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2019-03-01'
+    revdate: 2019-03
     language:
     - en
     script:
@@ -215,5 +215,5 @@ relation:
       number: '8553'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

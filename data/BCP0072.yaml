@@ -50,7 +50,7 @@ relation:
     docnumber: RFC3552
     date:
     - type: published
-      value: '2003-07-01'
+      value: 2003-07
     contributor:
     - organization:
         name:
@@ -90,7 +90,7 @@ relation:
             - en
       role:
       - author
-    revdate: '2003-07-01'
+    revdate: 2003-07
     language:
     - en
     script:
@@ -127,5 +127,5 @@ relation:
       number: '3552'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc

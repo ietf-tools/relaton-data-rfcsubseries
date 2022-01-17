@@ -50,7 +50,7 @@ relation:
     docnumber: RFC2850
     date:
     - type: published
-      value: '2000-05-01'
+      value: 2000-05
     contributor:
     - organization:
         name:
@@ -79,7 +79,7 @@ relation:
             - en
       role:
       - editor
-    revdate: '2000-05-01'
+    revdate: 2000-05
     language:
     - en
     script:
@@ -115,5 +115,5 @@ relation:
       number: '2850'
     place:
     - Fremont, CA
-    fetched: '2022-01-16'
+    fetched: '2022-01-17'
     doctype: rfc
