@@ -141,7 +141,7 @@ relation:
       number: '2578'
     place:
     - Fremont, CA
-    fetched: '2022-01-21'
+    fetched: '2022-01-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -260,7 +260,7 @@ relation:
       number: '2579'
     place:
     - Fremont, CA
-    fetched: '2022-01-21'
+    fetched: '2022-01-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -381,5 +381,5 @@ relation:
       number: '2580'
     place:
     - Fremont, CA
-    fetched: '2022-01-21'
+    fetched: '2022-01-22'
     doctype: rfc
