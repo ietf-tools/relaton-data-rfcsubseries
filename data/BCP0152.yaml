@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5625
-      type: IETF
+      type: RFC
     - id: RFC5625
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5625
       type: DOI
@@ -110,5 +110,5 @@ relation:
       number: '5625'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

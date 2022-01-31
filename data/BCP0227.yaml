@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 8758
-      type: IETF
+      type: RFC
     - id: RFC8758
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC8758
       type: DOI
@@ -108,5 +108,5 @@ relation:
       number: '8758'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

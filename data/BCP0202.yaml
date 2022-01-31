@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 7772
-      type: IETF
+      type: RFC
     - id: RFC7772
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC7772
       type: DOI
@@ -125,5 +125,5 @@ relation:
       number: '7772'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

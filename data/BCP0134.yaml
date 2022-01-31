@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5068
-      type: IETF
+      type: RFC
     - id: RFC5068
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5068
       type: DOI
@@ -187,5 +187,5 @@ relation:
       number: '5068'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

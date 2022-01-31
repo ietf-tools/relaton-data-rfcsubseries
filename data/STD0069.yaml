@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5730
-      type: IETF
+      type: RFC
     - id: RFC5730
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5730
       type: DOI
@@ -112,7 +112,7 @@ relation:
       number: '5730'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -132,9 +132,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5731
-      type: IETF
+      type: RFC
     - id: RFC5731
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5731
       type: DOI
@@ -202,7 +202,7 @@ relation:
       number: '5731'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -222,9 +222,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5732
-      type: IETF
+      type: RFC
     - id: RFC5732
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5732
       type: DOI
@@ -292,7 +292,7 @@ relation:
       number: '5732'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -312,9 +312,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5733
-      type: IETF
+      type: RFC
     - id: RFC5733
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5733
       type: DOI
@@ -383,7 +383,7 @@ relation:
       number: '5733'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -403,9 +403,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5734
-      type: IETF
+      type: RFC
     - id: RFC5734
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5734
       type: DOI
@@ -473,5 +473,5 @@ relation:
       number: '5734'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

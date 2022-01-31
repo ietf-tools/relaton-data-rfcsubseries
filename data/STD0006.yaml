@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 768
-      type: IETF
+      type: RFC
     - id: RFC0768
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0768
       type: DOI
@@ -100,5 +100,5 @@ relation:
       number: '768'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

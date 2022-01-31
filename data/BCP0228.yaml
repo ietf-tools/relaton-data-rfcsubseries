@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 8862
-      type: IETF
+      type: RFC
     - id: RFC8862
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC8862
       type: DOI
@@ -146,5 +146,5 @@ relation:
       number: '8862'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

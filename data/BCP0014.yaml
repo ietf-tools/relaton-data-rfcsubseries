@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 2119
-      type: IETF
+      type: RFC
     - id: RFC2119
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC2119
       type: DOI
@@ -111,7 +111,7 @@ relation:
       number: '2119'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -131,9 +131,9 @@ relation:
     type: standard
     docid:
     - id: RFC 8174
-      type: IETF
+      type: RFC
     - id: RFC8174
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC8174
       type: DOI
@@ -199,5 +199,5 @@ relation:
       number: '8174'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

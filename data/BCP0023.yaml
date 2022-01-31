@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 2365
-      type: IETF
+      type: RFC
     - id: RFC2365
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC2365
       type: DOI
@@ -113,5 +113,5 @@ relation:
       number: '2365'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

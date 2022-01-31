@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 865
-      type: IETF
+      type: RFC
     - id: RFC0865
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0865
       type: DOI
@@ -110,5 +110,5 @@ relation:
       number: '865'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

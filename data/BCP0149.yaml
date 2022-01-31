@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5589
-      type: IETF
+      type: RFC
     - id: RFC5589
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5589
       type: DOI
@@ -145,5 +145,5 @@ relation:
       number: '5589'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 894
-      type: IETF
+      type: RFC
     - id: RFC0894
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0894
       type: DOI
@@ -109,5 +109,5 @@ relation:
       number: '894'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 791
-      type: IETF
+      type: RFC
     - id: RFC0791
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0791
       type: DOI
@@ -100,7 +100,7 @@ relation:
       number: '791'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -120,9 +120,9 @@ relation:
     type: standard
     docid:
     - id: RFC 792
-      type: IETF
+      type: RFC
     - id: RFC0792
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0792
       type: DOI
@@ -179,7 +179,7 @@ relation:
       number: '792'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -199,9 +199,9 @@ relation:
     type: standard
     docid:
     - id: RFC 919
-      type: IETF
+      type: RFC
     - id: RFC0919
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0919
       type: DOI
@@ -268,7 +268,7 @@ relation:
       number: '919'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -288,9 +288,9 @@ relation:
     type: standard
     docid:
     - id: RFC 922
-      type: IETF
+      type: RFC
     - id: RFC0922
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0922
       type: DOI
@@ -357,7 +357,7 @@ relation:
       number: '922'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -377,9 +377,9 @@ relation:
     type: standard
     docid:
     - id: RFC 950
-      type: IETF
+      type: RFC
     - id: RFC0950
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0950
       type: DOI
@@ -468,7 +468,7 @@ relation:
       number: '950'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -488,9 +488,9 @@ relation:
     type: standard
     docid:
     - id: RFC 1112
-      type: IETF
+      type: RFC
     - id: RFC1112
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC1112
       type: DOI
@@ -557,5 +557,5 @@ relation:
       number: '1112'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

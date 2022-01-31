@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 4085
-      type: IETF
+      type: RFC
     - id: RFC4085
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC4085
       type: DOI
@@ -112,5 +112,5 @@ relation:
       number: '4085'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

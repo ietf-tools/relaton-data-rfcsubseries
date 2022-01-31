@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5382
-      type: IETF
+      type: RFC
     - id: RFC5382
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5382
       type: DOI
@@ -176,5 +176,5 @@ relation:
       number: '5382'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

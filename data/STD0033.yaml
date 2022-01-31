@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 1350
-      type: IETF
+      type: RFC
     - id: RFC1350
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC1350
       type: DOI
@@ -111,5 +111,5 @@ relation:
       number: '1350'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

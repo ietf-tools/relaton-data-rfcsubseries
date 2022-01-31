@@ -42,9 +42,9 @@ relation:
     type: standard
     docid:
     - id: RFC 4787
-      type: IETF
+      type: RFC
     - id: RFC4787
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC4787
       type: DOI
@@ -131,7 +131,7 @@ relation:
       number: '4787'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -151,9 +151,9 @@ relation:
     type: standard
     docid:
     - id: RFC 6888
-      type: IETF
+      type: RFC
     - id: RFC6888
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC6888
       type: DOI
@@ -282,7 +282,7 @@ relation:
       number: '6888'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -302,9 +302,9 @@ relation:
     type: standard
     docid:
     - id: RFC 7857
-      type: IETF
+      type: RFC
     - id: RFC7857
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC7857
       type: DOI
@@ -435,5 +435,5 @@ relation:
       number: '7857'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

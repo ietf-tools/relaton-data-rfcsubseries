@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 1034
-      type: IETF
+      type: RFC
     - id: RFC1034
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC1034
       type: DOI
@@ -111,7 +111,7 @@ relation:
       number: '1034'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -131,9 +131,9 @@ relation:
     type: standard
     docid:
     - id: RFC 1035
-      type: IETF
+      type: RFC
     - id: RFC1035
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC1035
       type: DOI
@@ -199,5 +199,5 @@ relation:
       number: '1035'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

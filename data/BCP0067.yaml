@@ -42,9 +42,9 @@ relation:
     type: standard
     docid:
     - id: RFC 5727
-      type: IETF
+      type: RFC
     - id: RFC5727
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC5727
       type: DOI
@@ -151,7 +151,7 @@ relation:
       number: '5727'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
 - type: includes
   bibitem:
@@ -171,9 +171,9 @@ relation:
     type: standard
     docid:
     - id: RFC 7957
-      type: IETF
+      type: RFC
     - id: RFC7957
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC7957
       type: DOI
@@ -275,5 +275,5 @@ relation:
       number: '7957'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc

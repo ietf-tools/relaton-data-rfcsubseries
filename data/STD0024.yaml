@@ -41,9 +41,9 @@ relation:
     type: standard
     docid:
     - id: RFC 866
-      type: IETF
+      type: RFC
     - id: RFC0866
-      type: IETF
+      type: RFC
       scope: anchor
     - id: 10.17487/RFC0866
       type: DOI
@@ -111,5 +111,5 @@ relation:
       number: '866'
     place:
     - Fremont, CA
-    fetched: '2022-01-30'
+    fetched: '2022-01-31'
     doctype: rfc
