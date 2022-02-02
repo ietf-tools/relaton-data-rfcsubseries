@@ -128,5 +128,5 @@ relation:
       number: '2151'
     place:
     - Fremont, CA
-    fetched: '2022-02-01'
+    fetched: '2022-02-02'
     doctype: rfc

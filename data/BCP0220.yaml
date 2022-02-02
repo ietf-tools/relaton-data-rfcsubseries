@@ -143,5 +143,5 @@ relation:
       number: '8504'
     place:
     - Fremont, CA
-    fetched: '2022-02-01'
+    fetched: '2022-02-02'
     doctype: rfc
