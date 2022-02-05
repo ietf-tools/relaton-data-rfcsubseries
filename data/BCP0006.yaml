@@ -127,7 +127,7 @@ relation:
       number: '1930'
     place:
     - Fremont, CA
-    fetched: '2022-02-04'
+    fetched: '2022-02-05'
     doctype: rfc
 - type: includes
   bibitem:
@@ -217,7 +217,7 @@ relation:
       number: '6996'
     place:
     - Fremont, CA
-    fetched: '2022-02-04'
+    fetched: '2022-02-05'
     doctype: rfc
 - type: includes
   bibitem:
@@ -322,5 +322,5 @@ relation:
       number: '7300'
     place:
     - Fremont, CA
-    fetched: '2022-02-04'
+    fetched: '2022-02-05'
     doctype: rfc
