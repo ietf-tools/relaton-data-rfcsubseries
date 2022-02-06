@@ -112,7 +112,7 @@ relation:
       number: '5730'
     place:
     - Fremont, CA
-    fetched: '2022-02-05'
+    fetched: '2022-02-06'
     doctype: rfc
 - type: includes
   bibitem:
@@ -202,7 +202,7 @@ relation:
       number: '5731'
     place:
     - Fremont, CA
-    fetched: '2022-02-05'
+    fetched: '2022-02-06'
     doctype: rfc
 - type: includes
   bibitem:
@@ -292,7 +292,7 @@ relation:
       number: '5732'
     place:
     - Fremont, CA
-    fetched: '2022-02-05'
+    fetched: '2022-02-06'
     doctype: rfc
 - type: includes
   bibitem:
@@ -383,7 +383,7 @@ relation:
       number: '5733'
     place:
     - Fremont, CA
-    fetched: '2022-02-05'
+    fetched: '2022-02-06'
     doctype: rfc
 - type: includes
   bibitem:
@@ -473,5 +473,5 @@ relation:
       number: '5734'
     place:
     - Fremont, CA
-    fetched: '2022-02-05'
+    fetched: '2022-02-06'
     doctype: rfc
