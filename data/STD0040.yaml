@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 40
   type: IETF
+  primary: true
 - id: STD0040
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 907
       type: RFC
+      primary: true
     - id: RFC0907
       type: RFC
       scope: anchor
@@ -119,5 +121,5 @@ relation:
       number: '907'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

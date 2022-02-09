@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 3
   type: IETF
+  primary: true
 - id: STD0003
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 1122
       type: RFC
+      primary: true
     - id: RFC1122
       type: RFC
       scope: anchor
@@ -109,7 +111,7 @@ relation:
       number: '1122'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -130,6 +132,7 @@ relation:
     docid:
     - id: RFC 1123
       type: RFC
+      primary: true
     - id: RFC1123
       type: RFC
       scope: anchor
@@ -197,5 +200,5 @@ relation:
       number: '1123'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

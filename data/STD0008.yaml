@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 8
   type: IETF
+  primary: true
 - id: STD0008
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 854
       type: RFC
+      primary: true
     - id: RFC0854
       type: RFC
       scope: anchor
@@ -131,7 +133,7 @@ relation:
       number: '854'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -152,6 +154,7 @@ relation:
     docid:
     - id: RFC 855
       type: RFC
+      primary: true
     - id: RFC0855
       type: RFC
       scope: anchor
@@ -236,5 +239,5 @@ relation:
       number: '855'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

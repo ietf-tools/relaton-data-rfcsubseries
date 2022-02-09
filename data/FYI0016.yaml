@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: FYI 16
   type: IETF
+  primary: true
 - id: FYI0016
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 1359
       type: RFC
+      primary: true
     - id: RFC1359
       type: RFC
       scope: anchor
@@ -110,5 +112,5 @@ relation:
       number: '1359'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

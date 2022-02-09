@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 5
   type: IETF
+  primary: true
 - id: STD0005
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 791
       type: RFC
+      primary: true
     - id: RFC0791
       type: RFC
       scope: anchor
@@ -100,7 +102,7 @@ relation:
       number: '791'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -121,6 +123,7 @@ relation:
     docid:
     - id: RFC 792
       type: RFC
+      primary: true
     - id: RFC0792
       type: RFC
       scope: anchor
@@ -179,7 +182,7 @@ relation:
       number: '792'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -200,6 +203,7 @@ relation:
     docid:
     - id: RFC 919
       type: RFC
+      primary: true
     - id: RFC0919
       type: RFC
       scope: anchor
@@ -268,7 +272,7 @@ relation:
       number: '919'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -289,6 +293,7 @@ relation:
     docid:
     - id: RFC 922
       type: RFC
+      primary: true
     - id: RFC0922
       type: RFC
       scope: anchor
@@ -357,7 +362,7 @@ relation:
       number: '922'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -378,6 +383,7 @@ relation:
     docid:
     - id: RFC 950
       type: RFC
+      primary: true
     - id: RFC0950
       type: RFC
       scope: anchor
@@ -468,7 +474,7 @@ relation:
       number: '950'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -489,6 +495,7 @@ relation:
     docid:
     - id: RFC 1112
       type: RFC
+      primary: true
     - id: RFC1112
       type: RFC
       scope: anchor
@@ -557,5 +564,5 @@ relation:
       number: '1112'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 95
   type: IETF
+  primary: true
 - id: STD0095
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 7480
       type: RFC
+      primary: true
     - id: RFC7480
       type: RFC
       scope: anchor
@@ -143,7 +145,7 @@ relation:
       number: '7480'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -164,6 +166,7 @@ relation:
     docid:
     - id: RFC 7481
       type: RFC
+      primary: true
     - id: RFC7481
       type: RFC
       scope: anchor
@@ -249,7 +252,7 @@ relation:
       number: '7481'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -270,6 +273,7 @@ relation:
     docid:
     - id: RFC 9082
       type: RFC
+      primary: true
     - id: RFC9082
       type: RFC
       scope: anchor
@@ -356,7 +360,7 @@ relation:
       number: '9082'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -377,6 +381,7 @@ relation:
     docid:
     - id: RFC 9083
       type: RFC
+      primary: true
     - id: RFC9083
       type: RFC
       scope: anchor
@@ -461,5 +466,5 @@ relation:
       number: '9083'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

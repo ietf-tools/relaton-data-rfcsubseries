@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: FYI 29
   type: IETF
+  primary: true
 - id: FYI0029
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 2007
       type: RFC
+      primary: true
     - id: RFC2007
       type: RFC
       scope: anchor
@@ -142,5 +144,5 @@ relation:
       number: '2007'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: STD 62
   type: IETF
+  primary: true
 - id: STD0062
   type: IETF
   scope: anchor
@@ -43,6 +44,7 @@ relation:
     docid:
     - id: RFC 3411
       type: RFC
+      primary: true
     - id: RFC3411
       type: RFC
       scope: anchor
@@ -146,7 +148,7 @@ relation:
       number: '3411'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -168,6 +170,7 @@ relation:
     docid:
     - id: RFC 3412
       type: RFC
+      primary: true
     - id: RFC3412
       type: RFC
       scope: anchor
@@ -287,7 +290,7 @@ relation:
       number: '3412'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -308,6 +311,7 @@ relation:
     docid:
     - id: RFC 3413
       type: RFC
+      primary: true
     - id: RFC3413
       type: RFC
       scope: anchor
@@ -411,7 +415,7 @@ relation:
       number: '3413'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -433,6 +437,7 @@ relation:
     docid:
     - id: RFC 3414
       type: RFC
+      primary: true
     - id: RFC3414
       type: RFC
       scope: anchor
@@ -519,7 +524,7 @@ relation:
       number: '3414'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -541,6 +546,7 @@ relation:
     docid:
     - id: RFC 3415
       type: RFC
+      primary: true
     - id: RFC3415
       type: RFC
       scope: anchor
@@ -643,7 +649,7 @@ relation:
       number: '3415'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -665,6 +671,7 @@ relation:
     docid:
     - id: RFC 3416
       type: RFC
+      primary: true
     - id: RFC3416
       type: RFC
       scope: anchor
@@ -733,7 +740,7 @@ relation:
       number: '3416'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -754,6 +761,7 @@ relation:
     docid:
     - id: RFC 3417
       type: RFC
+      primary: true
     - id: RFC3417
       type: RFC
       scope: anchor
@@ -821,7 +829,7 @@ relation:
       number: '3417'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -843,6 +851,7 @@ relation:
     docid:
     - id: RFC 3418
       type: RFC
+      primary: true
     - id: RFC3418
       type: RFC
       scope: anchor
@@ -911,5 +920,5 @@ relation:
       number: '3418'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc

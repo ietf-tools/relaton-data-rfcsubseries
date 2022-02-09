@@ -7,6 +7,7 @@ type: standard
 docid:
 - id: BCP 109
   type: IETF
+  primary: true
 - id: BCP0109
   type: IETF
   scope: anchor
@@ -42,6 +43,7 @@ relation:
     docid:
     - id: RFC 4159
       type: RFC
+      primary: true
     - id: RFC4159
       type: RFC
       scope: anchor
@@ -110,5 +112,5 @@ relation:
       number: '4159'
     place:
     - Fremont, CA
-    fetched: '2022-02-08'
+    fetched: '2022-02-09'
     doctype: rfc
