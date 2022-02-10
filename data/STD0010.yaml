@@ -112,7 +112,7 @@ relation:
       number: '821'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -202,7 +202,7 @@ relation:
       number: '974'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -355,7 +355,7 @@ relation:
       number: '1869'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -477,5 +477,5 @@ relation:
       number: '1870'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc

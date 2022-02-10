@@ -113,7 +113,7 @@ relation:
       number: '1034'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -202,5 +202,5 @@ relation:
       number: '1035'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc

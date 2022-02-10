@@ -114,7 +114,7 @@ relation:
       number: '2026'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -224,7 +224,7 @@ relation:
       number: '5657'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -346,7 +346,7 @@ relation:
       number: '6410'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -435,7 +435,7 @@ relation:
       number: '7100'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -557,7 +557,7 @@ relation:
       number: '7127'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -646,7 +646,7 @@ relation:
       number: '7475'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
 - type: includes
   bibitem:
@@ -750,5 +750,5 @@ relation:
       number: '8789'
     place:
     - Fremont, CA
-    fetched: '2022-02-09'
+    fetched: '2022-02-10'
     doctype: rfc
