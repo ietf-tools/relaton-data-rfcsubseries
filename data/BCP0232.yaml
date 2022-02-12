@@ -162,7 +162,5 @@ relation:
         - Latn
         format: text/plain
       number: '8932'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc

@@ -110,9 +110,7 @@ relation:
         - Latn
         format: text/plain
       number: '1661'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -198,7 +196,5 @@ relation:
         - Latn
         format: text/plain
       number: '1662'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc

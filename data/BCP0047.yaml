@@ -132,9 +132,7 @@ relation:
         - Latn
         format: text/plain
       number: '4647'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -241,7 +239,5 @@ relation:
         - Latn
         format: text/plain
       number: '5646'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc

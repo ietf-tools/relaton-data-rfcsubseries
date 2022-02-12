@@ -129,9 +129,7 @@ relation:
         - Latn
         format: text/plain
       number: '8010'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -244,7 +242,5 @@ relation:
         - Latn
         format: text/plain
       number: '8011'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc

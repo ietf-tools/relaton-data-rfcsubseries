@@ -148,9 +148,7 @@ relation:
         - Latn
         format: text/plain
       number: '8711'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -257,9 +255,7 @@ relation:
         - Latn
         format: text/plain
       number: '8714'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
 - type: includes
   bibitem:
@@ -352,7 +348,5 @@ relation:
         - Latn
         format: text/plain
       number: '8717'
-    place:
-    - Fremont, CA
-    fetched: '2022-02-11'
+    fetched: '2022-02-12'
     doctype: rfc
