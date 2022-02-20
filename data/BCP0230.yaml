@@ -190,5 +190,5 @@ relation:
         - Latn
         format: text/plain
       number: '8900'
-    fetched: '2022-02-19'
+    fetched: '2022-02-20'
     doctype: rfc
