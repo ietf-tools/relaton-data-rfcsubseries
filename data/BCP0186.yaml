@@ -142,5 +142,5 @@ relation:
         - Latn
         format: text/plain
       number: '7126'
-    fetched: '2022-02-23'
+    fetched: '2022-02-24'
     doctype: rfc
