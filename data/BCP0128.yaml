@@ -8,7 +8,7 @@ docid:
 - id: BCP 128
   type: IETF
   primary: true
-- id: BCP0128
+- id: BCP128
   type: IETF
   scope: anchor
 docnumber: BCP0128
@@ -149,5 +149,5 @@ relation:
         - Latn
         format: text/plain
       number: '4928'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

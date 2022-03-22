@@ -8,7 +8,7 @@ docid:
 - id: STD 69
   type: IETF
   primary: true
-- id: STD0069
+- id: STD69
   type: IETF
   scope: anchor
 docnumber: STD0069
@@ -112,7 +112,7 @@ relation:
         - Latn
         format: text/plain
       number: '5730'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -201,7 +201,7 @@ relation:
         - Latn
         format: text/plain
       number: '5731'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -290,7 +290,7 @@ relation:
         - Latn
         format: text/plain
       number: '5732'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -380,7 +380,7 @@ relation:
         - Latn
         format: text/plain
       number: '5733'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -469,5 +469,5 @@ relation:
         - Latn
         format: text/plain
       number: '5734'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

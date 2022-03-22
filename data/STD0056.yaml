@@ -8,7 +8,7 @@ docid:
 - id: STD 56
   type: IETF
   primary: true
-- id: STD0056
+- id: STD56
   type: IETF
   scope: anchor
 docnumber: STD0056
@@ -109,5 +109,5 @@ relation:
         - Latn
         format: text/plain
       number: '2453'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

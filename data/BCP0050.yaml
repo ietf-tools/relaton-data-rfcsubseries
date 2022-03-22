@@ -8,7 +8,7 @@ docid:
 - id: BCP 50
   type: IETF
   primary: true
-- id: BCP0050
+- id: BCP50
   type: IETF
   scope: anchor
 docnumber: BCP0050
@@ -175,5 +175,5 @@ relation:
         - Latn
         format: text/plain
       number: '3155'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

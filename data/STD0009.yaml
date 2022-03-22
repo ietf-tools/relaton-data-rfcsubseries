@@ -8,7 +8,7 @@ docid:
 - id: STD 9
   type: IETF
   primary: true
-- id: STD0009
+- id: STD9
   type: IETF
   scope: anchor
 docnumber: STD0009
@@ -44,7 +44,7 @@ relation:
     - id: RFC 959
       type: RFC
       primary: true
-    - id: RFC0959
+    - id: RFC959
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0959
@@ -129,5 +129,5 @@ relation:
         - Latn
         format: text/plain
       number: '959'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

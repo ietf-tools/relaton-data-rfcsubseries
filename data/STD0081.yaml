@@ -8,7 +8,7 @@ docid:
 - id: STD 81
   type: IETF
   primary: true
-- id: STD0081
+- id: STD81
   type: IETF
   scope: anchor
 docnumber: STD0081
@@ -158,5 +158,5 @@ relation:
         - Latn
         format: text/plain
       number: '7679'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

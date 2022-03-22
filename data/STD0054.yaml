@@ -8,7 +8,7 @@ docid:
 - id: STD 54
   type: IETF
   primary: true
-- id: STD0054
+- id: STD54
   type: IETF
   scope: anchor
 docnumber: STD0054
@@ -108,5 +108,5 @@ relation:
         - Latn
         format: text/plain
       number: '2328'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

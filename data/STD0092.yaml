@@ -8,7 +8,7 @@ docid:
 - id: STD 92
   type: IETF
   primary: true
-- id: STD0092
+- id: STD92
   type: IETF
   scope: anchor
 docnumber: STD0092
@@ -129,7 +129,7 @@ relation:
         - Latn
         format: text/plain
       number: '8010'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -242,5 +242,5 @@ relation:
         - Latn
         format: text/plain
       number: '8011'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

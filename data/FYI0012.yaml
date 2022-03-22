@@ -8,7 +8,7 @@ docid:
 - id: FYI 12
   type: IETF
   primary: true
-- id: FYI0012
+- id: FYI12
   type: IETF
   scope: anchor
 docnumber: FYI0012
@@ -143,5 +143,5 @@ relation:
         - Latn
         format: text/plain
       number: '1302'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

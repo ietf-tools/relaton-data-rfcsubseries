@@ -8,7 +8,7 @@ docid:
 - id: BCP 160
   type: IETF
   primary: true
-- id: BCP0160
+- id: BCP160
   type: IETF
   scope: anchor
 docnumber: BCP0160
@@ -195,5 +195,5 @@ relation:
         - Latn
         format: text/plain
       number: '6280'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

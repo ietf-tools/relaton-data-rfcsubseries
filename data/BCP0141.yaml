@@ -8,7 +8,7 @@ docid:
 - id: BCP 141
   type: IETF
   primary: true
-- id: BCP0141
+- id: BCP141
   type: IETF
   scope: anchor
 docnumber: BCP0141
@@ -128,5 +128,5 @@ relation:
         - Latn
         format: text/plain
       number: '7042'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

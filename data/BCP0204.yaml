@@ -8,7 +8,7 @@ docid:
 - id: BCP 204
   type: IETF
   primary: true
-- id: BCP0204
+- id: BCP204
   type: IETF
   scope: anchor
 docnumber: BCP0204
@@ -157,5 +157,5 @@ relation:
         - Latn
         format: text/plain
       number: '7934'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

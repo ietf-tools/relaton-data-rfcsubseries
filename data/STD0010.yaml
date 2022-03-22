@@ -8,7 +8,7 @@ docid:
 - id: STD 10
   type: IETF
   primary: true
-- id: STD0010
+- id: STD10
   type: IETF
   scope: anchor
 docnumber: STD0010
@@ -44,7 +44,7 @@ relation:
     - id: RFC 821
       type: RFC
       primary: true
-    - id: RFC0821
+    - id: RFC821
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0821
@@ -110,7 +110,7 @@ relation:
         - Latn
         format: text/plain
       number: '821'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -132,7 +132,7 @@ relation:
     - id: RFC 974
       type: RFC
       primary: true
-    - id: RFC0974
+    - id: RFC974
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0974
@@ -198,7 +198,7 @@ relation:
         - Latn
         format: text/plain
       number: '974'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -349,7 +349,7 @@ relation:
         - Latn
         format: text/plain
       number: '1869'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -469,5 +469,5 @@ relation:
         - Latn
         format: text/plain
       number: '1870'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc

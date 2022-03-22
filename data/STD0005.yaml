@@ -8,7 +8,7 @@ docid:
 - id: STD 5
   type: IETF
   primary: true
-- id: STD0005
+- id: STD5
   type: IETF
   scope: anchor
 docnumber: STD0005
@@ -44,7 +44,7 @@ relation:
     - id: RFC 791
       type: RFC
       primary: true
-    - id: RFC0791
+    - id: RFC791
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0791
@@ -100,7 +100,7 @@ relation:
         - Latn
         format: text/plain
       number: '791'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -122,7 +122,7 @@ relation:
     - id: RFC 792
       type: RFC
       primary: true
-    - id: RFC0792
+    - id: RFC792
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0792
@@ -178,7 +178,7 @@ relation:
         - Latn
         format: text/plain
       number: '792'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -200,7 +200,7 @@ relation:
     - id: RFC 919
       type: RFC
       primary: true
-    - id: RFC0919
+    - id: RFC919
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0919
@@ -266,7 +266,7 @@ relation:
         - Latn
         format: text/plain
       number: '919'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -288,7 +288,7 @@ relation:
     - id: RFC 922
       type: RFC
       primary: true
-    - id: RFC0922
+    - id: RFC922
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0922
@@ -354,7 +354,7 @@ relation:
         - Latn
         format: text/plain
       number: '922'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -376,7 +376,7 @@ relation:
     - id: RFC 950
       type: RFC
       primary: true
-    - id: RFC0950
+    - id: RFC950
       type: RFC
       scope: anchor
     - id: 10.17487/RFC0950
@@ -464,7 +464,7 @@ relation:
         - Latn
         format: text/plain
       number: '950'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
 - type: includes
   bibitem:
@@ -552,5 +552,5 @@ relation:
         - Latn
         format: text/plain
       number: '1112'
-    fetched: '2022-03-21'
+    fetched: '2022-03-22'
     doctype: rfc
