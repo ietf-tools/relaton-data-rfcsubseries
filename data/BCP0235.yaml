@@ -1,23 +1,23 @@
 ---
-id: BCP20
+id: BCP235
 link:
-- content: https://www.rfc-editor.org/info/bcp20
+- content: https://www.rfc-editor.org/info/bcp235
   type: src
 type: standard
 docid:
-- id: BCP 20
+- id: BCP 235
   type: IETF
   primary: true
-- id: BCP20
+- id: BCP235
   type: IETF
   scope: anchor
-docnumber: BCP0020
+docnumber: BCP0235
 language:
 - en
 script:
 - Latn
 formattedref:
-  content: BCP20
+  content: BCP235
   language:
   - en
   script:
@@ -26,33 +26,33 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC2317
+    id: RFC9210
     title:
-    - content: Classless IN-ADDR.ARPA delegation
+    - content: DNS Transport over TCP - Operational Requirements
       language:
       - en
       script:
       - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2317.xml
+    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9210.xml
       type: xml
-    - content: https://www.rfc-editor.org/info/rfc2317
+    - content: https://www.rfc-editor.org/info/rfc9210
       type: src
     type: standard
     docid:
-    - id: RFC 2317
+    - id: RFC 9210
       type: RFC
       primary: true
-    - id: RFC2317
+    - id: RFC9210
       type: RFC
       scope: anchor
-    - id: 10.17487/RFC2317
+    - id: 10.17487/RFC9210
       type: DOI
-    docnumber: RFC2317
+    docnumber: RFC9210
     date:
     - type: published
-      value: 1998-03
+      value: 2022-03
     contributor:
     - organization:
         name:
@@ -63,15 +63,15 @@ relation:
     - person:
         name:
           initial:
-          - content: H.
+          - content: J.
             language:
             - en
           surname:
-            content: Eidnes
+            content: Kristoff
             language:
             - en
           completename:
-            content: H. Eidnes
+            content: J. Kristoff
             language:
             - en
       role:
@@ -79,45 +79,33 @@ relation:
     - person:
         name:
           initial:
-          - content: G.
+          - content: D.
             language:
             - en
           surname:
-            content: de Groot
+            content: Wessels
             language:
             - en
           completename:
-            content: G. de Groot
+            content: D. Wessels
             language:
             - en
       role:
       - author
-    - person:
-        name:
-          initial:
-          - content: P.
-            language:
-            - en
-          surname:
-            content: Vixie
-            language:
-            - en
-          completename:
-            content: P. Vixie
-            language:
-            - en
-      role:
-      - author
-    revdate: 1998-03
+    revdate: 2022-03
     language:
     - en
     script:
     - Latn
     abstract:
-    - content: "<p>This document describes a way to do IN-ADDR.ARPA delegation on
-        non-octet boundaries for address spaces covering fewer than 256 addresses.
-        This document specifies an Internet Best Current Practices for the Internet
-        Community, and requests discussion and suggestions for improvements.</p>"
+    - content: "<p>This document updates RFCs 1123 and 1536. This document requires
+        the operational practice of permitting DNS messages to be carried over TCP
+        on the Internet as a Best Current Practice. This operational requirement is
+        aligned with the implementation requirements in RFC 7766. The use of TCP includes
+        both DNS over unencrypted TCP as well as over an encrypted TLS session. The
+        document also considers the consequences of this form of DNS communication
+        and the potential operational issues that can arise when this Best Current
+        Practice is not upheld.</p>"
       language:
       - en
       script:
@@ -132,7 +120,7 @@ relation:
         script:
         - Latn
         format: text/plain
-      number: '20'
+      number: '235'
     - type: main
       title:
         content: RFC
@@ -141,6 +129,6 @@ relation:
         script:
         - Latn
         format: text/plain
-      number: '2317'
+      number: '9210'
     fetched: '2022-03-23'
     doctype: rfc
