@@ -131,7 +131,7 @@ relation:
         - Latn
         format: text/plain
       number: '4787'
-    fetched: '2022-03-29'
+    fetched: '2022-03-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -281,7 +281,7 @@ relation:
         - Latn
         format: text/plain
       number: '6888'
-    fetched: '2022-03-29'
+    fetched: '2022-03-30'
     doctype: rfc
 - type: includes
   bibitem:
@@ -433,5 +433,5 @@ relation:
         - Latn
         format: text/plain
       number: '7857'
-    fetched: '2022-03-29'
+    fetched: '2022-03-30'
     doctype: rfc
