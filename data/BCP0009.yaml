@@ -112,7 +112,7 @@ relation:
         - Latn
         format: text/plain
       number: '2026'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -220,7 +220,7 @@ relation:
         - Latn
         format: text/plain
       number: '5657'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -340,7 +340,7 @@ relation:
         - Latn
         format: text/plain
       number: '6410'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -427,7 +427,7 @@ relation:
         - Latn
         format: text/plain
       number: '7100'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -547,7 +547,7 @@ relation:
         - Latn
         format: text/plain
       number: '7127'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -634,7 +634,7 @@ relation:
         - Latn
         format: text/plain
       number: '7475'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -736,5 +736,5 @@ relation:
         - Latn
         format: text/plain
       number: '8789'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc

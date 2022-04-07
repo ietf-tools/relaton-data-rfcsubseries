@@ -182,7 +182,7 @@ relation:
         - Latn
         format: text/plain
       number: '6598'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -319,7 +319,7 @@ relation:
         - Latn
         format: text/plain
       number: '6890'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
 - type: includes
   bibitem:
@@ -456,5 +456,5 @@ relation:
         - Latn
         format: text/plain
       number: '8190'
-    fetched: '2022-04-06'
+    fetched: '2022-04-07'
     doctype: rfc
