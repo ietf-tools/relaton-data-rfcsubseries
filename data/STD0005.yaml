@@ -100,7 +100,7 @@ relation:
         - Latn
         format: text/plain
       number: '791'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -178,7 +178,7 @@ relation:
         - Latn
         format: text/plain
       number: '792'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -266,7 +266,7 @@ relation:
         - Latn
         format: text/plain
       number: '919'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -354,7 +354,7 @@ relation:
         - Latn
         format: text/plain
       number: '922'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -464,7 +464,7 @@ relation:
         - Latn
         format: text/plain
       number: '950'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
 - type: includes
   bibitem:
@@ -552,5 +552,5 @@ relation:
         - Latn
         format: text/plain
       number: '1112'
-    fetched: '2022-04-08'
+    fetched: '2022-04-09'
     doctype: rfc
