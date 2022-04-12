@@ -101,5 +101,5 @@ relation:
         - Latn
         format: text/plain
       number: '3349'
-    fetched: '2022-04-11'
+    fetched: '2022-04-12'
     doctype: rfc
