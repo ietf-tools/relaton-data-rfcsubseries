@@ -100,5 +100,5 @@ relation:
         - Latn
         format: text/plain
       number: '20'
-    fetched: '2022-04-16'
+    fetched: '2022-04-17'
     doctype: rfc
