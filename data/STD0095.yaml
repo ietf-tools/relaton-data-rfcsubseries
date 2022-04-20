@@ -143,7 +143,7 @@ relation:
         - Latn
         format: text/plain
       number: '7480'
-    fetched: '2022-04-19'
+    fetched: '2022-04-20'
     doctype: rfc
 - type: includes
   bibitem:
@@ -248,7 +248,7 @@ relation:
         - Latn
         format: text/plain
       number: '7481'
-    fetched: '2022-04-19'
+    fetched: '2022-04-20'
     doctype: rfc
 - type: includes
   bibitem:
@@ -354,7 +354,7 @@ relation:
         - Latn
         format: text/plain
       number: '9082'
-    fetched: '2022-04-19'
+    fetched: '2022-04-20'
     doctype: rfc
 - type: includes
   bibitem:
@@ -458,7 +458,7 @@ relation:
         - Latn
         format: text/plain
       number: '9083'
-    fetched: '2022-04-19'
+    fetched: '2022-04-20'
     doctype: rfc
 - type: includes
   bibitem:
@@ -547,5 +547,5 @@ relation:
         - Latn
         format: text/plain
       number: '9224'
-    fetched: '2022-04-19'
+    fetched: '2022-04-20'
     doctype: rfc
