@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7126
     title:
-    - content: Recommendations on Filtering of IPv4 Packets Containing IPv4 Options
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Recommendations on Filtering of IPv4 Packets Containing IPv4 Options
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7126.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7126
       type: src
     type: standard
     docid:
     - id: RFC 7126
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7126
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7126
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2014-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Gont
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Gont
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Atkinson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Atkinson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Pignataro
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Pignataro
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2014-02
@@ -115,7 +122,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides advice on the filtering of IPv4 packets
-        based on the IPv4 options they contain. Additionally, it discusses the operational
+        based on the IPv4 options they contain.  Additionally, it discusses the operational
         and interoperability implications of dropping packets based on the IP options
         they contain.</p>"
       language:
@@ -124,23 +131,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '186'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7126'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: opsec

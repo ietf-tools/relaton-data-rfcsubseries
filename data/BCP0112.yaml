@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4222
     title:
-    - content: Prioritized Treatment of Specific OSPF Version 2 Packets and Congestion
+    - type: main
+      content: Prioritized Treatment of Specific OSPF Version 2 Packets and Congestion
         Avoidance
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4222.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4222
       type: src
     type: standard
     docid:
     - id: RFC 4222
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4222
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4222
       type: DOI
@@ -55,28 +50,28 @@ relation:
     - type: published
       value: 2005-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Choudhury
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Choudhury
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2005-10
     language:
     - en
@@ -85,9 +80,9 @@ relation:
     abstract:
     - content: "<p>This document recommends methods that are intended to improve the
         scalability and stability of large networks using Open Shortest Path First
-        (OSPF) Version 2 protocol. The methods include processing OSPF Hellos and
+        (OSPF) Version 2 protocol.  The methods include processing OSPF Hellos and
         Link State Advertisement (LSA) Acknowledgments at a higher priority compared
-        to other OSPF packets, and other congestion avoidance procedures. This document
+        to other OSPF packets, and other congestion avoidance procedures.  This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
       language:
@@ -96,23 +91,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '112'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4222'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - open shortest path first
+    - lsa
+    - link state advertisement
+    editorialgroup:
+    - name: ospf

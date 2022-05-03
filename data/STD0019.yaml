@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC1001
     title:
-    - content: 'Protocol standard for a NetBIOS service on a TCP/UDP transport: Concepts
+    - type: main
+      content: 'Protocol standard for a NetBIOS service on a TCP/UDP transport: Concepts
         and methods'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1001.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1001
       type: src
     type: standard
     docid:
     - id: RFC 1001
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1001
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1001
       type: DOI
@@ -57,12 +52,6 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - organization:
-        name:
         - NetBIOS Working Group in the Defense Advanced Research Projects Agency
       role:
       - author
@@ -83,11 +72,11 @@ relation:
     - Latn
     abstract:
     - content: '<p>This RFC defines a proposed standard protocol to support NetBIOS
-        services in a TCP/IP environment. Both local network and internet operation
-        are supported. Various node types are defined to accommodate local and internet
-        topologies and to allow operation with or without the use of IP broadcast.
-        This RFC describes the NetBIOS-over-TCP protocols in a general manner, emphasizing
-        the underlying ideas and techniques. Detailed specifications are found in
+        services in a TCP/IP environment.  Both local network and internet operation
+        are supported.  Various node types are defined to accommodate local and internet
+        topologies and to allow operation with or without the use of IP broadcast.  This
+        RFC describes the NetBIOS-over-TCP protocols in a general manner, emphasizing
+        the underlying ideas and techniques.  Detailed specifications are found in
         a companion RFC, "Protocol Standard For a NetBIOS Service on a TCP/UDP Transport:
         Detailed Specifications".</p>'
       language:
@@ -96,49 +85,35 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '19'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1001'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - NETBIOS
 - type: includes
   bibitem:
     id: RFC1002
     title:
-    - content: 'Protocol standard for a NetBIOS service on a TCP/UDP transport: Detailed
+    - type: main
+      content: 'Protocol standard for a NetBIOS service on a TCP/UDP transport: Detailed
         specifications'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1002.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1002
       type: src
     type: standard
     docid:
     - id: RFC 1002
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1002
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1002
       type: DOI
@@ -149,12 +124,6 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - organization:
-        name:
         - NetBIOS Working Group in the Defense Advanced Research Projects Agency
       role:
       - author
@@ -175,36 +144,27 @@ relation:
     - Latn
     abstract:
     - content: '<p>This RFC defines a proposed standard protocol to support NetBIOS
-        services in a TCP/IP environment. Both local network and internet operation
-        are supported. Various node types are defined to accommodate local and internet
-        topologies and to allow operation with or without the use of IP broadcast.
-        This RFC gives the detailed specifications of the netBIOS-over-TCP packets,
-        protocols, and defined constants and variables. A more general overview is
-        found in a companion RFC, "Protocol Standard For NetBIOS Service on TCP/UDP
-        Transport: Concepts and Methods".</p>'
+        services in a TCP/IP environment.  Both local network and internet operation
+        are supported.  Various node types are defined to accommodate local and internet
+        topologies and to allow operation with or without the use of IP broadcast.  This
+        RFC gives the detailed specifications of the netBIOS-over-TCP packets, protocols,
+        and defined constants and variables.  A more general overview is found in
+        a companion RFC, "Protocol Standard For NetBIOS Service on TCP/UDP Transport:
+        Concepts and Methods".</p>'
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '19'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1002'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - NETBIOS

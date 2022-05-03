@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6158
     title:
-    - content: RADIUS Design Guidelines
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: RADIUS Design Guidelines
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6158.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6158
       type: src
     type: standard
     docid:
     - id: RFC 6158
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6158
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6158
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2011-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: DeKok
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. DeKok
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Weber
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Weber
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-03
@@ -100,9 +101,9 @@ relation:
     abstract:
     - content: "<p>This document provides guidelines for the design of attributes
         used by the Remote Authentication Dial In User Service (RADIUS) protocol.
-        It is expected that these guidelines will prove useful to authors and reviewers
+        \ It is expected that these guidelines will prove useful to authors and reviewers
         of future RADIUS attribute specifications, within the IETF as well as other
-        Standards Development Organizations (SDOs). This memo documents an Internet
+        Standards Development Organizations (SDOs).  This memo documents an Internet
         Best Current Practice.</p>"
       language:
       - en
@@ -110,23 +111,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '158'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6158'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: radext

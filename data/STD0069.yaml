@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5730
     title:
-    - content: Extensible Provisioning Protocol (EPP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Extensible Provisioning Protocol (EPP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5730.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5730
       type: src
     type: standard
     docid:
     - id: RFC 5730
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5730
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5730
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2009-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-08
@@ -84,58 +79,44 @@ relation:
     abstract:
     - content: "<p>This document describes an application-layer client-server protocol
         for the provisioning and management of objects stored in a shared central
-        repository. Specified in XML, the protocol defines generic object management
+        repository.  Specified in XML, the protocol defines generic object management
         operations and an extensible framework that maps protocol operations to objects.
-        This document includes a protocol specification, an object mapping template,
-        and an XML media type registration. This document obsoletes RFC 4930. [STANDARDS-TRACK]</p>"
+        \ This document includes a protocol specification, an object mapping template,
+        and an XML media type registration.  This document obsoletes RFC 4930. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '69'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5730'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - shared framework mapping
 - type: includes
   bibitem:
     id: RFC5731
     title:
-    - content: Extensible Provisioning Protocol (EPP) Domain Name Mapping
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Extensible Provisioning Protocol (EPP) Domain Name Mapping
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5731.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5731
       type: src
     type: standard
     docid:
     - id: RFC 5731
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5731
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5731
       type: DOI
@@ -144,26 +125,26 @@ relation:
     - type: published
       value: 2009-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-08
@@ -174,8 +155,8 @@ relation:
     abstract:
     - content: "<p>This document describes an Extensible Provisioning Protocol (EPP)
         mapping for the provisioning and management of Internet domain names stored
-        in a shared central repository. Specified in XML, the mapping defines EPP
-        command syntax and semantics as applied to domain names. This document obsoletes
+        in a shared central repository.  Specified in XML, the mapping defines EPP
+        command syntax and semantics as applied to domain names.  This document obsoletes
         RFC 4931. [STANDARDS-TRACK]</p>"
       language:
       - en
@@ -183,48 +164,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '69'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5731'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - EPP
+    - Extensible Provisioning Protocol
+    - XML
+    - domain
+    - domain name
 - type: includes
   bibitem:
     id: RFC5732
     title:
-    - content: Extensible Provisioning Protocol (EPP) Host Mapping
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Extensible Provisioning Protocol (EPP) Host Mapping
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5732.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5732
       type: src
     type: standard
     docid:
     - id: RFC 5732
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5732
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5732
       type: DOI
@@ -233,26 +204,26 @@ relation:
     - type: published
       value: 2009-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-08
@@ -263,8 +234,8 @@ relation:
     abstract:
     - content: "<p>This document describes an Extensible Provisioning Protocol (EPP)
         mapping for the provisioning and management of Internet host names stored
-        in a shared central repository. Specified in XML, the mapping defines EPP
-        command syntax and semantics as applied to host names. This document obsoletes
+        in a shared central repository.  Specified in XML, the mapping defines EPP
+        command syntax and semantics as applied to host names.  This document obsoletes
         RFC 4932. [STANDARDS-TRACK]</p>"
       language:
       - en
@@ -272,48 +243,37 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '69'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5732'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - EPP
+    - Extensible Provisioning Protocol
+    - XML
+    - host
 - type: includes
   bibitem:
     id: RFC5733
     title:
-    - content: Extensible Provisioning Protocol (EPP) Contact Mapping
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Extensible Provisioning Protocol (EPP) Contact Mapping
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5733.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5733
       type: src
     type: standard
     docid:
     - id: RFC 5733
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5733
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5733
       type: DOI
@@ -322,26 +282,26 @@ relation:
     - type: published
       value: 2009-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-08
@@ -353,8 +313,8 @@ relation:
     - content: <p>This document describes an Extensible Provisioning Protocol (EPP)
         mapping for the provisioning and management of individual or organizational
         social information identifiers (known as "contacts") stored in a shared central
-        repository. Specified in Extensible Markup Language (XML), the mapping defines
-        EPP command syntax and semantics as applied to contacts. This document obsoletes
+        repository.  Specified in Extensible Markup Language (XML), the mapping defines
+        EPP command syntax and semantics as applied to contacts.  This document obsoletes
         RFC 4933. [STANDARDS-TRACK]</p>
       language:
       - en
@@ -362,48 +322,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '69'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5733'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - EPP
+    - Extensible Provisioning Protocol
+    - XML
+    - contact
+    - registrant
 - type: includes
   bibitem:
     id: RFC5734
     title:
-    - content: Extensible Provisioning Protocol (EPP) Transport over TCP
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Extensible Provisioning Protocol (EPP) Transport over TCP
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5734.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5734
       type: src
     type: standard
     docid:
     - id: RFC 5734
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5734
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5734
       type: DOI
@@ -412,26 +362,26 @@ relation:
     - type: published
       value: 2009-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-08
@@ -442,32 +392,27 @@ relation:
     abstract:
     - content: "<p>This document describes how an Extensible Provisioning Protocol
         (EPP) session is mapped onto a single Transmission Control Protocol (TCP)
-        connection. This mapping requires use of the Transport Layer Security (TLS)
+        connection.  This mapping requires use of the Transport Layer Security (TLS)
         protocol to protect information exchanged between an EPP client and an EPP
-        server. This document obsoletes RFC 4934. [STANDARDS-TRACK]</p>"
+        server.  This document obsoletes RFC 4934. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '69'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5734'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - EPP
+    - Extensible Provisioning Protocol
+    - XML
+    - TCP
+    - TLS

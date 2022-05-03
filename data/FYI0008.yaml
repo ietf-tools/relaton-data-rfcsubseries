@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2196
     title:
-    - content: Site Security Handbook
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Site Security Handbook
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2196.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2196
       type: src
     type: standard
     docid:
     - id: RFC 2196
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2196
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2196
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1997-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Fraser
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Fraser
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1997-09
@@ -83,35 +78,26 @@ relation:
     - Latn
     abstract:
     - content: "<p>This handbook is a guide to developing computer security policies
-        and procedures for sites that have systems on the Internet. The purpose of
+        and procedures for sites that have systems on the Internet.  The purpose of
         this handbook is to provide practical guidance to administrators trying to
-        secure their information and services. The subjects covered include policy
+        secure their information and services.  The subjects covered include policy
         content and formation, a broad range of technical system and network security
-        topics, and security incident response. This memo provides information for
-        the Internet community. It does not specify an Internet standard of any kind.</p>"
+        topics, and security incident response.  This memo provides information for
+        the Internet community.  It does not specify an Internet standard of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2196'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: ssh

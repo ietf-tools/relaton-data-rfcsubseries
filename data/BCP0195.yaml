@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC7525
     title:
-    - content: Recommendations for Secure Use of Transport Layer Security (TLS) and
+    - type: main
+      content: Recommendations for Secure Use of Transport Layer Security (TLS) and
         Datagram Transport Layer Security (DTLS)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7525.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7525
       type: src
     type: standard
     docid:
     - id: RFC 7525
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7525
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7525
       type: DOI
@@ -55,58 +50,70 @@ relation:
     - type: published
       value: 2015-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: Y.
+          - content: Y
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sheffer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: Y. Sheffer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Holz
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Holz
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Saint-Andre
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Saint-Andre
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-05
@@ -117,10 +124,10 @@ relation:
     abstract:
     - content: "<p>Transport Layer Security (TLS) and Datagram Transport Layer Security
         (DTLS) are widely used to protect data exchanged over application protocols
-        such as HTTP, SMTP, IMAP, POP, SIP, and XMPP. Over the last few years, several
+        such as HTTP, SMTP, IMAP, POP, SIP, and XMPP.  Over the last few years, several
         serious attacks on TLS have emerged, including attacks on its most commonly
-        used cipher suites and their modes of operation. This document provides recommendations
-        for improving the security of deployed services that use TLS and DTLS. The
+        used cipher suites and their modes of operation.  This document provides recommendations
+        for improving the security of deployed services that use TLS and DTLS.  The
         recommendations are applicable to the majority of use cases.</p>"
       language:
       - en
@@ -128,48 +135,40 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '195'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7525'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Transport Layer Security
+    - TLS
+    - DTLS
+    - Secure Sockets Layer
+    - SSL
+    editorialgroup:
+    - name: uta
 - type: includes
   bibitem:
     id: RFC8996
     title:
-    - content: Deprecating TLS 1.0 and TLS 1.1
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Deprecating TLS 1.0 and TLS 1.1
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8996.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8996
       type: src
     type: standard
     docid:
     - id: RFC 8996
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8996
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8996
       type: DOI
@@ -178,42 +177,48 @@ relation:
     - type: published
       value: 2021-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Moriarty
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Moriarty
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Farrell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2021-03
@@ -242,24 +247,441 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3261
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3329
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3436
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3470
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3501
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3552
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3568
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3656
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3749
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3767
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3856
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3871
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3887
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3903
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3943
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3983
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4097
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4111
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4162
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4168
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4217
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4235
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4261
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4279
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4497
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4513
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4531
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4540
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4582
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4616
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4642
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4680
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4681
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4712
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4732
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4743
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4744
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4785
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4791
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4823
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4851
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4964
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4975
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4976
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4992
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5018
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5019
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5023
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5024
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5049
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5054
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5091
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5158
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5216
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5238
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5263
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5281
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5364
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5415
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5422
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5456
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5734
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5878
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5953
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6012
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6042
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6083
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6084
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6176
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6347
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6353
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6367
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6460
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6614
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6739
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6749
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6750
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7030
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7465
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7525
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7562
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7568
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC8261
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC8422
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '195'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8996'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TLS
+    - deprecate
+    - TLSv1.0
+    - TLSv1.1
+    editorialgroup:
+    - name: tls

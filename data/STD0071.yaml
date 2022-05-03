@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6152
     title:
-    - content: SMTP Service Extension for 8-bit MIME Transport
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: SMTP Service Extension for 8-bit MIME Transport
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6152.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6152
       type: src
     type: standard
     docid:
     - id: RFC 6152
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6152
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6152
       type: DOI
@@ -54,76 +49,94 @@ relation:
     - type: published
       value: 2011-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Freed
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Freed
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rose
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Rose
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2011-03
     language:
     - en
@@ -139,23 +152,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '71'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6152'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - simple mail transfer
+    editorialgroup:
+    - name: yam

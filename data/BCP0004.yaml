@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC1917
     title:
-    - content: An Appeal to the Internet Community to Return Unused IP Networks (Prefixes)
+    - type: main
+      content: An Appeal to the Internet Community to Return Unused IP Networks (Prefixes)
         to the IANA
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1917.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1917
       type: src
     type: standard
     docid:
     - id: RFC 1917
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1917
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1917
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 1996-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Nesser II
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Nesser II
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-02
@@ -84,9 +79,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document is an appeal to the Internet community to return
-        unused address space, i.e. any block of consecutive IP prefixes, to the Internet
+        unused address space, i.e.  any block of consecutive IP prefixes, to the Internet
         Assigned Numbers Authority (IANA) or any of the delegated registries, for
-        reapportionment. This document specifies an Internet Best Current Practices
+        reapportionment.  This document specifies an Internet Best Current Practices
         for the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -94,23 +89,22 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1917'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - address
+    - space
+    - Internet
+    - Assigned
+    - Numbers
+    - Authority
+    - IANA
+    editorialgroup:
+    - name: cidrd

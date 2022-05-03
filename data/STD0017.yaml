@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC1213
     title:
-    - content: 'Management Information Base for Network Management of TCP/IP-based
+    - type: main
+      content: 'Management Information Base for Network Management of TCP/IP-based
         internets: MIB-II'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1213.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1213
       type: src
     type: standard
     docid:
     - id: RFC 1213
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1213
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1213
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 1991-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: McCloghrie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. McCloghrie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rose
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Rose
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1991-03
@@ -108,23 +109,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '17'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1213'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - MIB-II
+    editorialgroup:
+    - name: snmp

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3360
     title:
-    - content: Inappropriate TCP Resets Considered Harmful
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Inappropriate TCP Resets Considered Harmful
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3360.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3360
       type: src
     type: standard
     docid:
     - id: RFC 3360
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3360
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3360
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2002-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Floyd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Floyd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-08
@@ -82,23 +77,17 @@ relation:
     script:
     - Latn
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '60'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3360'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - transmission control protocol
+    - rst
+    - bit
+    - connection

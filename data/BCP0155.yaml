@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5855
     title:
-    - content: Nameservers for IPv4 and IPv6 Reverse Zones
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Nameservers for IPv4 and IPv6 Reverse Zones
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5855.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5855
       type: src
     type: standard
     docid:
     - id: RFC 5855
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5855
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5855
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2010-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Abley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Abley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Manderson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Manderson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2010-05
@@ -99,8 +100,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document specifies a stable naming scheme for the nameservers
-        that serve the zones IN-ADDR.ARPA and IP6.ARPA in the DNS. These zones contain
-        data that facilitate reverse mapping (address to name). This memo documents
+        that serve the zones IN-ADDR.ARPA and IP6.ARPA in the DNS.  These zones contain
+        data that facilitate reverse mapping (address to name).  This memo documents
         an Internet Best Current Practice.</p>"
       language:
       - en
@@ -108,23 +109,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '155'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5855'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - " IN-ADDR.ARPA"
+    - IP6.ARPA
+    - reverse mapping

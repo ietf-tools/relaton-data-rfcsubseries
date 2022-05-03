@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC1915
     title:
-    - content: Variance for The PPP Compression Control Protocol and The PPP Encryption
+    - type: main
+      content: Variance for The PPP Compression Control Protocol and The PPP Encryption
         Control Protocol
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1915.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1915
       type: src
     type: standard
     docid:
     - id: RFC 1915
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1915
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1915
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 1996-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kastenholz
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Kastenholz
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-02
@@ -85,34 +80,28 @@ relation:
     abstract:
     - content: "<p>The PPP Working group has developed two protocols, one to control
         compression on PPP links; the Compression Control Protocol (CCP), documented
-        in draft-ietf-pppext-compression-04.txt. The second is the Encryption Control
+        in draft-ietf-pppext-compression-04.txt.  The second is the Encryption Control
         Protocol (ECP), used to control encryption on serial links, documented in
-        draft-ietf-pppext-encryption-03.txt. This document specifies an Internet Best
-        Current Practices for the Internet Community, and requests discussion and
-        suggestions for improvements.</p>"
+        draft-ietf-pppext-encryption-03.txt.  This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1915'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Point
+    - to
+    - Point
+    - Protocol

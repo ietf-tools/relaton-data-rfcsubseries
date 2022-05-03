@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC8552
     title:
-    - content: Scoped Interpretation of DNS Resource Records through "Underscored"
+    - type: main
+      content: Scoped Interpretation of DNS Resource Records through "Underscored"
         Naming of Attribute Leaves
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8552.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8552
       type: src
     type: standard
     docid:
     - id: RFC 8552
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8552
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8552
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2019-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2019-03
@@ -84,15 +79,15 @@ relation:
     - Latn
     abstract:
     - content: <p>Formally, any DNS Resource Record (RR) may occur under any domain
-        name. However, some services use an operational convention for defining specific
+        name.  However, some services use an operational convention for defining specific
         interpretations of an RRset by locating the records in a DNS branch under
-        the parent domain to which the RRset actually applies. The top of this subordinate
+        the parent domain to which the RRset actually applies.  The top of this subordinate
         branch is defined by a naming convention that uses a reserved node name, which
-        begins with the underscore character (e.g., "_name"). The underscored naming
+        begins with the underscore character (e.g., "_name").  The underscored naming
         construct defines a semantic scope for DNS record types that are associated
-        with the parent domain above the underscored branch. This specification explores
+        with the parent domain above the underscored branch.  This specification explores
         the nature of this DNS usage and defines the "Underscored and Globally Scoped
-        DNS Node Names" registry with IANA. The purpose of this registry is to avoid
+        DNS Node Names" registry with IANA.  The purpose of this registry is to avoid
         collisions resulting from the use of the same underscored name for different
         services.</p>
       language:
@@ -101,49 +96,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '222'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8552'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DNS
+    - Domain Name System
+    editorialgroup:
+    - name: dnsop
 - type: includes
   bibitem:
     id: RFC8553
     title:
-    - content: 'DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node
+    - type: main
+      content: 'DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node
         Names'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8553.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8553
       type: src
     type: standard
     docid:
     - id: RFC 8553
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8553
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8553
       type: DOI
@@ -152,26 +136,26 @@ relation:
     - type: published
       value: 2019-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2019-03
@@ -181,38 +165,198 @@ relation:
     - Latn
     abstract:
     - content: "<p>Using an underscore for a prefix creates a space for constrained
-        interoperation of resource records. Original uses of an underscore character
+        interoperation of resource records.  Original uses of an underscore character
         as a domain node name prefix were specified without the benefit of an IANA
-        registry. This produced an entirely uncoordinated set of name-creation activities,
-        all drawing from the same namespace. A registry for these names has now been
-        defined by RFC 8552. However, the existing specifications that use underscored
-        naming need to be modified in order to be in line with the new registry. This
-        document specifies those changes. The changes preserve existing software and
-        operational practice, while adapting the specifications for those practices
+        registry.  This produced an entirely uncoordinated set of name-creation activities,
+        all drawing from the same namespace.  A registry for these names has now been
+        defined by RFC 8552.  However, the existing specifications that use underscored
+        naming need to be modified in order to be in line with the new registry.  This
+        document specifies those changes.  The changes preserve existing software
+        and operational practice, while adapting the specifications for those practices
         to the newer underscore registry model.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2782
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3263
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3529
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3620
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3832
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3887
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3958
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4120
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4227
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4386
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4387
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4976
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5026
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5328
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5389
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5415
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5518
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5555
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5617
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5679
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5766
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5780
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5804
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5864
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5928
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6120
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6186
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6376
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6733
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6763
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7208
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7489
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC8145
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '222'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8553'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DNS
+    - Domain Name System
+    editorialgroup:
+    - name: dnsop

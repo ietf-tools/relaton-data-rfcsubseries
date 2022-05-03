@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2578
     title:
-    - content: Structure of Management Information Version 2 (SMIv2)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Structure of Management Information Version 2 (SMIv2)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2578.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2578
       type: src
     type: standard
     docid:
     - id: RFC 2578
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2578
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2578
       type: DOI
@@ -54,60 +49,72 @@ relation:
     - type: published
       value: 1999-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: McCloghrie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. McCloghrie
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Perkins
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schoenwaelder
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schoenwaelder
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1999-04
     language:
     - en
@@ -123,48 +130,40 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '58'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2578'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SMIv2
+    - Simple
+    - Network
+    - Management
+    - Protocol
+    - Version
+    - '2'
 - type: includes
   bibitem:
     id: RFC2579
     title:
-    - content: Textual Conventions for SMIv2
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Textual Conventions for SMIv2
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2579.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2579
       type: src
     type: standard
     docid:
     - id: RFC 2579
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2579
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2579
       type: DOI
@@ -173,60 +172,72 @@ relation:
     - type: published
       value: 1999-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: McCloghrie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. McCloghrie
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Perkins
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schoenwaelder
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schoenwaelder
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1999-04
     language:
     - en
@@ -241,48 +252,40 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '58'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2579'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - CONV-MIB
+    - Simple
+    - Network
+    - Management
+    - Protocol
+    - Version
+    - '2'
 - type: includes
   bibitem:
     id: RFC2580
     title:
-    - content: Conformance Statements for SMIv2
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Conformance Statements for SMIv2
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2580.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2580
       type: src
     type: standard
     docid:
     - id: RFC 2580
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2580
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2580
       type: DOI
@@ -291,93 +294,102 @@ relation:
     - type: published
       value: 1999-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: McCloghrie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. McCloghrie
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Perkins
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schoenwaelder
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schoenwaelder
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1999-04
     language:
     - en
     script:
     - Latn
     abstract:
-    - content: "<p>Collections of related objects are defined in MIB modules. It may
-        be useful to define the acceptable lower-bounds of implementation, along with
-        the actual level of implementation achieved. It is the purpose of this document
-        to define the notation used for these purposes. [STANDARDS-TRACK]</p>"
+    - content: "<p>Collections of related objects are defined in MIB modules.  It
+        may be useful to define the acceptable lower-bounds of implementation, along
+        with the actual level of implementation achieved.  It is the purpose of this
+        document to define the notation used for these purposes. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '58'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2580'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - CONF-MIB
+    - simple
+    - Network
+    - Management
+    - Protocol
+    - Version
+    - '2'

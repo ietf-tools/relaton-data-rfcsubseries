@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC6522
     title:
-    - content: The Multipart/Report Media Type for the Reporting of Mail System Administrative
+    - type: main
+      content: The Multipart/Report Media Type for the Reporting of Mail System Administrative
         Messages
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6522.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6522
       type: src
     type: standard
     docid:
     - id: RFC 6522
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6522
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6522
       type: DOI
@@ -55,28 +50,28 @@ relation:
     - type: published
       value: 2012-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kucherawy
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Kucherawy
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2012-01
     language:
     - en
@@ -97,23 +92,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '73'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6522'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - MIME
+    - Multipurpose Internet Mail Extensions
+    editorialgroup:
+    - name: appsawg

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7454
     title:
-    - content: BGP Operations and Security
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: BGP Operations and Security
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7454.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7454
       type: src
     type: standard
     docid:
     - id: RFC 7454
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7454
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7454
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2015-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Durand
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Durand
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: I.
+          - content: I
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Pepelnjak
             language:
             - en
+            script:
+            - Latn
           completename:
             content: I. Pepelnjak
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Doering
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Doering
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-02
@@ -130,23 +137,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '194'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7454'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: opsec

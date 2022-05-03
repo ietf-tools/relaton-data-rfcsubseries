@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6376
     title:
-    - content: DomainKeys Identified Mail (DKIM) Signatures
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: DomainKeys Identified Mail (DKIM) Signatures
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6376.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6376
       type: src
     type: standard
     docid:
     - id: RFC 6376
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6376
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6376
       type: DOI
@@ -54,60 +49,72 @@ relation:
     - type: published
       value: 2011-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hansen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Hansen
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kucherawy
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Kucherawy
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2011-09
     language:
     - en
@@ -130,23 +137,29 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '76'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6376'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - email
+    - architecture
+    - abuse
+    - verification
+    - anti-abuse
+    - identity
+    - integrity
+    - responsible
+    - author
+    - sender
+    - originator
+    - email filtering
+    - anti-phishing
+    - mail signature
+    editorialgroup:
+    - name: dkim

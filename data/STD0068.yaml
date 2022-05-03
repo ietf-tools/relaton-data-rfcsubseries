@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5234
     title:
-    - content: 'Augmented BNF for Syntax Specifications: ABNF'
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: 'Augmented BNF for Syntax Specifications: ABNF'
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5234.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5234
       type: src
     type: standard
     docid:
     - id: RFC 5234
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5234
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5234
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2008-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Overell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Overell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-01
@@ -99,12 +100,12 @@ relation:
     - Latn
     abstract:
     - content: "<p>Internet technical specifications often need to define a formal
-        syntax. Over the years, a modified version of Backus-Naur Form (BNF), called
+        syntax.  Over the years, a modified version of Backus-Naur Form (BNF), called
         Augmented BNF (ABNF), has been popular among many Internet specifications.
-        The current specification documents ABNF. It balances compactness and simplicity
-        with reasonable representational power. The differences between standard BNF
-        and ABNF involve naming rules, repetition, alternatives, order-independence,
-        and value ranges. This specification also supplies additional rule definitions
+        \ The current specification documents ABNF.  It balances compactness and simplicity
+        with reasonable representational power.  The differences between standard
+        BNF and ABNF involve naming rules, repetition, alternatives, order-independence,
+        and value ranges.  This specification also supplies additional rule definitions
         and encoding for a core lexical analyzer of the type common to several Internet
         specifications. [STANDARDS-TRACK]</p>"
       language:
@@ -113,23 +114,19 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '68'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5234'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ABNF
+    - backus-naur form
+    - augmented backus-naur form
+    - rule definitions
+    - encoding
+    - core lexical analyzer

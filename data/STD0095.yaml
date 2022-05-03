@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7480
     title:
-    - content: HTTP Usage in the Registration Data Access Protocol (RDAP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: HTTP Usage in the Registration Data Access Protocol (RDAP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7480.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7480
       type: src
     type: standard
     docid:
     - id: RFC 7480
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7480
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7480
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2015-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Newton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Newton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ellacott
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Ellacott
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kong
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Kong
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-03
@@ -115,9 +122,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document is one of a collection that together describes the
-        Registration Data Access Protocol (RDAP). It describes how RDAP is transported
-        using the Hypertext Transfer Protocol (HTTP). RDAP is a successor protocol
-        to the very old WHOIS protocol. The purpose of this document is to clarify
+        Registration Data Access Protocol (RDAP).  It describes how RDAP is transported
+        using the Hypertext Transfer Protocol (HTTP).  RDAP is a successor protocol
+        to the very old WHOIS protocol.  The purpose of this document is to clarify
         the use of standard HTTP mechanisms for this application.</p>"
       language:
       - en
@@ -125,48 +132,37 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '95'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7480'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Registry
+    - WHOIS
+    editorialgroup:
+    - name: weirds
 - type: includes
   bibitem:
     id: RFC7481
     title:
-    - content: Security Services for the Registration Data Access Protocol (RDAP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Security Services for the Registration Data Access Protocol (RDAP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7481.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7481
       type: src
     type: standard
     docid:
     - id: RFC 7481
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7481
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7481
       type: DOI
@@ -175,42 +171,48 @@ relation:
     - type: published
       value: 2015-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kong
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Kong
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-03
@@ -221,7 +223,7 @@ relation:
     abstract:
     - content: <p>The Registration Data Access Protocol (RDAP) provides "RESTful"
         web services to retrieve registration metadata from Domain Name and Regional
-        Internet Registries. This document describes information security services,
+        Internet Registries.  This document describes information security services,
         including access control, authentication, authorization, availability, data
         confidentiality, and data integrity for RDAP.</p>
       language:
@@ -230,48 +232,37 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '95'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7481'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - RDAP
+    - Security
+    editorialgroup:
+    - name: weirds
 - type: includes
   bibitem:
     id: RFC9082
     title:
-    - content: Registration Data Access Protocol (RDAP) Query Format
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Registration Data Access Protocol (RDAP) Query Format
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9082.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc9082
       type: src
     type: standard
     docid:
     - id: RFC 9082
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC9082
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC9082
       type: DOI
@@ -280,42 +271,48 @@ relation:
     - type: published
       value: 2021-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Newton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Newton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2021-06
@@ -327,8 +324,8 @@ relation:
     - content: <p>This document describes uniform patterns to construct HTTP URLs
         that may be used to retrieve registration information from registries (including
         both Regional Internet Registries (RIRs) and Domain Name Registries (DNRs))
-        using "RESTful" web access patterns. These uniform patterns define the query
-        syntax for the Registration Data Access Protocol (RDAP). This document obsoletes
+        using "RESTful" web access patterns.  These uniform patterns define the query
+        syntax for the Registration Data Access Protocol (RDAP).  This document obsoletes
         RFC 7482.</p>
       language:
       - en
@@ -336,48 +333,34 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '95'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9082'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: regext
 - type: includes
   bibitem:
     id: RFC9083
     title:
-    - content: JSON Responses for the Registration Data Access Protocol (RDAP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: JSON Responses for the Registration Data Access Protocol (RDAP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9083.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc9083
       type: src
     type: standard
     docid:
     - id: RFC 9083
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC9083
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC9083
       type: DOI
@@ -386,42 +369,48 @@ relation:
     - type: published
       value: 2021-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Newton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Newton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2021-06
@@ -432,57 +421,43 @@ relation:
     abstract:
     - content: "<p>This document describes JSON data structures representing registration
         information maintained by Regional Internet Registries (RIRs) and Domain Name
-        Registries (DNRs). These data structures are used to form Registration Data
-        Access Protocol (RDAP) query responses. This document obsoletes RFC 7483.</p>"
+        Registries (DNRs).  These data structures are used to form Registration Data
+        Access Protocol (RDAP) query responses.  This document obsoletes RFC 7483.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '95'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9083'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: regext
 - type: includes
   bibitem:
     id: RFC9224
     title:
-    - content: Finding the Authoritative Registration Data Access Protocol (RDAP)
+    - type: main
+      content: Finding the Authoritative Registration Data Access Protocol (RDAP)
         Service
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9224.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc9224
       type: src
     type: standard
     docid:
     - id: RFC 9224
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC9224
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC9224
       type: DOI
@@ -491,26 +466,26 @@ relation:
     - type: published
       value: 2022-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Blanchet
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Blanchet
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2022-03
@@ -521,7 +496,7 @@ relation:
     abstract:
     - content: "<p>This document specifies a method to find which Registration Data
         Access Protocol (RDAP) server is authoritative to answer queries for a requested
-        scope, such as domain names, IP addresses, or Autonomous System numbers. This
+        scope, such as domain names, IP addresses, or Autonomous System numbers.  This
         document obsoletes RFC 7484.</p>"
       language:
       - en
@@ -529,23 +504,24 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '95'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9224'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - whois
+    - bootstrap
+    - domain
+    - IDN
+    - DNS
+    - AS
+    - IPv4
+    - IPv6
+    - JSON
+    editorialgroup:
+    - name: regext

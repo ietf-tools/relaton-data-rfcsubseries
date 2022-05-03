@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1034
     title:
-    - content: Domain names - concepts and facilities
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Domain names - concepts and facilities
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1034.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1034
       type: src
     type: standard
     docid:
     - id: RFC 1034
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1034
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1034
       type: DOI
@@ -54,26 +49,31 @@ relation:
     - type: published
       value: 1987-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.V.
+          - content: P
             language:
             - en
+            script:
+            - Latn
+          - content: V
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Mockapetris
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P.V. Mockapetris
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1987-11
@@ -83,8 +83,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>This RFC is the revised basic definition of The Domain Name System.
-        It obsoletes RFC-882. This memo describes the domain style names and their
-        used for host address look up and electronic mail forwarding. It discusses
+        \ It obsoletes RFC-882.  This memo describes the domain style names and their
+        used for host address look up and electronic mail forwarding.  It discusses
         the clients and servers in the domain name system and the protocol used between
         them.</p>"
       language:
@@ -93,48 +93,34 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '13'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1034'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DOMAIN
 - type: includes
   bibitem:
     id: RFC1035
     title:
-    - content: Domain names - implementation and specification
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Domain names - implementation and specification
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1035.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1035
       type: src
     type: standard
     docid:
     - id: RFC 1035
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1035
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1035
       type: DOI
@@ -143,26 +129,31 @@ relation:
     - type: published
       value: 1987-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.V.
+          - content: P
             language:
             - en
+            script:
+            - Latn
+          - content: V
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Mockapetris
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P.V. Mockapetris
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1987-11
@@ -172,31 +163,23 @@ relation:
     - Latn
     abstract:
     - content: "<p>This RFC is the revised specification of the protocol and format
-        used in the implementation of the Domain Name System. It obsoletes RFC-883.
-        This memo documents the details of the domain name client - server communication.</p>"
+        used in the implementation of the Domain Name System.  It obsoletes RFC-883.
+        \ This memo documents the details of the domain name client - server communication.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '13'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1035'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DOMAIN
+    - DNS

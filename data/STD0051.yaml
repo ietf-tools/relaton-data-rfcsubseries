@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1661
     title:
-    - content: The Point-to-Point Protocol (PPP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: The Point-to-Point Protocol (PPP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1661.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1661
       type: src
     type: standard
     docid:
     - id: RFC 1661
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1661
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1661
       type: DOI
@@ -54,28 +49,28 @@ relation:
     - type: published
       value: 1994-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Simpson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Simpson
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1994-07
     language:
     - en
@@ -92,48 +87,41 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '51'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1661'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - PPP
+    - Specification
+    - Standard
+    - link
+    - serial
+    - line
+    editorialgroup:
+    - name: pppext
 - type: includes
   bibitem:
     id: RFC1662
     title:
-    - content: PPP in HDLC-like Framing
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: PPP in HDLC-like Framing
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1662.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1662
       type: src
     type: standard
     docid:
     - id: RFC 1662
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1662
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1662
       type: DOI
@@ -142,28 +130,28 @@ relation:
     - type: published
       value: 1994-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Simpson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Simpson
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1994-07
     language:
     - en
@@ -178,23 +166,23 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '51'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1662'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - PPP-HDLC
+    - Point
+    - Protocol
+    - Specification
+    - Standard
+    - link
+    - serial
+    - line
+    editorialgroup:
+    - name: pppext

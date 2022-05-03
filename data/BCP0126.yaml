@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4786
     title:
-    - content: Operation of Anycast Services
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Operation of Anycast Services
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4786.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4786
       type: src
     type: standard
     docid:
     - id: RFC 4786
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4786
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4786
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2006-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Abley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Abley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lindqvist
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Lindqvist
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-12
@@ -113,23 +114,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '126'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4786'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ROUTING
+    - LOAD-BALANCING
+    - LOAD-SHARING
+    editorialgroup:
+    - name: grow

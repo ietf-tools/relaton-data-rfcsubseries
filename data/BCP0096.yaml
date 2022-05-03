@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3936
     title:
-    - content: Procedures for Modifying the Resource reSerVation Protocol (RSVP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Procedures for Modifying the Resource reSerVation Protocol (RSVP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3936.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3936
       type: src
     type: standard
     docid:
     - id: RFC 3936
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3936
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3936
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2004-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kompella
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Kompella
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lang
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Lang
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-10
@@ -99,8 +100,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo specifies procedures for modifying the Resource reSerVation
-        Protocol (RSVP). This memo also lays out new assignment guidelines for number
-        spaces for RSVP messages, object classes, class-types, and sub-objects. This
+        Protocol (RSVP).  This memo also lays out new assignment guidelines for number
+        spaces for RSVP messages, object classes, class-types, and sub-objects.  This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>"
       language:
@@ -108,24 +109,31 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3209
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2205
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '96'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3936'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - resource
+    - reservation
+    - protocol
+    - label
+    - switched
+    - paths

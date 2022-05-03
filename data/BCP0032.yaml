@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2606
     title:
-    - content: Reserved Top Level DNS Names
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Reserved Top Level DNS Names
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2606.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2606
       type: src
     type: standard
     docid:
     - id: RFC 2606
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2606
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2606
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1999-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Panitz
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Panitz
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-06
@@ -100,8 +101,8 @@ relation:
     abstract:
     - content: "<p>To reduce the likelihood of conflict and confusion, a few top level
         domain names are reserved for use in private testing, as examples in documentation,
-        and the like. In addition, a few second level domain names reserved for use
-        as examples are documented. This document specifies an Internet Best Current
+        and the like.  In addition, a few second level domain names reserved for use
+        as examples are documented.  This document specifies an Internet Best Current
         Practices for the Internet Community, and requests discussion and suggestions
         for improvements.</p>"
       language:
@@ -110,23 +111,19 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '32'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2606'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - domain
+    - name
+    - system
+    - private
+    editorialgroup:
+    - name: dnsind

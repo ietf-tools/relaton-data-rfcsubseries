@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC2635
     title:
-    - content: DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings
+    - type: main
+      content: DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings
         (spam*)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2635.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2635
       type: src
     type: standard
     docid:
     - id: RFC 2635
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2635
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2635
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 1999-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hambridge
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hambridge
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lunde
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Lunde
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-06
@@ -100,7 +101,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document explains why mass unsolicited electronic mail messages
-        are harmful in the Internetworking community. This memo provides information
+        are harmful in the Internetworking community.  This memo provides information
         for the Internet community.</p>"
       language:
       - en
@@ -108,23 +109,21 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '35'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2635'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - electronic
+    - mail
+    - email
+    - users
+    - administrators
+    - managers
+    editorialgroup:
+    - name: run

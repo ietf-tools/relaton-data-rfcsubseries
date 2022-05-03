@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2488
     title:
-    - content: Enhancing TCP Over Satellite Channels using Standard Mechanisms
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Enhancing TCP Over Satellite Channels using Standard Mechanisms
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2488.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2488
       type: src
     type: standard
     docid:
     - id: RFC 2488
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2488
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2488
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1999-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Allman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Allman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Glover
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Glover
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sanchez
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Sanchez
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-01
@@ -116,10 +123,10 @@ relation:
     abstract:
     - content: "<p>The Transmission Control Protocol (TCP) provides reliable delivery
         of data across any network path, including network paths containing satellite
-        channels. While TCP works over satellite channels there are several IETF standardized
-        mechanisms that enable TCP to more effectively utilize the available capacity
-        of the network path. This document outlines some of these TCP mitigations.
-        This document specifies an Internet Best Current Practices for the Internet
+        channels.  While TCP works over satellite channels there are several IETF
+        standardized mechanisms that enable TCP to more effectively utilize the available
+        capacity of the network path.  This document outlines some of these TCP mitigations.
+        \ This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -127,23 +134,19 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '28'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2488'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - transmission
+    - control
+    - protocol
+    - network
+    editorialgroup:
+    - name: tcpsat

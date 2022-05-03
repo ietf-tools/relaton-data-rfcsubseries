@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4506
     title:
-    - content: 'XDR: External Data Representation Standard'
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: 'XDR: External Data Representation Standard'
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4506.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4506
       type: src
     type: standard
     docid:
     - id: RFC 4506
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4506
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4506
       type: DOI
@@ -54,28 +49,28 @@ relation:
     - type: published
       value: 2006-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eisler
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Eisler
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2006-05
     language:
     - en
@@ -83,7 +78,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the External Data Representation Standard
-        (XDR) protocol as it is currently deployed and accepted. This document obsoletes
+        (XDR) protocol as it is currently deployed and accepted.  This document obsoletes
         RFC 1832. [STANDARDS-TRACK]</p>"
       language:
       - en
@@ -91,23 +86,19 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '67'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4506'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - XDR
+    - rpc
+    - onc
+    - open network computing
+    editorialgroup:
+    - name: nfsv4

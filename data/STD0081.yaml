@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7679
     title:
-    - content: A One-Way Delay Metric for IP Performance Metrics (IPPM)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: A One-Way Delay Metric for IP Performance Metrics (IPPM)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7679.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7679
       type: src
     type: standard
     docid:
     - id: RFC 7679
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7679
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7679
       type: DOI
@@ -54,76 +49,94 @@ relation:
     - type: published
       value: 2016-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Almes
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Almes
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kalidindi
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Kalidindi
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Zekauskas
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Zekauskas
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Morton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Morton
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2016-01
     language:
     - en
@@ -131,32 +144,27 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo defines a metric for one-way delay of packets across
-        Internet paths. It builds on notions introduced and discussed in the IP Performance
+        Internet paths.  It builds on notions introduced and discussed in the IP Performance
         Metrics (IPPM) Framework document, RFC 2330; the reader is assumed to be familiar
-        with that document. This memo makes RFC 2679 obsolete.</p>"
+        with that document.  This memo makes RFC 2679 obsolete.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '81'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7679'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Performance
+    - Measurement
+    - Quality of Service (QoS)
+    editorialgroup:
+    - name: ippm

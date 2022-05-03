@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7608
     title:
-    - content: IPv6 Prefix Length Recommendation for Forwarding
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IPv6 Prefix Length Recommendation for Forwarding
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7608.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7608
       type: src
     type: standard
     docid:
     - id: RFC 7608
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7608
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7608
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2015-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Boucadair
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Boucadair
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Petrescu
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Petrescu
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Baker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Baker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-07
@@ -116,10 +123,10 @@ relation:
     abstract:
     - content: "<p>IPv6 prefix length, as in IPv4, is a parameter conveyed and used
         in IPv6 routing and forwarding processes in accordance with the Classless
-        Inter-domain Routing (CIDR) architecture. The length of an IPv6 prefix may
+        Inter-domain Routing (CIDR) architecture.  The length of an IPv6 prefix may
         be any number from zero to 128, although subnets using stateless address autoconfiguration
-        (SLAAC) for address allocation conventionally use a /64 prefix. Hardware and
-        software implementations of routing and forwarding should therefore impose
+        (SLAAC) for address allocation conventionally use a /64 prefix.  Hardware
+        and software implementations of routing and forwarding should therefore impose
         no rules on prefix length, but implement longest-match-first on prefixes of
         any valid length.</p>"
       language:
@@ -128,23 +135,24 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '198'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7608'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IPv6 Routing
+    - CIDR
+    - Classless Inter-Domain Routing
+    - IPv6 Addressing Architecture
+    - IPv6 Forwarding Information Base
+    - IPv6 Routing Information Base
+    - FIB
+    - RIB
+    - IPv6 Deployment
+    editorialgroup:
+    - name: v6ops

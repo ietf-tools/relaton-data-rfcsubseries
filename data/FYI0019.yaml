@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC1463
     title:
-    - content: FYI on Introducing the Internet-- A Short Bibliography of Introductory
+    - type: main
+      content: FYI on Introducing the Internet-- A Short Bibliography of Introductory
         Internetworking Readings
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1463.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1463
       type: src
     type: standard
     docid:
     - id: RFC 1463
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1463
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1463
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 1993-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hoffman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Hoffman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Jackson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Jackson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1993-05
@@ -101,31 +102,22 @@ relation:
     abstract:
     - content: "<p>This bibliography offers a short list of recent information resources
         that will help the network novice become familiar with the Internet, including
-        its associated networks, resources, protocols, and history. This memo provides
-        information for the Internet community. It does not specify an Internet standard.</p>"
+        its associated networks, resources, protocols, and history.  This memo provides
+        information for the Internet community.  It does not specify an Internet standard.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '19'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1463'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: userdoc2

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2277
     title:
-    - content: IETF Policy on Character Sets and Languages
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IETF Policy on Character Sets and Languages
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2277.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2277
       type: src
     type: standard
     docid:
     - id: RFC 2277
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2277
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2277
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1998-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: H.
+          - content: H
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Alvestrand
             language:
             - en
+            script:
+            - Latn
           completename:
             content: H. Alvestrand
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1998-01
@@ -85,7 +80,7 @@ relation:
     - content: "<p>This document is the current policies being applied by the Internet
         Engineering Steering Group (IESG) towards the standardization efforts in the
         Internet Engineering Task Force (IETF) in order to help Internet protocols
-        fulfill these requirements. This document specifies an Internet Best Current
+        fulfill these requirements.  This document specifies an Internet Best Current
         Practices for the Internet Community, and requests discussion and suggestions
         for improvements.</p>"
       language:
@@ -94,23 +89,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '18'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2277'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - charset

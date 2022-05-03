@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8521
     title:
-    - content: Registration Data Access Protocol (RDAP) Object Tagging
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Registration Data Access Protocol (RDAP) Object Tagging
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8521.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8521
       type: src
     type: standard
     docid:
     - id: RFC 8521
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8521
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8521
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2018-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Newton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Newton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2018-11
@@ -100,10 +101,10 @@ relation:
     abstract:
     - content: "<p>The Registration Data Access Protocol (RDAP) includes a method
         that can be used to identify the authoritative server for processing domain
-        name, IP address, and autonomous system number queries. The method does not
+        name, IP address, and autonomous system number queries.  The method does not
         describe how to identify the authoritative server for processing other RDAP
-        query types, such as entity queries. This limitation exists because the identifiers
-        associated with these query types are typically unstructured. This document
+        query types, such as entity queries.  This limitation exists because the identifiers
+        associated with these query types are typically unstructured.  This document
         updates RFC 7484 by describing an operational practice that can be used to
         add structure to RDAP identifiers and that makes it possible to identify the
         authoritative server for additional RDAP queries.</p>"
@@ -112,24 +113,25 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7484
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '221'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8521'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - RDAP
+    - Entity
+    - Bootstrap
+    editorialgroup:
+    - name: regext

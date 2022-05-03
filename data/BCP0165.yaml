@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC6335
     title:
-    - content: Internet Assigned Numbers Authority (IANA) Procedures for the Management
+    - type: main
+      content: Internet Assigned Numbers Authority (IANA) Procedures for the Management
         of the Service Name and Transport Protocol Port Number Registry
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6335.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6335
       type: src
     type: standard
     docid:
     - id: RFC 6335
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6335
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6335
       type: DOI
@@ -55,90 +50,114 @@ relation:
     - type: published
       value: 2011-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cotton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Cotton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eggert
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Eggert
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Touch
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Touch
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Westerlund
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Westerlund
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cheshire
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Cheshire
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-08
@@ -164,49 +183,74 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2780
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2782
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3828
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4340
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4960
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5595
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '165'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6335'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IANA
+    - transport
+    - ports
+    - port numbers
+    - allocation
+    - assignment
+    - procedures
+    editorialgroup:
+    - name: tsvwg
 - type: includes
   bibitem:
     id: RFC7605
     title:
-    - content: Recommendations on Using Assigned Transport Port Numbers
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Recommendations on Using Assigned Transport Port Numbers
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7605.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7605
       type: src
     type: standard
     docid:
     - id: RFC 7605
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7605
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7605
       type: DOI
@@ -215,26 +259,26 @@ relation:
     - type: published
       value: 2015-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Touch
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Touch
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-08
@@ -245,7 +289,7 @@ relation:
     abstract:
     - content: "<p>This document provides recommendations to designers of application
         and service protocols on how to use the transport protocol port number space
-        and when to request a port assignment from IANA. It provides designer guidance
+        and when to request a port assignment from IANA.  It provides designer guidance
         to requesters or users of port numbers on how to interact with IANA using
         the processes defined in RFC 6335; thus, this document complements (but does
         not update) that document.</p>"
@@ -255,23 +299,21 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '165'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7605'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - tcp
+    - udp
+    - sctp
+    - dccp
+    - service
+    - iana
+    editorialgroup:
+    - name: tsvwg

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1941
     title:
-    - content: Frequently Asked Questions for Schools
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Frequently Asked Questions for Schools
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1941.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1941
       type: src
     type: standard
     docid:
     - id: RFC 1941
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1941
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1941
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1996-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sellers
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Sellers
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Robichaux
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Robichaux
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-05
@@ -102,7 +103,7 @@ relation:
         Networking (ISN) group in the User Services Area of the Internet Engineering
         Task Force (IETF), is to act as an introduction to the Internet for faculty,
         administration, and other school personnel in primary and secondary schools.
-        This memo provides information for the Internet community. This memo does
+        \ This memo provides information for the Internet community.  This memo does
         not specify an Internet standard of any kind.</p>"
       language:
       - en
@@ -110,23 +111,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '22'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1941'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - FAQ
+    - Internet
+    - Education
+    editorialgroup:
+    - name: isn

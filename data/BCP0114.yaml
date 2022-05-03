@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4384
     title:
-    - content: BGP Communities for Data Collection
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: BGP Communities for Data Collection
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4384.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4384
       type: src
     type: standard
     docid:
     - id: RFC 4384
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4384
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4384
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2006-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Meyer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Meyer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-02
@@ -84,13 +79,13 @@ relation:
     abstract:
     - content: "<p>BGP communities (RFC 1997) are used by service providers for many
         purposes, including tagging of customer, peer, and geographically originated
-        routes. Such tagging is typically used to control the scope of redistribution
-        of routes within a provider's network and to its peers and customers. With
+        routes.  Such tagging is typically used to control the scope of redistribution
+        of routes within a provider's network and to its peers and customers.  With
         the advent of large-scale BGP data collection (and associated research), it
         has become clear that the information carried in such communities is essential
-        for a deeper understanding of the global routing system. This memo defines
+        for a deeper understanding of the global routing system.  This memo defines
         standard (outbound) communities and their encodings for export to BGP route
-        collectors. This document specifies an Internet Best Current Practices for
+        collectors.  This document specifies an Internet Best Current Practices for
         the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -98,23 +93,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '114'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4384'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - border gateway protocol
+    editorialgroup:
+    - name: grow

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4085
     title:
-    - content: Embedding Globally-Routable Internet Addresses Considered Harmful
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Embedding Globally-Routable Internet Addresses Considered Harmful
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4085.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4085
       type: src
     type: standard
     docid:
     - id: RFC 4085
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4085
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4085
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2005-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Plonka
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Plonka
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2005-06
@@ -84,8 +79,8 @@ relation:
     abstract:
     - content: "<p>This document discourages the practice of embedding references
         to unique, globally-routable IP addresses in Internet hosts, describes some
-        of the resulting problems, and considers selected alternatives. This document
-        is intended to clarify best current practices in this regard. This document
+        of the resulting problems, and considers selected alternatives.  This document
+        is intended to clarify best current practices in this regard.  This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
       language:
@@ -94,23 +89,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '105'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4085'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: grow

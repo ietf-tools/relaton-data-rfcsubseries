@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1132
     title:
-    - content: Standard for the transmission of 802.2 packets over IPX networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Standard for the transmission of 802.2 packets over IPX networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1132.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1132
       type: src
     type: standard
     docid:
     - id: RFC 1132
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1132
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1132
       type: DOI
@@ -54,26 +49,31 @@ relation:
     - type: published
       value: 1989-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.J.
+          - content: L
             language:
             - en
+            script:
+            - Latn
+          - content: J
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: McLaughlin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L.J. McLaughlin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1989-11
@@ -84,8 +84,8 @@ relation:
     abstract:
     - content: "<p>This document specifies a standard method of encapsulating 802.2
         packets on networks supporting Novell's Internet Packet Exchange Protocol
-        (IPX). It obsoletes earlier documents detailing the transmission of Internet
-        packets over IPX networks. It differs from these earlier documents in that
+        (IPX).  It obsoletes earlier documents detailing the transmission of Internet
+        packets over IPX networks.  It differs from these earlier documents in that
         it allows for the transmission of multiple network protocols over IPX and
         for the transmission of packets through IPX bridges.</p>"
       language:
@@ -94,23 +94,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '49'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1132'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-IPX

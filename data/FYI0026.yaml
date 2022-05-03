@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1709
     title:
-    - content: K-12 Internetworking Guidelines
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: K-12 Internetworking Guidelines
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1709.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1709
       type: src
     type: standard
     docid:
     - id: RFC 1709
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1709
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1709
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1994-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Gargano
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Gargano
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wasley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Wasley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1994-11
@@ -99,36 +100,32 @@ relation:
     - Latn
     abstract:
     - content: "<p>The K-12 community traditionally has not had this level of staffing
-        available for telecommunications planning. This document is intended to bridge
+        available for telecommunications planning.  This document is intended to bridge
         that gap and provides a recommended technical direction, an introduction to
         the role the Internet now plays in K-12 education and technical guidelines
         for building a campus data communications infrastructure that provides internetworking
-        services and connections to the Internet. This memo provides information for
-        the Internet community. This memo does not specify an Internet standard of
-        any kind.</p>"
+        services and connections to the Internet.  This memo provides information
+        for the Internet community.  This memo does not specify an Internet standard
+        of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '26'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1709'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - school
+    - network
+    - education
+    - connection
+    editorialgroup:
+    - name: isn

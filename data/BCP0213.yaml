@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8313
     title:
-    - content: Use of Multicast across Inter-domain Peering Points
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Use of Multicast across Inter-domain Peering Points
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8313.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8313
       type: src
     type: standard
     docid:
     - id: RFC 8313
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8313
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8313
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2018-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Tarapore
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Tarapore
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sayko
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Sayko
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Shepherd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Shepherd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eckert
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Eckert
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Krishnan
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Krishnan
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2018-01
@@ -148,32 +167,45 @@ relation:
     abstract:
     - content: "<p>This document examines the use of Source-Specific Multicast (SSM)
         across inter-domain peering points for a specified set of deployment scenarios.
-        The objectives are to (1) describe the setup process for multicast-based delivery
-        across administrative domains for these scenarios and (2) document supporting
-        functionality to enable this process.</p>"
+        \ The objectives are to (1) describe the setup process for multicast-based
+        delivery across administrative domains for these scenarios and (2) document
+        supporting functionality to enable this process.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '213'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8313'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - multicast security
+    - multicast troubleshooting
+    - multicast routing
+    - multicast tunneling
+    - PIM
+    - PIM-SSM
+    - SSM
+    - Source Specific Multicast
+    - AMT
+    - GRE
+    - Automatic Multicast Tunneling
+    - BGP
+    - MBGP
+    - M-BGP
+    - MP-BGP
+    - exchange
+    - exchange point
+    - NNI
+    - content distribution
+    - video streaming
+    - anycast
+    editorialgroup:
+    - name: mboned

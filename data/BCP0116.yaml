@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4446
     title:
-    - content: IANA Allocations for Pseudowire Edge to Edge Emulation (PWE3)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IANA Allocations for Pseudowire Edge to Edge Emulation (PWE3)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4446.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4446
       type: src
     type: standard
     docid:
     - id: RFC 4446
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4446
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4446
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2006-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Martini
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Martini
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-04
@@ -84,33 +79,24 @@ relation:
     abstract:
     - content: "<p>This document allocates the fixed pseudowire identifier and other
         fixed protocol values for protocols that have been defined in the Pseudo Wire
-        Edge to Edge (PWE3) working group. Detailed IANA allocation instructions are
-        also included in this document. This document specifies an Internet Best Current
-        Practices for the Internet Community, and requests discussion and suggestions
-        for improvements.</p>"
+        Edge to Edge (PWE3) working group.  Detailed IANA allocation instructions
+        are also included in this document.  This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '116'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4446'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: pwe3

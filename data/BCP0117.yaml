@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4497
     title:
-    - content: Interworking between the Session Initiation Protocol (SIP) and QSIG
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Interworking between the Session Initiation Protocol (SIP) and QSIG
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4497.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4497
       type: src
     type: standard
     docid:
     - id: RFC 4497
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4497
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4497
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2006-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Elwell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Elwell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Derks
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Derks
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Mourot
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Mourot
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: O.
+          - content: O
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rousseau
             language:
             - en
+            script:
+            - Latn
           completename:
             content: O. Rousseau
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-05
@@ -132,13 +145,13 @@ relation:
     abstract:
     - content: "<p>This document specifies interworking between the Session Initiation
         Protocol (SIP) and QSIG within corporate telecommunication networks (also
-        known as enterprise networks). SIP is an Internet application-layer control
+        known as enterprise networks).  SIP is an Internet application-layer control
         (signalling) protocol for creating, modifying, and terminating sessions with
-        one or more participants. These sessions include, in particular, telephone
-        calls. QSIG is a signalling protocol for creating, modifying, and terminating
+        one or more participants.  These sessions include, in particular, telephone
+        calls.  QSIG is a signalling protocol for creating, modifying, and terminating
         circuit-switched calls (in particular, telephone calls) within Private Integrated
-        Services Networks (PISNs). QSIG is specified in a number of Ecma Standards
-        and published also as ISO/IEC standards. This document specifies an Internet
+        Services Networks (PISNs).  QSIG is specified in a number of Ecma Standards
+        and published also as ISO/IEC standards.  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -147,23 +160,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '117'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4497'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - telecommunication networks
+    - enterprise networks
+    - signalling
+    editorialgroup:
+    - name: sipping

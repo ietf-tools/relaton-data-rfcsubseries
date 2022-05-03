@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3233
     title:
-    - content: Defining the IETF
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Defining the IETF
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3233.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3233
       type: src
     type: standard
     docid:
     - id: RFC 3233
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3233
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3233
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2002-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hoffman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Hoffman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-02
@@ -99,34 +100,28 @@ relation:
     - Latn
     abstract:
     - content: <p>This document gives a more concrete definition of "the IETF" as
-        it understood today. Many RFCs refer to "the IETF". Many important IETF documents
-        speak of the IETF as if it were an already-defined entity. However, no IETF
-        document correctly defines what the IETF is. This document specifies an Internet
-        Best Current Practices for the Internet Community, and requests discussion
-        and suggestions for improvements.</p>
+        it understood today.  Many RFCs refer to "the IETF".  Many important IETF
+        documents speak of the IETF as if it were an already-defined entity.  However,
+        no IETF document correctly defines what the IETF is.  This document specifies
+        an Internet Best Current Practices for the Internet Community, and requests
+        discussion and suggestions for improvements.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '58'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3233'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - internet
+    - engineering
+    - task
+    - force

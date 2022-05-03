@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5033
     title:
-    - content: Specifying New Congestion Control Algorithms
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Specifying New Congestion Control Algorithms
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5033.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5033
       type: src
     type: standard
     docid:
     - id: RFC 5033
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5033
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5033
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2007-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Floyd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Floyd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Allman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Allman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-08
@@ -100,14 +101,14 @@ relation:
     abstract:
     - content: "<p>The IETF's standard congestion control schemes have been widely
         shown to be inadequate for various environments (e.g., high-speed networks).
-        Recent research has yielded many alternate congestion control schemes that
-        significantly differ from the IETF's congestion control principles. Using
+        \ Recent research has yielded many alternate congestion control schemes that
+        significantly differ from the IETF's congestion control principles.  Using
         these new congestion control schemes in the global Internet has possible ramifications
         to both the traffic using the new congestion control and to traffic using
-        the currently standardized congestion control. Therefore, the IETF must proceed
-        with caution when dealing with alternate congestion control proposals. The
+        the currently standardized congestion control.  Therefore, the IETF must proceed
+        with caution when dealing with alternate congestion control proposals.  The
         goal of this document is to provide guidance for considering alternate congestion
-        control algorithms within the IETF. This document specifies an Internet Best
+        control algorithms within the IETF.  This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
       language:
@@ -116,23 +117,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '133'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5033'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: tsvwg

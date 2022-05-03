@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3470
     title:
-    - content: Guidelines for the Use of Extensible Markup Language (XML) within IETF
+    - type: main
+      content: Guidelines for the Use of Extensible Markup Language (XML) within IETF
         Protocols
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3470.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3470
       type: src
     type: standard
     docid:
     - id: RFC 3470
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3470
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3470
       type: DOI
@@ -55,58 +50,70 @@ relation:
     - type: published
       value: 2003-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hollenbeck
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Hollenbeck
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rose
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Rose
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Masinter
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Masinter
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2003-01
@@ -116,15 +123,15 @@ relation:
     - Latn
     abstract:
     - content: "<p>The Extensible Markup Language (XML) is a framework for structuring
-        data. While it evolved from Standard Generalized Markup Language (SGML) --
+        data.  While it evolved from Standard Generalized Markup Language (SGML) --
         a markup language primarily focused on structuring documents -- XML has evolved
-        to be a widely-used mechanism for representing structured data. There are
+        to be a widely-used mechanism for representing structured data.  There are
         a wide variety of Internet protocols being developed; many have need for a
-        representation for structured data relevant to their application. There has
-        been much interest in the use of XML as a representation method. This document
+        representation for structured data relevant to their application.  There has
+        been much interest in the use of XML as a representation method.  This document
         describes basic XML concepts, analyzes various alternatives in the use of
         XML, and provides guidelines for the use of XML within IETF standards-track
-        protocols. This document specifies an Internet Best Current Practices for
+        protocols.  This document specifies an Internet Best Current Practices for
         the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -132,23 +139,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '70'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3470'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - data
+    - documents
+    - structure

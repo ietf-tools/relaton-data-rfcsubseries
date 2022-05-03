@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6540
     title:
-    - content: IPv6 Support Required for All IP-Capable Nodes
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IPv6 Support Required for All IP-Capable Nodes
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6540.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6540
       type: src
     type: standard
     docid:
     - id: RFC 6540
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6540
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6540
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2012-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: George
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. George
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Donley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Donley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Liljenstolpe
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Liljenstolpe
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Howard
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Howard
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2012-04
@@ -132,34 +145,28 @@ relation:
     abstract:
     - content: <p>Given the global lack of available IPv4 space, and limitations in
         IPv4 extension and transition technologies, this document advises that IPv6
-        support is no longer considered optional. It also cautions that there are
+        support is no longer considered optional.  It also cautions that there are
         places in existing IETF documents where the term "IP" is used in a way that
         could be misunderstood by implementers as the term "IP" becomes a generic
         that can mean IPv4 + IPv6, IPv6-only, or IPv4-only, depending on context and
-        application. This memo documents an Internet Best Current Practice.</p>
+        application.  This memo documents an Internet Best Current Practice.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '177'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6540'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IPv4
+    - requirement
+    editorialgroup:
+    - name: intarea

@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC2827
     title:
-    - content: 'Network Ingress Filtering: Defeating Denial of Service Attacks which
+    - type: main
+      content: 'Network Ingress Filtering: Defeating Denial of Service Attacks which
         employ IP Source Address Spoofing'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2827.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2827
       type: src
     type: standard
     docid:
     - id: RFC 2827
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2827
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2827
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2000-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ferguson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Ferguson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Senie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Senie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-05
@@ -102,7 +103,7 @@ relation:
     - content: "<p>This paper discusses a simple, effective, and straightforward method
         for using ingress traffic filtering to prohibit DoS (Denial of Service) attacks
         which use forged IP addresses to be propagated from 'behind' an Internet Service
-        Provider's (ISP) aggregation point. This document specifies an Internet Best
+        Provider's (ISP) aggregation point.  This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
       language:
@@ -111,23 +112,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '38'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2827'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ISP
+    - Internet
+    - Service
+    - Provider
+    - Internet
+    - Protocol
+    - DOS

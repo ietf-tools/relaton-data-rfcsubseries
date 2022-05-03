@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8252
     title:
-    - content: OAuth 2.0 for Native Apps
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: OAuth 2.0 for Native Apps
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8252.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8252
       type: src
     type: standard
     docid:
     - id: RFC 8252
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8252
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8252
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2017-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Denniss
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Denniss
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Bradley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2017-10
@@ -99,7 +100,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>OAuth 2.0 authorization requests from native apps should only be
-        made through external user-agents, primarily the user's browser. This specification
+        made through external user-agents, primarily the user's browser.  This specification
         details the security and usability reasons why this is the case and how native
         apps and authorization servers can implement this best practice.</p>"
       language:
@@ -107,24 +108,21 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6749
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '212'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8252'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: oauth

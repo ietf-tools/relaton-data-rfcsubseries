@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC894
     title:
-    - content: A Standard for the Transmission of IP Datagrams over Ethernet Networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: A Standard for the Transmission of IP Datagrams over Ethernet Networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0894.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc894
       type: src
     type: standard
     docid:
     - id: RFC 894
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC894
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0894
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1984-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hornig
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Hornig
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1984-04
@@ -83,7 +78,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This RFC specifies a standard method of encapsulating Internet
-        Protocol (IP) datagrams on an Ethernet. This RFC specifies a standard protocol
+        Protocol (IP) datagrams on an Ethernet.  This RFC specifies a standard protocol
         for the ARPA-Internet community.</p>"
       language:
       - en
@@ -91,23 +86,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '41'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '894'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-E

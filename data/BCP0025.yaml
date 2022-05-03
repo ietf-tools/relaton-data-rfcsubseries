@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2418
     title:
-    - content: IETF Working Group Guidelines and Procedures
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IETF Working Group Guidelines and Procedures
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2418.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2418
       type: src
     type: standard
     docid:
     - id: RFC 2418
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2418
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2418
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1998-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1998-09
@@ -83,7 +78,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the guidelines and procedures for formation
-        and operation of IETF working groups. This document specifies an Internet
+        and operation of IETF working groups.  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -92,48 +87,40 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '25'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2418'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - BCP
+    - WG
+    - escape
+    - clause
+    - procedures
+    editorialgroup:
+    - name: Poisson
 - type: includes
   bibitem:
     id: RFC3934
     title:
-    - content: Updates to RFC 2418 Regarding the Management of IETF Mailing Lists
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Updates to RFC 2418 Regarding the Management of IETF Mailing Lists
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3934.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3934
       type: src
     type: standard
     docid:
     - id: RFC 3934
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3934
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3934
       type: DOI
@@ -142,26 +129,26 @@ relation:
     - type: published
       value: 2004-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wasserman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Wasserman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-10
@@ -171,58 +158,55 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document is an update to RFC 2418 that gives WG chairs explicit
-        responsibility for managing WG mailing lists. In particular, it gives WG chairs
-        the authority to temporarily suspend the mailing list posting privileges of
-        disruptive individuals. This document specifies an Internet Best Current Practices
-        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+        responsibility for managing WG mailing lists.  In particular, it gives WG
+        chairs the authority to temporarily suspend the mailing list posting privileges
+        of disruptive individuals.  This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2418
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '25'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3934'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - BCP
+    - WG
+    - escape
+    - clause
+    - procedures
 - type: includes
   bibitem:
     id: RFC7776
     title:
-    - content: IETF Anti-Harassment Procedures
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IETF Anti-Harassment Procedures
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7776.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7776
       type: src
     type: standard
     docid:
     - id: RFC 7776
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7776
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7776
       type: DOI
@@ -231,42 +215,48 @@ relation:
     - type: published
       value: 2016-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Resnick
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Resnick
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Farrel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-03
@@ -286,51 +276,45 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2418
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '25'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7776'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Ombudsman
+    - Ombudsperson
+    - Ombudsteam
 - type: includes
   bibitem:
     id: RFC8716
     title:
-    - content: Update to the IETF Anti-Harassment Procedures for the Replacement of
+    - type: main
+      content: Update to the IETF Anti-Harassment Procedures for the Replacement of
         the IETF Administrative Oversight Committee (IAOC) with the IETF Administration
         LLC
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8716.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8716
       type: src
     type: standard
     docid:
     - id: RFC 8716
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8716
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8716
       type: DOI
@@ -339,42 +323,48 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Resnick
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Resnick
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Farrel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-02
@@ -394,24 +384,26 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC7776
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '25'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8716'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Harassment
+    - Ombudsteam
+    - IAOC
+    - IETF Administration LLC
+    editorialgroup:
+    - name: iasa2

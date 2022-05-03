@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6557
     title:
-    - content: Procedures for Maintaining the Time Zone Database
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Procedures for Maintaining the Time Zone Database
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6557.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6557
       type: src
     type: standard
     docid:
     - id: RFC 6557
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6557
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6557
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2012-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lear
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Lear
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eggert
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Eggert
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2012-02
@@ -99,40 +100,29 @@ relation:
     - Latn
     abstract:
     - content: "<p>Time zone information serves as a basic protocol element in protocols,
-        such as the calendaring suite and DHCP. The Time Zone (TZ) Database specifies
+        such as the calendaring suite and DHCP.  The Time Zone (TZ) Database specifies
         the indices used in various protocols, as well as their semantic meanings,
-        for all localities throughout the world. This database has been meticulously
+        for all localities throughout the world.  This database has been meticulously
         maintained and distributed free of charge by a group of volunteers, coordinated
-        by a single volunteer who is now planning to retire. This memo specifies procedures
-        involved with maintenance of the TZ database and associated code, including
-        how to submit proposed updates, how decisions for inclusion of those updates
-        are made, and the selection of a designated expert by and for the time zone
-        community. The intent of this memo is, to the extent possible, to document
-        existing practice and provide a means to ease succession of the database maintainers.
-        This memo documents an Internet Best Current Practice.</p>"
+        by a single volunteer who is now planning to retire.  This memo specifies
+        procedures involved with maintenance of the TZ database and associated code,
+        including how to submit proposed updates, how decisions for inclusion of those
+        updates are made, and the selection of a designated expert by and for the
+        time zone community.  The intent of this memo is, to the extent possible,
+        to document existing practice and provide a means to ease succession of the
+        database maintainers.  This memo documents an Internet Best Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '175'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6557'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

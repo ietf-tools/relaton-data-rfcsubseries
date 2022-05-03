@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4962
     title:
-    - content: Guidance for Authentication, Authorization, and Accounting (AAA) Key
+    - type: main
+      content: Guidance for Authentication, Authorization, and Accounting (AAA) Key
         Management
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4962.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4962
       type: src
     type: standard
     docid:
     - id: RFC 4962
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4962
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4962
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2007-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Housley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Housley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Aboba
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Aboba
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-07
@@ -100,41 +101,30 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides guidance to designers of Authentication,
-        Authorization, and Accounting (AAA) key management protocols. The guidance
+        Authorization, and Accounting (AAA) key management protocols.  The guidance
         is also useful to designers of systems and solutions that include AAA key
-        management protocols. Given the complexity and difficulty in designing secure,
+        management protocols.  Given the complexity and difficulty in designing secure,
         long-lasting key management algorithms and protocols by experts in the field,
         it is almost certainly inappropriate for IETF working groups without deep
         expertise in the area to be designing their own key management algorithms
         and protocols based on Authentication, Authorization, and Accounting (AAA)
-        protocols. The guidelines in this document apply to documents requesting publication
-        as IETF RFCs. Further, these guidelines will be useful to other standards
-        development organizations (SDOs) that specify AAA key management. This document
-        specifies an Internet Best Current Practices for the Internet Community, and
-        requests discussion and suggestions for improvements.</p>"
+        protocols.  The guidelines in this document apply to documents requesting
+        publication as IETF RFCs.  Further, these guidelines will be useful to other
+        standards development organizations (SDOs) that specify AAA key management.
+        \ This document specifies an Internet Best Current Practices for the Internet
+        Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '132'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4962'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

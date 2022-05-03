@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1088
     title:
-    - content: Standard for the transmission of IP datagrams over NetBIOS networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Standard for the transmission of IP datagrams over NetBIOS networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1088.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1088
       type: src
     type: standard
     docid:
     - id: RFC 1088
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1088
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1088
       type: DOI
@@ -54,26 +49,31 @@ relation:
     - type: published
       value: 1989-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.J.
+          - content: L
             language:
             - en
+            script:
+            - Latn
+          - content: J
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: McLaughlin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L.J. McLaughlin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1989-02
@@ -90,23 +90,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '48'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1088'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-NETBIOS

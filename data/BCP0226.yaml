@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8718
     title:
-    - content: IETF Plenary Meeting Venue Selection Process
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IETF Plenary Meeting Venue Selection Process
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8718.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8718
       type: src
     type: standard
     docid:
     - id: RFC 8718
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8718
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8718
       type: DOI
@@ -54,28 +49,28 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lear
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Lear
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2020-02
     language:
     - en
@@ -84,8 +79,8 @@ relation:
     abstract:
     - content: "<p>The IETF Administration Support Activity (IASA) is responsible
         for arranging the selection and operation of the IETF plenary meeting venue.
-        This memo specifies IETF community requirements for meeting venues, including
-        hotels and meeting space. It also directs the IASA to make available additional
+        \ This memo specifies IETF community requirements for meeting venues, including
+        hotels and meeting space.  It also directs the IASA to make available additional
         process documents that describe the current meeting selection process.</p>"
       language:
       - en
@@ -93,48 +88,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '226'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8718'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Meeting Venues
+    - Meeting selection process
+    - IASA
+    editorialgroup:
+    - name: mtgvenue
 - type: includes
   bibitem:
     id: RFC8719
     title:
-    - content: High-Level Guidance for the Meeting Policy of the IETF
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: High-Level Guidance for the Meeting Policy of the IETF
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8719.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8719
       type: src
     type: standard
     docid:
     - id: RFC 8719
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8719
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8719
       type: DOI
@@ -143,26 +128,26 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Krishnan
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Krishnan
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-02
@@ -179,48 +164,37 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '226'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8719'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - geographic distribution location
+    - IASA
+    editorialgroup:
+    - name: mtgvenue
 - type: includes
   bibitem:
     id: RFC9137
     title:
-    - content: Considerations for Cancellation of IETF Meetings
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Considerations for Cancellation of IETF Meetings
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9137.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc9137
       type: src
     type: standard
     docid:
     - id: RFC 9137
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC9137
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC9137
       type: DOI
@@ -229,26 +203,26 @@ relation:
     - type: published
       value: 2021-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Duke
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Duke
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2021-10
@@ -258,8 +232,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>The IETF ordinarily holds three in-person meetings per year to
-        discuss issues and advance the Internet. However, various events can make
-        a planned in-person meeting infeasible. This document provides criteria to
+        discuss issues and advance the Internet.  However, various events can make
+        a planned in-person meeting infeasible.  This document provides criteria to
         aid the IETF Administration LLC (IETF LLC), the Internet Engineering Steering
         Group (IESG), and the Chair of the Internet Research Task Force (IRTF) in
         deciding to relocate, virtualize, postpone, or cancel an in-person IETF meeting.</p>"
@@ -269,23 +243,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '226'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9137'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - virtualize
+    - postpone
+    - move
+    editorialgroup:
+    - name: shmoo

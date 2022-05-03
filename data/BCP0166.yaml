@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6365
     title:
-    - content: Terminology Used in Internationalization in the IETF
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Terminology Used in Internationalization in the IETF
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6365.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6365
       type: src
     type: standard
     docid:
     - id: RFC 6365
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6365
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6365
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2011-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hoffman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Hoffman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-09
@@ -99,32 +100,27 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides a list of terms used in the IETF when discussing
-        internationalization. The purpose is to help frame discussions of internationalization
+        internationalization.  The purpose is to help frame discussions of internationalization
         in the various areas of the IETF and to help introduce the main concepts to
-        IETF participants. This memo documents an Internet Best Current Practice.</p>"
+        IETF participants.  This memo documents an Internet Best Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '166'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6365'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - i18n
+    - vocabulary
+    - terms
+    editorialgroup:
+    - name: appsawg

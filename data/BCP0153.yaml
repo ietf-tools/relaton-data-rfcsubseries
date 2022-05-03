@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6598
     title:
-    - content: IANA-Reserved IPv4 Prefix for Shared Address Space
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IANA-Reserved IPv4 Prefix for Shared Address Space
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6598.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6598
       type: src
     type: standard
     docid:
     - id: RFC 6598
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6598
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6598
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2012-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Weil
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Weil
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: V.
+          - content: V
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kuarsingh
             language:
             - en
+            script:
+            - Latn
           completename:
             content: V. Kuarsingh
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Donley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Donley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Liljenstolpe
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Liljenstolpe
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Azinger
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Azinger
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2012-04
@@ -163,49 +182,49 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5735
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '153'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6598'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - shared block
+    - CGN
+    - NAT
+    - Carrier Grade NAT
+    - private address space
+    - service provider
+    - address translation
+    - non-globally routable
+    - non-overlapping address space
 - type: includes
   bibitem:
     id: RFC6890
     title:
-    - content: Special-Purpose IP Address Registries
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Special-Purpose IP Address Registries
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6890.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6890
       type: src
     type: standard
     docid:
     - id: RFC 6890
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6890
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6890
       type: DOI
@@ -214,74 +233,92 @@ relation:
     - type: published
       value: 2013-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cotton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Cotton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Vegoda
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Vegoda
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bonica
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Bonica
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Haberman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Haberman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2013-04
@@ -291,8 +328,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo reiterates the assignment of an IPv4 address block (192.0.0.0/24)
-        to IANA. It also instructs IANA to restructure its IPv4 and IPv6 Special-Purpose
-        Address Registries. Upon restructuring, the aforementioned registries will
+        to IANA.  It also instructs IANA to restructure its IPv4 and IPv6 Special-Purpose
+        Address Registries.  Upon restructuring, the aforementioned registries will
         record all special-purpose address blocks, maintaining a common set of information
         regarding each address block.</p>"
       language:
@@ -301,48 +338,35 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '153'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6890'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Internet Protocol
+    - space assignments
 - type: includes
   bibitem:
     id: RFC8190
     title:
-    - content: Updates to the Special-Purpose IP Address Registries
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Updates to the Special-Purpose IP Address Registries
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8190.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8190
       type: src
     type: standard
     docid:
     - id: RFC 8190
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8190
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8190
       type: DOI
@@ -351,74 +375,92 @@ relation:
     - type: published
       value: 2017-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bonica
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Bonica
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cotton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Cotton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Haberman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Haberman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Vegoda
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Vegoda
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2017-06
@@ -437,24 +479,19 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6890
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '153'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8190'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4443
     title:
-    - content: Internet Control Message Protocol (ICMPv6) for the Internet Protocol
+    - type: main
+      content: Internet Control Message Protocol (ICMPv6) for the Internet Protocol
         Version 6 (IPv6) Specification
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4443.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4443
       type: src
     type: standard
     docid:
     - id: RFC 4443
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4443
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4443
       type: DOI
@@ -55,60 +50,72 @@ relation:
     - type: published
       value: 2006-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Conta
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Conta
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Deering
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Deering
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Gupta
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Gupta
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2006-03
     language:
     - en
@@ -116,31 +123,28 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the format of a set of control messages
-        used in ICMPv6 (Internet Control Message Protocol). ICMPv6 is the Internet
+        used in ICMPv6 (Internet Control Message Protocol).  ICMPv6 is the Internet
         Control Message Protocol for Internet Protocol version 6 (IPv6). [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2780
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '89'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4443'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: ipv6

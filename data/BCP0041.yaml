@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2914
     title:
-    - content: Congestion Control Principles
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Congestion Control Principles
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2914.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2914
       type: src
     type: standard
     docid:
     - id: RFC 2914
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2914
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2914
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2000-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Floyd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Floyd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-09
@@ -84,7 +79,7 @@ relation:
     abstract:
     - content: "<p>The goal of this document is to explain the need for congestion
         control in the Internet, and to discuss what constitutes correct congestion
-        control. This document specifies an Internet Best Current Practices for the
+        control.  This document specifies an Internet Best Current Practices for the
         Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -92,48 +87,36 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '41'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2914'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - end-to-end
+    editorialgroup:
+    - name: ecm
 - type: includes
   bibitem:
     id: RFC7141
     title:
-    - content: Byte and Packet Congestion Notification
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Byte and Packet Congestion Notification
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7141.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7141
       type: src
     type: standard
     docid:
     - id: RFC 7141
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7141
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7141
       type: DOI
@@ -142,42 +125,48 @@ relation:
     - type: published
       value: 2014-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Briscoe
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Briscoe
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Manner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Manner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2014-02
@@ -190,36 +179,52 @@ relation:
         for dropping or marking packets using any active queue management (AQM) algorithm,
         including Random Early Detection (RED), BLUE, Pre- Congestion Notification
         (PCN), and newer schemes such as CoDel (Controlled Delay) and PIE (Proportional
-        Integral controller Enhanced). We give three strong recommendations: (1) packet
-        size should be taken into account when transports detect and respond to congestion
-        indications, (2) packet size should not be taken into account when network
-        equipment creates congestion signals (marking, dropping), and therefore (3)
-        in the specific case of RED, the byte- mode packet drop variant that drops
-        fewer small packets should not be used. This memo updates RFC 2309 to deprecate
-        deliberate preferential treatment of small packets in AQM algorithms.</p>"
+        Integral controller Enhanced).  We give three strong recommendations: (1)
+        packet size should be taken into account when transports detect and respond
+        to congestion indications, (2) packet size should not be taken into account
+        when network equipment creates congestion signals (marking, dropping), and
+        therefore (3) in the specific case of RED, the byte- mode packet drop variant
+        that drops fewer small packets should not be used.  This memo updates RFC
+        2309 to deprecate deliberate preferential treatment of small packets in AQM
+        algorithms.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2309
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2914
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '41'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7141'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - active queue management
+    - aqm
+    - availability
+    - denial of service
+    - dos
+    - quality of service
+    - qos
+    - congestion control
+    - fairness
+    - incentives
+    - architecture layering
+    - protocol
+    editorialgroup:
+    - name: tsvwg

@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC2780
     title:
-    - content: IANA Allocation Guidelines For Values In the Internet Protocol and
+    - type: main
+      content: IANA Allocation Guidelines For Values In the Internet Protocol and
         Related Headers
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2780.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2780
       type: src
     type: standard
     docid:
     - id: RFC 2780
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2780
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2780
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2000-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: V.
+          - content: V
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Paxson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: V. Paxson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-03
@@ -100,7 +101,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo provides guidance for the IANA to use in assigning parameters
-        for fields in the IPv4, IPv6, ICMP, UDP and TCP protocol headers. This document
+        for fields in the IPv4, IPv6, ICMP, UDP and TCP protocol headers.  This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
       language:
@@ -109,48 +110,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '37'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2780'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - internet
+    - assigned
+    - numbers
+    - authority
+    - IP
 - type: includes
   bibitem:
     id: RFC5237
     title:
-    - content: IANA Allocation Guidelines for the Protocol Field
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IANA Allocation Guidelines for the Protocol Field
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5237.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5237
       type: src
     type: standard
     docid:
     - id: RFC 5237
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5237
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5237
       type: DOI
@@ -159,42 +150,48 @@ relation:
     - type: published
       value: 2008-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Arkko
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Arkko
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-02
@@ -204,34 +201,37 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document revises the IANA guidelines for allocating new Protocol
-        field values in IPv4 header. It modifies the rules specified in RFC 2780 by
-        removing the Expert Review option. The change will also affect the allocation
-        of Next Header field values in IPv6. This document specifies an Internet Best
-        Current Practices for the Internet Community, and requests discussion and
-        suggestions for improvements.</p>"
+        field values in IPv4 header.  It modifies the rules specified in RFC 2780
+        by removing the Expert Review option.  The change will also affect the allocation
+        of Next Header field values in IPv6.  This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2780
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '37'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5237'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ipv4 header
+    - next header field
+    - internet
+    - assigned
+    - numbers
+    - authority
+    - IP

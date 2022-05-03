@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6895
     title:
-    - content: Domain Name System (DNS) IANA Considerations
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Domain Name System (DNS) IANA Considerations
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6895.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6895
       type: src
     type: standard
     docid:
     - id: RFC 6895
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6895
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6895
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2013-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2013-04
@@ -85,31 +80,47 @@ relation:
     - content: "<p>This document specifies Internet Assigned Numbers Authority (IANA)
         parameter assignment considerations for the allocation of Domain Name System
         (DNS) resource record types, CLASSes, operation codes, error codes, DNS protocol
-        message header bits, and AFSDB resource record subtypes. It obsoletes RFC
+        message header bits, and AFSDB resource record subtypes.  It obsoletes RFC
         6195 and updates RFCs 1183, 2845, 2930, and 3597.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC1183
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2845
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2930
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3597
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '42'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6895'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - RRTYPE
+    - RCODE
+    - AFSDB
+    editorialgroup:
+    - name: dnsext

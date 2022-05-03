@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4697
     title:
-    - content: Observed DNS Resolution Misbehavior
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Observed DNS Resolution Misbehavior
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4697.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4697
       type: src
     type: standard
     docid:
     - id: RFC 4697
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4697
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4697
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2006-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Larson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Larson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Barber
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Barber
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-10
@@ -100,35 +101,31 @@ relation:
     abstract:
     - content: "<p>This memo describes DNS iterative resolver behavior that results
         in a significant query volume sent to the root and top-level domain (TLD)
-        name servers. We offer implementation advice to iterative resolver developers
-        to alleviate these unnecessary queries. The recommendations made in this document
-        are a direct byproduct of observation and analysis of abnormal query traffic
-        patterns seen at two of the thirteen root name servers and all thirteen com/net
-        TLD name servers. This document specifies an Internet Best Current Practices
-        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+        name servers.  We offer implementation advice to iterative resolver developers
+        to alleviate these unnecessary queries.  The recommendations made in this
+        document are a direct byproduct of observation and analysis of abnormal query
+        traffic patterns seen at two of the thirteen root name servers and all thirteen
+        com/net TLD name servers.  This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '123'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4697'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - domain name system
+    - tld
+    - top level domain
+    editorialgroup:
+    - name: dnsop

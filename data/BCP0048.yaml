@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3150
     title:
-    - content: End-to-end Performance Implications of Slow Links
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: End-to-end Performance Implications of Slow Links
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3150.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3150
       type: src
     type: standard
     docid:
     - id: RFC 3150
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3150
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3150
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2001-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Dawkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Dawkins
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Montenegro
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Montenegro
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kojo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Kojo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: V.
+          - content: V
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Magret
             language:
             - en
+            script:
+            - Latn
           completename:
             content: V. Magret
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2001-07
@@ -131,7 +144,7 @@ relation:
     - Latn
     abstract:
     - content: <p>This document makes performance-related recommendations for users
-        of network paths that traverse "very low bit-rate" links. This document specifies
+        of network paths that traverse "very low bit-rate" links.  This document specifies
         an Internet Best Current Practices for the Internet Community, and requests
         discussion and suggestions for improvements.</p>
       language:
@@ -140,23 +153,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '48'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3150'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - PILC
+    - data
+    - applications
+    - header
+    - compression
+    editorialgroup:
+    - name: pilc

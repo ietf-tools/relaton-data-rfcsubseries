@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7258
     title:
-    - content: Pervasive Monitoring Is an Attack
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Pervasive Monitoring Is an Attack
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7258.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7258
       type: src
     type: standard
     docid:
     - id: RFC 7258
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7258
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7258
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2014-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Farrell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: H.
+          - content: H
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Tschofenig
             language:
             - en
+            script:
+            - Latn
           completename:
             content: H. Tschofenig
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2014-05
@@ -106,23 +107,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '188'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7258'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - pervasive monitoring

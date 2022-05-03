@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC7926
     title:
-    - content: Problem Statement and Architecture for Information Exchange between
+    - type: main
+      content: Problem Statement and Architecture for Information Exchange between
         Interconnected Traffic-Engineered Networks
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7926.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7926
       type: src
     type: standard
     docid:
     - id: RFC 7926
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7926
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7926
       type: DOI
@@ -55,106 +50,136 @@ relation:
     - type: published
       value: 2016-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Farrel
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Drake
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Drake
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bitar
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Bitar
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Swallow
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Swallow
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ceccarelli
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Ceccarelli
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: X.
+          - content: X
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Zhang
             language:
             - en
+            script:
+            - Latn
           completename:
             content: X. Zhang
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-07
@@ -186,23 +211,22 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '206'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7926'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Abstract link
+    - Abstract node
+    - Abstraction
+    - Abstraction layer
+    - Aggregation
+    - Virtual node
+    - Virtual link
+    editorialgroup:
+    - name: teas

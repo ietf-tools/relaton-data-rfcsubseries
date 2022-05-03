@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2506
     title:
-    - content: Media Feature Tag Registration Procedure
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Media Feature Tag Registration Procedure
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2506.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2506
       type: src
     type: standard
     docid:
     - id: RFC 2506
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2506
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2506
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1999-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Holtman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Holtman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Mutz
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Mutz
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hardie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Hardie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-03
@@ -116,7 +123,7 @@ relation:
     abstract:
     - content: "<p>This document defines a registration procedure which uses the Internet
         Assigned Numbers Authority (IANA) as a central registry for the media feature
-        vocabulary. This document specifies an Internet Best Current Practices for
+        vocabulary.  This document specifies an Internet Best Current Practices for
         the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -124,23 +131,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '31'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2506'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - data
+    - formats
+    - vocabulary
+    - negotiation
+    - mechanism
+    editorialgroup:
+    - name: conneg

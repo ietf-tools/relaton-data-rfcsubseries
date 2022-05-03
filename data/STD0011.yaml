@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC822
     title:
-    - content: STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0822.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc822
       type: src
     type: standard
     docid:
     - id: RFC 822
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC822
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0822
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1982-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1982-08
@@ -83,35 +78,32 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document revises the specifications in RFC 733, in order to
-        serve the needs of the larger and more complex ARPA Internet. Some of RFC
-        733's features failed to gain adequate acceptance. In order to simplify the
+        serve the needs of the larger and more complex ARPA Internet.  Some of RFC
+        733's features failed to gain adequate acceptance.  In order to simplify the
         standard and the software that follows it, these features have been removed.
-        A different addressing scheme is used, to handle the case of internetwork
-        mail; and the concept of re-transmission has been introduced. Obsoletes RFC
+        \ A different addressing scheme is used, to handle the case of internetwork
+        mail; and the concept of re-transmission has been introduced.  Obsoletes RFC
         733, NIC 41952.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: obsoletedBy
+      bibitem:
+        formattedref:
+          content: RFC2822
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '11'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '822'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - MAIL

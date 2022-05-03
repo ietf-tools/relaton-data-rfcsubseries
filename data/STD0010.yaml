@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC821
     title:
-    - content: Simple Mail Transfer Protocol
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Simple Mail Transfer Protocol
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0821.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc821
       type: src
     type: standard
     docid:
     - id: RFC 821
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC821
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0821
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1982-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1982-08
@@ -83,57 +78,49 @@ relation:
     - Latn
     abstract:
     - content: "<p>The objective of Simple Mail Transfer Protocol (SMTP) is to transfer
-        mail reliably and efficiently. SMTP is independent of the particular transmission
-        subsystem and requires only a reliable ordered data stream channel. Obsoletes
+        mail reliably and efficiently.  SMTP is independent of the particular transmission
+        subsystem and requires only a reliable ordered data stream channel.  Obsoletes
         RFC 788, 780, and 772.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: obsoletedBy
+      bibitem:
+        formattedref:
+          content: RFC2821
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '10'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '821'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SMTP
 - type: includes
   bibitem:
     id: RFC974
     title:
-    - content: Mail routing and the domain system
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Mail routing and the domain system
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0974.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc974
       type: src
     type: standard
     docid:
     - id: RFC 974
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC974
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0974
       type: DOI
@@ -142,26 +129,26 @@ relation:
     - type: published
       value: 1986-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Partridge
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Partridge
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1986-01
@@ -172,56 +159,48 @@ relation:
     abstract:
     - content: "<p>This RFC presents a description of how mail systems on the Internet
         are expected to route messages based on information from the domain system.
-        This involves a discussion of how mailers interpret MX RRs, which are used
+        \ This involves a discussion of how mailers interpret MX RRs, which are used
         for message routing.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: obsoletedBy
+      bibitem:
+        formattedref:
+          content: RFC2821
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '10'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '974'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DNS-MX
 - type: includes
   bibitem:
     id: RFC1869
     title:
-    - content: SMTP Service Extensions
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: SMTP Service Extensions
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1869.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1869
       type: src
     type: standard
     docid:
     - id: RFC 1869
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1869
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1869
       type: DOI
@@ -230,90 +209,114 @@ relation:
     - type: published
       value: 1995-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Freed
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Freed
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rose
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Rose
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Stefferud
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Stefferud
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1995-11
@@ -330,49 +333,47 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: obsoletedBy
+      bibitem:
+        formattedref:
+          content: RFC2821
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '10'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1869'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ESMTP
+    - Simple
+    - Mail
+    - Transfer
+    - Protocol
+    editorialgroup:
+    - name: smtpext
 - type: includes
   bibitem:
     id: RFC1870
     title:
-    - content: SMTP Service Extension for Message Size Declaration
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: SMTP Service Extension for Message Size Declaration
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1870.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1870
       type: src
     type: standard
     docid:
     - id: RFC 1870
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1870
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1870
       type: DOI
@@ -381,58 +382,70 @@ relation:
     - type: published
       value: 1995-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Freed
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Freed
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Moore
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Moore
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1995-11
@@ -451,23 +464,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '10'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1870'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SMTP-SIZE
+    - Simple Mail Transfer Protocol
+    editorialgroup:
+    - name: smtpext

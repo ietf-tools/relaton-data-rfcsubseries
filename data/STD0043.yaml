@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1042
     title:
-    - content: Standard for the transmission of IP datagrams over IEEE 802 networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Standard for the transmission of IP datagrams over IEEE 802 networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1042.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1042
       type: src
     type: standard
     docid:
     - id: RFC 1042
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1042
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1042
       type: DOI
@@ -54,42 +49,53 @@ relation:
     - type: published
       value: 1988-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.K.
+          - content: J
             language:
             - en
+            script:
+            - Latn
+          - content: K
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Reynolds
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J.K. Reynolds
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1988-02
@@ -101,30 +107,21 @@ relation:
     - content: "<p>This RFC specifies a standard method of encapsulating the Internet
         Protocol (IP) datagrams and Address Resolution Protocol (ARP) requests and
         replies on IEEE 802 Networks to allow compatible and interoperable implementations.
-        This RFC specifies a protocol standard for the Internet community.</p>"
+        \ This RFC specifies a protocol standard for the Internet community.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '43'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1042'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-IEEE

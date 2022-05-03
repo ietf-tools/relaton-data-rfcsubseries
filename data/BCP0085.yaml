@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3725
     title:
-    - content: Best Current Practices for Third Party Call Control (3pcc) in the Session
+    - type: main
+      content: Best Current Practices for Third Party Call Control (3pcc) in the Session
         Initiation Protocol (SIP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3725.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3725
       type: src
     type: standard
     docid:
     - id: RFC 3725
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3725
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3725
       type: DOI
@@ -55,74 +50,92 @@ relation:
     - type: published
       value: 2004-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rosenberg
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Rosenberg
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Peterson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Peterson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: H.
+          - content: H
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schulzrinne
             language:
             - en
+            script:
+            - Latn
           completename:
             content: H. Schulzrinne
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Camarillo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Camarillo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-04
@@ -132,36 +145,27 @@ relation:
     - Latn
     abstract:
     - content: "<p>Third party call control refers to the ability of one entity to
-        create a call in which communication is actually between other parties. Third
+        create a call in which communication is actually between other parties.  Third
         party call control is possible using the mechanisms specified within the Session
-        Initiation Protocol (SIP). However, there are several possible approaches,
-        each with different benefits and drawbacks. This document discusses best current
-        practices for the usage of SIP for third party call control. This document
-        specifies an Internet Best Current Practices for the Internet Community, and
-        requests discussion and suggestions for improvements.</p>"
+        Initiation Protocol (SIP).  However, there are several possible approaches,
+        each with different benefits and drawbacks.  This document discusses best
+        current practices for the usage of SIP for third party call control.  This
+        document specifies an Internet Best Current Practices for the Internet Community,
+        and requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '85'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3725'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: sipping

@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC6484
     title:
-    - content: Certificate Policy (CP) for the Resource Public Key Infrastructure
+    - type: main
+      content: Certificate Policy (CP) for the Resource Public Key Infrastructure
         (RPKI)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6484.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6484
       type: src
     type: standard
     docid:
     - id: RFC 6484
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6484
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6484
       type: DOI
@@ -55,74 +50,92 @@ relation:
     - type: published
       value: 2012-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kent
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Kent
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kong
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Kong
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Seo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Seo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Watro
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Watro
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2012-02
@@ -133,12 +146,12 @@ relation:
     abstract:
     - content: "<p>This document describes the certificate policy for a Public Key
         Infrastructure (PKI) used to support attestations about Internet Number Resource
-        (INR) holdings. Each organization that distributes IP addresses or Autonomous
+        (INR) holdings.  Each organization that distributes IP addresses or Autonomous
         System (AS) numbers to an organization will, in parallel, issue a (public
-        key) certificate reflecting this distribution. These certificates will enable
+        key) certificate reflecting this distribution.  These certificates will enable
         verification that the resources indicated in the certificate have been distributed
         to the holder of the associated private key and that this organization is
-        the current, unique holder of these resources. This memo documents an Internet
+        the current, unique holder of these resources.  This memo documents an Internet
         Best Current Practice.</p>"
       language:
       - en
@@ -146,49 +159,38 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '173'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6484'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Certification Practice Statement
+    - CPS
+    editorialgroup:
+    - name: sidr
 - type: includes
   bibitem:
     id: RFC7382
     title:
-    - content: Template for a Certification Practice Statement (CPS) for the Resource
+    - type: main
+      content: Template for a Certification Practice Statement (CPS) for the Resource
         PKI (RPKI)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7382.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7382
       type: src
     type: standard
     docid:
     - id: RFC 7382
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7382
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7382
       type: DOI
@@ -197,58 +199,70 @@ relation:
     - type: published
       value: 2015-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kent
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Kent
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kong
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Kong
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Seo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Seo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-04
@@ -267,23 +281,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '173'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7382'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: sidr

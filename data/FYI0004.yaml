@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC2664
     title:
-    - content: FYI on Questions and Answers - Answers to Commonly Asked "New Internet
+    - type: main
+      content: FYI on Questions and Answers - Answers to Commonly Asked "New Internet
         User" Questions
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2664.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2664
       type: src
     type: standard
     docid:
     - id: RFC 2664
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2664
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2664
       type: DOI
@@ -55,58 +50,70 @@ relation:
     - type: published
       value: 1999-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Plzak
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Plzak
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wells
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Wells
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Krol
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Krol
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-08
@@ -115,33 +122,29 @@ relation:
     script:
     - Latn
     abstract:
-    - content: "<p>This memo provides an overview to the new Internet User. The intended
+    - content: "<p>This memo provides an overview to the new Internet User.  The intended
         audience is the common Internet user of today, thus it attempts to provide
         a more consumer oriented approach to the Internet rather than going into any
-        depth about a topic. This memo provides information for the Internet community.</p>"
+        depth about a topic.  This memo provides information for the Internet community.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2664'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - documentation
+    - help
+    - information
+    - FAQ
+    editorialgroup:
+    - name: uswg

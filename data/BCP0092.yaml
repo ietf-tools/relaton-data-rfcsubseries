@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5742
     title:
-    - content: IESG Procedures for Handling of Independent and IRTF Stream Submissions
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IESG Procedures for Handling of Independent and IRTF Stream Submissions
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5742.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5742
       type: src
     type: standard
     docid:
     - id: RFC 5742
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5742
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5742
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2009-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: H.
+          - content: H
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Alvestrand
             language:
             - en
+            script:
+            - Latn
           completename:
             content: H. Alvestrand
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Housley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Housley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-12
@@ -107,24 +108,24 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3710
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '92'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5742'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

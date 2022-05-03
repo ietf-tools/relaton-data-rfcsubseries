@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC826
     title:
-    - content: 'An Ethernet Address Resolution Protocol: Or Converting Network Protocol
+    - type: main
+      content: 'An Ethernet Address Resolution Protocol: Or Converting Network Protocol
         Addresses to 48.bit Ethernet Address for Transmission on Ethernet Hardware'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0826.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc826
       type: src
     type: standard
     docid:
     - id: RFC 826
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC826
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0826
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 1982-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Plummer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Plummer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1982-11
@@ -85,32 +80,23 @@ relation:
     abstract:
     - content: "<p>The purpose of this RFC is to present a method of Converting Protocol
         Addresses (e.g., IP addresses) to Local Network Addresses (e.g., Ethernet
-        addresses). This is an issue of general concern in the ARPA Internet Community
-        at this time. The method proposed here is presented for your consideration
-        and comment. This is not the specification of an Internet Standard.</p>"
+        addresses).  This is an issue of general concern in the ARPA Internet Community
+        at this time.  The method proposed here is presented for your consideration
+        and comment.  This is not the specification of an Internet Standard.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '37'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '826'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ARP

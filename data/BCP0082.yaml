@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3692
     title:
-    - content: Assigning Experimental and Testing Numbers Considered Useful
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Assigning Experimental and Testing Numbers Considered Useful
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3692.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3692
       type: src
     type: standard
     docid:
     - id: RFC 3692
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3692
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3692
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2004-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Narten
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Narten
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-01
@@ -85,11 +80,11 @@ relation:
     - content: "<p>When experimenting with or extending protocols, it is often necessary
         to use some sort of protocol number or constant in order to actually test
         or experiment with the new function, even when testing in a closed environment.
-        For example, to test a new DHCP option, one needs an option number to identify
-        the new function. This document recommends that when writing IANA Considerations
+        \ For example, to test a new DHCP option, one needs an option number to identify
+        the new function.  This document recommends that when writing IANA Considerations
         sections, authors should consider assigning a small range of numbers for experimentation
         purposes that implementers can use when testing protocol extensions or other
-        new features. This document reserves some ranges of numbers for experimentation
+        new features.  This document reserves some ranges of numbers for experimentation
         purposes in specific protocols where the need to support experimentation has
         been identified.</p>"
       language:
@@ -97,24 +92,24 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2434
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '82'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3692'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - iana
+    - internet assigned numbers authority
+    - values
+    - implementations

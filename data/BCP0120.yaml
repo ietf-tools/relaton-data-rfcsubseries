@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4608
     title:
-    - content: Source-Specific Protocol Independent Multicast in 232/8
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Source-Specific Protocol Independent Multicast in 232/8
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4608.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4608
       type: src
     type: standard
     docid:
     - id: RFC 4608
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4608
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4608
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2006-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Meyer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Meyer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rockell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Rockell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Shepherd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Shepherd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-08
@@ -117,8 +124,8 @@ relation:
     - content: "<p>IP Multicast group addresses in the 232/8 (232.0.0.0 to 232.255.255.255)
         range are designated as source-specific multicast destination addresses and
         are reserved for use by source-specific multicast applications and protocols.
-        This document defines operational recommendations to ensure source-specific
-        behavior within the 232/8 range. This document specifies an Internet Best
+        \ This document defines operational recommendations to ensure source-specific
+        behavior within the 232/8 range.  This document specifies an Internet Best
         Current Practices for the Internet Community, and requests discussion and
         suggestions for improvements.</p>"
       language:
@@ -127,23 +134,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '120'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4608'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ip
+    - ssm
+    editorialgroup:
+    - name: mboned

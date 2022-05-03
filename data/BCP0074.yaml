@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3584
     title:
-    - content: Coexistence between Version 1, Version 2, and Version 3 of the Internet-standard
+    - type: main
+      content: Coexistence between Version 1, Version 2, and Version 3 of the Internet-standard
         Network Management Framework
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3584.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3584
       type: src
     type: standard
     docid:
     - id: RFC 3584
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3584
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3584
       type: DOI
@@ -55,74 +50,92 @@ relation:
     - type: published
       value: 2003-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Frye
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Frye
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Levi
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Levi
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Routhier
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Routhier
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wijnen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Wijnen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2003-08
@@ -135,8 +148,8 @@ relation:
         version 3 of the Internet-standard Network Management Framework, (SNMPv3),
         version 2 of the Internet-standard Network Management Framework (SNMPv2),
         and the original Internet-standard Network Management Framework (SNMPv1).
-        This document also describes how to convert MIB modules from SMIv1 format
-        to SMIv2 format. This document obsoletes RFC 2576. This document specifies
+        \ This document also describes how to convert MIB modules from SMIv1 format
+        to SMIv2 format.  This document obsoletes RFC 2576.  This document specifies
         an Internet Best Current Practices for the Internet Community, and requests
         discussion and suggestions for improvements.</p>"
       language:
@@ -145,23 +158,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '74'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3584'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SNMP
+    - simple network management protocol
+    - mib information base
+    editorialgroup:
+    - name: snmpv3

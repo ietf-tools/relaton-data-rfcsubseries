@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC2939
     title:
-    - content: Procedures and IANA Guidelines for Definition of New DHCP Options and
+    - type: main
+      content: Procedures and IANA Guidelines for Definition of New DHCP Options and
         Message Types
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2939.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2939
       type: src
     type: standard
     docid:
     - id: RFC 2939
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2939
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2939
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2000-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Droms
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Droms
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-09
@@ -84,7 +79,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the procedure for defining new DHCP options
-        and message types. This document specifies an Internet Best Current Practices
+        and message types.  This document specifies an Internet Best Current Practices
         for the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -92,23 +87,23 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '43'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2939'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - dynamic
+    - host
+    - configuration
+    - protocol
+    - internet
+    - assigned
+    - numbers
+    - authority
+    editorialgroup:
+    - name: dhc

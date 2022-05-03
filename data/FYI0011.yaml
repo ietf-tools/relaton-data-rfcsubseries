@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2116
     title:
-    - content: X.500 Implementations Catalog-96
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: X.500 Implementations Catalog-96
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2116.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2116
       type: src
     type: standard
     docid:
     - id: RFC 2116
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2116
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2116
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1997-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Apple
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Apple
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rossen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Rossen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1997-04
@@ -102,33 +103,31 @@ relation:
         Available X.500 Implementations and is based on the results of data collection
         via a WWW home page that enabled implementors to submit new or updated descriptions
         of currently available implementations of X.500, including commercial products
-        and openly available offerings. [RFC 1632] is a revision of [RFC 1292]. This
+        and openly available offerings. [RFC 1632] is a revision of [RFC 1292].  This
         document contains detailed description of 31 X.500 implementations - DSAs,
-        DUAs, and DUA interfaces. This memo provides information for the Internet
-        community. This memo does not specify an Internet standard of any kind.</p>"
+        DUAs, and DUA interfaces.  This memo provides information for the Internet
+        community.  This memo does not specify an Internet standard of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '11'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2116'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Directory
+    - Services
+    - DSA
+    - DUA
+    - Agent
+    - Interfaces
+    editorialgroup:
+    - name: ids

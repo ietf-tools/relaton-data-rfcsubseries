@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8200
     title:
-    - content: Internet Protocol, Version 6 (IPv6) Specification
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Internet Protocol, Version 6 (IPv6) Specification
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8200.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8200
       type: src
     type: standard
     docid:
     - id: RFC 8200
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8200
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8200
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2017-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Deering
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Deering
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hinden
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Hinden
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2017-07
@@ -99,30 +100,29 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document specifies version 6 of the Internet Protocol (IPv6).
-        It obsoletes RFC 2460.</p>"
+        \ It obsoletes RFC 2460.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '86'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8200'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IPv6
+    - internet
+    - protocol
+    - next
+    - generation
+    - ipng
+    - flow label
+    editorialgroup:
+    - name: 6man

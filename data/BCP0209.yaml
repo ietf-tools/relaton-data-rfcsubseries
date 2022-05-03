@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8109
     title:
-    - content: Initializing a DNS Resolver with Priming Queries
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Initializing a DNS Resolver with Priming Queries
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8109.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8109
       type: src
     type: standard
     docid:
     - id: RFC 8109
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8109
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8109
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2017-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Koch
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Koch
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Larson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Larson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hoffman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Hoffman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2017-03
@@ -115,7 +122,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the queries that a DNS resolver should
-        emit to initialize its cache. The result is that the resolver gets both a
+        emit to initialize its cache.  The result is that the resolver gets both a
         current NS Resource Record Set (RRset) for the root zone and the necessary
         address information for reaching the root servers.</p>"
       language:
@@ -124,23 +131,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '209'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8109'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: dnsop

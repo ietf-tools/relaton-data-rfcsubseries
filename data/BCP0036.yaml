@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2736
     title:
-    - content: Guidelines for Writers of RTP Payload Format Specifications
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines for Writers of RTP Payload Format Specifications
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2736.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2736
       type: src
     type: standard
     docid:
     - id: RFC 2736
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2736
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2736
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1999-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Handley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Handley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Perkins
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-12
@@ -100,7 +101,7 @@ relation:
     abstract:
     - content: "<p>This document provides general guidelines aimed at assisting the
         authors of RTP Payload Format specifications in deciding on good formats.
-        This document specifies an Internet Best Current Practices for the Internet
+        \ This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -108,23 +109,22 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '36'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2736'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - real-time
+    - transport
+    - protocol
+    - data types
+    - audio
+    - video
+    - codecs
+    editorialgroup:
+    - name: avt

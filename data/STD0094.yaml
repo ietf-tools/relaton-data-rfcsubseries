@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8949
     title:
-    - content: Concise Binary Object Representation (CBOR)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Concise Binary Object Representation (CBOR)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8949.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8949
       type: src
     type: standard
     docid:
     - id: RFC 8949
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8949
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8949
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2020-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bormann
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Bormann
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hoffman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Hoffman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-12
@@ -112,23 +113,21 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '94'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8949'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - parser
+    - decoder
+    - encoder
+    - binary format
+    - data interchange format
+    - JSON
+    editorialgroup:
+    - name: cbor

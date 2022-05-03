@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC7013
     title:
-    - content: Guidelines for Authors and Reviewers of IP Flow Information Export
+    - type: main
+      content: Guidelines for Authors and Reviewers of IP Flow Information Export
         (IPFIX) Information Elements
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7013.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7013
       type: src
     type: standard
     docid:
     - id: RFC 7013
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7013
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7013
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2013-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Trammell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Trammell
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Claise
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Claise
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2013-09
@@ -101,32 +102,26 @@ relation:
     abstract:
     - content: "<p>This document provides guidelines for how to write definitions
         of new Information Elements for the IP Flow Information Export (IPFIX) protocol.
-        It provides instructions on using the proper conventions for Information Elements
-        to be registered in the IANA IPFIX Information Element registry, and provides
-        guidelines for expert reviewers to evaluate new registrations.</p>"
+        \ It provides instructions on using the proper conventions for Information
+        Elements to be registered in the IANA IPFIX Information Element registry,
+        and provides guidelines for expert reviewers to evaluate new registrations.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '184'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7013'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IE-DOCTORS
+    - IANA
+    editorialgroup:
+    - name: ipfix

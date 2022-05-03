@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5382
     title:
-    - content: NAT Behavioral Requirements for TCP
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: NAT Behavioral Requirements for TCP
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5382.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5382
       type: src
     type: standard
     docid:
     - id: RFC 5382
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5382
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5382
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2008-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Guha
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Guha
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Biswas
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Biswas
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ford
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Ford
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sivakumar
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Sivakumar
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Srisuresh
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Srisuresh
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-10
@@ -148,33 +167,27 @@ relation:
     abstract:
     - content: "<p>This document defines a set of requirements for NATs that handle
         TCP that would allow many applications, such as peer-to-peer applications
-        and online games to work consistently. Developing NATs that meet this set
+        and online games to work consistently.  Developing NATs that meet this set
         of requirements will greatly increase the likelihood that these applications
-        will function properly. This document specifies an Internet Best Current Practices
-        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+        will function properly.  This document specifies an Internet Best Current
+        Practices for the Internet Community, and requests discussion and suggestions
+        for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '142'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5382'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - network address translation
+    editorialgroup:
+    - name: behave

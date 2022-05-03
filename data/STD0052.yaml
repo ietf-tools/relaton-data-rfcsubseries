@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1209
     title:
-    - content: The Transmission of IP Datagrams over the SMDS Service
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: The Transmission of IP Datagrams over the SMDS Service
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1209.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1209
       type: src
     type: standard
     docid:
     - id: RFC 1209
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1209
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1209
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1991-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Piscitello
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Piscitello
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lawrence
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Lawrence
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1991-03
@@ -107,23 +108,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '52'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1209'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-SMDS
+    - Switched Multi-megabit Data Service
+    editorialgroup:
+    - name: smds

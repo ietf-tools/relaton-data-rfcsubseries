@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3438
     title:
-    - content: Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers Authority
+    - type: main
+      content: Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers Authority
         (IANA) Considerations Update
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3438.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3438
       type: src
     type: standard
     docid:
     - id: RFC 3438
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3438
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3438
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Townsley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Townsley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -85,7 +80,7 @@ relation:
     abstract:
     - content: "<p>This document describes updates to the Internet Assigned Numbers
         Authority (IANA) considerations for the Layer Two Tunneling Protocol (L2TP).
-        This document specifies an Internet Best Current Practices for the Internet
+        \ This document specifies an Internet Best Current Practices for the Internet
         Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
@@ -93,23 +88,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '68'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3438'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - L2TP
+    - ppp
+    - point-to-point
+    - protocol
+    - packets
+    editorialgroup:
+    - name: l2tpext

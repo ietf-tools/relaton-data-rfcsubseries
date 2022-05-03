@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7227
     title:
-    - content: Guidelines for Creating New DHCPv6 Options
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines for Creating New DHCPv6 Options
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7227.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7227
       type: src
     type: standard
     docid:
     - id: RFC 7227
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7227
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7227
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2014-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hankins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Hankins
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Mrugalski
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Mrugalski
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Siodelski
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Siodelski
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Jiang
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Jiang
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Krishnan
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Krishnan
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2014-05
@@ -148,31 +167,33 @@ relation:
     abstract:
     - content: "<p>This document provides guidance to prospective DHCPv6 option developers
         to help them create option formats that are easily adoptable by existing DHCPv6
-        software. It also provides guidelines for expert reviewers to evaluate new
-        registrations. This document updates RFC 3315.</p>"
+        software.  It also provides guidelines for expert reviewers to evaluate new
+        registrations.  This document updates RFC 3315.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3315
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '187'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7227'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DHCPv6
+    - option guidelines
+    - option guidance
+    - option format
+    editorialgroup:
+    - name: dhc

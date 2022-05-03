@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1635
     title:
-    - content: How to Use Anonymous FTP
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: How to Use Anonymous FTP
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1635.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1635
       type: src
     type: standard
     docid:
     - id: RFC 1635
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1635
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1635
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1994-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Deutsch
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Deutsch
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Emtage
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Emtage
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Marine
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Marine
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1994-05
@@ -115,9 +122,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides information for the novice Internet user
-        about using the File Transfer Protocol (FTP). It explains what FTP is, what
-        anonymous FTP is, and what an anonymous FTP archive site is. This memo provides
-        information for the Internet community. This memo does not specify an Internet
+        about using the File Transfer Protocol (FTP).  It explains what FTP is, what
+        anonymous FTP is, and what an anonymous FTP archive site is.  This memo provides
+        information for the Internet community.  This memo does not specify an Internet
         standard of any kind.</p>"
       language:
       - en
@@ -125,23 +132,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '24'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1635'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - File
+    - Transfer
+    - Protocol
+    editorialgroup:
+    - name: iafa

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7772
     title:
-    - content: Reducing Energy Consumption of Router Advertisements
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Reducing Energy Consumption of Router Advertisements
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7772.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7772
       type: src
     type: standard
     docid:
     - id: RFC 7772
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7772
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7772
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2016-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Yourtchenko
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Yourtchenko
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Colitti
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Colitti
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-02
@@ -99,7 +100,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>Frequent Router Advertisement messages can severely impact host
-        power consumption. This document recommends operational practices to avoid
+        power consumption.  This document recommends operational practices to avoid
         such impact.</p>"
       language:
       - en
@@ -107,23 +108,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '202'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7772'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: v6ops

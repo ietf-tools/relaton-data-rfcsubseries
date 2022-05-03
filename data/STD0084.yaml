@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC8077
     title:
-    - content: Pseudowire Setup and Maintenance Using the Label Distribution Protocol
+    - type: main
+      content: Pseudowire Setup and Maintenance Using the Label Distribution Protocol
         (LDP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8077.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8077
       type: src
     type: standard
     docid:
     - id: RFC 8077
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8077
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8077
       type: DOI
@@ -55,44 +50,50 @@ relation:
     - type: published
       value: 2017-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Martini
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Martini
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Heron
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Heron
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2017-02
     language:
     - en
@@ -114,23 +115,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '84'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8077'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: pals

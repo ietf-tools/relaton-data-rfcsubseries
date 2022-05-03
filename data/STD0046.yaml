@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1201
     title:
-    - content: Transmitting IP traffic over ARCNET networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Transmitting IP traffic over ARCNET networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1201.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1201
       type: src
     type: standard
     docid:
     - id: RFC 1201
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1201
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1201
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1991-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Provan
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Provan
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1991-02
@@ -93,23 +88,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '46'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1201'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-ARC

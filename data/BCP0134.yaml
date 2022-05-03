@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5068
     title:
-    - content: 'Email Submission Operations: Access and Accountability Requirements'
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: 'Email Submission Operations: Access and Accountability Requirements'
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5068.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5068
       type: src
     type: standard
     docid:
     - id: RFC 5068
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5068
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5068
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2007-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hutzler
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Hutzler
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Resnick
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Resnick
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Allman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Allman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Finch
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Finch
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-11
@@ -169,23 +188,48 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '134'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5068'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - spam
+    - email abuse
+    - phishing
+    - email
+    - e-mail
+    - service
+    - mime
+    - rfc2822
+    - rfc 2822
+    - rfc822
+    - rfc 822
+    - rfc2821
+    - rfc 2821
+    - rfc821
+    - rfc 821
+    - architecture
+    - mta
+    - mua
+    - msa
+    - mda
+    - user
+    - delivery
+    - relay
+    - header
+    - gateway agent
+    - sieve
+    - dsn
+    - mdn
+    - tussle
+    - mhs
+    - mail handling service
+    - message transfer agent
+    - message user agent
+    - mail submission agent
+    - mail delivery agent

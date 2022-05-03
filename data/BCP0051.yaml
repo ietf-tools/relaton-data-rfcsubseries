@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5771
     title:
-    - content: IANA Guidelines for IPv4 Multicast Address Assignments
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IANA Guidelines for IPv4 Multicast Address Assignments
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5771.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5771
       type: src
     type: standard
     docid:
     - id: RFC 5771
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5771
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5771
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2010-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cotton
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Cotton
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Vegoda
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Vegoda
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Meyer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Meyer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2010-03
@@ -115,32 +122,36 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides guidance for the Internet Assigned Numbers
-        Authority (IANA) in assigning IPv4 multicast addresses. It obsoletes RFC 3171
-        and RFC 3138 and updates RFC 2780. This memo documents an Internet Best Current
-        Practice.</p>"
+        Authority (IANA) in assigning IPv4 multicast addresses.  It obsoletes RFC
+        3171 and RFC 3138 and updates RFC 2780.  This memo documents an Internet Best
+        Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2780
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '51'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5771'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - internet
+    - assigned
+    - numbers
+    - authority
+    - protocol
+    - parameters
+    editorialgroup:
+    - name: mboned

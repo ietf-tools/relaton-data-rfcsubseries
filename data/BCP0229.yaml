@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8815
     title:
-    - content: Deprecating Any-Source Multicast (ASM) for Interdomain Multicast
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Deprecating Any-Source Multicast (ASM) for Interdomain Multicast
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8815.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8815
       type: src
     type: standard
     docid:
     - id: RFC 8815
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8815
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8815
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2020-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Abrahamsson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Abrahamsson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Chown
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Chown
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Giuliano
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Giuliano
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eckert
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Eckert
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-08
@@ -131,9 +144,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document recommends deprecation of the use of Any-Source Multicast
-        (ASM) for interdomain multicast. It recommends the use of Source-Specific
+        (ASM) for interdomain multicast.  It recommends the use of Source-Specific
         Multicast (SSM) for interdomain multicast applications and recommends that
-        hosts and routers in these deployments fully support SSM. The recommendations
+        hosts and routers in these deployments fully support SSM.  The recommendations
         in this document do not preclude the continued use of ASM within a single
         organization or domain and are especially easy to adopt in existing deployments
         of intradomain ASM using PIM Sparse Mode (PIM-SM).</p>"
@@ -143,23 +156,26 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '229'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8815'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ASM
+    - Deprecate
+    - Deprecation
+    - Interdomain
+    - Intradomain
+    - PIM-SM
+    - PIM-SSM
+    - " SSM"
+    - MSDP
+    - MBONE
+    - Multicast
+    editorialgroup:
+    - name: mboned

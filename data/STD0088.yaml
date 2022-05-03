@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3596
     title:
-    - content: DNS Extensions to Support IP Version 6
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: DNS Extensions to Support IP Version 6
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3596.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3596
       type: src
     type: standard
     docid:
     - id: RFC 3596
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3596
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3596
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2003-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Thomson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Thomson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Huitema
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Huitema
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: V.
+          - content: V
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ksinant
             language:
             - en
+            script:
+            - Latn
           completename:
             content: V. Ksinant
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Souissi
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Souissi
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2003-10
@@ -131,35 +144,31 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines the changes that need to be made to the Domain
-        Name System (DNS) to support hosts running IP version 6 (IPv6). The changes
+        Name System (DNS) to support hosts running IP version 6 (IPv6).  The changes
         include a resource record type to store an IPv6 address, a domain to support
         lookups based on an IPv6 address, and updated definitions of existing query
         types that return Internet addresses as part of additional section processing.
-        The extensions are designed to be compatible with existing applications and,
-        in particular, DNS implementations themselves. [STANDARDS-TRACK]</p>"
+        \ The extensions are designed to be compatible with existing applications
+        and, in particular, DNS implementations themselves. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '88'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3596'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - internet protocol
+    - domain name system
+    - DNS
+    - zone
+    editorialgroup:
+    - name: dnsext

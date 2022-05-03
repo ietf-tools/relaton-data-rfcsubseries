@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8961
     title:
-    - content: Requirements for Time-Based Loss Detection
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Requirements for Time-Based Loss Detection
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8961.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8961
       type: src
     type: standard
     docid:
     - id: RFC 8961
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8961
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8961
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2020-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Allman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Allman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-11
@@ -84,38 +79,34 @@ relation:
     abstract:
     - content: <p>Many protocols must detect packet loss for various reasons (e.g.,
         to ensure reliability using retransmissions or to understand the level of
-        congestion along a network path). While many mechanisms have been designed
+        congestion along a network path).  While many mechanisms have been designed
         to detect loss, ultimately, protocols can only count on the passage of time
-        without delivery confirmation to declare a packet "lost". Each implementation
+        without delivery confirmation to declare a packet "lost".  Each implementation
         of a time-based loss detection mechanism represents a balance between correctness
-        and timeliness; therefore, no implementation suits all situations. This document
+        and timeliness; therefore, no implementation suits all situations.  This document
         provides high-level requirements for time-based loss detectors appropriate
-        for general use in unicast communication across the Internet. Within the requirements,
-        implementations have latitude to define particulars that best address each
-        situation.</p>
+        for general use in unicast communication across the Internet.  Within the
+        requirements, implementations have latitude to define particulars that best
+        address each situation.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '233'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8961'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - retransmission timeout
+    - " packet loss"
+    - " loss detection"
+    - requirements
+    editorialgroup:
+    - name: tcpm

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2504
     title:
-    - content: Users' Security Handbook
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Users' Security Handbook
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2504.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2504
       type: src
     type: standard
     docid:
     - id: RFC 2504
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2504
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2504
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1999-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Guttman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Guttman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Leong
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Leong
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Malkin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Malkin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1999-02
@@ -115,8 +122,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>The Users' Security Handbook is the companion to the Site Security
-        Handbook (SSH). It is intended to provide users with the information they
-        need to help keep their networks and systems secure. This memo provides information
+        Handbook (SSH).  It is intended to provide users with the information they
+        need to help keep their networks and systems secure.  This memo provides information
         for the Internet community.</p>"
       language:
       - en
@@ -124,23 +131,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '34'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2504'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - encryption
+    - networks
+    - systems
+    editorialgroup:
+    - name: ssh

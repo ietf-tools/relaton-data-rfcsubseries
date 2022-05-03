@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2398
     title:
-    - content: Some Testing Tools for TCP Implementors
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Some Testing Tools for TCP Implementors
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2398.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2398
       type: src
     type: standard
     docid:
     - id: RFC 2398
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2398
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2398
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1998-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Parker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Parker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schmechel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Schmechel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1998-08
@@ -100,31 +101,27 @@ relation:
     abstract:
     - content: "<p>This document lists only tools which can evaluate one or more TCP
         implementations, or which can privde some specific results which describe
-        or evaluate the TCP being tested. This memo provides information for the Internet
-        community. It does not specify an Internet standard of any kind.</p>"
+        or evaluate the TCP being tested.  This memo provides information for the
+        Internet community.  It does not specify an Internet standard of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '33'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2398'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - transmission
+    - control
+    - protocol
+    - catalogue
+    editorialgroup:
+    - name: tcpimpl

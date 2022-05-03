@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6328
     title:
-    - content: IANA Considerations for Network Layer Protocol Identifiers
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IANA Considerations for Network Layer Protocol Identifiers
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6328.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6328
       type: src
     type: standard
     docid:
     - id: RFC 6328
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6328
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6328
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2011-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-07
@@ -84,8 +79,8 @@ relation:
     abstract:
     - content: "<p>Some protocols being developed or extended by the IETF make use
         of the ISO/IEC (International Organization for Standardization / International
-        Electrotechnical Commission) Network Layer Protocol Identifier (NLPID). This
-        document provides NLPID IANA considerations. This memo documents an Internet
+        Electrotechnical Commission) Network Layer Protocol Identifier (NLPID).  This
+        document provides NLPID IANA considerations.  This memo documents an Internet
         Best Current Practice.</p>"
       language:
       - en
@@ -93,23 +88,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '164'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6328'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - NLPID

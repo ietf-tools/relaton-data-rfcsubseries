@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5358
     title:
-    - content: Preventing Use of Recursive Nameservers in Reflector Attacks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Preventing Use of Recursive Nameservers in Reflector Attacks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5358.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5358
       type: src
     type: standard
     docid:
     - id: RFC 5358
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5358
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5358
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2008-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Damas
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Damas
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Neves
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Neves
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-10
@@ -99,8 +100,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes ways to prevent the use of default configured
-        recursive nameservers as reflectors in Denial of Service (DoS) attacks. It
-        provides recommended configuration as measures to mitigate the attack. This
+        recursive nameservers as reflectors in Denial of Service (DoS) attacks.  It
+        provides recommended configuration as measures to mitigate the attack.  This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>"
       language:
@@ -109,23 +110,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '140'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5358'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - denial of service
+    - dos
+    editorialgroup:
+    - name: dnsop

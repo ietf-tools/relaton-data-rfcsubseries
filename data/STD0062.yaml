@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3411
     title:
-    - content: An Architecture for Describing Simple Network Management Protocol (SNMP)
+    - type: main
+      content: An Architecture for Describing Simple Network Management Protocol (SNMP)
         Management Frameworks
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3411.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3411
       type: src
     type: standard
     docid:
     - id: RFC 3411
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3411
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3411
       type: DOI
@@ -55,58 +50,70 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Harrington
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Harrington
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wijnen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Wijnen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -116,61 +123,53 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes an architecture for describing Simple Network
-        Management Protocol (SNMP) Management Frameworks. The architecture is designed
+        Management Protocol (SNMP) Management Frameworks.  The architecture is designed
         to be modular to allow the evolution of the SNMP protocol standards over time.
-        The major portions of the architecture are an SNMP engine containing a Message
+        \ The major portions of the architecture are an SNMP engine containing a Message
         Processing Subsystem, a Security Subsystem and an Access Control Subsystem,
         and possibly multiple SNMP applications which provide specific functional
-        processing of management data. This document obsoletes RFC 2571. [STANDARDS-TRACK]</p>"
+        processing of management data.  This document obsoletes RFC 2571. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3411'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ARCH-SNMP
+    - simple
+    - protocol
+    - network
+    - management
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3412
     title:
-    - content: Message Processing and Dispatching for the Simple Network Management
+    - type: main
+      content: Message Processing and Dispatching for the Simple Network Management
         Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3412.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3412
       type: src
     type: standard
     docid:
     - id: RFC 3412
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3412
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3412
       type: DOI
@@ -179,74 +178,92 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Case
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Case
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Harrington
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Harrington
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wijnen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Wijnen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -257,59 +274,50 @@ relation:
     abstract:
     - content: "<p>This document describes the Message Processing and Dispatching
         for Simple Network Management Protocol (SNMP) messages within the SNMP architecture.
-        It defines the procedures for dispatching potentially multiple versions of
-        SNMP messages to the proper SNMP Message Processing Models, and for dispatching
-        PDUs to SNMP applications. This document also describes one Message Processing
-        Model - the SNMPv3 Message Processing Model. This document obsoletes RFC 2572.
-        [STANDARDS-TRACK]</p>"
+        \ It defines the procedures for dispatching potentially multiple versions
+        of SNMP messages to the proper SNMP Message Processing Models, and for dispatching
+        PDUs to SNMP applications.  This document also describes one Message Processing
+        Model - the SNMPv3 Message Processing Model.  This document obsoletes RFC
+        2572. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3412'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - MPD-SNMP
+    - processing
+    - models
+    - multiple
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3413
     title:
-    - content: Simple Network Management Protocol (SNMP) Applications
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Simple Network Management Protocol (SNMP) Applications
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3413.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3413
       type: src
     type: standard
     docid:
     - id: RFC 3413
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3413
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3413
       type: DOI
@@ -318,58 +326,70 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Levi
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Levi
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Meyer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Meyer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Stewart
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Stewart
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -380,60 +400,55 @@ relation:
     abstract:
     - content: "<p>This document describes five types of Simple Network Management
         Protocol (SNMP) applications which make use of an SNMP engine as described
-        in STD 62, RFC 3411. The types of application described are Command Generators,
+        in STD 62, RFC 3411.  The types of application described are Command Generators,
         Command Responders, Notification Originators, Notification Receivers, and
-        Proxy Forwarders. This document also defines Management Information Base (MIB)
-        modules for specifying targets of management operations, for notification
-        filtering, and for proxy forwarding. This document obsoletes RFC 2573. [STANDARDS-TRACK]</p>"
+        Proxy Forwarders.  This document also defines Management Information Base
+        (MIB) modules for specifying targets of management operations, for notification
+        filtering, and for proxy forwarding.  This document obsoletes RFC 2573. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3413'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SNMP-APP
+    - simple
+    - network
+    - management
+    - protocol
+    - proxy
+    - operations
+    - command
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3414
     title:
-    - content: User-based Security Model (USM) for version 3 of the Simple Network
+    - type: main
+      content: User-based Security Model (USM) for version 3 of the Simple Network
         Management Protocol (SNMPv3)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3414.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3414
       type: src
     type: standard
     docid:
     - id: RFC 3414
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3414
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3414
       type: DOI
@@ -442,42 +457,48 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: U.
+          - content: U
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Blumenthal
             language:
             - en
+            script:
+            - Latn
           completename:
             content: U. Blumenthal
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wijnen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Wijnen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -488,59 +509,52 @@ relation:
     abstract:
     - content: "<p>This document describes the User-based Security Model (USM) for
         Simple Network Management Protocol (SNMP) version 3 for use in the SNMP architecture.
-        It defines the Elements of Procedure for providing SNMP message level security.
-        This document also includes a Management Information Base (MIB) for remotely
+        \ It defines the Elements of Procedure for providing SNMP message level security.
+        \ This document also includes a Management Information Base (MIB) for remotely
         monitoring/managing the configuration parameters for this Security Model.
-        This document obsoletes RFC 2574. [STANDARDS-TRACK]</p>"
+        \ This document obsoletes RFC 2574. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3414'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - USM-SNMPV3
+    - message
+    - level
+    - mib
+    - information
+    - base
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3415
     title:
-    - content: View-based Access Control Model (VACM) for the Simple Network Management
+    - type: main
+      content: View-based Access Control Model (VACM) for the Simple Network Management
         Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3415.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3415
       type: src
     type: standard
     docid:
     - id: RFC 3415
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3415
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3415
       type: DOI
@@ -549,58 +563,70 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wijnen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Wijnen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: McCloghrie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. McCloghrie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-12
@@ -610,60 +636,51 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the View-based Access Control Model (VACM)
-        for use in the Simple Network Management Protocol (SNMP) architecture. It
+        for use in the Simple Network Management Protocol (SNMP) architecture.  It
         defines the Elements of Procedure for controlling access to management information.
-        This document also includes a Management Information Base (MIB) for remotely
+        \ This document also includes a Management Information Base (MIB) for remotely
         managing the configuration parameters for the View- based Access Control Model.
-        This document obsoletes RFC 2575. [STANDARDS-TRACK]</p>"
+        \ This document obsoletes RFC 2575. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3415'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - VACM-SNMP
+    - mib
+    - information
+    - base
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3416
     title:
-    - content: Version 2 of the Protocol Operations for the Simple Network Management
+    - type: main
+      content: Version 2 of the Protocol Operations for the Simple Network Management
         Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3416.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3416
       type: src
     type: standard
     docid:
     - id: RFC 3416
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3416
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3416
       type: DOI
@@ -672,28 +689,28 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2002-12
     language:
     - en
@@ -701,57 +718,50 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines version 2 of the protocol operations for
-        the Simple Network Management Protocol (SNMP). It defines the syntax and elements
-        of procedure for sending, receiving, and processing SNMP PDUs. This document
-        obsoletes RFC 1905. [STANDARDS-TRACK]</p>"
+        the Simple Network Management Protocol (SNMP).  It defines the syntax and
+        elements of procedure for sending, receiving, and processing SNMP PDUs.  This
+        document obsoletes RFC 1905. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3416'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - OPS-MIB
+    - Simple
+    - Network
+    - Management
+    - Protocol
+    - Version 2
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3417
     title:
-    - content: Transport Mappings for the Simple Network Management Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Transport Mappings for the Simple Network Management Protocol (SNMP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3417.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3417
       type: src
     type: standard
     docid:
     - id: RFC 3417
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3417
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3417
       type: DOI
@@ -760,28 +770,28 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2002-12
     language:
     - en
@@ -789,57 +799,51 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines the transport of Simple Network Management
-        Protocol (SNMP) messages over various protocols. This document obsoletes RFC
-        1906. [STANDARDS-TRACK]</p>"
+        Protocol (SNMP) messages over various protocols.  This document obsoletes
+        RFC 1906. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3417'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TRANS-MIB
+    - Simple
+    - Network
+    - Management
+    - Protocol
+    - Version
+    - '2'
+    editorialgroup:
+    - name: snmpv3
 - type: includes
   bibitem:
     id: RFC3418
     title:
-    - content: Management Information Base (MIB) for the Simple Network Management
+    - type: main
+      content: Management Information Base (MIB) for the Simple Network Management
         Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3418.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3418
       type: src
     type: standard
     docid:
     - id: RFC 3418
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3418
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3418
       type: DOI
@@ -848,28 +852,28 @@ relation:
     - type: published
       value: 2002-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Presuhn
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Presuhn
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2002-12
     language:
     - en
@@ -877,7 +881,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines managed objects which describe the behavior
-        of a Simple Network Management Protocol (SNMP) entity. This document obsoletes
+        of a Simple Network Management Protocol (SNMP) entity.  This document obsoletes
         RFC 1907, Management Information Base for Version 2 of the Simple Network
         Management Protocol (SNMPv2). [STANDARDS-TRACK]</p>"
       language:
@@ -886,23 +890,22 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '62'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3418'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SNMPv2-MIB
+    - Simple
+    - Network
+    - Management
+    - Protocol
+    - Version
+    - '2'
+    editorialgroup:
+    - name: snmpv3

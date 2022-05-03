@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3405
     title:
-    - content: 'Dynamic Delegation Discovery System (DDDS) Part Five: URI.ARPA Assignment
+    - type: main
+      content: 'Dynamic Delegation Discovery System (DDDS) Part Five: URI.ARPA Assignment
         Procedures'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3405.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3405
       type: src
     type: standard
     docid:
     - id: RFC 3405
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3405
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3405
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2002-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Mealling
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Mealling
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-10
@@ -85,8 +80,8 @@ relation:
     abstract:
     - content: '<p>This document is fifth in a series that is completely specified
         in "Dynamic Delegation Discovery System (DDDS) Part One: The Comprehensive
-        DDDS" (RFC 3401). It is very important to note that it is impossible to read
-        and understand any document in this series without reading the others. This
+        DDDS" (RFC 3401).  It is very important to note that it is impossible to read
+        and understand any document in this series without reading the others.  This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>'
       language:
@@ -95,48 +90,36 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '65'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3405'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - uniform resource identifiers
+    editorialgroup:
+    - name: urn
 - type: includes
   bibitem:
     id: RFC8958
     title:
-    - content: Updated Registration Rules for URI.ARPA
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Updated Registration Rules for URI.ARPA
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8958.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8958
       type: src
     type: standard
     docid:
     - id: RFC 8958
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8958
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8958
       type: DOI
@@ -145,26 +128,26 @@ relation:
     - type: published
       value: 2020-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hardie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Hardie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-12
@@ -181,24 +164,19 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3405
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '65'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8958'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

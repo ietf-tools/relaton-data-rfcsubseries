@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4787
     title:
-    - content: Network Address Translation (NAT) Behavioral Requirements for Unicast
+    - type: main
+      content: Network Address Translation (NAT) Behavioral Requirements for Unicast
         UDP
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4787.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4787
       type: src
     type: standard
     docid:
     - id: RFC 4787
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4787
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4787
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2007-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Audet
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Audet
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Jennings
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Jennings
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-01
@@ -103,58 +104,48 @@ relation:
         types of Network Address Translation (NAT) behavior when handling Unicast
         UDP and also defines a set of requirements that would allow many applications,
         such as multimedia communications or online gaming, to work consistently.
-        Developing NATs that meet this set of requirements will greatly increase the
-        likelihood that these applications will function properly. This document specifies
-        an Internet Best Current Practices for the Internet Community, and requests
-        discussion and suggestions for improvements.</p>"
+        \ Developing NATs that meet this set of requirements will greatly increase
+        the likelihood that these applications will function properly.  This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '127'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4787'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - nat
+    - sip
+    - udp
+    editorialgroup:
+    - name: behave
 - type: includes
   bibitem:
     id: RFC6888
     title:
-    - content: Common Requirements for Carrier-Grade NATs (CGNs)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Common Requirements for Carrier-Grade NATs (CGNs)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6888.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6888
       type: src
     type: standard
     docid:
     - id: RFC 6888
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6888
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6888
       type: DOI
@@ -163,90 +154,114 @@ relation:
     - type: published
       value: 2013-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perreault
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Perreault
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: I.
+          - content: I
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Yamagata
             language:
             - en
+            script:
+            - Latn
           completename:
             content: I. Yamagata
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Miyakawa
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Miyakawa
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Nakagawa
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Nakagawa
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: H.
+          - content: H
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ashida
             language:
             - en
+            script:
+            - Latn
           completename:
             content: H. Ashida
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2013-04
@@ -256,55 +271,50 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines common requirements for Carrier-Grade NATs
-        (CGNs). It updates RFC 4787.</p>"
+        (CGNs).  It updates RFC 4787.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4787
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '127'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6888'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - CGN
+    - NAT
+    editorialgroup:
+    - name: behave
 - type: includes
   bibitem:
     id: RFC7857
     title:
-    - content: Updates to Network Address Translation (NAT) Behavioral Requirements
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Updates to Network Address Translation (NAT) Behavioral Requirements
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7857.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7857
       type: src
     type: standard
     docid:
     - id: RFC 7857
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7857
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7857
       type: DOI
@@ -313,90 +323,114 @@ relation:
     - type: published
       value: 2016-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Penno
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Penno
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Perreault
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Perreault
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Boucadair
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Boucadair
             language:
             - en
-      role:
-      - editor
-    - person:
-        name:
-          initial:
-          - content: S.
-            language:
-            - en
-          surname:
-            content: Sivakumar
-            language:
-            - en
-          completename:
-            content: S. Sivakumar
-            language:
-            - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: S
             language:
             - en
+            script:
+            - Latn
+          surname:
+            content: Sivakumar
+            language:
+            - en
+            script:
+            - Latn
+          completename:
+            content: S. Sivakumar
+            language:
+            - en
+            script:
+            - Latn
+      role:
+      - author
+    - person:
+        name:
+          initial:
+          - content: K
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Naito
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Naito
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-04
@@ -414,24 +448,44 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4787
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5382
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5508
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '127'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7857'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - address sharing
+    - IPv4 service continuity
+    - Carrier Grade NAT
+    - CGN
+    - LSN
+    - NAT traversal
+    - RFC4787
+    - RFC5382
+    - RFC5508
+    - DS-Lite
+    - NAT64
+    - Address depletion
+    editorialgroup:
+    - name: tsvwg

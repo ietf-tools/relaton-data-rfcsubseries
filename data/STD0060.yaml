@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2920
     title:
-    - content: SMTP Service Extension for Command Pipelining
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: SMTP Service Extension for Command Pipelining
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2920.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2920
       type: src
     type: standard
     docid:
     - id: RFC 2920
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2920
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2920
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2000-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: N.
+          - content: N
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Freed
             language:
             - en
+            script:
+            - Latn
           completename:
             content: N. Freed
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-09
@@ -92,23 +87,22 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '60'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2920'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - SMTP-Pipe
+    - simple
+    - mail
+    - transfer
+    - protocol
+    - TCP
+    - transmission
+    - control
+    - protocol

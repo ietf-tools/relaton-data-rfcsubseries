@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC5266
     title:
-    - content: Secure Connectivity and Mobility Using Mobile IPv4 and IKEv2 Mobility
+    - type: main
+      content: Secure Connectivity and Mobility Using Mobile IPv4 and IKEv2 Mobility
         and Multihoming (MOBIKE)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5266.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5266
       type: src
     type: standard
     docid:
     - id: RFC 5266
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5266
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5266
       type: DOI
@@ -55,42 +50,48 @@ relation:
     - type: published
       value: 2008-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: V.
+          - content: V
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Devarapalli
             language:
             - en
+            script:
+            - Latn
           completename:
             content: V. Devarapalli
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eronen
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Eronen
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-06
@@ -100,37 +101,28 @@ relation:
     - Latn
     abstract:
     - content: "<p>Enterprise users require mobility and secure connectivity when
-        they roam and connect to the services offered in the enterprise. Secure connectivity
+        they roam and connect to the services offered in the enterprise.  Secure connectivity
         is required when the user connects to the enterprise from an untrusted network.
-        Mobility is beneficial when the user moves, either inside or outside the enterprise
-        network, and acquires a new IP address. This document describes a solution
-        using Mobile IPv4 (MIPv4) and mobility extensions to IKEv2 (MOBIKE) to provide
-        secure connectivity and mobility. This document specifies an Internet Best
-        Current Practices for the Internet Community, and requests discussion and
-        suggestions for improvements.</p>"
+        \ Mobility is beneficial when the user moves, either inside or outside the
+        enterprise network, and acquires a new IP address.  This document describes
+        a solution using Mobile IPv4 (MIPv4) and mobility extensions to IKEv2 (MOBIKE)
+        to provide secure connectivity and mobility.  This document specifies an Internet
+        Best Current Practices for the Internet Community, and requests discussion
+        and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '136'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5266'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: mip4

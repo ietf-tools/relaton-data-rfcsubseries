@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC5727
     title:
-    - content: Change Process for the Session Initiation Protocol (SIP) and the Real-time
+    - type: main
+      content: Change Process for the Session Initiation Protocol (SIP) and the Real-time
         Applications and Infrastructure Area
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5727.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5727
       type: src
     type: standard
     docid:
     - id: RFC 5727
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5727
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5727
       type: DOI
@@ -55,58 +50,70 @@ relation:
     - type: published
       value: 2010-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Peterson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Peterson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Jennings
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Jennings
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sparks
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Sparks
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2010-03
@@ -117,64 +124,62 @@ relation:
     abstract:
     - content: "<p>This memo documents a process intended to organize the future development
         of the Session Initiation Protocol (SIP) and related work in the Real-time
-        Applications and Infrastructure (RAI) Area. As the environments in which SIP
-        is deployed grow more numerous and diverse, modifying or extending SIP in
-        certain ways may threaten the interoperability and security of the protocol;
+        Applications and Infrastructure (RAI) Area.  As the environments in which
+        SIP is deployed grow more numerous and diverse, modifying or extending SIP
+        in certain ways may threaten the interoperability and security of the protocol;
         however, the IETF process must also cater to the realities of existing deployments
-        and serve the needs of the implementers working with SIP. This document therefore
+        and serve the needs of the implementers working with SIP.  This document therefore
         defines the functions of two long-lived working groups in the RAI Area that
         are, respectively, responsible for the maintenance of the core SIP specifications
         and the development of new efforts to extend and apply work in this space.
-        This document obsoletes RFC 3427. This memo documents an Internet Best Current
-        Practice.</p>"
+        \ This document obsoletes RFC 3427.  This memo documents an Internet Best
+        Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3265
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3969
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '67'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5727'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - RAI
+    - sipping
 - type: includes
   bibitem:
     id: RFC7957
     title:
-    - content: DISPATCH-Style Working Groups and the SIP Change Process
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: DISPATCH-Style Working Groups and the SIP Change Process
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7957.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7957
       type: src
     type: standard
     docid:
     - id: RFC 7957
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7957
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7957
       type: DOI
@@ -183,58 +188,70 @@ relation:
     - type: published
       value: 2016-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Campbell
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Campbell
             language:
             - en
-      role:
-      - editor
-    - person:
-        name:
-          initial:
-          - content: A.
-            language:
-            - en
-          surname:
-            content: Cooper
-            language:
-            - en
-          completename:
-            content: A. Cooper
-            language:
-            - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: A
             language:
             - en
+            script:
+            - Latn
+          surname:
+            content: Cooper
+            language:
+            - en
+            script:
+            - Latn
+          completename:
+            content: A. Cooper
+            language:
+            - en
+            script:
+            - Latn
+      role:
+      - author
+    - person:
+        name:
+          initial:
+          - content: B
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Leiba
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Leiba
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-08
@@ -244,35 +261,35 @@ relation:
     - Latn
     abstract:
     - content: "<p>RFC 5727 defined several processes for the former Real-time Applications
-        and Infrastructure (RAI) area. These processes include the evolution of the
+        and Infrastructure (RAI) area.  These processes include the evolution of the
         Session Initiation Protocol (SIP) and related protocols, as well as the operation
-        of the DISPATCH and SIPCORE working groups. This document updates RFC 5727
+        of the DISPATCH and SIPCORE working groups.  This document updates RFC 5727
         to allow flexibility for the area and working group structure, while preserving
-        the SIP change processes. It also generalizes the DISPATCH working group processes
-        so that they can be easily adopted by other working groups.</p>"
+        the SIP change processes.  It also generalizes the DISPATCH working group
+        processes so that they can be easily adopted by other working groups.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC5727
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '67'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7957'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - dispatch
+    - RAI
+    - ART
+    - sip-change

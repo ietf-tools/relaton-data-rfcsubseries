@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3372
     title:
-    - content: 'Session Initiation Protocol for Telephones (SIP-T): Context and Architectures'
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: 'Session Initiation Protocol for Telephones (SIP-T): Context and Architectures'
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3372.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3372
       type: src
     type: standard
     docid:
     - id: RFC 3372
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3372
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3372
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2002-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Vemuri
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Vemuri
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Peterson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Peterson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2002-09
@@ -98,23 +99,17 @@ relation:
     script:
     - Latn
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '63'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3372'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - pstn
+    - public switch telephone network
+    editorialgroup:
+    - name: sipping

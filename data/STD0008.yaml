@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC854
     title:
-    - content: Telnet Protocol Specification
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Telnet Protocol Specification
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0854.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc854
       type: src
     type: standard
     docid:
     - id: RFC 854
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC854
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0854
       type: DOI
@@ -54,42 +49,53 @@ relation:
     - type: published
       value: 1983-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.K.
+          - content: J
             language:
             - en
+            script:
+            - Latn
+          - content: K
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Reynolds
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J.K. Reynolds
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1983-05
@@ -99,62 +105,48 @@ relation:
     - Latn
     abstract:
     - content: <p>This is the specification of the Telnet protocol used for remote
-        terminal access in the ARPA Internet. The purpose of the TELNET Protocol is
-        to provide a fairly general, bi-directional, eight-bit byte oriented communications
-        facility. Its primary goal is to allow a standard method of interfacing terminal
-        devices and terminal-oriented processes to each other. It is envisioned that
+        terminal access in the ARPA Internet.  The purpose of the TELNET Protocol
+        is to provide a fairly general, bi-directional, eight-bit byte oriented communications
+        facility.  Its primary goal is to allow a standard method of interfacing terminal
+        devices and terminal-oriented processes to each other.  It is envisioned that
         the protocol may also be used for terminal-terminal communication ("linking")
-        and process-process communication (distributed computation). This RFC specifies
-        a standard for the ARPA Internet community. Hosts on the ARPA Internet are
-        expected to adopt and implement this standard. Obsoletes NIC 18639.</p>
+        and process-process communication (distributed computation).  This RFC specifies
+        a standard for the ARPA Internet community.  Hosts on the ARPA Internet are
+        expected to adopt and implement this standard.  Obsoletes NIC 18639.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '854'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TELNET
 - type: includes
   bibitem:
     id: RFC855
     title:
-    - content: Telnet Option Specifications
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Telnet Option Specifications
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0855.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc855
       type: src
     type: standard
     docid:
     - id: RFC 855
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC855
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0855
       type: DOI
@@ -163,42 +155,53 @@ relation:
     - type: published
       value: 1983-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.K.
+          - content: J
             language:
             - en
+            script:
+            - Latn
+          - content: K
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Reynolds
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J.K. Reynolds
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1983-05
@@ -208,32 +211,23 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo specifies the general form for Telnet options and the
-        directions for their specification. This RFC specifies a standard for the
-        ARPA Internet community. Hosts on the ARPA Internet are expected to adopt
-        and implement this standard. Obsoletes RFC 651, NIC 18640.</p>"
+        directions for their specification.  This RFC specifies a standard for the
+        ARPA Internet community.  Hosts on the ARPA Internet are expected to adopt
+        and implement this standard.  Obsoletes RFC 651, NIC 18640.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '855'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TELNET

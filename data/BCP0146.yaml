@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5406
     title:
-    - content: Guidelines for Specifying the Use of IPsec Version 2
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines for Specifying the Use of IPsec Version 2
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5406.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5406
       type: src
     type: standard
     docid:
     - id: RFC 5406
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5406
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5406
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2009-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bellovin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bellovin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-02
@@ -83,34 +78,26 @@ relation:
     - Latn
     abstract:
     - content: <p>The Security Considerations sections of many Internet Drafts say,
-        in effect, "just use IPsec". While this is sometimes correct, more often it
-        will leave users without real, interoperable security mechanisms. This memo
-        offers some guidance on when IPsec Version 2 should and should not be specified.
-        This document specifies an Internet Best Current Practices for the Internet
-        Community, and requests discussion and suggestions for improvements.</p>
+        in effect, "just use IPsec".  While this is sometimes correct, more often
+        it will leave users without real, interoperable security mechanisms.  This
+        memo offers some guidance on when IPsec Version 2 should and should not be
+        specified.  This document specifies an Internet Best Current Practices for
+        the Internet Community, and requests discussion and suggestions for improvements.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '146'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5406'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - internet security
+    - security considerations

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC862
     title:
-    - content: Echo Protocol
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Echo Protocol
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0862.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc862
       type: src
     type: standard
     docid:
     - id: RFC 862
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC862
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0862
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1983-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1983-05
@@ -83,32 +78,23 @@ relation:
     - Latn
     abstract:
     - content: "<p>This RFC specifies a standard for the ARPA Internet community.
-        Hosts on the ARPA Internet that choose to implement a Echo Protocol are expected
-        to adopt and implement this standard. The Echo service simply sends back to
-        the originating source any data it receives.</p>"
+        \ Hosts on the ARPA Internet that choose to implement a Echo Protocol are
+        expected to adopt and implement this standard.  The Echo service simply sends
+        back to the originating source any data it receives.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '20'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '862'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ECHO

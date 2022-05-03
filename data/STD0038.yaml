@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC903
     title:
-    - content: A Reverse Address Resolution Protocol
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: A Reverse Address Resolution Protocol
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0903.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc903
       type: src
     type: standard
     docid:
     - id: RFC 903
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC903
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0903
       type: DOI
@@ -54,74 +49,97 @@ relation:
     - type: published
       value: 1984-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Finlayson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Finlayson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Mann
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Mann
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.C.
+          - content: J
             language:
             - en
+            script:
+            - Latn
+          - content: C
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Mogul
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J.C. Mogul
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Theimer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Theimer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1984-06
@@ -132,7 +150,7 @@ relation:
     abstract:
     - content: "<p>This RFC suggests a method for workstations to dynamically find
         their protocol address (e.g., their Internet Address), when they know only
-        their hardware address (e.g., their attached physical network address). This
+        their hardware address (e.g., their attached physical network address).  This
         RFC specifies a proposed protocol for the ARPA Internet community, and requests
         discussion and suggestions for improvements.</p>"
       language:
@@ -141,23 +159,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '38'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '903'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - RARP

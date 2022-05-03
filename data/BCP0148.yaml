@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5508
     title:
-    - content: NAT Behavioral Requirements for ICMP
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: NAT Behavioral Requirements for ICMP
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5508.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5508
       type: src
     type: standard
     docid:
     - id: RFC 5508
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5508
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5508
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2009-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Srisuresh
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Srisuresh
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Ford
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Ford
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sivakumar
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Sivakumar
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Guha
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Guha
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-04
@@ -132,10 +145,10 @@ relation:
     abstract:
     - content: "<p>This document specifies the behavioral properties required of the
         Network Address Translator (NAT) devices in conjunction with the Internet
-        Control Message Protocol (ICMP). The objective of this memo is to make NAT
+        Control Message Protocol (ICMP).  The objective of this memo is to make NAT
         devices more predictable and compatible with diverse application protocols
-        that traverse the devices. Companion documents provide behavioral recommendations
-        specific to TCP, UDP, and other protocols. This document specifies an Internet
+        that traverse the devices.  Companion documents provide behavioral recommendations
+        specific to TCP, UDP, and other protocols.  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -144,23 +157,21 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '148'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5508'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ICMP Error payload translation
+    - hairpin translation
+    - ICMP Query
+    - ICMP Error
+    - Ping
+    - Traceroute
+    editorialgroup:
+    - name: behave

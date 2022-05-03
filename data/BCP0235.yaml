@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC9210
     title:
-    - content: DNS Transport over TCP - Operational Requirements
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: DNS Transport over TCP - Operational Requirements
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.9210.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc9210
       type: src
     type: standard
     docid:
     - id: RFC 9210
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC9210
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC9210
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2022-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kristoff
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Kristoff
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wessels
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Wessels
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2022-03
@@ -98,12 +99,12 @@ relation:
     script:
     - Latn
     abstract:
-    - content: "<p>This document updates RFCs 1123 and 1536. This document requires
+    - content: "<p>This document updates RFCs 1123 and 1536.  This document requires
         the operational practice of permitting DNS messages to be carried over TCP
-        on the Internet as a Best Current Practice. This operational requirement is
-        aligned with the implementation requirements in RFC 7766. The use of TCP includes
-        both DNS over unencrypted TCP as well as over an encrypted TLS session. The
-        document also considers the consequences of this form of DNS communication
+        on the Internet as a Best Current Practice.  This operational requirement
+        is aligned with the implementation requirements in RFC 7766.  The use of TCP
+        includes both DNS over unencrypted TCP as well as over an encrypted TLS session.
+        \ The document also considers the consequences of this form of DNS communication
         and the potential operational issues that can arise when this Best Current
         Practice is not upheld.</p>"
       language:
@@ -111,24 +112,29 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC1123
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC1536
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '235'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9210'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - DNS
+    - TCP
+    editorialgroup:
+    - name: dnsop

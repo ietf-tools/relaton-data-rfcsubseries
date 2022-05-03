@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1580
     title:
-    - content: Guide to Network Resource Tools
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guide to Network Resource Tools
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1580.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1580
       type: src
     type: standard
     docid:
     - id: RFC 1580
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1580
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1580
       type: DOI
@@ -56,24 +51,7 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - person:
-        name:
-          initial:
-          - content: EARN
-            language:
-            - en
-          surname:
-            content: Staff
-            language:
-            - en
-          completename:
-            content: EARN Staff
-            language:
-            - en
+        - EARN Staff
       role:
       - author
     revdate: 1994-03
@@ -83,8 +61,8 @@ relation:
     - Latn
     abstract:
     - content: "<p>The purpose of this guide is to supply the basic information that
-        anyone on the network needs to try out and begin using tools. This memo provides
-        information for the Internet community. This memo does not specify an Internet
+        anyone on the network needs to try out and begin using tools.  This memo provides
+        information for the Internet community.  This memo does not specify an Internet
         standard of any kind. [FYI 23]</p>"
       language:
       - en
@@ -92,23 +70,33 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '23'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1580'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - EARN
+    - BITNET
+    - Gopher
+    - World-Wide Web
+    - WWW
+    - WAIS
+    - Archie
+    - Whois
+    - X.500
+    - Netfind
+    - Trickle
+    - BIFTP
+    - Listserv
+    - Netnews
+    - Astra
+    - NetServ
+    - Mail Base
+    - Prospero
+    - IRC
+    - Relay

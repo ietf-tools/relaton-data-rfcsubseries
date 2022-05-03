@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2007
     title:
-    - content: Catalogue of Network Training Materials
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Catalogue of Network Training Materials
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2007.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2007
       type: src
     type: standard
     docid:
     - id: RFC 2007
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2007
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2007
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1996-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Foster
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Foster
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Isaacs
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Isaacs
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Prior
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Prior
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-10
@@ -116,7 +123,7 @@ relation:
     abstract:
     - content: "<p>The purpose of this document is to provide a catalogue of quality
         Network Training Materials for use by Internet trainers in training their
-        users. This memo provides information for the Internet community. This memo
+        users.  This memo provides information for the Internet community.  This memo
         does not specify an Internet standard of any kind.</p>"
       language:
       - en
@@ -124,23 +131,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '29'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2007'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TRAINMAT
+    - IETF
+    - TERENA
+    editorialgroup:
+    - name: trainmat

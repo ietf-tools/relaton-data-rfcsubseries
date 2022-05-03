@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC3180
     title:
-    - content: GLOP Addressing in 233/8
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: GLOP Addressing in 233/8
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3180.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3180
       type: src
     type: standard
     docid:
     - id: RFC 3180
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3180
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3180
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2001-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Meyer
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Meyer
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Lothberg
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Lothberg
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2001-09
@@ -99,32 +100,26 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines the policy for the use of 233/8 for statically
-        e assigned multicast addresses. This document specifies an Internet Best Current
-        Practices for the Internet Community, and requests discussion and suggestions
-        for improvements.</p>"
+        e assigned multicast addresses.  This document specifies an Internet Best
+        Current Practices for the Internet Community, and requests discussion and
+        suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '53'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3180'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - static
+    - multicast
+    editorialgroup:
+    - name: mboned

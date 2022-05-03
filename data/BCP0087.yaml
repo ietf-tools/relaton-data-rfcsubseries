@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3785
     title:
-    - content: Use of Interior Gateway Protocol (IGP) Metric as a second MPLS Traffic
+    - type: main
+      content: Use of Interior Gateway Protocol (IGP) Metric as a second MPLS Traffic
         Engineering (TE) Metric
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3785.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3785
       type: src
     type: standard
     docid:
     - id: RFC 3785
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3785
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3785
       type: DOI
@@ -55,90 +50,114 @@ relation:
     - type: published
       value: 2004-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: F.
+          - content: F
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Le Faucheur
             language:
             - en
+            script:
+            - Latn
           completename:
             content: F. Le Faucheur
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Uppili
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Uppili
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Vedrenne
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Vedrenne
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Merckx
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Merckx
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Telkamp
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Telkamp
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-05
@@ -150,13 +169,13 @@ relation:
     - content: "<p>This document describes a common practice on how the existing metric
         of Interior Gateway Protocols (IGP) can be used as an alternative metric to
         the Traffic Engineering (TE) metric for Constraint Based Routing of MultiProtocol
-        Label Switching (MPLS) Traffic Engineering tunnels. This effectively results
+        Label Switching (MPLS) Traffic Engineering tunnels.  This effectively results
         in the ability to perform Constraint Based Routing with optimization of one
         metric (e.g., link bandwidth) for some Traffic Engineering tunnels (e.g.,
         Data Trunks) while optimizing another metric (e.g., propagation delay) for
-        some other tunnels with different requirements (e.g., Voice Trunks). No protocol
-        extensions or modifications are required. This text documents current router
-        implementations and deployment practices. This document specifies an Internet
+        some other tunnels with different requirements (e.g., Voice Trunks).  No protocol
+        extensions or modifications are required.  This text documents current router
+        implementations and deployment practices.  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -165,23 +184,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '87'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3785'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - link
+    - bandwidth router
+    editorialgroup:
+    - name: tewg

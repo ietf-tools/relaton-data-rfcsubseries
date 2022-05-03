@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4929
     title:
-    - content: Change Process for Multiprotocol Label Switching (MPLS) and Generalized
+    - type: main
+      content: Change Process for Multiprotocol Label Switching (MPLS) and Generalized
         MPLS (GMPLS) Protocols and Procedures
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4929.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4929
       type: src
     type: standard
     docid:
     - id: RFC 4929
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4929
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4929
       type: DOI
@@ -55,44 +50,50 @@ relation:
     - type: published
       value: 2007-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Andersson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Andersson
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Farrel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Farrel
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2007-06
     language:
     - en
@@ -101,11 +102,11 @@ relation:
     abstract:
     - content: "<p>This document provides guidelines for applying or extending the
         MPLS or GMPLS ((G)MPLS) protocol suites and clarifies the IETF's (G)MPLS working
-        groups' responsibility for the (G)MPLS protocols. This document is directed
+        groups' responsibility for the (G)MPLS protocols.  This document is directed
         to multi-vendor fora and Standards Development Organizations (SDOs) to provide
         an understanding of (G)MPLS work in the IETF and documents the requisite use
         of IETF review procedures when considering (G)MPLS applications or protocol
-        extensions in their work. This document does not modify IETF processes. This
+        extensions in their work.  This document does not modify IETF processes.  This
         document specifies an Internet Best Current Practices for the Internet Community,
         and requests discussion and suggestions for improvements.</p>"
       language:
@@ -114,23 +115,12 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '129'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4929'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

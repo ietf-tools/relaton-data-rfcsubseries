@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1006
     title:
-    - content: 'ISO Transport Service on top of the TCP Version: 3'
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: 'ISO Transport Service on top of the TCP Version: 3'
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1006.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1006
       type: src
     type: standard
     docid:
     - id: RFC 1006
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1006
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1006
       type: DOI
@@ -54,42 +49,58 @@ relation:
     - type: published
       value: 1987-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: M.T.
+          - content: M
             language:
             - en
+            script:
+            - Latn
+          - content: T
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Rose
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M.T. Rose
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.E.
+          - content: D
             language:
             - en
+            script:
+            - Latn
+          - content: E
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Cass
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D.E. Cass
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1987-05
@@ -98,11 +109,11 @@ relation:
     script:
     - Latn
     abstract:
-    - content: "<p>This memo specifies a standard for the Internet community. Hosts
+    - content: "<p>This memo specifies a standard for the Internet community.  Hosts
         on the Internet that choose to implement ISO transport services on top of
-        the TCP are expected to adopt and implement this standard. TCP port 102 is
-        reserved for hosts which implement this standard. This memo specifies version
-        3 of the protocol and supersedes RFC-983. Changes between the protocol is
+        the TCP are expected to adopt and implement this standard.  TCP port 102 is
+        reserved for hosts which implement this standard.  This memo specifies version
+        3 of the protocol and supersedes RFC-983.  Changes between the protocol is
         described in RFC-983 and this memo are minor, but unfortunately incompatible.</p>"
       language:
       - en
@@ -110,23 +121,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '35'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1006'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - TP-TCP

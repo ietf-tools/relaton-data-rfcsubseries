@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1309
     title:
-    - content: Technical Overview of Directory Services Using the X.500 Protocol
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Technical Overview of Directory Services Using the X.500 Protocol
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1309.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1309
       type: src
     type: standard
     docid:
     - id: RFC 1309
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1309
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1309
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 1992-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Weider
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Weider
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Reynolds
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Reynolds
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Heker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Heker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1992-03
@@ -115,11 +122,11 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document is an overview of the X.500 standard for people not
-        familiar with the technology. It compares and contrasts Directory Services
+        familiar with the technology.  It compares and contrasts Directory Services
         based on X.500 with several of the other Directory services currently in use
-        in the Internet. This paper also describes the status of the standard and
+        in the Internet.  This paper also describes the status of the standard and
         provides references for further information on X.500 implementations and technical
-        information. This memo provides information for the Internet community. It
+        information.  This memo provides information for the Internet community.  It
         does not specify an Internet standard.</p>"
       language:
       - en
@@ -127,23 +134,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '14'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1309'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: disi

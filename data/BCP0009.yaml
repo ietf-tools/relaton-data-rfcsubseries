@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2026
     title:
-    - content: The Internet Standards Process -- Revision 3
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: The Internet Standards Process -- Revision 3
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2026.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2026
       type: src
     type: standard
     docid:
     - id: RFC 2026
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2026
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2026
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1996-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-10
@@ -83,9 +78,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo documents the process used by the Internet community
-        for the standardization of protocols and procedures. It defines the stages
+        for the standardization of protocols and procedures.  It defines the stages
         in the standardization process, the requirements for moving a document between
-        stages and the types of documents used during this process. This document
+        stages and the types of documents used during this process.  This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
       language:
@@ -94,49 +89,40 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2026'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Protocols
+    - copyrights
+    - intellectual
+    - property
+    editorialgroup:
+    - name: poised95
 - type: includes
   bibitem:
     id: RFC5657
     title:
-    - content: Guidance on Interoperation and Implementation Reports for Advancement
+    - type: main
+      content: Guidance on Interoperation and Implementation Reports for Advancement
         to Draft Standard
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5657.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5657
       type: src
     type: standard
     docid:
     - id: RFC 5657
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5657
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5657
       type: DOI
@@ -145,42 +131,48 @@ relation:
     - type: published
       value: 2009-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Dusseault
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Dusseault
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sparks
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Sparks
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-09
@@ -190,60 +182,59 @@ relation:
     - Latn
     abstract:
     - content: "<p>Advancing a protocol to Draft Standard requires documentation of
-        the interoperation and implementation of the protocol. Historic reports have
+        the interoperation and implementation of the protocol.  Historic reports have
         varied widely in form and level of content and there is little guidance available
-        to new report preparers. This document updates the existing processes and
+        to new report preparers.  This document updates the existing processes and
         provides more detail on what is appropriate in an interoperability and implementation
-        report. This document specifies an Internet Best Current Practices for the
+        report.  This document specifies an Internet Best Current Practices for the
         Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5657'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - rfc2026
+    - '2026'
+    - guidance
+    - interoperation
+    - implementation
+    - reports
+    - advancement
+    - draft standard
 - type: includes
   bibitem:
     id: RFC6410
     title:
-    - content: Reducing the Standards Track to Two Maturity Levels
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Reducing the Standards Track to Two Maturity Levels
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6410.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6410
       type: src
     type: standard
     docid:
     - id: RFC 6410
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6410
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6410
       type: DOI
@@ -252,58 +243,70 @@ relation:
     - type: published
       value: 2011-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Housley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Housley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Burger
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Burger
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-10
@@ -313,57 +316,47 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document updates the Internet Engineering Task Force (IETF)
-        Standards Process defined in RFC 2026. Primarily, it reduces the Standards
-        Process from three Standards Track maturity levels to two. This memo documents
+        Standards Process defined in RFC 2026.  Primarily, it reduces the Standards
+        Process from three Standards Track maturity levels to two.  This memo documents
         an Internet Best Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6410'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
 - type: includes
   bibitem:
     id: RFC7100
     title:
-    - content: Retirement of the "Internet Official Protocol Standards" Summary Document
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Retirement of the "Internet Official Protocol Standards" Summary Document
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7100.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7100
       type: src
     type: standard
     docid:
     - id: RFC 7100
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7100
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7100
       type: DOI
@@ -372,26 +365,26 @@ relation:
     - type: published
       value: 2013-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Resnick
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Resnick
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2013-12
@@ -401,56 +394,46 @@ relation:
     - Latn
     abstract:
     - content: <p>This document updates RFC 2026 to no longer use STD 1 as a summary
-        of "Internet Official Protocol Standards". It obsoletes RFC 5000 and requests
+        of "Internet Official Protocol Standards".  It obsoletes RFC 5000 and requests
         the IESG to move RFC 5000 (and therefore STD 1) to Historic status.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7100'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
 - type: includes
   bibitem:
     id: RFC7127
     title:
-    - content: Characterization of Proposed Standards
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Characterization of Proposed Standards
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7127.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7127
       type: src
     type: standard
     docid:
     - id: RFC 7127
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7127
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7127
       type: DOI
@@ -459,58 +442,70 @@ relation:
     - type: published
       value: 2014-01
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: O.
+          - content: O
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kolkman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: O. Kolkman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Turner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Turner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2014-01
@@ -521,56 +516,52 @@ relation:
     abstract:
     - content: "<p>RFC 2026 describes the review performed by the Internet Engineering
         Steering Group (IESG) on IETF Proposed Standard RFCs and characterizes the
-        maturity level of those documents. This document updates RFC 2026 by providing
+        maturity level of those documents.  This document updates RFC 2026 by providing
         a current and more accurate characterization of Proposed Standards.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7127'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Guidance
+    - Standards
+    - Standards Process
+    - Advancement
+    - Proposed Standard
 - type: includes
   bibitem:
     id: RFC7475
     title:
-    - content: Increasing the Number of Area Directors in an IETF Area
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Increasing the Number of Area Directors in an IETF Area
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7475.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7475
       type: src
     type: standard
     docid:
     - id: RFC 7475
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7475
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7475
       type: DOI
@@ -579,26 +570,26 @@ relation:
     - type: published
       value: 2015-03
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Dawkins
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Dawkins
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-03
@@ -608,56 +599,51 @@ relation:
     - Latn
     abstract:
     - content: <p>This document removes a limit on the number of Area Directors who
-        manage an Area in the definition of "IETF Area". This document updates RFC
+        manage an Area in the definition of "IETF Area".  This document updates RFC
         2026 (BCP 9) and RFC 2418 (BCP 25).</p>
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2418
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7475'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
 - type: includes
   bibitem:
     id: RFC8789
     title:
-    - content: IETF Stream Documents Require IETF Rough Consensus
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IETF Stream Documents Require IETF Rough Consensus
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8789.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8789
       type: src
     type: standard
     docid:
     - id: RFC 8789
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8789
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8789
       type: DOI
@@ -666,44 +652,50 @@ relation:
     - type: published
       value: 2020-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Halpern
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Halpern
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: E.
+          - content: E
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Rescorla
             language:
             - en
+            script:
+            - Latn
           completename:
             content: E. Rescorla
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2020-06
     language:
     - en
@@ -711,30 +703,28 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document requires that the IETF never publish any IETF Stream
-        RFCs without IETF rough consensus. This updates RFC 2026.</p>"
+        RFCs without IETF rough consensus.  This updates RFC 2026.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '9'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8789'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - process
+    - publication

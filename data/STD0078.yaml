@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5343
     title:
-    - content: Simple Network Management Protocol (SNMP) Context EngineID Discovery
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Simple Network Management Protocol (SNMP) Context EngineID Discovery
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5343.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5343
       type: src
     type: standard
     docid:
     - id: RFC 5343
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5343
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5343
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2008-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schoenwaelder
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schoenwaelder
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-09
@@ -96,49 +91,45 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3411
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '78'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5343'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - snmpv3
+    - snmpengineid
+    - localengineid
+    editorialgroup:
+    - name: opsawg
 - type: includes
   bibitem:
     id: RFC5590
     title:
-    - content: Transport Subsystem for the Simple Network Management Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Transport Subsystem for the Simple Network Management Protocol (SNMP)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5590.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5590
       type: src
     type: standard
     docid:
     - id: RFC 5590
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5590
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5590
       type: DOI
@@ -147,42 +138,48 @@ relation:
     - type: published
       value: 2009-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Harrington
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Harrington
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schoenwaelder
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schoenwaelder
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-06
@@ -192,12 +189,12 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document defines a Transport Subsystem, extending the Simple
-        Network Management Protocol (SNMP) architecture defined in RFC 3411. This
+        Network Management Protocol (SNMP) architecture defined in RFC 3411.  This
         document defines a subsystem to contain Transport Models that is comparable
-        to other subsystems in the RFC 3411 architecture. As work is being done to
+        to other subsystems in the RFC 3411 architecture.  As work is being done to
         expand the transports to include secure transports, such as the Secure Shell
         (SSH) Protocol and Transport Layer Security (TLS), using a subsystem will
-        enable consistent design and modularity of such Transport Models. This document
+        enable consistent design and modularity of such Transport Models.  This document
         identifies and describes some key aspects that need to be considered for any
         Transport Model for SNMP. [STANDARDS-TRACK]</p>"
       language:
@@ -205,50 +202,62 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3411
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3412
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3414
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3417
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '78'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5590'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Network Management
+    - Simple Network Management Protocol
+    - SNMP
+    - SNMP-TRANSPORT-MIB
+    editorialgroup:
+    - name: isms
 - type: includes
   bibitem:
     id: RFC5591
     title:
-    - content: Transport Security Model for the Simple Network Management Protocol
+    - type: main
+      content: Transport Security Model for the Simple Network Management Protocol
         (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5591.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5591
       type: src
     type: standard
     docid:
     - id: RFC 5591
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5591
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5591
       type: DOI
@@ -257,42 +266,48 @@ relation:
     - type: published
       value: 2009-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Harrington
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Harrington
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hardaker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Hardaker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2009-06
@@ -311,49 +326,41 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '78'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5591'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Network Management
+    - Simple Network Management Protocol
+    - SNMP
+    - Transport Security Model
+    - Security Model
+    editorialgroup:
+    - name: isms
 - type: includes
   bibitem:
     id: RFC6353
     title:
-    - content: Transport Layer Security (TLS) Transport Model for the Simple Network
+    - type: main
+      content: Transport Layer Security (TLS) Transport Model for the Simple Network
         Management Protocol (SNMP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6353.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6353
       type: src
     type: standard
     docid:
     - id: RFC 6353
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6353
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6353
       type: DOI
@@ -362,26 +369,26 @@ relation:
     - type: published
       value: 2011-07
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: W.
+          - content: W
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hardaker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: W. Hardaker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-07
@@ -412,23 +419,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '78'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6353'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - dtls
+    - datagram transport layer security
+    - tls transport model
+    - tlstm
+    - SNMP-TLS-TM-MIB
+    editorialgroup:
+    - name: isms

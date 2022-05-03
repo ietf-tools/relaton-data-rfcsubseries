@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4949
     title:
-    - content: Internet Security Glossary, Version 2
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Internet Security Glossary, Version 2
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4949.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4949
       type: src
     type: standard
     docid:
     - id: RFC 4949
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4949
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4949
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2007-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Shirey
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Shirey
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-08
@@ -83,38 +78,37 @@ relation:
     - Latn
     abstract:
     - content: "<p>This Glossary provides definitions, abbreviations, and explanations
-        of terminology for information system security. The 334 pages of entries offer
-        recommendations to improve the comprehensibility of written material that
-        is generated in the Internet Standards Process (RFC 2026). The recommendations
+        of terminology for information system security.  The 334 pages of entries
+        offer recommendations to improve the comprehensibility of written material
+        that is generated in the Internet Standards Process (RFC 2026).  The recommendations
         follow the principles that such writing should (a) use the same term or definition
         whenever the same concept is mentioned; (b) use terms in their plainest, dictionary
         sense; (c) use terms that are already well-established in open publications;
         and (d) avoid terms that either favor a particular vendor or favor a particular
         technology or mechanism over other, competing techniques that already exist
-        or could be developed. This memo provides information for the Internet community.</p>"
+        or could be developed.  This memo provides information for the Internet community.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '36'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4949'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - abbreviation
+    - clarity
+    - definition
+    - dictionary
+    - language
+    - punctuation
+    - synonym
+    - terminology
+    - writing

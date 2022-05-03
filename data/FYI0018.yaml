@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1983
     title:
-    - content: Internet Users' Glossary
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Internet Users' Glossary
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1983.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1983
       type: src
     type: standard
     docid:
     - id: RFC 1983
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1983
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1983
       type: DOI
@@ -54,37 +49,37 @@ relation:
     - type: published
       value: 1996-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Malkin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Malkin
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 1996-08
     language:
     - en
     script:
     - Latn
     abstract:
-    - content: "<p>There are many networking glossaries in existence. This glossary
-        concentrates on terms which are specific to the Internet. This memo provides
-        information for the Internet community. This memo does not specify an Internet
+    - content: "<p>There are many networking glossaries in existence.  This glossary
+        concentrates on terms which are specific to the Internet.  This memo provides
+        information for the Internet community.  This memo does not specify an Internet
         standard of any kind.</p>"
       language:
       - en
@@ -92,23 +87,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '18'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1983'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - basic
+    - terms
+    - acronyms
+    editorialgroup:
+    - name: userglos

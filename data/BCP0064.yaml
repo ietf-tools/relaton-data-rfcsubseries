@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4520
     title:
-    - content: Internet Assigned Numbers Authority (IANA) Considerations for the Lightweight
+    - type: main
+      content: Internet Assigned Numbers Authority (IANA) Considerations for the Lightweight
         Directory Access Protocol (LDAP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4520.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4520
       type: src
     type: standard
     docid:
     - id: RFC 4520
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4520
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4520
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2006-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Zeilenga
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Zeilenga
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-06
@@ -84,9 +79,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document provides procedures for registering extensible elements
-        of the Lightweight Directory Access Protocol (LDAP). The document also provides
+        of the Lightweight Directory Access Protocol (LDAP).  The document also provides
         guidelines to the Internet Assigned Numbers Authority (IANA) describing conditions
-        under which new values can be assigned. This document specifies an Internet
+        under which new values can be assigned.  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -95,23 +90,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '64'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4520'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: ldapbis

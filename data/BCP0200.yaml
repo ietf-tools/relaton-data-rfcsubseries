@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC1984
     title:
-    - content: IAB and IESG Statement on Cryptographic Technology and the Internet
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IAB and IESG Statement on Cryptographic Technology and the Internet
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.1984.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc1984
       type: src
     type: standard
     docid:
     - id: RFC 1984
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC1984
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC1984
       type: DOI
@@ -56,18 +51,12 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - organization:
-        name:
-        - IAB
+        - Internet Architecture Board
       role:
       - author
     - organization:
         name:
-        - IESG
+        - Internet Engineering Steering Group
       role:
       - author
     revdate: 1996-08
@@ -80,8 +69,8 @@ relation:
         Steering Group (IESG), the bodies which oversee architecture and standards
         for the Internet, are concerned by the need for increased protection of international
         commercial transactions on the Internet, and by the need to offer all Internet
-        users an adequate degree of privacy. This memo provides information for the
-        Internet community. This memo does not specify an Internet standard of any
+        users an adequate degree of privacy.  This memo provides information for the
+        Internet community.  This memo does not specify an Internet standard of any
         kind.</p>"
       language:
       - en
@@ -89,23 +78,15 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '200'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '1984'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - security
+    - privacy

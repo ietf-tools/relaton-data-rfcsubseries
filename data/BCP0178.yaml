@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6648
     title:
-    - content: Deprecating the "X-" Prefix and Similar Constructs in Application Protocols
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Deprecating the "X-" Prefix and Similar Constructs in Application Protocols
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6648.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6648
       type: src
     type: standard
     docid:
     - id: RFC 6648
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6648
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6648
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2012-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: P.
+          - content: P
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Saint-Andre
             language:
             - en
+            script:
+            - Latn
           completename:
             content: P. Saint-Andre
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: M.
+          - content: M
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Nottingham
             language:
             - en
+            script:
+            - Latn
           completename:
             content: M. Nottingham
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2012-06
@@ -117,33 +124,24 @@ relation:
     - content: <p>Historically, designers and implementers of application protocols
         have often distinguished between standardized and unstandardized parameters
         by prefixing the names of unstandardized parameters with the string "X-" or
-        similar constructs. In practice, that convention causes more problems than
-        it solves. Therefore, this document deprecates the convention for newly defined
-        parameters with textual (as opposed to numerical) names in application protocols.
-        This memo documents an Internet Best Current Practice.</p>
+        similar constructs.  In practice, that convention causes more problems than
+        it solves.  Therefore, this document deprecates the convention for newly defined
+        parameters with textual (as opposed to numerical) names in application protocols.  This
+        memo documents an Internet Best Current Practice.</p>
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '178'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6648'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: appsawg

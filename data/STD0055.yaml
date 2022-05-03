@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2427
     title:
-    - content: Multiprotocol Interconnect over Frame Relay
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Multiprotocol Interconnect over Frame Relay
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2427.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2427
       type: src
     type: standard
     docid:
     - id: RFC 2427
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2427
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2427
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1998-09
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Brown
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Brown
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Malis
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Malis
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1998-09
@@ -99,7 +100,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo describes an encapsulation method for carrying network
-        interconnect traffic over a Frame Relay backbone. It covers aspects of both
+        interconnect traffic over a Frame Relay backbone.  It covers aspects of both
         Bridging and Routing. [STANDARDS-TRACK]</p>"
       language:
       - en
@@ -107,23 +108,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '55'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2427'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-FR
+    - standard
+    - standards
+    - IP
+    - over
+    editorialgroup:
+    - name: ion

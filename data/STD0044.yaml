@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC891
     title:
-    - content: DCN Local-Network Protocols
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: DCN Local-Network Protocols
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0891.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc891
       type: src
     type: standard
     docid:
     - id: RFC 891
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC891
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0891
       type: DOI
@@ -54,26 +49,31 @@ relation:
     - type: published
       value: 1983-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.L.
+          - content: D
             language:
             - en
+            script:
+            - Latn
+          - content: L
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Mills
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D.L. Mills
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1983-12
@@ -83,7 +83,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This RFC provides a description of the DCN protocols for maintaining
-        connectivity, routing, and clock information in a local network. These procedures
+        connectivity, routing, and clock information in a local network.  These procedures
         may be of interest to the designers and implementers of other local networks.</p>"
       language:
       - en
@@ -91,23 +91,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '44'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '891'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-DC

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC6390
     title:
-    - content: Guidelines for Considering New Performance Metric Development
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines for Considering New Performance Metric Development
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.6390.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc6390
       type: src
     type: standard
     docid:
     - id: RFC 6390
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC6390
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC6390
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2011-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Clark
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Clark
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Claise
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Claise
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2011-10
@@ -100,31 +101,22 @@ relation:
     abstract:
     - content: "<p>This document describes a framework and a process for developing
         Performance Metrics of protocols and applications transported over IETF-specified
-        protocols. These metrics can be used to characterize traffic on live networks
-        and services. This memo documents an Internet Best Current Practice.</p>"
+        protocols.  These metrics can be used to characterize traffic on live networks
+        and services.  This memo documents an Internet Best Current Practice.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '170'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '6390'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: pmol

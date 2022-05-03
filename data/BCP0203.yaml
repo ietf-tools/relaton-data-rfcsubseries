@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7803
     title:
-    - content: Changing the Registration Policy for the NETCONF Capability URNs Registry
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Changing the Registration Policy for the NETCONF Capability URNs Registry
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7803.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7803
       type: src
     type: standard
     docid:
     - id: RFC 7803
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7803
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7803
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 2016-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Leiba
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Leiba
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2016-02
@@ -84,7 +79,7 @@ relation:
     abstract:
     - content: <p>The registration policy for the "Network Configuration Protocol
         (NETCONF) Capability URNs" registry, set up by RFC 6241, has turned out to
-        be unnecessarily strict. This document changes that registration policy to
+        be unnecessarily strict.  This document changes that registration policy to
         "IETF Review", allowing registrations from certain well-reviewed Experimental
         RFCs, in addition to Standards Track RFCs.</p>
       language:
@@ -92,24 +87,19 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6241
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '203'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7803'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'

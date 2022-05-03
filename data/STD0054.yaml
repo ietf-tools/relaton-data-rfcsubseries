@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2328
     title:
-    - content: OSPF Version 2
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: OSPF Version 2
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2328.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2328
       type: src
     type: standard
     docid:
     - id: RFC 2328
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2328
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2328
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1998-04
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Moy
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Moy
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1998-04
@@ -82,31 +77,32 @@ relation:
     script:
     - Latn
     abstract:
-    - content: "<p>This memo documents version 2 of the OSPF protocol. OSPF is a link-
-        state routing protocol. [STANDARDS-TRACK]</p>"
+    - content: "<p>This memo documents version 2 of the OSPF protocol.  OSPF is a
+        link- state routing protocol. [STANDARDS-TRACK]</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '54'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2328'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - OSPF2
+    - Open
+    - Shortest
+    - Path
+    - First
+    - routing
+    - Autonomous
+    - system
+    - AS
+    editorialgroup:
+    - name: ospf

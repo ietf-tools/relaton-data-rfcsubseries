@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4928
     title:
-    - content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4928.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4928
       type: src
     type: standard
     docid:
     - id: RFC 4928
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4928
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4928
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2007-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Swallow
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Swallow
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bryant
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bryant
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: L.
+          - content: L
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Andersson
             language:
             - en
+            script:
+            - Latn
           completename:
             content: L. Andersson
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2007-06
@@ -115,14 +122,14 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the Equal Cost Multipath (ECMP) behavior
-        of currently deployed MPLS networks. This document makes best practice recommendations
+        of currently deployed MPLS networks.  This document makes best practice recommendations
         for anyone defining an application to run over an MPLS network that wishes
         to avoid the reordering that can result from transmission of different packets
-        from the same flow over multiple different equal cost paths. These recommendations
-        rely on inspection of the IP version number field in packets. Despite the
+        from the same flow over multiple different equal cost paths.  These recommendations
+        rely on inspection of the IP version number field in packets.  Despite the
         heuristic nature of the recommendations, they provide a relatively safe way
         to operate MPLS networks, even if future allocations of IP version numbers
-        were made for some purpose. This document specifies an Internet Best Current
+        were made for some purpose.  This document specifies an Internet Best Current
         Practices for the Internet Community, and requests discussion and suggestions
         for improvements.</p>"
       language:
@@ -131,23 +138,16 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '128'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4928'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ecmp
+    editorialgroup:
+    - name: mpls

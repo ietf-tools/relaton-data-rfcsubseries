@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC7595
     title:
-    - content: Guidelines and Registration Procedures for URI Schemes
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines and Registration Procedures for URI Schemes
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.7595.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc7595
       type: src
     type: standard
     docid:
     - id: RFC 7595
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC7595
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC7595
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2015-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Thaler
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Thaler
             language:
             - en
-      role:
-      - editor
-    - person:
-        name:
-          initial:
-          - content: T.
-            language:
-            - en
-          surname:
-            content: Hansen
-            language:
-            - en
-          completename:
-            content: T. Hansen
-            language:
-            - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
+          surname:
+            content: Hansen
+            language:
+            - en
+            script:
+            - Latn
+          completename:
+            content: T. Hansen
+            language:
+            - en
+            script:
+            - Latn
+      role:
+      - author
+    - person:
+        name:
+          initial:
+          - content: T
+            language:
+            - en
+            script:
+            - Latn
           surname:
             content: Hardie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Hardie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2015-06
@@ -116,30 +123,27 @@ relation:
     abstract:
     - content: "<p>This document updates the guidelines and recommendations, as well
         as the IANA registration processes, for the definition of Uniform Resource
-        Identifier (URI) schemes. It obsoletes RFC 4395.</p>"
+        Identifier (URI) schemes.  It obsoletes RFC 4395.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '35'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '7595'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - URI scheme
+    - IRI
+    - Internationalized Resource Identifier
+    - Uniform Resource Identifier
+    - URI registration
+    editorialgroup:
+    - name: appsawg

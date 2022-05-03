@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8634
     title:
-    - content: BGPsec Router Certificate Rollover
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: BGPsec Router Certificate Rollover
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8634.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8634
       type: src
     type: standard
     docid:
     - id: RFC 8634
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8634
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8634
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2019-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Weis
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Weis
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Gagliano
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Gagliano
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Patel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Patel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2019-08
@@ -116,11 +123,11 @@ relation:
     abstract:
     - content: "<p>Certification Authorities (CAs) within the Resource Public Key
         Infrastructure (RPKI) manage BGPsec router certificates as well as RPKI certificates.
-        The rollover of BGPsec router certificates must be carefully performed in
+        \ The rollover of BGPsec router certificates must be carefully performed in
         order to synchronize the distribution of router public keys with BGPsec UPDATE
-        messages verified with those router public keys. This document describes a
-        safe rollover process, and it discusses when and why the rollover of BGPsec
-        router certificates is necessary. When this rollover process is followed,
+        messages verified with those router public keys.  This document describes
+        a safe rollover process, and it discusses when and why the rollover of BGPsec
+        router certificates is necessary.  When this rollover process is followed,
         the rollover will be performed without routing information being lost.</p>"
       language:
       - en
@@ -128,23 +135,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '224'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8634'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: sidrops

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4086
     title:
-    - content: Randomness Requirements for Security
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Randomness Requirements for Security
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4086.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4086
       type: src
     type: standard
     docid:
     - id: RFC 4086
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4086
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4086
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2005-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: D.
+          - content: D
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: D. Eastlake 3rd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Schiller
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Schiller
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Crocker
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Crocker
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2005-06
@@ -137,23 +144,20 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '106'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4086'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - cryptographic algorithms
+    - passwords
+    - cryptographic keys
+    - pseudo-random
+    - random
+    - numbers
+    - seed

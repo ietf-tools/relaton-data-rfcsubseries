@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC4107
     title:
-    - content: Guidelines for Cryptographic Key Management
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guidelines for Cryptographic Key Management
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4107.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4107
       type: src
     type: standard
     docid:
     - id: RFC 4107
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4107
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4107
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2005-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bellovin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bellovin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Housley
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Housley
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2005-06
@@ -100,35 +101,27 @@ relation:
     abstract:
     - content: "<p>The question often arises of whether a given security system requires
         some form of automated key management, or whether manual keying is sufficient.
-        This memo provides guidelines for making such decisions. When symmetric cryptographic
-        mechanisms are used in a protocol, the presumption is that automated key management
-        is generally but not always needed. If manual keying is proposed, the burden
-        of proving that automated key management is not required falls to the proposer.
-        This document specifies an Internet Best Current Practices for the Internet
-        Community, and requests discussion and suggestions for improvements.</p>"
+        \ This memo provides guidelines for making such decisions.  When symmetric
+        cryptographic mechanisms are used in a protocol, the presumption is that automated
+        key management is generally but not always needed.  If manual keying is proposed,
+        the burden of proving that automated key management is not required falls
+        to the proposer.  This document specifies an Internet Best Current Practices
+        for the Internet Community, and requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '107'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4107'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - automated key management
+    - manual key management

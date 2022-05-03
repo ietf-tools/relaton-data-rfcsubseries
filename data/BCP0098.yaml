@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3968
     title:
-    - content: The Internet Assigned Number Authority (IANA) Header Field Parameter
+    - type: main
+      content: The Internet Assigned Number Authority (IANA) Header Field Parameter
         Registry for the Session Initiation Protocol (SIP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3968.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3968
       type: src
     type: standard
     docid:
     - id: RFC 3968
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3968
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3968
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2004-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Camarillo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Camarillo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-12
@@ -85,8 +80,8 @@ relation:
     abstract:
     - content: "<p>This document creates an Internet Assigned Number Authority (IANA)
         registry for the Session Initiation Protocol (SIP) header field parameters
-        and parameter values. It also lists the already existing parameters and parameter
-        values to be used as the initial entries for this registry. This document
+        and parameter values.  It also lists the already existing parameters and parameter
+        values to be used as the initial entries for this registry.  This document
         specifies an Internet Best Current Practices for the Internet Community, and
         requests discussion and suggestions for improvements.</p>"
       language:
@@ -94,24 +89,21 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3427
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '98'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3968'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: sip

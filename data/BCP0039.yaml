@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2850
     title:
-    - content: Charter of the Internet Architecture Board (IAB)
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Charter of the Internet Architecture Board (IAB)
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2850.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2850
       type: src
     type: standard
     docid:
     - id: RFC 2850
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2850
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2850
       type: DOI
@@ -56,31 +51,31 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - organization:
-        name:
         - Internet Architecture Board
       role:
       - author
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Carpenter
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Carpenter
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2000-05
     language:
     - en
@@ -88,32 +83,26 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo documents the composition, selection, roles, and organization
-        of the Internet Architecture Board. It replaces RFC 1601. This document specifies
-        an Internet Best Current Practices for the Internet Community, and requests
-        discussion and suggestions for improvements.</p>"
+        of the Internet Architecture Board.  It replaces RFC 1601.  This document
+        specifies an Internet Best Current Practices for the Internet Community, and
+        requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '39'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2850'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - ISOC
+    - Internet Society
+    - IETF
+    - IRTF

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC907
     title:
-    - content: Host Access Protocol specification
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Host Access Protocol specification
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.0907.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc907
       type: src
     type: standard
     docid:
     - id: RFC 907
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC907
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC0907
       type: DOI
@@ -56,24 +51,7 @@ relation:
     contributor:
     - organization:
         name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
-    - person:
-        name:
-          initial:
-          - content: Bolt
-            language:
-            - en
-          surname:
-            content: Beranek
-            language:
-            - en
-          completename:
-            content: Bolt Beranek
-            language:
-            - en
+        - Bolt Beranek
       role:
       - author
     - organization:
@@ -87,13 +65,13 @@ relation:
     script:
     - Latn
     abstract:
-    - content: "<p>This document specifies the Host Access Protocol (HAP). Although
+    - content: "<p>This document specifies the Host Access Protocol (HAP).  Although
         HAP was originally designed as the network-access level protocol for the DARPA/DCA
         sponsored Wideband Packet Satellite Network, it is intended that it evolve
         into a standard interface SATNET and TACNET (aka MATNET) as well as the Wideband
-        Network. HAP is an experimental protocol, and will undergo further revision
+        Network.  HAP is an experimental protocol, and will undergo further revision
         as new capabilities are added and/or different satellite networks are suported.
-        Implementations of HAP should be performed in coordination with satellite
+        \ Implementations of HAP should be performed in coordination with satellite
         network development and operations personnel.</p>"
       language:
       - en
@@ -101,23 +79,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: STD
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '40'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '907'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IP-WB

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8179
     title:
-    - content: Intellectual Property Rights in IETF Technology
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Intellectual Property Rights in IETF Technology
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8179.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8179
       type: src
     type: standard
     docid:
     - id: RFC 8179
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8179
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8179
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 2017-05
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bradner
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Bradner
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Contreras
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Contreras
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2017-05
@@ -102,36 +103,34 @@ relation:
         as patent rights, relative to technologies developed in the IETF are designed
         to ensure that IETF working groups and participants have as much information
         as possible about any IPR constraints on a technical proposal as early as
-        possible in the development process. The policies are intended to benefit
+        possible in the development process.  The policies are intended to benefit
         the Internet community and the public at large, while respecting the legitimate
-        rights of IPR holders. This document sets out the IETF policies concerning
-        IPR related to technology worked on within the IETF. It also describes the
-        objectives that the policies are designed to meet. This document updates RFC
-        2026 and, with RFC 5378, replaces Section 10 of RFC 2026. This document also
-        obsoletes RFCs 3979 and 4879.</p>"
+        rights of IPR holders.  This document sets out the IETF policies concerning
+        IPR related to technology worked on within the IETF.  It also describes the
+        objectives that the policies are designed to meet.  This document updates
+        RFC 2026 and, with RFC 5378, replaces Section 10 of RFC 2026.  This document
+        also obsoletes RFCs 3979 and 4879.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2026
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '79'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8179'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IPR
+    - copyright

@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2235
     title:
-    - content: Hobbes' Internet Timeline
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Hobbes' Internet Timeline
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2235.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2235
       type: src
     type: standard
     docid:
     - id: RFC 2235
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2235
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2235
       type: DOI
@@ -54,26 +49,26 @@ relation:
     - type: published
       value: 1997-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Zakon
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Zakon
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1997-11
@@ -84,32 +79,25 @@ relation:
     abstract:
     - content: "<p>This document presents a history of the Internet in timeline fashion,
         highlighting some of the key events and technologies which helped shape the
-        Internet as we know it today. A growth summary of the Internet and some associated
-        technologies is also included. This memo provides information for the Internet
-        community. It does not specify an Internet standard of any kind.</p>"
+        Internet as we know it today.  A growth summary of the Internet and some associated
+        technologies is also included.  This memo provides information for the Internet
+        community.  It does not specify an Internet standard of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '32'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2235'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - events
+    - technologies
+    - history

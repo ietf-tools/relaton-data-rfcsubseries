@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2901
     title:
-    - content: Guide to Administrative Procedures of the Internet Infrastructure
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Guide to Administrative Procedures of the Internet Infrastructure
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2901.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2901
       type: src
     type: standard
     docid:
     - id: RFC 2901
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2901
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2901
       type: DOI
@@ -54,74 +49,92 @@ relation:
     - type: published
       value: 2000-08
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: Z.
+          - content: Z
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Wenzel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: Z. Wenzel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Bush
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Bush
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Huter
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Huter
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2000-08
@@ -131,7 +144,7 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the administrative procedures for networks
-        seeking to connect to the global Internet. This memo provides information
+        seeking to connect to the global Internet.  This memo provides information
         for the Internet community.</p>"
       language:
       - en
@@ -139,23 +152,18 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '37'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2901'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - address space
+    - routing
+    - database
+    - domain name
+    - registration

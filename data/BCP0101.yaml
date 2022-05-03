@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC8711
     title:
-    - content: Structure of the IETF Administrative Support Activity, Version 2.0
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Structure of the IETF Administrative Support Activity, Version 2.0
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8711.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8711
       type: src
     type: standard
     docid:
     - id: RFC 8711
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8711
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8711
       type: DOI
@@ -54,58 +49,70 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: B.
+          - content: B
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Haberman
             language:
             - en
+            script:
+            - Latn
           completename:
             content: B. Haberman
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hall
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Hall
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Livingood
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Livingood
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-02
@@ -130,48 +137,37 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '101'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8711'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IASA
+    - IASA2
+    editorialgroup:
+    - name: iasa2
 - type: includes
   bibitem:
     id: RFC8714
     title:
-    - content: Update to the Process for Selection of Trustees for the IETF Trust
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Update to the Process for Selection of Trustees for the IETF Trust
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8714.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8714
       type: src
     type: standard
     docid:
     - id: RFC 8714
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8714
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8714
       type: DOI
@@ -180,42 +176,48 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Arkko
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Arkko
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: T.
+          - content: T
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Hardie
             language:
             - en
+            script:
+            - Latn
           completename:
             content: T. Hardie
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2020-02
@@ -237,49 +239,35 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '101'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8714'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: iasa2
 - type: includes
   bibitem:
     id: RFC8717
     title:
-    - content: 'IETF Administrative Support Activity 2.0: Consolidated Updates to
+    - type: main
+      content: 'IETF Administrative Support Activity 2.0: Consolidated Updates to
         IETF Administrative Terminology'
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.8717.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc8717
       type: src
     type: standard
     docid:
     - id: RFC 8717
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC8717
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC8717
       type: DOI
@@ -288,28 +276,28 @@ relation:
     - type: published
       value: 2020-02
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Klensin
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Klensin
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     revdate: 2020-02
     language:
     - en
@@ -318,10 +306,10 @@ relation:
     abstract:
     - content: <p>In 2018, the IETF began the transition to a new administrative structure
         and updated its IETF Administrative Support Activity (IASA) to a new "IASA
-        2.0" structure. In addition to more substantive changes that are described
+        2.0" structure.  In addition to more substantive changes that are described
         in other documents, the transition to the 2018 IETF Administrative Support
         structure changes several position titles and organizational relationships
-        that are referenced elsewhere. Rather than reissue those referencing documents
+        that are referenced elsewhere.  Rather than reissue those referencing documents
         individually, this specification provides updates to them and deprecates some
         now-obsolete documents to ensure that there is no confusion due to these changes.</p>
       language:
@@ -329,24 +317,54 @@ relation:
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2028
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC2418
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3005
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3710
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3929
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC4633
+          format: text/plain
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC6702
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '101'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8717'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - IASA
+    - IASA2
+    editorialgroup:
+    - name: iasa2

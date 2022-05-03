@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC5359
     title:
-    - content: Session Initiation Protocol Service Examples
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: Session Initiation Protocol Service Examples
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.5359.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc5359
       type: src
     type: standard
     docid:
     - id: RFC 5359
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC5359
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC5359
       type: DOI
@@ -54,90 +49,114 @@ relation:
     - type: published
       value: 2008-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Johnston
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Johnston
             language:
             - en
+            script:
+            - Latn
       role:
-      - editor
+      - author
     - person:
         name:
           initial:
-          - content: R.
+          - content: R
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Sparks
             language:
             - en
+            script:
+            - Latn
           completename:
             content: R. Sparks
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: C.
+          - content: C
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Cunningham
             language:
             - en
+            script:
+            - Latn
           completename:
             content: C. Cunningham
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Donovan
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Donovan
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: K.
+          - content: K
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Summers
             language:
             - en
+            script:
+            - Latn
           completename:
             content: K. Summers
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2008-10
@@ -147,14 +166,14 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document gives examples of Session Initiation Protocol (SIP)
-        services. This covers most features offered in so-called IP Centrex offerings
-        from local exchange carriers and PBX (Private Branch Exchange) features. Most
+        services.  This covers most features offered in so-called IP Centrex offerings
+        from local exchange carriers and PBX (Private Branch Exchange) features.  Most
         of the services shown in this document are implemented in the SIP user agents,
-        although some require the assistance of a SIP proxy. Some require some extensions
+        although some require the assistance of a SIP proxy.  Some require some extensions
         to SIP including the REFER, SUBSCRIBE, and NOTIFY methods and the Replaces
-        and Join header fields. These features are not intended to be an exhaustive
+        and Join header fields.  These features are not intended to be an exhaustive
         set, but rather show implementations of common features likely to be implemented
-        on SIP IP telephones in a business environment. This document specifies an
+        on SIP IP telephones in a business environment.  This document specifies an
         Internet Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -163,23 +182,28 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '144'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '5359'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - sip
+    - pbx
+    - centrex
+    - features
+    - hold
+    - transfer
+    - forwarding
+    - screening
+    - park
+    - pickup
+    - redial
+    - click
+    - call flows
+    editorialgroup:
+    - name: sipping

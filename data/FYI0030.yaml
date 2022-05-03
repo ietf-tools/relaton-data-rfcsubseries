@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2151
     title:
-    - content: A Primer On Internet and TCP/IP Tools and Utilities
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: A Primer On Internet and TCP/IP Tools and Utilities
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2151.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2151
       type: src
     type: standard
     docid:
     - id: RFC 2151
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2151
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2151
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1997-06
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Kessler
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Kessler
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Shepard
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Shepard
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1997-06
@@ -99,34 +100,27 @@ relation:
     - Latn
     abstract:
     - content: "<p>This memo is an introductory guide to many of the most commonly-
-        available TCP/IP and Internet tools and utilities. It also describes discussion
+        available TCP/IP and Internet tools and utilities.  It also describes discussion
         lists accessible from the Internet, ways to obtain Internet and TCP/IP documents,
-        and some resources that help users weave their way through the Internet. This
-        memo provides information for the Internet community. This memo does not specify
-        an Internet standard of any kind.</p>"
+        and some resources that help users weave their way through the Internet.  This
+        memo provides information for the Internet community.  This memo does not
+        specify an Internet standard of any kind.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: FYI
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '30'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2151'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - resource
+    - guide
+    - user

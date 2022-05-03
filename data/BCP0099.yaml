@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC3969
     title:
-    - content: The Internet Assigned Number Authority (IANA) Uniform Resource Identifier
+    - type: main
+      content: The Internet Assigned Number Authority (IANA) Uniform Resource Identifier
         (URI) Parameter Registry for the Session Initiation Protocol (SIP)
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.3969.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc3969
       type: src
     type: standard
     docid:
     - id: RFC 3969
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC3969
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC3969
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2004-12
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: G.
+          - content: G
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Camarillo
             language:
             - en
+            script:
+            - Latn
           completename:
             content: G. Camarillo
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2004-12
@@ -85,33 +80,30 @@ relation:
     abstract:
     - content: "<p>This document creates an Internet Assigned Number Authority (IANA)
         registry for the Session Initiation Protocol (SIP) and SIPS Uniform Resource
-        Identifier (URI) parameters, and their values. It also lists the already existing
-        parameters to be used as initial values for that registry. This document specifies
-        an Internet Best Current Practices for the Internet Community, and requests
-        discussion and suggestions for improvements.</p>"
+        Identifier (URI) parameters, and their values.  It also lists the already
+        existing parameters to be used as initial values for that registry.  This
+        document specifies an Internet Best Current Practices for the Internet Community,
+        and requests discussion and suggestions for improvements.</p>"
       language:
       - en
       script:
       - Latn
       format: text/html
+    relation:
+    - type: updates
+      bibitem:
+        formattedref:
+          content: RFC3427
+          format: text/plain
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '99'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '3969'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: sip

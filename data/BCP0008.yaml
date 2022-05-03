@@ -28,24 +28,19 @@ relation:
   bibitem:
     id: RFC2014
     title:
-    - content: IRTF Research Group Guidelines and Procedures
-      language:
-      - en
-      script:
-      - Latn
+    - type: main
+      content: IRTF Research Group Guidelines and Procedures
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.2014.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc2014
       type: src
     type: standard
     docid:
     - id: RFC 2014
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC2014
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC2014
       type: DOI
@@ -54,42 +49,48 @@ relation:
     - type: published
       value: 1996-10
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: A.
+          - content: A
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Weinrib
             language:
             - en
+            script:
+            - Latn
           completename:
             content: A. Weinrib
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     - person:
         name:
           initial:
-          - content: J.
+          - content: J
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Postel
             language:
             - en
+            script:
+            - Latn
           completename:
             content: J. Postel
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 1996-10
@@ -99,9 +100,9 @@ relation:
     - Latn
     abstract:
     - content: "<p>This document describes the guidelines and procedures for formation
-        and operation of IRTF Research Groups. It describes the relationship between
+        and operation of IRTF Research Groups.  It describes the relationship between
         IRTF participants, Research Groups, the Internet Research Steering Group (IRSG)
-        and the Internet Architecture Board (IAB). This document specifies an Internet
+        and the Internet Architecture Board (IAB).  This document specifies an Internet
         Best Current Practices for the Internet Community, and requests discussion
         and suggestions for improvements.</p>"
       language:
@@ -110,23 +111,17 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '8'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '2014'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    keyword:
+    - Internet
+    - Research
+    - Task
+    - Force

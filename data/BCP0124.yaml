@@ -28,25 +28,20 @@ relation:
   bibitem:
     id: RFC4774
     title:
-    - content: Specifying Alternate Semantics for the Explicit Congestion Notification
+    - type: main
+      content: Specifying Alternate Semantics for the Explicit Congestion Notification
         (ECN) Field
-      language:
-      - en
-      script:
-      - Latn
       format: text/plain
     link:
-    - content: https://raw.githubusercontent.com/relaton/relaton-data-ietf/master/data/reference.RFC.4774.xml
-      type: xml
     - content: https://www.rfc-editor.org/info/rfc4774
       type: src
     type: standard
     docid:
     - id: RFC 4774
-      type: RFC
+      type: IETF
       primary: true
     - id: RFC4774
-      type: RFC
+      type: IETF
       scope: anchor
     - id: 10.17487/RFC4774
       type: DOI
@@ -55,26 +50,26 @@ relation:
     - type: published
       value: 2006-11
     contributor:
-    - organization:
-        name:
-        - Internet Engineering Task Force
-        abbreviation: IETF
-      role:
-      - publisher
     - person:
         name:
           initial:
-          - content: S.
+          - content: S
             language:
             - en
+            script:
+            - Latn
           surname:
             content: Floyd
             language:
             - en
+            script:
+            - Latn
           completename:
             content: S. Floyd
             language:
             - en
+            script:
+            - Latn
       role:
       - author
     revdate: 2006-11
@@ -85,11 +80,11 @@ relation:
     abstract:
     - content: "<p>There have been a number of proposals for alternate semantics for
         the Explicit Congestion Notification (ECN) field in the IP header RFC 3168.
-        This document discusses some of the issues in defining alternate semantics
+        \ This document discusses some of the issues in defining alternate semantics
         for the ECN field, and specifies requirements for a safe coexistence in an
         Internet that could include routers that do not understand the defined alternate
-        semantics. This document evolved as a result of discussions with the authors
-        of one recent proposal for such alternate semantics. This document specifies
+        semantics.  This document evolved as a result of discussions with the authors
+        of one recent proposal for such alternate semantics.  This document specifies
         an Internet Best Current Practices for the Internet Community, and requests
         discussion and suggestions for improvements.</p>"
       language:
@@ -98,23 +93,14 @@ relation:
       - Latn
       format: text/html
     series:
-    - type: main
-      title:
+    - title:
         content: BCP
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '124'
-    - type: main
-      title:
+    - title:
         content: RFC
-        language:
-        - en
-        script:
-        - Latn
         format: text/plain
       number: '4774'
-    fetched: '2022-05-02'
-    doctype: rfc
+    fetched: '2022-05-03'
+    editorialgroup:
+    - name: tsvwg
