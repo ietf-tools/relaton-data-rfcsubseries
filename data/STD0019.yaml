@@ -93,7 +93,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1001'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - NETBIOS
 - type: includes
@@ -165,6 +165,6 @@ relation:
         content: RFC
         format: text/plain
       number: '1002'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - NETBIOS

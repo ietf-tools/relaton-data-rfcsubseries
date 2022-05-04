@@ -127,7 +127,7 @@ relation:
         content: RFC
         format: text/plain
       number: '854'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - TELNET
 - type: includes
@@ -228,6 +228,6 @@ relation:
         content: RFC
         format: text/plain
       number: '855'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - TELNET

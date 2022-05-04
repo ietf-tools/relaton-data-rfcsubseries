@@ -85,7 +85,7 @@ relation:
         content: RFC
         format: text/plain
       number: '791'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - IP
     - IPv4
@@ -150,7 +150,7 @@ relation:
         content: RFC
         format: text/plain
       number: '792'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - ICMP
 - type: includes
@@ -229,7 +229,7 @@ relation:
         content: RFC
         format: text/plain
       number: '919'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
 - type: includes
   bibitem:
     id: RFC922
@@ -306,7 +306,7 @@ relation:
         content: RFC
         format: text/plain
       number: '922'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
 - type: includes
   bibitem:
     id: RFC950
@@ -417,7 +417,7 @@ relation:
         content: RFC
         format: text/plain
       number: '950'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - Address
 - type: includes
@@ -496,7 +496,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1112'
-    fetched: '2022-05-03'
+    fetched: '2022-05-04'
     keyword:
     - IGMP
     - multicast
