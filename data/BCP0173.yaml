@@ -167,7 +167,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6484'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     keyword:
     - Certification Practice Statement
     - CPS
@@ -289,6 +289,6 @@ relation:
         content: RFC
         format: text/plain
       number: '7382'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     editorialgroup:
     - name: sidr

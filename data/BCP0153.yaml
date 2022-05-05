@@ -197,7 +197,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6598'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     keyword:
     - shared block
     - CGN
@@ -346,7 +346,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6890'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     keyword:
     - Internet Protocol
     - space assignments
@@ -494,4 +494,4 @@ relation:
         content: RFC
         format: text/plain
       number: '8190'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'

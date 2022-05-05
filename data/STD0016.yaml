@@ -122,7 +122,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1155'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     keyword:
     - SMI
 - type: includes
@@ -222,7 +222,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1212'
-    fetched: '2022-05-04'
+    fetched: '2022-05-05'
     keyword:
     - Concise-MIB
     editorialgroup:
