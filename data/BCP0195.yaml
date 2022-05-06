@@ -143,7 +143,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7525'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - Transport Layer Security
     - TLS
@@ -677,7 +677,7 @@ relation:
         content: RFC
         format: text/plain
       number: '8996'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - TLS
     - deprecate

@@ -97,7 +97,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5730'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - shared framework mapping
 - type: includes
@@ -172,7 +172,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5731'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - EPP
     - Extensible Provisioning Protocol
@@ -251,7 +251,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5732'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - EPP
     - Extensible Provisioning Protocol
@@ -330,7 +330,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5733'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - EPP
     - Extensible Provisioning Protocol
@@ -409,7 +409,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5734'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - EPP
     - Extensible Provisioning Protocol

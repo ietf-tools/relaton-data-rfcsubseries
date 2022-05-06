@@ -143,7 +143,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3411'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - ARCH-SNMP
     - simple
@@ -293,7 +293,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3412'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - MPD-SNMP
     - processing
@@ -419,7 +419,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3413'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - SNMP-APP
     - simple
@@ -527,7 +527,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3414'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - USM-SNMPV3
     - message
@@ -655,7 +655,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3415'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - VACM-SNMP
     - mib
@@ -735,7 +735,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3416'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - OPS-MIB
     - Simple
@@ -815,7 +815,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3417'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - TRANS-MIB
     - Simple
@@ -898,7 +898,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3418'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - SNMPv2-MIB
     - Simple

@@ -97,7 +97,7 @@ relation:
         content: RFC
         format: text/plain
       number: '2026'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - Protocols
     - copyrights
@@ -208,7 +208,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5657'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - rfc2026
     - '2026'
@@ -339,7 +339,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6410'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
 - type: includes
   bibitem:
     id: RFC7100
@@ -416,7 +416,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7100'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
 - type: includes
   bibitem:
     id: RFC7127
@@ -538,7 +538,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7127'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - Guidance
     - Standards
@@ -626,7 +626,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7475'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
 - type: includes
   bibitem:
     id: RFC8789
@@ -724,7 +724,7 @@ relation:
         content: RFC
         format: text/plain
       number: '8789'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - process
     - publication

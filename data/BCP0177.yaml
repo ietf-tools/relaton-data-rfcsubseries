@@ -164,7 +164,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6540'
-    fetched: '2022-05-05'
+    fetched: '2022-05-06'
     keyword:
     - IPv4
     - requirement
