@@ -101,7 +101,7 @@ relation:
         content: RFC
         format: text/plain
       number: '821'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - SMTP
 - type: includes
@@ -181,7 +181,7 @@ relation:
         content: RFC
         format: text/plain
       number: '974'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - DNS-MX
 - type: includes
@@ -348,7 +348,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1869'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - ESMTP
     - Simple
@@ -472,7 +472,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1870'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - SMTP-SIZE
     - Simple Mail Transfer Protocol

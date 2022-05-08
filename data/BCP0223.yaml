@@ -141,7 +141,7 @@ relation:
         content: RFC
         format: text/plain
       number: '8633'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - NTP
     editorialgroup:

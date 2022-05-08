@@ -101,7 +101,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1034'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - DOMAIN
 - type: includes
@@ -179,7 +179,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1035'
-    fetched: '2022-05-06'
+    fetched: '2022-05-08'
     keyword:
     - DOMAIN
     - DNS
