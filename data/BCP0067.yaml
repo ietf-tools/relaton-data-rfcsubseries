@@ -159,7 +159,7 @@ relation:
         content: RFC
         format: text/plain
       number: '5727'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - RAI
     - sipping
@@ -287,7 +287,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7957'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - dispatch
     - RAI

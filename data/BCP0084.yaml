@@ -131,7 +131,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3704'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - ISP
     - Internet Service Provider
@@ -268,7 +268,7 @@ relation:
         content: RFC
         format: text/plain
       number: '8704'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - BGP
     - source address spoofing

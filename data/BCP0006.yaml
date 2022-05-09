@@ -118,7 +118,7 @@ relation:
         content: RFC
         format: text/plain
       number: '1930'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - routing
     - policy
@@ -212,7 +212,7 @@ relation:
         content: RFC
         format: text/plain
       number: '6996'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - asn
     editorialgroup:
@@ -316,7 +316,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7300'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - asn
     - last asns

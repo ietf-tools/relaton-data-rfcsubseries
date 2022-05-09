@@ -95,7 +95,7 @@ relation:
         content: RFC
         format: text/plain
       number: '2418'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - BCP
     - WG
@@ -183,7 +183,7 @@ relation:
         content: RFC
         format: text/plain
       number: '3934'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - BCP
     - WG
@@ -291,7 +291,7 @@ relation:
         content: RFC
         format: text/plain
       number: '7776'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - Ombudsman
     - Ombudsperson
@@ -399,7 +399,7 @@ relation:
         content: RFC
         format: text/plain
       number: '8716'
-    fetched: '2022-05-08'
+    fetched: '2022-05-09'
     keyword:
     - Harassment
     - Ombudsteam
