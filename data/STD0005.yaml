@@ -26,477 +26,61 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC791
-    title:
-    - type: main
-      content: Internet Protocol
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc791
-      type: src
-    type: standard
+    id: RFC0791
     docid:
-    - id: RFC 791
+    - id: RFC0791
       type: IETF
       primary: true
-    - id: RFC791
-      type: IETF
-      scope: anchor
-    - id: 10.17487/RFC0791
-      type: DOI
-    docnumber: RFC0791
-    date:
-    - type: published
-      value: 1981-09
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Postel
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J. Postel
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1981-09
-    language:
-    - en
-    script:
-    - Latn
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '791'
-    fetched: '2022-05-09'
-    keyword:
-    - IP
-    - IPv4
+    formattedref:
+      content: RFC0791
+      format: text/plain
 - type: includes
   bibitem:
-    id: RFC792
-    title:
-    - type: main
-      content: Internet Control Message Protocol
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc792
-      type: src
-    type: standard
+    id: RFC0792
     docid:
-    - id: RFC 792
+    - id: RFC0792
       type: IETF
       primary: true
-    - id: RFC792
-      type: IETF
-      scope: anchor
-    - id: 10.17487/RFC0792
-      type: DOI
-    docnumber: RFC0792
-    date:
-    - type: published
-      value: 1981-09
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Postel
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J. Postel
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1981-09
-    language:
-    - en
-    script:
-    - Latn
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '792'
-    fetched: '2022-05-09'
-    keyword:
-    - ICMP
+    formattedref:
+      content: RFC0792
+      format: text/plain
 - type: includes
   bibitem:
-    id: RFC919
-    title:
-    - type: main
-      content: Broadcasting Internet Datagrams
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc919
-      type: src
-    type: standard
+    id: RFC0919
     docid:
-    - id: RFC 919
+    - id: RFC0919
       type: IETF
       primary: true
-    - id: RFC919
-      type: IETF
-      scope: anchor
-    - id: 10.17487/RFC0919
-      type: DOI
-    docnumber: RFC0919
-    date:
-    - type: published
-      value: 1984-10
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          - content: C
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Mogul
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J.C. Mogul
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1984-10
-    language:
-    - en
-    script:
-    - Latn
-    abstract:
-    - content: "<p>This RFC proposes simple rules for broadcasting Internet datagrams
-        on local networks that support broadcast, for addressing broadcasts, and for
-        how gateways should handle them.  This RFC suggests a proposed protocol for
-        the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '919'
-    fetched: '2022-05-09'
+    formattedref:
+      content: RFC0919
+      format: text/plain
 - type: includes
   bibitem:
-    id: RFC922
-    title:
-    - type: main
-      content: Broadcasting Internet datagrams in the presence of subnets
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc922
-      type: src
-    type: standard
+    id: RFC0922
     docid:
-    - id: RFC 922
+    - id: RFC0922
       type: IETF
       primary: true
-    - id: RFC922
-      type: IETF
-      scope: anchor
-    - id: 10.17487/RFC0922
-      type: DOI
-    docnumber: RFC0922
-    date:
-    - type: published
-      value: 1984-10
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          - content: C
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Mogul
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J.C. Mogul
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1984-10
-    language:
-    - en
-    script:
-    - Latn
-    abstract:
-    - content: "<p>We propose simple rules for broadcasting Internet datagrams on
-        local networks that support broadcast, for addressing broadcasts, and for
-        how gateways should handle them.  This RFC suggests a proposed protocol for
-        the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '922'
-    fetched: '2022-05-09'
+    formattedref:
+      content: RFC0922
+      format: text/plain
 - type: includes
   bibitem:
-    id: RFC950
-    title:
-    - type: main
-      content: Internet Standard Subnetting Procedure
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc950
-      type: src
-    type: standard
+    id: RFC0950
     docid:
-    - id: RFC 950
+    - id: RFC0950
       type: IETF
       primary: true
-    - id: RFC950
-      type: IETF
-      scope: anchor
-    - id: 10.17487/RFC0950
-      type: DOI
-    docnumber: RFC0950
-    date:
-    - type: published
-      value: 1985-08
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          - content: C
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Mogul
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J.C. Mogul
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    - person:
-        name:
-          initial:
-          - content: J
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Postel
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: J. Postel
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1985-08
-    language:
-    - en
-    script:
-    - Latn
-    abstract:
-    - content: <p>This memo discusses the utility of "subnets" of Internet networks,
-        which are logically visible sub-sections of a single Internet network.  For
-        administrative or technical reasons, many organizations have chosen to divide
-        one Internet network into several subnets, instead of acquiring a set of Internet
-        network numbers.  This memo specifies procedures for the use of subnets.  These
-        procedures are for hosts (e.g., workstations).  The procedures used in and
-        between subnet gateways are not fully described.  Important motivation and
-        background information for a subnetting standard is provided in RFC-940.  This
-        RFC specifies a protocol for the ARPA-Internet community.  If subnetting is
-        implemented it is strongly recommended that these procedures be followed.</p>
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
-    relation:
-    - type: updates
-      bibitem:
-        formattedref:
-          content: RFC0792
-          format: text/plain
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '950'
-    fetched: '2022-05-09'
-    keyword:
-    - Address
+    formattedref:
+      content: RFC0950
+      format: text/plain
 - type: includes
   bibitem:
     id: RFC1112
-    title:
-    - type: main
-      content: Host extensions for IP multicasting
-      format: text/plain
-    link:
-    - content: https://www.rfc-editor.org/info/rfc1112
-      type: src
-    type: standard
     docid:
-    - id: RFC 1112
-      type: IETF
-      primary: true
     - id: RFC1112
       type: IETF
-      scope: anchor
-    - id: 10.17487/RFC1112
-      type: DOI
-    docnumber: RFC1112
-    date:
-    - type: published
-      value: 1989-08
-    contributor:
-    - person:
-        name:
-          initial:
-          - content: S
-            language:
-            - en
-            script:
-            - Latn
-          - content: E
-            language:
-            - en
-            script:
-            - Latn
-          surname:
-            content: Deering
-            language:
-            - en
-            script:
-            - Latn
-          completename:
-            content: S.E. Deering
-            language:
-            - en
-            script:
-            - Latn
-      role:
-      - author
-    revdate: 1989-08
-    language:
-    - en
-    script:
-    - Latn
-    abstract:
-    - content: "<p>This memo specifies the extensions required of a host implementation
-        of the Internet Protocol (IP) to support multicasting.  Recommended procedure
-        for IP multicasting in the Internet.  This RFC obsoletes RFCs 998 and 1054.
-        [STANDARDS-TRACK]</p>"
-      language:
-      - en
-      script:
-      - Latn
-      format: text/html
-    series:
-    - title:
-        content: STD
-        format: text/plain
-      number: '5'
-    - title:
-        content: RFC
-        format: text/plain
-      number: '1112'
-    fetched: '2022-05-09'
-    keyword:
-    - IGMP
-    - multicast
+      primary: true
+    formattedref:
+      content: RFC1112
+      format: text/plain
