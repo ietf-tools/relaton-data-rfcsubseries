@@ -1,0 +1,36 @@
+---
+id: STD98
+link:
+- content: https://www.rfc-editor.org/info/std98
+  type: src
+type: standard
+docid:
+- id: STD 98
+  type: IETF
+  primary: true
+- id: STD98
+  type: IETF
+  scope: anchor
+docnumber: STD0098
+language:
+- en
+script:
+- Latn
+formattedref:
+  content: STD98
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC9111
+    docid:
+    - id: RFC9111
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9111
+      format: text/plain

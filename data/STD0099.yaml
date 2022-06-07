@@ -1,0 +1,36 @@
+---
+id: STD99
+link:
+- content: https://www.rfc-editor.org/info/std99
+  type: src
+type: standard
+docid:
+- id: STD 99
+  type: IETF
+  primary: true
+- id: STD99
+  type: IETF
+  scope: anchor
+docnumber: STD0099
+language:
+- en
+script:
+- Latn
+formattedref:
+  content: STD99
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+relation:
+- type: includes
+  bibitem:
+    id: RFC9112
+    docid:
+    - id: RFC9112
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9112
+      format: text/plain
