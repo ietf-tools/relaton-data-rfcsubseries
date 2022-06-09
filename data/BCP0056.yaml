@@ -26,11 +26,11 @@ formattedref:
 relation:
 - type: includes
   bibitem:
-    id: RFC3205
+    id: RFC9205
     docid:
-    - id: RFC3205
+    - id: RFC9205
       type: IETF
       primary: true
     formattedref:
-      content: RFC3205
+      content: RFC9205
       format: text/plain
