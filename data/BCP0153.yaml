@@ -1,5 +1,12 @@
 ---
 id: BCP153
+title:
+- content: Best Current Practice 153
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/bcp153
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: BCP153
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -54,3 +54,4 @@ relation:
     formattedref:
       content: RFC8190
       format: text/plain
+fetched: '2022-06-26'

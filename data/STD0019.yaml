@@ -1,5 +1,12 @@
 ---
 id: STD19
+title:
+- content: Internet Standard technical specification 19
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/std19
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: STD19
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -44,3 +44,4 @@ relation:
     formattedref:
       content: RFC1002
       format: text/plain
+fetched: '2022-06-26'

@@ -1,5 +1,12 @@
 ---
 id: STD58
+title:
+- content: Internet Standard technical specification 58
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/std58
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: STD58
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -54,3 +54,4 @@ relation:
     formattedref:
       content: RFC2580
       format: text/plain
+fetched: '2022-06-26'

@@ -1,5 +1,12 @@
 ---
 id: STD69
+title:
+- content: Internet Standard technical specification 69
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/std69
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: STD69
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -74,3 +74,4 @@ relation:
     formattedref:
       content: RFC5734
       format: text/plain
+fetched: '2022-06-26'

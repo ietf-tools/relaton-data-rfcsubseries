@@ -1,5 +1,12 @@
 ---
 id: BCP18
+title:
+- content: Best Current Practice 18
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/bcp18
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: BCP18
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -34,3 +34,4 @@ relation:
     formattedref:
       content: RFC2277
       format: text/plain
+fetched: '2022-06-26'

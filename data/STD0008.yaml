@@ -1,5 +1,12 @@
 ---
 id: STD8
+title:
+- content: Internet Standard technical specification 8
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
 link:
 - content: https://www.rfc-editor.org/info/std8
   type: src
@@ -16,13 +23,6 @@ language:
 - en
 script:
 - Latn
-formattedref:
-  content: STD8
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
 relation:
 - type: includes
   bibitem:
@@ -44,3 +44,4 @@ relation:
     formattedref:
       content: RFC0855
       format: text/plain
+fetched: '2022-06-26'
