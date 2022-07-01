@@ -26,12 +26,12 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC2028
+    id: RFC9281
     docid:
-    - id: RFC2028
+    - id: RFC9281
       type: IETF
       primary: true
     formattedref:
-      content: RFC2028
+      content: RFC9281
       format: text/plain
-fetched: '2022-06-30'
+fetched: '2022-07-01'

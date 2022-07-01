@@ -34,4 +34,14 @@ relation:
     formattedref:
       content: RFC2850
       format: text/plain
-fetched: '2022-06-30'
+- type: includes
+  bibitem:
+    id: RFC9283
+    docid:
+    - id: RFC9283
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9283
+      format: text/plain
+fetched: '2022-07-01'
