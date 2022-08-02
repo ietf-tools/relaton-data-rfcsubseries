@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC3349
     docid:
-    - id: RFC3349
+    - id: RFC 3349
       type: IETF
       primary: true
     formattedref:
       content: RFC3349
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

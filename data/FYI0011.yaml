@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC2116
     docid:
-    - id: RFC2116
+    - id: RFC 2116
       type: IETF
       primary: true
     formattedref:
       content: RFC2116
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

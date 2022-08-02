@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC1178
     docid:
-    - id: RFC1178
+    - id: RFC 1178
       type: IETF
       primary: true
     formattedref:
       content: RFC1178
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

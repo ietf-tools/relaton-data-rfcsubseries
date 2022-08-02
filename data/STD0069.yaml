@@ -28,7 +28,7 @@ relation:
   bibitem:
     id: RFC5730
     docid:
-    - id: RFC5730
+    - id: RFC 5730
       type: IETF
       primary: true
     formattedref:
@@ -38,7 +38,7 @@ relation:
   bibitem:
     id: RFC5731
     docid:
-    - id: RFC5731
+    - id: RFC 5731
       type: IETF
       primary: true
     formattedref:
@@ -48,7 +48,7 @@ relation:
   bibitem:
     id: RFC5732
     docid:
-    - id: RFC5732
+    - id: RFC 5732
       type: IETF
       primary: true
     formattedref:
@@ -58,7 +58,7 @@ relation:
   bibitem:
     id: RFC5733
     docid:
-    - id: RFC5733
+    - id: RFC 5733
       type: IETF
       primary: true
     formattedref:
@@ -68,10 +68,10 @@ relation:
   bibitem:
     id: RFC5734
     docid:
-    - id: RFC5734
+    - id: RFC 5734
       type: IETF
       primary: true
     formattedref:
       content: RFC5734
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

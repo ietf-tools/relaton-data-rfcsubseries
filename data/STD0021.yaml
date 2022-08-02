@@ -26,12 +26,12 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC0863
+    id: RFC863
     docid:
-    - id: RFC0863
+    - id: RFC 863
       type: IETF
       primary: true
     formattedref:
       content: RFC0863
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

@@ -26,9 +26,9 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC0854
+    id: RFC854
     docid:
-    - id: RFC0854
+    - id: RFC 854
       type: IETF
       primary: true
     formattedref:
@@ -36,12 +36,12 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0855
+    id: RFC855
     docid:
-    - id: RFC0855
+    - id: RFC 855
       type: IETF
       primary: true
     formattedref:
       content: RFC0855
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

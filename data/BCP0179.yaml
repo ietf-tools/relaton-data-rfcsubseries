@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC6649
     docid:
-    - id: RFC6649
+    - id: RFC 6649
       type: IETF
       primary: true
     formattedref:
       content: RFC6649
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

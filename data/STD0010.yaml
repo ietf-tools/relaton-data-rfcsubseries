@@ -26,9 +26,9 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC0821
+    id: RFC821
     docid:
-    - id: RFC0821
+    - id: RFC 821
       type: IETF
       primary: true
     formattedref:
@@ -36,9 +36,9 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0974
+    id: RFC974
     docid:
-    - id: RFC0974
+    - id: RFC 974
       type: IETF
       primary: true
     formattedref:
@@ -48,7 +48,7 @@ relation:
   bibitem:
     id: RFC1869
     docid:
-    - id: RFC1869
+    - id: RFC 1869
       type: IETF
       primary: true
     formattedref:
@@ -58,10 +58,10 @@ relation:
   bibitem:
     id: RFC1870
     docid:
-    - id: RFC1870
+    - id: RFC 1870
       type: IETF
       primary: true
     formattedref:
       content: RFC1870
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

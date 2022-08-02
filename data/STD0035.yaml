@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC1006
     docid:
-    - id: RFC1006
+    - id: RFC 1006
       type: IETF
       primary: true
     formattedref:
       content: RFC1006
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

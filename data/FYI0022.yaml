@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC1941
     docid:
-    - id: RFC1941
+    - id: RFC 1941
       type: IETF
       primary: true
     formattedref:
       content: RFC1941
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

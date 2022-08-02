@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC1088
     docid:
-    - id: RFC1088
+    - id: RFC 1088
       type: IETF
       primary: true
     formattedref:
       content: RFC1088
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

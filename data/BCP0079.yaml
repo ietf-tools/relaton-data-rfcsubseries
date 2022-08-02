@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC8179
     docid:
-    - id: RFC8179
+    - id: RFC 8179
       type: IETF
       primary: true
     formattedref:
       content: RFC8179
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

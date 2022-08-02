@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC7120
     docid:
-    - id: RFC7120
+    - id: RFC 7120
       type: IETF
       primary: true
     formattedref:
       content: RFC7120
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

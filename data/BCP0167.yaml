@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC6377
     docid:
-    - id: RFC6377
+    - id: RFC 6377
       type: IETF
       primary: true
     formattedref:
       content: RFC6377
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

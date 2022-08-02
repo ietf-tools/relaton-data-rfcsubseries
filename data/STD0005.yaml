@@ -26,9 +26,9 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC0791
+    id: RFC791
     docid:
-    - id: RFC0791
+    - id: RFC 791
       type: IETF
       primary: true
     formattedref:
@@ -36,9 +36,9 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0792
+    id: RFC792
     docid:
-    - id: RFC0792
+    - id: RFC 792
       type: IETF
       primary: true
     formattedref:
@@ -46,9 +46,9 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0919
+    id: RFC919
     docid:
-    - id: RFC0919
+    - id: RFC 919
       type: IETF
       primary: true
     formattedref:
@@ -56,9 +56,9 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0922
+    id: RFC922
     docid:
-    - id: RFC0922
+    - id: RFC 922
       type: IETF
       primary: true
     formattedref:
@@ -66,9 +66,9 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC0950
+    id: RFC950
     docid:
-    - id: RFC0950
+    - id: RFC 950
       type: IETF
       primary: true
     formattedref:
@@ -78,10 +78,10 @@ relation:
   bibitem:
     id: RFC1112
     docid:
-    - id: RFC1112
+    - id: RFC 1112
       type: IETF
       primary: true
     formattedref:
       content: RFC1112
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

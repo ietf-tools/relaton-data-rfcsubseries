@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC4520
     docid:
-    - id: RFC4520
+    - id: RFC 4520
       type: IETF
       primary: true
     formattedref:
       content: RFC4520
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

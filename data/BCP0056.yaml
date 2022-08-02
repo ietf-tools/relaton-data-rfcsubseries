@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC9205
     docid:
-    - id: RFC9205
+    - id: RFC 9205
       type: IETF
       primary: true
     formattedref:
       content: RFC9205
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

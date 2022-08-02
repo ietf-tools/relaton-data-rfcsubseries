@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC5248
     docid:
-    - id: RFC5248
+    - id: RFC 5248
       type: IETF
       primary: true
     formattedref:
       content: RFC5248
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

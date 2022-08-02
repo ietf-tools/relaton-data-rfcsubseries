@@ -28,7 +28,7 @@ relation:
   bibitem:
     id: RFC7525
     docid:
-    - id: RFC7525
+    - id: RFC 7525
       type: IETF
       primary: true
     formattedref:
@@ -38,10 +38,10 @@ relation:
   bibitem:
     id: RFC8996
     docid:
-    - id: RFC8996
+    - id: RFC 8996
       type: IETF
       primary: true
     formattedref:
       content: RFC8996
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

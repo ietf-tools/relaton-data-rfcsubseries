@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC8499
     docid:
-    - id: RFC8499
+    - id: RFC 8499
       type: IETF
       primary: true
     formattedref:
       content: RFC8499
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC1350
     docid:
-    - id: RFC1350
+    - id: RFC 1350
       type: IETF
       primary: true
     formattedref:
       content: RFC1350
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

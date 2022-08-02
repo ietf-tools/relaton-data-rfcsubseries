@@ -26,12 +26,12 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC0857
+    id: RFC857
     docid:
-    - id: RFC0857
+    - id: RFC 857
       type: IETF
       primary: true
     formattedref:
       content: RFC0857
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'

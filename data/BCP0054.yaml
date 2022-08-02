@@ -28,10 +28,10 @@ relation:
   bibitem:
     id: RFC7154
     docid:
-    - id: RFC7154
+    - id: RFC 7154
       type: IETF
       primary: true
     formattedref:
       content: RFC7154
       format: text/plain
-fetched: '2022-08-01'
+fetched: '2022-08-02'
