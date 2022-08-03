@@ -15,9 +15,6 @@ docid:
 - id: STD 95
   type: IETF
   primary: true
-- id: STD95
-  type: IETF
-  scope: anchor
 docnumber: STD0095
 language:
 - en
@@ -74,4 +71,4 @@ relation:
     formattedref:
       content: RFC9224
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

@@ -15,9 +15,6 @@ docid:
 - id: STD 80
   type: IETF
   primary: true
-- id: STD80
-  type: IETF
-  scope: anchor
 docnumber: STD0080
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC0020
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

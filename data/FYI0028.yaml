@@ -15,9 +15,6 @@ docid:
 - id: FYI 28
   type: IETF
   primary: true
-- id: FYI28
-  type: IETF
-  scope: anchor
 docnumber: FYI0028
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC1855
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

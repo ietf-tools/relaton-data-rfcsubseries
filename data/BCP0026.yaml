@@ -15,9 +15,6 @@ docid:
 - id: BCP 26
   type: IETF
   primary: true
-- id: BCP26
-  type: IETF
-  scope: anchor
 docnumber: BCP0026
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC8126
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

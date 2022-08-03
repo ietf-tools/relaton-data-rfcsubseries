@@ -15,9 +15,6 @@ docid:
 - id: STD 3
   type: IETF
   primary: true
-- id: STD3
-  type: IETF
-  scope: anchor
 docnumber: STD0003
 language:
 - en
@@ -44,4 +41,4 @@ relation:
     formattedref:
       content: RFC1123
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

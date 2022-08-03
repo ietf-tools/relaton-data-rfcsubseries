@@ -15,9 +15,6 @@ docid:
 - id: BCP 194
   type: IETF
   primary: true
-- id: BCP194
-  type: IETF
-  scope: anchor
 docnumber: BCP0194
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC7454
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

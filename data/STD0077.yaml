@@ -15,9 +15,6 @@ docid:
 - id: STD 77
   type: IETF
   primary: true
-- id: STD77
-  type: IETF
-  scope: anchor
 docnumber: STD0077
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC7011
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

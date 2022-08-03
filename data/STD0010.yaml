@@ -15,9 +15,6 @@ docid:
 - id: STD 10
   type: IETF
   primary: true
-- id: STD10
-  type: IETF
-  scope: anchor
 docnumber: STD0010
 language:
 - en
@@ -64,4 +61,4 @@ relation:
     formattedref:
       content: RFC1870
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'

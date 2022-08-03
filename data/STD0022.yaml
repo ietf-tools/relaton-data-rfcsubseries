@@ -15,9 +15,6 @@ docid:
 - id: STD 22
   type: IETF
   primary: true
-- id: STD22
-  type: IETF
-  scope: anchor
 docnumber: STD0022
 language:
 - en
@@ -34,4 +31,4 @@ relation:
     formattedref:
       content: RFC0864
       format: text/plain
-fetched: '2022-08-02'
+fetched: '2022-08-03'
