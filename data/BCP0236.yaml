@@ -1,21 +1,21 @@
 ---
-id: FYI10
+id: BCP236
 title:
-- content: For Your Information 10
+- content: Best Current Practice 236
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://www.rfc-editor.org/info/fyi10
+- content: https://www.rfc-editor.org/info/bcp236
   type: src
 type: standard
 docid:
-- id: FYI 10
+- id: BCP 236
   type: IETF
   primary: true
-docnumber: FYI0010
+docnumber: BCP0236
 language:
 - en
 script:
@@ -23,12 +23,12 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC1402
+    id: RFC9276
     docid:
-    - id: RFC 1402
+    - id: RFC 9276
       type: IETF
       primary: true
     formattedref:
-      content: RFC1402
+      content: RFC9276
       format: text/plain
 fetched: '2022-08-11'
