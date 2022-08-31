@@ -1,21 +1,21 @@
 ---
-id: BCP123
+id: STD96
 title:
-- content: Best Current Practice 123
+- content: Internet Standard technical specification 96
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://www.rfc-editor.org/info/bcp123
+- content: https://www.rfc-editor.org/info/std96
   type: src
 type: standard
 docid:
-- id: BCP 123
+- id: STD 96
   type: IETF
   primary: true
-docnumber: BCP0123
+docnumber: STD0096
 language:
 - en
 script:
@@ -23,12 +23,12 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC4697
+    id: RFC9052
     docid:
-    - id: RFC 4697
+    - id: RFC 9052
       type: IETF
       primary: true
     formattedref:
-      content: RFC4697
+      content: RFC9052
       format: text/plain
 fetched: '2022-08-31'
