@@ -31,3 +31,13 @@ relation:
     formattedref:
       content: RFC7115
       format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9319
+    docid:
+    - id: RFC 9319
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9319
+      format: text/plain
