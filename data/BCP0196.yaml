@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: BCP196
 title:
 - content: Best Current Practice 196
@@ -31,3 +32,5 @@ relation:
     formattedref:
       content: RFC7526
       format: text/plain
+ext:
+  schema-version: v1.0.0

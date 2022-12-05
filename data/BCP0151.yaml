@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: BCP151
 title:
 - content: Best Current Practice 151
@@ -31,3 +32,5 @@ relation:
     formattedref:
       content: RFC5615
       format: text/plain
+ext:
+  schema-version: v1.0.0

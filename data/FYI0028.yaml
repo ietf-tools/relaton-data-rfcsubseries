@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: FYI28
 title:
 - content: For Your Information 28
@@ -31,3 +32,5 @@ relation:
     formattedref:
       content: RFC1855
       format: text/plain
+ext:
+  schema-version: v1.0.0

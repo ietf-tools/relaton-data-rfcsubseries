@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: BCP68
 title:
 - content: Best Current Practice 68
@@ -31,3 +32,5 @@ relation:
     formattedref:
       content: RFC3438
       format: text/plain
+ext:
+  schema-version: v1.0.0

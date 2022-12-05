@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: STD91
 title:
 - content: Internet Standard technical specification 91
@@ -31,3 +32,5 @@ relation:
     formattedref:
       content: RFC8341
       format: text/plain
+ext:
+  schema-version: v1.0.0

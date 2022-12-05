@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: STD16
 title:
 - content: Internet Standard technical specification 16
@@ -41,3 +42,5 @@ relation:
     formattedref:
       content: RFC1212
       format: text/plain
+ext:
+  schema-version: v1.0.0

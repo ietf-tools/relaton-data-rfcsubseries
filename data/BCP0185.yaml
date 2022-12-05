@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: BCP185
 title:
 - content: Best Current Practice 185
@@ -41,3 +42,5 @@ relation:
     formattedref:
       content: RFC9319
       format: text/plain
+ext:
+  schema-version: v1.0.0
