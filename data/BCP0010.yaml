@@ -34,13 +34,13 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC8788
+    id: RFC9389
     docid:
-    - id: RFC 8788
+    - id: RFC 9389
       type: IETF
       primary: true
     formattedref:
-      content: RFC8788
+      content: RFC9389
       format: text/plain
 ext:
   schema-version: v1.0.0
