@@ -32,5 +32,15 @@ relation:
     formattedref:
       content: RFC3819
       format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9599
+    docid:
+    - id: RFC 9599
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9599
+      format: text/plain
 ext:
   schema-version: v1.0.1
