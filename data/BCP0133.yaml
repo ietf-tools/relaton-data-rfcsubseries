@@ -24,13 +24,13 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC5033
+    id: RFC9743
     docid:
-    - id: RFC 5033
+    - id: RFC 9743
       type: IETF
       primary: true
     formattedref:
-      content: RFC5033
+      content: RFC9743
       format: text/plain
 ext:
   schema-version: v1.0.1
