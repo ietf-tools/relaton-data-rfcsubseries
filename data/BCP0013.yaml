@@ -42,5 +42,15 @@ relation:
     formattedref:
       content: RFC6838
       format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9694
+    docid:
+    - id: RFC 9694
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9694
+      format: text/plain
 ext:
   schema-version: v1.0.1
