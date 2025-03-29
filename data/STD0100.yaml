@@ -1,22 +1,22 @@
 ---
 schema-version: v1.2.3
-id: BCP57
+id: STD100
 title:
-- content: Best Current Practice 57
+- content: Internet Standard technical specification 100
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://www.rfc-editor.org/info/bcp57
+- content: https://www.rfc-editor.org/info/std100
   type: src
 type: standard
 docid:
-- id: BCP 57
+- id: STD 100
   type: IETF
   primary: true
-docnumber: BCP0057
+docnumber: STD0100
 language:
 - en
 script:
@@ -24,13 +24,13 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC9778
+    id: RFC9776
     docid:
-    - id: RFC 9778
+    - id: RFC 9776
       type: IETF
       primary: true
     formattedref:
-      content: RFC9778
+      content: RFC9776
       format: text/plain
 ext:
   schema-version: v1.0.1
