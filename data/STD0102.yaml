@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STD102
+title:
+- content: Internet Standard technical specification 102
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/std102
+  type: src
+type: standard
+docid:
+- id: STD 102
+  type: IETF
+  primary: true
+docnumber: STD0102
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9915
+    docid:
+    - id: RFC 9915
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9915
+      format: text/plain
+ext:
+  schema-version: v1.0.1
