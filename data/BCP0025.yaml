@@ -34,16 +34,6 @@ relation:
       format: text/plain
 - type: includes
   bibitem:
-    id: RFC3934
-    docid:
-    - id: RFC 3934
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC3934
-      format: text/plain
-- type: includes
-  bibitem:
     id: RFC7776
     docid:
     - id: RFC 7776

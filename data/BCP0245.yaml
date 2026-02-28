@@ -1,22 +1,22 @@
 ---
 schema-version: v1.2.3
-id: BCP83
+id: BCP245
 title:
-- content: Best Current Practice 83
+- content: Best Current Practice 245
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://www.rfc-editor.org/info/bcp83
+- content: https://www.rfc-editor.org/info/bcp245
   type: src
 type: standard
 docid:
-- id: BCP 83
+- id: BCP 245
   type: IETF
   primary: true
-docnumber: BCP0083
+docnumber: BCP0245
 language:
 - en
 script:
@@ -24,13 +24,13 @@ script:
 relation:
 - type: includes
   bibitem:
-    id: RFC3683
+    id: RFC9945
     docid:
-    - id: RFC 3683
+    - id: RFC 9945
       type: IETF
       primary: true
     formattedref:
-      content: RFC3683
+      content: RFC9945
       format: text/plain
 ext:
   schema-version: v1.0.1

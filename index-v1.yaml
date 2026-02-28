@@ -155,8 +155,6 @@
   :file: data/BCP0081.yaml
 - :id: BCP 82
   :file: data/BCP0082.yaml
-- :id: BCP 83
-  :file: data/BCP0083.yaml
 - :id: BCP 84
   :file: data/BCP0084.yaml
 - :id: BCP 85
@@ -471,6 +469,8 @@
   :file: data/BCP0243.yaml
 - :id: BCP 244
   :file: data/BCP0244.yaml
+- :id: BCP 245
+  :file: data/BCP0245.yaml
 - :id: FYI 2
   :file: data/FYI0002.yaml
 - :id: FYI 3
