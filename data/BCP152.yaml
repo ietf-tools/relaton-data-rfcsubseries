@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP152
+title:
+- content: Best Current Practice P152
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP152
+  type: src
+type: standard
+docid:
+- id: BCP P152
+  type: IETF
+  primary: true
+docnumber: BCP152
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5625
+    docid:
+    - id: RFC 5625
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5625
+      format: text/plain
+ext:
+  schema-version: v1.0.1

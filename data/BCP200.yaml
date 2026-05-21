@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP200
+title:
+- content: Best Current Practice P200
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP200
+  type: src
+type: standard
+docid:
+- id: BCP P200
+  type: IETF
+  primary: true
+docnumber: BCP200
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1984
+    docid:
+    - id: RFC 1984
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1984
+      format: text/plain
+ext:
+  schema-version: v1.0.1

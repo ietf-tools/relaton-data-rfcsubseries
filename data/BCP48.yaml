@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP48
+title:
+- content: Best Current Practice CP48
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP48
+  type: src
+type: standard
+docid:
+- id: BCP CP48
+  type: IETF
+  primary: true
+docnumber: BCP48
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3150
+    docid:
+    - id: RFC 3150
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3150
+      format: text/plain
+ext:
+  schema-version: v1.0.1

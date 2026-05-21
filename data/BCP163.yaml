@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP163
+title:
+- content: Best Current Practice P163
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP163
+  type: src
+type: standard
+docid:
+- id: BCP P163
+  type: IETF
+  primary: true
+docnumber: BCP163
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6303
+    docid:
+    - id: RFC 6303
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6303
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC7793
+    docid:
+    - id: RFC 7793
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7793
+      format: text/plain
+ext:
+  schema-version: v1.0.1

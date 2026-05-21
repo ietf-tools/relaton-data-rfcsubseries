@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD61
+title:
+- content: Internet Standard technical specification TD61
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD61
+  type: src
+type: standard
+docid:
+- id: STD TD61
+  type: IETF
+  primary: true
+docnumber: STD61
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2289
+    docid:
+    - id: RFC 2289
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2289
+      format: text/plain
+ext:
+  schema-version: v1.0.1

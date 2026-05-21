@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP165
+title:
+- content: Best Current Practice P165
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP165
+  type: src
+type: standard
+docid:
+- id: BCP P165
+  type: IETF
+  primary: true
+docnumber: BCP165
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6335
+    docid:
+    - id: RFC 6335
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6335
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC7605
+    docid:
+    - id: RFC 7605
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7605
+      format: text/plain
+ext:
+  schema-version: v1.0.1

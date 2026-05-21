@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD40
+title:
+- content: Internet Standard technical specification TD40
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD40
+  type: src
+type: standard
+docid:
+- id: STD TD40
+  type: IETF
+  primary: true
+docnumber: STD40
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC907
+    docid:
+    - id: RFC 907
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC907
+      format: text/plain
+ext:
+  schema-version: v1.0.1

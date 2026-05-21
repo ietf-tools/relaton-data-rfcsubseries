@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP16
+title:
+- content: Best Current Practice CP16
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP16
+  type: src
+type: standard
+docid:
+- id: BCP CP16
+  type: IETF
+  primary: true
+docnumber: BCP16
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2182
+    docid:
+    - id: RFC 2182
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2182
+      format: text/plain
+ext:
+  schema-version: v1.0.1

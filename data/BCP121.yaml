@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP121
+title:
+- content: Best Current Practice P121
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP121
+  type: src
+type: standard
+docid:
+- id: BCP P121
+  type: IETF
+  primary: true
+docnumber: BCP121
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4611
+    docid:
+    - id: RFC 4611
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4611
+      format: text/plain
+ext:
+  schema-version: v1.0.1

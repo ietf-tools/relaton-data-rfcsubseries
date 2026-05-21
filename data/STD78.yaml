@@ -1,0 +1,66 @@
+---
+schema-version: v1.2.3
+id: STDTD78
+title:
+- content: Internet Standard technical specification TD78
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD78
+  type: src
+type: standard
+docid:
+- id: STD TD78
+  type: IETF
+  primary: true
+docnumber: STD78
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5343
+    docid:
+    - id: RFC 5343
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5343
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5590
+    docid:
+    - id: RFC 5590
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5590
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5591
+    docid:
+    - id: RFC 5591
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5591
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC6353
+    docid:
+    - id: RFC 6353
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6353
+      format: text/plain
+ext:
+  schema-version: v1.0.1

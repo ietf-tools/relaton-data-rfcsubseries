@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: STDTD96
+title:
+- content: Internet Standard technical specification TD96
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD96
+  type: src
+type: standard
+docid:
+- id: STD TD96
+  type: IETF
+  primary: true
+docnumber: STD96
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9052
+    docid:
+    - id: RFC 9052
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9052
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9338
+    docid:
+    - id: RFC 9338
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9338
+      format: text/plain
+ext:
+  schema-version: v1.0.1

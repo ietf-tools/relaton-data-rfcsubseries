@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP111
+title:
+- content: Best Current Practice P111
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP111
+  type: src
+type: standard
+docid:
+- id: BCP P111
+  type: IETF
+  primary: true
+docnumber: BCP111
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4181
+    docid:
+    - id: RFC 4181
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4181
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC4841
+    docid:
+    - id: RFC 4841
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4841
+      format: text/plain
+ext:
+  schema-version: v1.0.1

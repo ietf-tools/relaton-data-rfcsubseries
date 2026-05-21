@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP225
+title:
+- content: Best Current Practice P225
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP225
+  type: src
+type: standard
+docid:
+- id: BCP P225
+  type: IETF
+  primary: true
+docnumber: BCP225
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8725
+    docid:
+    - id: RFC 8725
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8725
+      format: text/plain
+ext:
+  schema-version: v1.0.1

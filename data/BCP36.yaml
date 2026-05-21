@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP36
+title:
+- content: Best Current Practice CP36
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP36
+  type: src
+type: standard
+docid:
+- id: BCP CP36
+  type: IETF
+  primary: true
+docnumber: BCP36
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2736
+    docid:
+    - id: RFC 2736
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2736
+      format: text/plain
+ext:
+  schema-version: v1.0.1

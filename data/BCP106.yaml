@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP106
+title:
+- content: Best Current Practice P106
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP106
+  type: src
+type: standard
+docid:
+- id: BCP P106
+  type: IETF
+  primary: true
+docnumber: BCP106
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4086
+    docid:
+    - id: RFC 4086
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4086
+      format: text/plain
+ext:
+  schema-version: v1.0.1

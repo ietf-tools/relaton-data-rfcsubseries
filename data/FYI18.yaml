@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI18
+title:
+- content: For Your Information YI18
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI18
+  type: src
+type: standard
+docid:
+- id: FYI YI18
+  type: IETF
+  primary: true
+docnumber: FYI18
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1983
+    docid:
+    - id: RFC 1983
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1983
+      format: text/plain
+ext:
+  schema-version: v1.0.1

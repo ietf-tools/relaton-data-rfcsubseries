@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI38
+title:
+- content: For Your Information YI38
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI38
+  type: src
+type: standard
+docid:
+- id: FYI YI38
+  type: IETF
+  primary: true
+docnumber: FYI38
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3098
+    docid:
+    - id: RFC 3098
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3098
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI34
+title:
+- content: For Your Information YI34
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI34
+  type: src
+type: standard
+docid:
+- id: FYI YI34
+  type: IETF
+  primary: true
+docnumber: FYI34
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2504
+    docid:
+    - id: RFC 2504
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2504
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD36
+title:
+- content: Internet Standard technical specification TD36
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD36
+  type: src
+type: standard
+docid:
+- id: STD TD36
+  type: IETF
+  primary: true
+docnumber: STD36
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1390
+    docid:
+    - id: RFC 1390
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1390
+      format: text/plain
+ext:
+  schema-version: v1.0.1

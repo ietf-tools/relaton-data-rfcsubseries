@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP77
+title:
+- content: Best Current Practice CP77
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP77
+  type: src
+type: standard
+docid:
+- id: BCP CP77
+  type: IETF
+  primary: true
+docnumber: BCP77
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3677
+    docid:
+    - id: RFC 3677
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3677
+      format: text/plain
+ext:
+  schema-version: v1.0.1

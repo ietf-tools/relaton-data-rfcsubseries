@@ -1,0 +1,66 @@
+---
+schema-version: v1.2.3
+id: BCPP226
+title:
+- content: Best Current Practice P226
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP226
+  type: src
+type: standard
+docid:
+- id: BCP P226
+  type: IETF
+  primary: true
+docnumber: BCP226
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8718
+    docid:
+    - id: RFC 8718
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8718
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC8719
+    docid:
+    - id: RFC 8719
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8719
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9137
+    docid:
+    - id: RFC 9137
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9137
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9712
+    docid:
+    - id: RFC 9712
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9712
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP137
+title:
+- content: Best Current Practice P137
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP137
+  type: src
+type: standard
+docid:
+- id: BCP P137
+  type: IETF
+  primary: true
+docnumber: BCP137
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5137
+    docid:
+    - id: RFC 5137
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5137
+      format: text/plain
+ext:
+  schema-version: v1.0.1

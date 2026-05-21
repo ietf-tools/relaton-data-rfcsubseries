@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDSTD7
+title:
+- content: Internet Standard technical specification STD7
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdSTD7
+  type: src
+type: standard
+docid:
+- id: STD STD7
+  type: IETF
+  primary: true
+docnumber: STD7
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9293
+    docid:
+    - id: RFC 9293
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9293
+      format: text/plain
+ext:
+  schema-version: v1.0.1

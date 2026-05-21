@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD26
+title:
+- content: Internet Standard technical specification TD26
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD26
+  type: src
+type: standard
+docid:
+- id: STD TD26
+  type: IETF
+  primary: true
+docnumber: STD26
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC868
+    docid:
+    - id: RFC 868
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC868
+      format: text/plain
+ext:
+  schema-version: v1.0.1

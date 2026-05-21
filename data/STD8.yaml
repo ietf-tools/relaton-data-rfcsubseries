@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: STDSTD8
+title:
+- content: Internet Standard technical specification STD8
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdSTD8
+  type: src
+type: standard
+docid:
+- id: STD STD8
+  type: IETF
+  primary: true
+docnumber: STD8
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC854
+    docid:
+    - id: RFC 854
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC854
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC855
+    docid:
+    - id: RFC 855
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC855
+      format: text/plain
+ext:
+  schema-version: v1.0.1

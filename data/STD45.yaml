@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD45
+title:
+- content: Internet Standard technical specification TD45
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD45
+  type: src
+type: standard
+docid:
+- id: STD TD45
+  type: IETF
+  primary: true
+docnumber: STD45
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1044
+    docid:
+    - id: RFC 1044
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1044
+      format: text/plain
+ext:
+  schema-version: v1.0.1

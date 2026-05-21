@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP76
+title:
+- content: Best Current Practice CP76
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP76
+  type: src
+type: standard
+docid:
+- id: BCP CP76
+  type: IETF
+  primary: true
+docnumber: BCP76
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3666
+    docid:
+    - id: RFC 3666
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3666
+      format: text/plain
+ext:
+  schema-version: v1.0.1

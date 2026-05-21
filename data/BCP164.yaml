@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP164
+title:
+- content: Best Current Practice P164
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP164
+  type: src
+type: standard
+docid:
+- id: BCP P164
+  type: IETF
+  primary: true
+docnumber: BCP164
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6328
+    docid:
+    - id: RFC 6328
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6328
+      format: text/plain
+ext:
+  schema-version: v1.0.1

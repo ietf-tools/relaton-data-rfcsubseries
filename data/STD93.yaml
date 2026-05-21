@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD93
+title:
+- content: Internet Standard technical specification TD93
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD93
+  type: src
+type: standard
+docid:
+- id: STD TD93
+  type: IETF
+  primary: true
+docnumber: STD93
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8945
+    docid:
+    - id: RFC 8945
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8945
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD41
+title:
+- content: Internet Standard technical specification TD41
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD41
+  type: src
+type: standard
+docid:
+- id: STD TD41
+  type: IETF
+  primary: true
+docnumber: STD41
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC894
+    docid:
+    - id: RFC 894
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC894
+      format: text/plain
+ext:
+  schema-version: v1.0.1

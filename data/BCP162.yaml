@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP162
+title:
+- content: Best Current Practice P162
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP162
+  type: src
+type: standard
+docid:
+- id: BCP P162
+  type: IETF
+  primary: true
+docnumber: BCP162
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6302
+    docid:
+    - id: RFC 6302
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6302
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: STDTD19
+title:
+- content: Internet Standard technical specification TD19
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD19
+  type: src
+type: standard
+docid:
+- id: STD TD19
+  type: IETF
+  primary: true
+docnumber: STD19
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1001
+    docid:
+    - id: RFC 1001
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1001
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC1002
+    docid:
+    - id: RFC 1002
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1002
+      format: text/plain
+ext:
+  schema-version: v1.0.1

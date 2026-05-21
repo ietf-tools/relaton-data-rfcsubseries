@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD82
+title:
+- content: Internet Standard technical specification TD82
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD82
+  type: src
+type: standard
+docid:
+- id: STD TD82
+  type: IETF
+  primary: true
+docnumber: STD82
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7680
+    docid:
+    - id: RFC 7680
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7680
+      format: text/plain
+ext:
+  schema-version: v1.0.1

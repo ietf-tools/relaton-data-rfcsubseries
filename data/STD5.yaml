@@ -1,0 +1,86 @@
+---
+schema-version: v1.2.3
+id: STDSTD5
+title:
+- content: Internet Standard technical specification STD5
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdSTD5
+  type: src
+type: standard
+docid:
+- id: STD STD5
+  type: IETF
+  primary: true
+docnumber: STD5
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC791
+    docid:
+    - id: RFC 791
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC791
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC792
+    docid:
+    - id: RFC 792
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC792
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC919
+    docid:
+    - id: RFC 919
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC919
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC922
+    docid:
+    - id: RFC 922
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC922
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC950
+    docid:
+    - id: RFC 950
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC950
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC1112
+    docid:
+    - id: RFC 1112
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1112
+      format: text/plain
+ext:
+  schema-version: v1.0.1

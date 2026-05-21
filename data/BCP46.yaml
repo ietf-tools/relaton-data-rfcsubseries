@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP46
+title:
+- content: Best Current Practice CP46
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP46
+  type: src
+type: standard
+docid:
+- id: BCP CP46
+  type: IETF
+  primary: true
+docnumber: BCP46
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3013
+    docid:
+    - id: RFC 3013
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3013
+      format: text/plain
+ext:
+  schema-version: v1.0.1

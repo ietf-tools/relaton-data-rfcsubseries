@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD81
+title:
+- content: Internet Standard technical specification TD81
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD81
+  type: src
+type: standard
+docid:
+- id: STD TD81
+  type: IETF
+  primary: true
+docnumber: STD81
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7679
+    docid:
+    - id: RFC 7679
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7679
+      format: text/plain
+ext:
+  schema-version: v1.0.1

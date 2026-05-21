@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP28
+title:
+- content: Best Current Practice CP28
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP28
+  type: src
+type: standard
+docid:
+- id: BCP CP28
+  type: IETF
+  primary: true
+docnumber: BCP28
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2488
+    docid:
+    - id: RFC 2488
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2488
+      format: text/plain
+ext:
+  schema-version: v1.0.1

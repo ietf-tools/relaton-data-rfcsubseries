@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP142
+title:
+- content: Best Current Practice P142
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP142
+  type: src
+type: standard
+docid:
+- id: BCP P142
+  type: IETF
+  primary: true
+docnumber: BCP142
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5382
+    docid:
+    - id: RFC 5382
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5382
+      format: text/plain
+ext:
+  schema-version: v1.0.1

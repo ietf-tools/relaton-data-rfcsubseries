@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP96
+title:
+- content: Best Current Practice CP96
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP96
+  type: src
+type: standard
+docid:
+- id: BCP CP96
+  type: IETF
+  primary: true
+docnumber: BCP96
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3936
+    docid:
+    - id: RFC 3936
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3936
+      format: text/plain
+ext:
+  schema-version: v1.0.1

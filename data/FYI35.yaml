@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI35
+title:
+- content: For Your Information YI35
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI35
+  type: src
+type: standard
+docid:
+- id: FYI YI35
+  type: IETF
+  primary: true
+docnumber: FYI35
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2635
+    docid:
+    - id: RFC 2635
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2635
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPCP39
+title:
+- content: Best Current Practice CP39
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP39
+  type: src
+type: standard
+docid:
+- id: BCP CP39
+  type: IETF
+  primary: true
+docnumber: BCP39
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2850
+    docid:
+    - id: RFC 2850
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2850
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9283
+    docid:
+    - id: RFC 9283
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9283
+      format: text/plain
+ext:
+  schema-version: v1.0.1

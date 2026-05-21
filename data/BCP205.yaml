@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP205
+title:
+- content: Best Current Practice P205
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP205
+  type: src
+type: standard
+docid:
+- id: BCP P205
+  type: IETF
+  primary: true
+docnumber: BCP205
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7942
+    docid:
+    - id: RFC 7942
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7942
+      format: text/plain
+ext:
+  schema-version: v1.0.1

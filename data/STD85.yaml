@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD85
+title:
+- content: Internet Standard technical specification TD85
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD85
+  type: src
+type: standard
+docid:
+- id: STD TD85
+  type: IETF
+  primary: true
+docnumber: STD85
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8098
+    docid:
+    - id: RFC 8098
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8098
+      format: text/plain
+ext:
+  schema-version: v1.0.1

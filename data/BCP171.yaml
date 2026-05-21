@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP171
+title:
+- content: Best Current Practice P171
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP171
+  type: src
+type: standard
+docid:
+- id: BCP P171
+  type: IETF
+  primary: true
+docnumber: BCP171
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6441
+    docid:
+    - id: RFC 6441
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6441
+      format: text/plain
+ext:
+  schema-version: v1.0.1

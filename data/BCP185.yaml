@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP185
+title:
+- content: Best Current Practice P185
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP185
+  type: src
+type: standard
+docid:
+- id: BCP P185
+  type: IETF
+  primary: true
+docnumber: BCP185
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7115
+    docid:
+    - id: RFC 7115
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7115
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9319
+    docid:
+    - id: RFC 9319
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9319
+      format: text/plain
+ext:
+  schema-version: v1.0.1

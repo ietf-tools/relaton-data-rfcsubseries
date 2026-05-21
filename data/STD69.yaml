@@ -1,0 +1,76 @@
+---
+schema-version: v1.2.3
+id: STDTD69
+title:
+- content: Internet Standard technical specification TD69
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD69
+  type: src
+type: standard
+docid:
+- id: STD TD69
+  type: IETF
+  primary: true
+docnumber: STD69
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5730
+    docid:
+    - id: RFC 5730
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5730
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5731
+    docid:
+    - id: RFC 5731
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5731
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5732
+    docid:
+    - id: RFC 5732
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5732
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5733
+    docid:
+    - id: RFC 5733
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5733
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5734
+    docid:
+    - id: RFC 5734
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5734
+      format: text/plain
+ext:
+  schema-version: v1.0.1

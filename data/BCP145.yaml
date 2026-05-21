@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP145
+title:
+- content: Best Current Practice P145
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP145
+  type: src
+type: standard
+docid:
+- id: BCP P145
+  type: IETF
+  primary: true
+docnumber: BCP145
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8085
+    docid:
+    - id: RFC 8085
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8085
+      format: text/plain
+ext:
+  schema-version: v1.0.1

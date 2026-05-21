@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP213
+title:
+- content: Best Current Practice P213
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP213
+  type: src
+type: standard
+docid:
+- id: BCP P213
+  type: IETF
+  primary: true
+docnumber: BCP213
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8313
+    docid:
+    - id: RFC 8313
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8313
+      format: text/plain
+ext:
+  schema-version: v1.0.1

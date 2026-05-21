@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD52
+title:
+- content: Internet Standard technical specification TD52
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD52
+  type: src
+type: standard
+docid:
+- id: STD TD52
+  type: IETF
+  primary: true
+docnumber: STD52
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1209
+    docid:
+    - id: RFC 1209
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1209
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: STDSTD3
+title:
+- content: Internet Standard technical specification STD3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdSTD3
+  type: src
+type: standard
+docid:
+- id: STD STD3
+  type: IETF
+  primary: true
+docnumber: STD3
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1122
+    docid:
+    - id: RFC 1122
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1122
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC1123
+    docid:
+    - id: RFC 1123
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1123
+      format: text/plain
+ext:
+  schema-version: v1.0.1

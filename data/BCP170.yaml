@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP170
+title:
+- content: Best Current Practice P170
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP170
+  type: src
+type: standard
+docid:
+- id: BCP P170
+  type: IETF
+  primary: true
+docnumber: BCP170
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6390
+    docid:
+    - id: RFC 6390
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6390
+      format: text/plain
+ext:
+  schema-version: v1.0.1

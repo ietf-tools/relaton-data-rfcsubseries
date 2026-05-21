@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD59
+title:
+- content: Internet Standard technical specification TD59
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD59
+  type: src
+type: standard
+docid:
+- id: STD TD59
+  type: IETF
+  primary: true
+docnumber: STD59
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2819
+    docid:
+    - id: RFC 2819
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2819
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD80
+title:
+- content: Internet Standard technical specification TD80
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD80
+  type: src
+type: standard
+docid:
+- id: STD TD80
+  type: IETF
+  primary: true
+docnumber: STD80
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC20
+    docid:
+    - id: RFC 20
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC20
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP23
+title:
+- content: Best Current Practice CP23
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP23
+  type: src
+type: standard
+docid:
+- id: BCP CP23
+  type: IETF
+  primary: true
+docnumber: BCP23
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2365
+    docid:
+    - id: RFC 2365
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2365
+      format: text/plain
+ext:
+  schema-version: v1.0.1

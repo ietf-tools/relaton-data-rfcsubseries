@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP95
+title:
+- content: Best Current Practice CP95
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP95
+  type: src
+type: standard
+docid:
+- id: BCP CP95
+  type: IETF
+  primary: true
+docnumber: BCP95
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3935
+    docid:
+    - id: RFC 3935
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3935
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPCP41
+title:
+- content: Best Current Practice CP41
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP41
+  type: src
+type: standard
+docid:
+- id: BCP CP41
+  type: IETF
+  primary: true
+docnumber: BCP41
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2914
+    docid:
+    - id: RFC 2914
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2914
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC7141
+    docid:
+    - id: RFC 7141
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7141
+      format: text/plain
+ext:
+  schema-version: v1.0.1

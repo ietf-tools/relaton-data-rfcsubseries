@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDD101
+title:
+- content: Internet Standard technical specification D101
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdD101
+  type: src
+type: standard
+docid:
+- id: STD D101
+  type: IETF
+  primary: true
+docnumber: STD101
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9777
+    docid:
+    - id: RFC 9777
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9777
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD57
+title:
+- content: Internet Standard technical specification TD57
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD57
+  type: src
+type: standard
+docid:
+- id: STD TD57
+  type: IETF
+  primary: true
+docnumber: STD57
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1722
+    docid:
+    - id: RFC 1722
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1722
+      format: text/plain
+ext:
+  schema-version: v1.0.1

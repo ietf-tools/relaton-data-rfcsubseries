@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI28
+title:
+- content: For Your Information YI28
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI28
+  type: src
+type: standard
+docid:
+- id: FYI YI28
+  type: IETF
+  primary: true
+docnumber: FYI28
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1855
+    docid:
+    - id: RFC 1855
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1855
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP44
+title:
+- content: Best Current Practice CP44
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP44
+  type: src
+type: standard
+docid:
+- id: BCP CP44
+  type: IETF
+  primary: true
+docnumber: BCP44
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2964
+    docid:
+    - id: RFC 2964
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2964
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP52
+title:
+- content: Best Current Practice CP52
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP52
+  type: src
+type: standard
+docid:
+- id: BCP CP52
+  type: IETF
+  primary: true
+docnumber: BCP52
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3172
+    docid:
+    - id: RFC 3172
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3172
+      format: text/plain
+ext:
+  schema-version: v1.0.1

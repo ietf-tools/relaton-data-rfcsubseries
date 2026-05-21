@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP232
+title:
+- content: Best Current Practice P232
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP232
+  type: src
+type: standard
+docid:
+- id: BCP P232
+  type: IETF
+  primary: true
+docnumber: BCP232
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8932
+    docid:
+    - id: RFC 8932
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8932
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,56 @@
+---
+schema-version: v1.2.3
+id: BCPCP97
+title:
+- content: Best Current Practice CP97
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP97
+  type: src
+type: standard
+docid:
+- id: BCP CP97
+  type: IETF
+  primary: true
+docnumber: BCP97
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3967
+    docid:
+    - id: RFC 3967
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3967
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC4897
+    docid:
+    - id: RFC 4897
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4897
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC8067
+    docid:
+    - id: RFC 8067
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8067
+      format: text/plain
+ext:
+  schema-version: v1.0.1

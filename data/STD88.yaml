@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD88
+title:
+- content: Internet Standard technical specification TD88
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD88
+  type: src
+type: standard
+docid:
+- id: STD TD88
+  type: IETF
+  primary: true
+docnumber: STD88
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3596
+    docid:
+    - id: RFC 3596
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3596
+      format: text/plain
+ext:
+  schema-version: v1.0.1

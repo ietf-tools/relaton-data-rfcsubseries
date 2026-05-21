@@ -1,0 +1,56 @@
+---
+schema-version: v1.2.3
+id: BCPP153
+title:
+- content: Best Current Practice P153
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP153
+  type: src
+type: standard
+docid:
+- id: BCP P153
+  type: IETF
+  primary: true
+docnumber: BCP153
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6598
+    docid:
+    - id: RFC 6598
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6598
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC6890
+    docid:
+    - id: RFC 6890
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6890
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC8190
+    docid:
+    - id: RFC 8190
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8190
+      format: text/plain
+ext:
+  schema-version: v1.0.1

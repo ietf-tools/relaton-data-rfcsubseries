@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP51
+title:
+- content: Best Current Practice CP51
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP51
+  type: src
+type: standard
+docid:
+- id: BCP CP51
+  type: IETF
+  primary: true
+docnumber: BCP51
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5771
+    docid:
+    - id: RFC 5771
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5771
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP112
+title:
+- content: Best Current Practice P112
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP112
+  type: src
+type: standard
+docid:
+- id: BCP P112
+  type: IETF
+  primary: true
+docnumber: BCP112
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4222
+    docid:
+    - id: RFC 4222
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4222
+      format: text/plain
+ext:
+  schema-version: v1.0.1

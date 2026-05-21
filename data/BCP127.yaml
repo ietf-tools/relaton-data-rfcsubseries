@@ -1,0 +1,56 @@
+---
+schema-version: v1.2.3
+id: BCPP127
+title:
+- content: Best Current Practice P127
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP127
+  type: src
+type: standard
+docid:
+- id: BCP P127
+  type: IETF
+  primary: true
+docnumber: BCP127
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4787
+    docid:
+    - id: RFC 4787
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4787
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC6888
+    docid:
+    - id: RFC 6888
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6888
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC7857
+    docid:
+    - id: RFC 7857
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7857
+      format: text/plain
+ext:
+  schema-version: v1.0.1

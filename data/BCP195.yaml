@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP195
+title:
+- content: Best Current Practice P195
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP195
+  type: src
+type: standard
+docid:
+- id: BCP P195
+  type: IETF
+  primary: true
+docnumber: BCP195
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8996
+    docid:
+    - id: RFC 8996
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8996
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC9325
+    docid:
+    - id: RFC 9325
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9325
+      format: text/plain
+ext:
+  schema-version: v1.0.1

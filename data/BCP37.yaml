@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPCP37
+title:
+- content: Best Current Practice CP37
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP37
+  type: src
+type: standard
+docid:
+- id: BCP CP37
+  type: IETF
+  primary: true
+docnumber: BCP37
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2780
+    docid:
+    - id: RFC 2780
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2780
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC5237
+    docid:
+    - id: RFC 5237
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5237
+      format: text/plain
+ext:
+  schema-version: v1.0.1

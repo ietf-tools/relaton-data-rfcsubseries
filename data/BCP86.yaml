@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP86
+title:
+- content: Best Current Practice CP86
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP86
+  type: src
+type: standard
+docid:
+- id: BCP CP86
+  type: IETF
+  primary: true
+docnumber: BCP86
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3766
+    docid:
+    - id: RFC 3766
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3766
+      format: text/plain
+ext:
+  schema-version: v1.0.1

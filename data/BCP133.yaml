@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP133
+title:
+- content: Best Current Practice P133
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP133
+  type: src
+type: standard
+docid:
+- id: BCP P133
+  type: IETF
+  primary: true
+docnumber: BCP133
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9743
+    docid:
+    - id: RFC 9743
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9743
+      format: text/plain
+ext:
+  schema-version: v1.0.1

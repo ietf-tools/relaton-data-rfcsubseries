@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP124
+title:
+- content: Best Current Practice P124
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP124
+  type: src
+type: standard
+docid:
+- id: BCP P124
+  type: IETF
+  primary: true
+docnumber: BCP124
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4774
+    docid:
+    - id: RFC 4774
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4774
+      format: text/plain
+ext:
+  schema-version: v1.0.1

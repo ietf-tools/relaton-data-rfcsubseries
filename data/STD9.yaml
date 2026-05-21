@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDSTD9
+title:
+- content: Internet Standard technical specification STD9
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdSTD9
+  type: src
+type: standard
+docid:
+- id: STD STD9
+  type: IETF
+  primary: true
+docnumber: STD9
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC959
+    docid:
+    - id: RFC 959
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC959
+      format: text/plain
+ext:
+  schema-version: v1.0.1

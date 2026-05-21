@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD11
+title:
+- content: Internet Standard technical specification TD11
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD11
+  type: src
+type: standard
+docid:
+- id: STD TD11
+  type: IETF
+  primary: true
+docnumber: STD11
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC822
+    docid:
+    - id: RFC 822
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC822
+      format: text/plain
+ext:
+  schema-version: v1.0.1

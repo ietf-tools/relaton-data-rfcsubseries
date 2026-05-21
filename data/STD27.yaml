@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD27
+title:
+- content: Internet Standard technical specification TD27
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD27
+  type: src
+type: standard
+docid:
+- id: STD TD27
+  type: IETF
+  primary: true
+docnumber: STD27
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC856
+    docid:
+    - id: RFC 856
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC856
+      format: text/plain
+ext:
+  schema-version: v1.0.1

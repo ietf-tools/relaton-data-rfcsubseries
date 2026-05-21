@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPBCP7
+title:
+- content: Best Current Practice BCP7
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpBCP7
+  type: src
+type: standard
+docid:
+- id: BCP BCP7
+  type: IETF
+  primary: true
+docnumber: BCP7
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2008
+    docid:
+    - id: RFC 2008
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2008
+      format: text/plain
+ext:
+  schema-version: v1.0.1

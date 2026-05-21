@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP218
+title:
+- content: Best Current Practice P218
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP218
+  type: src
+type: standard
+docid:
+- id: BCP P218
+  type: IETF
+  primary: true
+docnumber: BCP218
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8429
+    docid:
+    - id: RFC 8429
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8429
+      format: text/plain
+ext:
+  schema-version: v1.0.1

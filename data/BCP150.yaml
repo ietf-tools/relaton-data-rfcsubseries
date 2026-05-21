@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP150
+title:
+- content: Best Current Practice P150
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP150
+  type: src
+type: standard
+docid:
+- id: BCP P150
+  type: IETF
+  primary: true
+docnumber: BCP150
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5597
+    docid:
+    - id: RFC 5597
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5597
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD84
+title:
+- content: Internet Standard technical specification TD84
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD84
+  type: src
+type: standard
+docid:
+- id: STD TD84
+  type: IETF
+  primary: true
+docnumber: STD84
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8077
+    docid:
+    - id: RFC 8077
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8077
+      format: text/plain
+ext:
+  schema-version: v1.0.1

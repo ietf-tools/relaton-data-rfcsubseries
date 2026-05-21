@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP176
+title:
+- content: Best Current Practice P176
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP176
+  type: src
+type: standard
+docid:
+- id: BCP P176
+  type: IETF
+  primary: true
+docnumber: BCP176
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6576
+    docid:
+    - id: RFC 6576
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6576
+      format: text/plain
+ext:
+  schema-version: v1.0.1

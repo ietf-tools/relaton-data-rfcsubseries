@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP241
+title:
+- content: Best Current Practice P241
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP241
+  type: src
+type: standard
+docid:
+- id: BCP P241
+  type: IETF
+  primary: true
+docnumber: BCP241
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9726
+    docid:
+    - id: RFC 9726
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9726
+      format: text/plain
+ext:
+  schema-version: v1.0.1

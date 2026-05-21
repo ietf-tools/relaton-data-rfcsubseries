@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD83
+title:
+- content: Internet Standard technical specification TD83
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD83
+  type: src
+type: standard
+docid:
+- id: STD TD83
+  type: IETF
+  primary: true
+docnumber: STD83
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7761
+    docid:
+    - id: RFC 7761
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7761
+      format: text/plain
+ext:
+  schema-version: v1.0.1

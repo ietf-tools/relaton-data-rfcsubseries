@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP168
+title:
+- content: Best Current Practice P168
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP168
+  type: src
+type: standard
+docid:
+- id: BCP P168
+  type: IETF
+  primary: true
+docnumber: BCP168
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6398
+    docid:
+    - id: RFC 6398
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6398
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP29
+title:
+- content: Best Current Practice CP29
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP29
+  type: src
+type: standard
+docid:
+- id: BCP CP29
+  type: IETF
+  primary: true
+docnumber: BCP29
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2489
+    docid:
+    - id: RFC 2489
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2489
+      format: text/plain
+ext:
+  schema-version: v1.0.1

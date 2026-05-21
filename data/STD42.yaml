@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD42
+title:
+- content: Internet Standard technical specification TD42
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD42
+  type: src
+type: standard
+docid:
+- id: STD TD42
+  type: IETF
+  primary: true
+docnumber: STD42
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC895
+    docid:
+    - id: RFC 895
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC895
+      format: text/plain
+ext:
+  schema-version: v1.0.1

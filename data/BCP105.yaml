@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP105
+title:
+- content: Best Current Practice P105
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP105
+  type: src
+type: standard
+docid:
+- id: BCP P105
+  type: IETF
+  primary: true
+docnumber: BCP105
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4085
+    docid:
+    - id: RFC 4085
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4085
+      format: text/plain
+ext:
+  schema-version: v1.0.1

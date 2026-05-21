@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP238
+title:
+- content: Best Current Practice P238
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP238
+  type: src
+type: standard
+docid:
+- id: BCP P238
+  type: IETF
+  primary: true
+docnumber: BCP238
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9455
+    docid:
+    - id: RFC 9455
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9455
+      format: text/plain
+ext:
+  schema-version: v1.0.1

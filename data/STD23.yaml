@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD23
+title:
+- content: Internet Standard technical specification TD23
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD23
+  type: src
+type: standard
+docid:
+- id: STD TD23
+  type: IETF
+  primary: true
+docnumber: STD23
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC865
+    docid:
+    - id: RFC 865
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC865
+      format: text/plain
+ext:
+  schema-version: v1.0.1

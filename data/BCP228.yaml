@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP228
+title:
+- content: Best Current Practice P228
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP228
+  type: src
+type: standard
+docid:
+- id: BCP P228
+  type: IETF
+  primary: true
+docnumber: BCP228
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8862
+    docid:
+    - id: RFC 8862
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8862
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: STDTD92
+title:
+- content: Internet Standard technical specification TD92
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD92
+  type: src
+type: standard
+docid:
+- id: STD TD92
+  type: IETF
+  primary: true
+docnumber: STD92
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8010
+    docid:
+    - id: RFC 8010
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8010
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC8011
+    docid:
+    - id: RFC 8011
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8011
+      format: text/plain
+ext:
+  schema-version: v1.0.1

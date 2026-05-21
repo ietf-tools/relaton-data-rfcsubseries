@@ -1,0 +1,46 @@
+---
+schema-version: v1.2.3
+id: BCPP222
+title:
+- content: Best Current Practice P222
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP222
+  type: src
+type: standard
+docid:
+- id: BCP P222
+  type: IETF
+  primary: true
+docnumber: BCP222
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8552
+    docid:
+    - id: RFC 8552
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8552
+      format: text/plain
+- type: includes
+  bibitem:
+    id: RFC8553
+    docid:
+    - id: RFC 8553
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8553
+      format: text/plain
+ext:
+  schema-version: v1.0.1

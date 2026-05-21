@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP45
+title:
+- content: Best Current Practice CP45
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP45
+  type: src
+type: standard
+docid:
+- id: BCP CP45
+  type: IETF
+  primary: true
+docnumber: BCP45
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9245
+    docid:
+    - id: RFC 9245
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9245
+      format: text/plain
+ext:
+  schema-version: v1.0.1

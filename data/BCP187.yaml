@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP187
+title:
+- content: Best Current Practice P187
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP187
+  type: src
+type: standard
+docid:
+- id: BCP P187
+  type: IETF
+  primary: true
+docnumber: BCP187
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7227
+    docid:
+    - id: RFC 7227
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7227
+      format: text/plain
+ext:
+  schema-version: v1.0.1

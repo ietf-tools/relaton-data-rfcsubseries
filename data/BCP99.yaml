@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP99
+title:
+- content: Best Current Practice CP99
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP99
+  type: src
+type: standard
+docid:
+- id: BCP CP99
+  type: IETF
+  primary: true
+docnumber: BCP99
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3969
+    docid:
+    - id: RFC 3969
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3969
+      format: text/plain
+ext:
+  schema-version: v1.0.1

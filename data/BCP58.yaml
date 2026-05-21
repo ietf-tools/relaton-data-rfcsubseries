@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP58
+title:
+- content: Best Current Practice CP58
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP58
+  type: src
+type: standard
+docid:
+- id: BCP CP58
+  type: IETF
+  primary: true
+docnumber: BCP58
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3233
+    docid:
+    - id: RFC 3233
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3233
+      format: text/plain
+ext:
+  schema-version: v1.0.1

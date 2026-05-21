@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP237
+title:
+- content: Best Current Practice P237
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP237
+  type: src
+type: standard
+docid:
+- id: BCP P237
+  type: IETF
+  primary: true
+docnumber: BCP237
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9364
+    docid:
+    - id: RFC 9364
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9364
+      format: text/plain
+ext:
+  schema-version: v1.0.1

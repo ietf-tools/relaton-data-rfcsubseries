@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD24
+title:
+- content: Internet Standard technical specification TD24
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD24
+  type: src
+type: standard
+docid:
+- id: STD TD24
+  type: IETF
+  primary: true
+docnumber: STD24
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC866
+    docid:
+    - id: RFC 866
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC866
+      format: text/plain
+ext:
+  schema-version: v1.0.1

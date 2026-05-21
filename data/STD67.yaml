@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD67
+title:
+- content: Internet Standard technical specification TD67
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD67
+  type: src
+type: standard
+docid:
+- id: STD TD67
+  type: IETF
+  primary: true
+docnumber: STD67
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4506
+    docid:
+    - id: RFC 4506
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4506
+      format: text/plain
+ext:
+  schema-version: v1.0.1

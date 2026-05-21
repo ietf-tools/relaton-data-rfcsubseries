@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDD103
+title:
+- content: Internet Standard technical specification D103
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdD103
+  type: src
+type: standard
+docid:
+- id: STD D103
+  type: IETF
+  primary: true
+docnumber: STD103
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7757
+    docid:
+    - id: RFC 7757
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7757
+      format: text/plain
+ext:
+  schema-version: v1.0.1

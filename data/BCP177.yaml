@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP177
+title:
+- content: Best Current Practice P177
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP177
+  type: src
+type: standard
+docid:
+- id: BCP P177
+  type: IETF
+  primary: true
+docnumber: BCP177
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6540
+    docid:
+    - id: RFC 6540
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6540
+      format: text/plain
+ext:
+  schema-version: v1.0.1

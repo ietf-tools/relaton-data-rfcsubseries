@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP125
+title:
+- content: Best Current Practice P125
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP125
+  type: src
+type: standard
+docid:
+- id: BCP P125
+  type: IETF
+  primary: true
+docnumber: BCP125
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4775
+    docid:
+    - id: RFC 4775
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4775
+      format: text/plain
+ext:
+  schema-version: v1.0.1

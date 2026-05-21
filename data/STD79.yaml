@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD79
+title:
+- content: Internet Standard technical specification TD79
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD79
+  type: src
+type: standard
+docid:
+- id: STD TD79
+  type: IETF
+  primary: true
+docnumber: STD79
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7296
+    docid:
+    - id: RFC 7296
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7296
+      format: text/plain
+ext:
+  schema-version: v1.0.1

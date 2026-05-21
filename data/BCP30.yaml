@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP30
+title:
+- content: Best Current Practice CP30
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP30
+  type: src
+type: standard
+docid:
+- id: BCP CP30
+  type: IETF
+  primary: true
+docnumber: BCP30
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2505
+    docid:
+    - id: RFC 2505
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2505
+      format: text/plain
+ext:
+  schema-version: v1.0.1

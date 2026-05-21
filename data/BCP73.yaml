@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP73
+title:
+- content: Best Current Practice CP73
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP73
+  type: src
+type: standard
+docid:
+- id: BCP CP73
+  type: IETF
+  primary: true
+docnumber: BCP73
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3553
+    docid:
+    - id: RFC 3553
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3553
+      format: text/plain
+ext:
+  schema-version: v1.0.1

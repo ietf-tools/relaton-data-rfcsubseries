@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP92
+title:
+- content: Best Current Practice CP92
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP92
+  type: src
+type: standard
+docid:
+- id: BCP CP92
+  type: IETF
+  primary: true
+docnumber: BCP92
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5742
+    docid:
+    - id: RFC 5742
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5742
+      format: text/plain
+ext:
+  schema-version: v1.0.1

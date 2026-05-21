@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP54
+title:
+- content: Best Current Practice CP54
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP54
+  type: src
+type: standard
+docid:
+- id: BCP CP54
+  type: IETF
+  primary: true
+docnumber: BCP54
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7154
+    docid:
+    - id: RFC 7154
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7154
+      format: text/plain
+ext:
+  schema-version: v1.0.1

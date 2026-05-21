@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIFYI3
+title:
+- content: For Your Information FYI3
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiFYI3
+  type: src
+type: standard
+docid:
+- id: FYI FYI3
+  type: IETF
+  primary: true
+docnumber: FYI3
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1175
+    docid:
+    - id: RFC 1175
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1175
+      format: text/plain
+ext:
+  schema-version: v1.0.1

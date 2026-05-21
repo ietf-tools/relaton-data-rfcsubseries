@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP61
+title:
+- content: Best Current Practice CP61
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP61
+  type: src
+type: standard
+docid:
+- id: BCP CP61
+  type: IETF
+  primary: true
+docnumber: BCP61
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3365
+    docid:
+    - id: RFC 3365
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3365
+      format: text/plain
+ext:
+  schema-version: v1.0.1

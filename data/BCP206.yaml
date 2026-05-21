@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP206
+title:
+- content: Best Current Practice P206
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP206
+  type: src
+type: standard
+docid:
+- id: BCP P206
+  type: IETF
+  primary: true
+docnumber: BCP206
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7926
+    docid:
+    - id: RFC 7926
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7926
+      format: text/plain
+ext:
+  schema-version: v1.0.1

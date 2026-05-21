@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP230
+title:
+- content: Best Current Practice P230
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP230
+  type: src
+type: standard
+docid:
+- id: BCP P230
+  type: IETF
+  primary: true
+docnumber: BCP230
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8900
+    docid:
+    - id: RFC 8900
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8900
+      format: text/plain
+ext:
+  schema-version: v1.0.1

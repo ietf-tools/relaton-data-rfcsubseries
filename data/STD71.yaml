@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD71
+title:
+- content: Internet Standard technical specification TD71
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD71
+  type: src
+type: standard
+docid:
+- id: STD TD71
+  type: IETF
+  primary: true
+docnumber: STD71
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6152
+    docid:
+    - id: RFC 6152
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6152
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP166
+title:
+- content: Best Current Practice P166
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP166
+  type: src
+type: standard
+docid:
+- id: BCP P166
+  type: IETF
+  primary: true
+docnumber: BCP166
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6365
+    docid:
+    - id: RFC 6365
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6365
+      format: text/plain
+ext:
+  schema-version: v1.0.1

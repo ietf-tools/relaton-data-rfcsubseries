@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD25
+title:
+- content: Internet Standard technical specification TD25
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD25
+  type: src
+type: standard
+docid:
+- id: STD TD25
+  type: IETF
+  primary: true
+docnumber: STD25
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC867
+    docid:
+    - id: RFC 867
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC867
+      format: text/plain
+ext:
+  schema-version: v1.0.1

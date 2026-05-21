@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP128
+title:
+- content: Best Current Practice P128
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP128
+  type: src
+type: standard
+docid:
+- id: BCP P128
+  type: IETF
+  primary: true
+docnumber: BCP128
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4928
+    docid:
+    - id: RFC 4928
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4928
+      format: text/plain
+ext:
+  schema-version: v1.0.1

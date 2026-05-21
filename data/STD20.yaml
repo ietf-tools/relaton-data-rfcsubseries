@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD20
+title:
+- content: Internet Standard technical specification TD20
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD20
+  type: src
+type: standard
+docid:
+- id: STD TD20
+  type: IETF
+  primary: true
+docnumber: STD20
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC862
+    docid:
+    - id: RFC 862
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC862
+      format: text/plain
+ext:
+  schema-version: v1.0.1

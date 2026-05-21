@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP167
+title:
+- content: Best Current Practice P167
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP167
+  type: src
+type: standard
+docid:
+- id: BCP P167
+  type: IETF
+  primary: true
+docnumber: BCP167
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6377
+    docid:
+    - id: RFC 6377
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6377
+      format: text/plain
+ext:
+  schema-version: v1.0.1

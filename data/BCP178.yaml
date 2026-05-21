@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP178
+title:
+- content: Best Current Practice P178
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP178
+  type: src
+type: standard
+docid:
+- id: BCP P178
+  type: IETF
+  primary: true
+docnumber: BCP178
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6648
+    docid:
+    - id: RFC 6648
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6648
+      format: text/plain
+ext:
+  schema-version: v1.0.1

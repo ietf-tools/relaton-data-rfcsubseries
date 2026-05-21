@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP229
+title:
+- content: Best Current Practice P229
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP229
+  type: src
+type: standard
+docid:
+- id: BCP P229
+  type: IETF
+  primary: true
+docnumber: BCP229
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8815
+    docid:
+    - id: RFC 8815
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8815
+      format: text/plain
+ext:
+  schema-version: v1.0.1

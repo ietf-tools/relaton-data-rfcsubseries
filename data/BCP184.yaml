@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP184
+title:
+- content: Best Current Practice P184
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP184
+  type: src
+type: standard
+docid:
+- id: BCP P184
+  type: IETF
+  primary: true
+docnumber: BCP184
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7013
+    docid:
+    - id: RFC 7013
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7013
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP146
+title:
+- content: Best Current Practice P146
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP146
+  type: src
+type: standard
+docid:
+- id: BCP P146
+  type: IETF
+  primary: true
+docnumber: BCP146
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC5406
+    docid:
+    - id: RFC 5406
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5406
+      format: text/plain
+ext:
+  schema-version: v1.0.1

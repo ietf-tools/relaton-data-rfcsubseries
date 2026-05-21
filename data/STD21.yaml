@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD21
+title:
+- content: Internet Standard technical specification TD21
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD21
+  type: src
+type: standard
+docid:
+- id: STD TD21
+  type: IETF
+  primary: true
+docnumber: STD21
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC863
+    docid:
+    - id: RFC 863
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC863
+      format: text/plain
+ext:
+  schema-version: v1.0.1

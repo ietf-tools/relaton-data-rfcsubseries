@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP211
+title:
+- content: Best Current Practice P211
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP211
+  type: src
+type: standard
+docid:
+- id: BCP P211
+  type: IETF
+  primary: true
+docnumber: BCP211
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8207
+    docid:
+    - id: RFC 8207
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8207
+      format: text/plain
+ext:
+  schema-version: v1.0.1

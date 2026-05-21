@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP71
+title:
+- content: Best Current Practice CP71
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP71
+  type: src
+type: standard
+docid:
+- id: BCP CP71
+  type: IETF
+  primary: true
+docnumber: BCP71
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3481
+    docid:
+    - id: RFC 3481
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3481
+      format: text/plain
+ext:
+  schema-version: v1.0.1

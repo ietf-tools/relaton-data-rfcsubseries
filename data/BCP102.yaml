@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP102
+title:
+- content: Best Current Practice P102
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP102
+  type: src
+type: standard
+docid:
+- id: BCP P102
+  type: IETF
+  primary: true
+docnumber: BCP102
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4052
+    docid:
+    - id: RFC 4052
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4052
+      format: text/plain
+ext:
+  schema-version: v1.0.1

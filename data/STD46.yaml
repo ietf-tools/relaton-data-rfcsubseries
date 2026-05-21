@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD46
+title:
+- content: Internet Standard technical specification TD46
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD46
+  type: src
+type: standard
+docid:
+- id: STD TD46
+  type: IETF
+  primary: true
+docnumber: STD46
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1201
+    docid:
+    - id: RFC 1201
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1201
+      format: text/plain
+ext:
+  schema-version: v1.0.1

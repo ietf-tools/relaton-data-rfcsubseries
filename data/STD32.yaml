@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD32
+title:
+- content: Internet Standard technical specification TD32
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD32
+  type: src
+type: standard
+docid:
+- id: STD TD32
+  type: IETF
+  primary: true
+docnumber: STD32
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC861
+    docid:
+    - id: RFC 861
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC861
+      format: text/plain
+ext:
+  schema-version: v1.0.1

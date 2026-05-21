@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP88
+title:
+- content: Best Current Practice CP88
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP88
+  type: src
+type: standard
+docid:
+- id: BCP CP88
+  type: IETF
+  primary: true
+docnumber: BCP88
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3818
+    docid:
+    - id: RFC 3818
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3818
+      format: text/plain
+ext:
+  schema-version: v1.0.1

@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP132
+title:
+- content: Best Current Practice P132
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP132
+  type: src
+type: standard
+docid:
+- id: BCP P132
+  type: IETF
+  primary: true
+docnumber: BCP132
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4962
+    docid:
+    - id: RFC 4962
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4962
+      format: text/plain
+ext:
+  schema-version: v1.0.1

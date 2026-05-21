@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP15
+title:
+- content: Best Current Practice CP15
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP15
+  type: src
+type: standard
+docid:
+- id: BCP CP15
+  type: IETF
+  primary: true
+docnumber: BCP15
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2148
+    docid:
+    - id: RFC 2148
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2148
+      format: text/plain
+ext:
+  schema-version: v1.0.1

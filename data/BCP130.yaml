@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP130
+title:
+- content: Best Current Practice P130
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP130
+  type: src
+type: standard
+docid:
+- id: BCP P130
+  type: IETF
+  primary: true
+docnumber: BCP130
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4940
+    docid:
+    - id: RFC 4940
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4940
+      format: text/plain
+ext:
+  schema-version: v1.0.1

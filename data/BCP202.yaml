@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP202
+title:
+- content: Best Current Practice P202
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP202
+  type: src
+type: standard
+docid:
+- id: BCP P202
+  type: IETF
+  primary: true
+docnumber: BCP202
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7772
+    docid:
+    - id: RFC 7772
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7772
+      format: text/plain
+ext:
+  schema-version: v1.0.1

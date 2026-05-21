@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIYI13
+title:
+- content: For Your Information YI13
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiYI13
+  type: src
+type: standard
+docid:
+- id: FYI YI13
+  type: IETF
+  primary: true
+docnumber: FYI13
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1308
+    docid:
+    - id: RFC 1308
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1308
+      format: text/plain
+ext:
+  schema-version: v1.0.1

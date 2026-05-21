@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP197
+title:
+- content: Best Current Practice P197
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP197
+  type: src
+type: standard
+docid:
+- id: BCP P197
+  type: IETF
+  primary: true
+docnumber: BCP197
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC7567
+    docid:
+    - id: RFC 7567
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7567
+      format: text/plain
+ext:
+  schema-version: v1.0.1

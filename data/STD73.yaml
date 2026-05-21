@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD73
+title:
+- content: Internet Standard technical specification TD73
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD73
+  type: src
+type: standard
+docid:
+- id: STD TD73
+  type: IETF
+  primary: true
+docnumber: STD73
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC6522
+    docid:
+    - id: RFC 6522
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6522
+      format: text/plain
+ext:
+  schema-version: v1.0.1

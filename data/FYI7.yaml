@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: FYIFYI7
+title:
+- content: For Your Information FYI7
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/fyiFYI7
+  type: src
+type: standard
+docid:
+- id: FYI FYI7
+  type: IETF
+  primary: true
+docnumber: FYI7
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC1207
+    docid:
+    - id: RFC 1207
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1207
+      format: text/plain
+ext:
+  schema-version: v1.0.1

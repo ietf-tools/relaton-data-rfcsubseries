@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD64
+title:
+- content: Internet Standard technical specification TD64
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD64
+  type: src
+type: standard
+docid:
+- id: STD TD64
+  type: IETF
+  primary: true
+docnumber: STD64
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC3550
+    docid:
+    - id: RFC 3550
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3550
+      format: text/plain
+ext:
+  schema-version: v1.0.1

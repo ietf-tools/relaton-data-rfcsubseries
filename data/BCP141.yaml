@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP141
+title:
+- content: Best Current Practice P141
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP141
+  type: src
+type: standard
+docid:
+- id: BCP P141
+  type: IETF
+  primary: true
+docnumber: BCP141
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9542
+    docid:
+    - id: RFC 9542
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9542
+      format: text/plain
+ext:
+  schema-version: v1.0.1

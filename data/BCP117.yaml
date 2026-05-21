@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPP117
+title:
+- content: Best Current Practice P117
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpP117
+  type: src
+type: standard
+docid:
+- id: BCP P117
+  type: IETF
+  primary: true
+docnumber: BCP117
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC4497
+    docid:
+    - id: RFC 4497
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4497
+      format: text/plain
+ext:
+  schema-version: v1.0.1

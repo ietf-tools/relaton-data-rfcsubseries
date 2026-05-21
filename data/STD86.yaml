@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: STDTD86
+title:
+- content: Internet Standard technical specification TD86
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/stdTD86
+  type: src
+type: standard
+docid:
+- id: STD TD86
+  type: IETF
+  primary: true
+docnumber: STD86
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC8200
+    docid:
+    - id: RFC 8200
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8200
+      format: text/plain
+ext:
+  schema-version: v1.0.1

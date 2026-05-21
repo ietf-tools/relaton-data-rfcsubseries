@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCPCP24
+title:
+- content: Best Current Practice CP24
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcpCP24
+  type: src
+type: standard
+docid:
+- id: BCP CP24
+  type: IETF
+  primary: true
+docnumber: BCP24
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC2379
+    docid:
+    - id: RFC 2379
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2379
+      format: text/plain
+ext:
+  schema-version: v1.0.1
