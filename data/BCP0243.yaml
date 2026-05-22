@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCP243
+title:
+- content: Best Current Practice 243
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcp243
+  type: src
+type: standard
+docid:
+- id: BCP 243
+  type: IETF
+  primary: true
+docnumber: BCP0243
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9813
+    docid:
+    - id: RFC 9813
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9813
+      format: text/plain
+ext:
+  schema-version: v1.0.1

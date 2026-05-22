@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCP240
+title:
+- content: Best Current Practice 240
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcp240
+  type: src
+type: standard
+docid:
+- id: BCP 240
+  type: IETF
+  primary: true
+docnumber: BCP0240
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC9700
+    docid:
+    - id: RFC 9700
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9700
+      format: text/plain
+ext:
+  schema-version: v1.0.1
