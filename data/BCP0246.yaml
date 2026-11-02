@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCP246
+title:
+- content: Best Current Practice 246
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcp246
+  type: src
+type: standard
+docid:
+- id: BCP 246
+  type: IETF
+  primary: true
+docnumber: BCP0246
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC10026
+    docid:
+    - id: RFC 10026
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC10026
+      format: text/plain
+ext:
+  schema-version: v1.0.1

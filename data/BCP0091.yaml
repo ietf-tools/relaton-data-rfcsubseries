@@ -32,5 +32,15 @@ relation:
     formattedref:
       content: RFC3901
       format: text/plain
+- type: includes
+  bibitem:
+    id: RFC10001
+    docid:
+    - id: RFC 10001
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC10001
+      format: text/plain
 ext:
   schema-version: v1.0.1

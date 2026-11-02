@@ -1,0 +1,36 @@
+---
+schema-version: v1.2.3
+id: BCP247
+title:
+- content: Best Current Practice 247
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/bcp247
+  type: src
+type: standard
+docid:
+- id: BCP 247
+  type: IETF
+  primary: true
+docnumber: BCP0247
+language:
+- en
+script:
+- Latn
+relation:
+- type: includes
+  bibitem:
+    id: RFC10027
+    docid:
+    - id: RFC 10027
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC10027
+      format: text/plain
+ext:
+  schema-version: v1.0.1

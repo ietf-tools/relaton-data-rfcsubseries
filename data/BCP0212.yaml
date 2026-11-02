@@ -32,5 +32,15 @@ relation:
     formattedref:
       content: RFC8252
       format: text/plain
+- type: includes
+  bibitem:
+    id: RFC10017
+    docid:
+    - id: RFC 10017
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC10017
+      format: text/plain
 ext:
   schema-version: v1.0.1
